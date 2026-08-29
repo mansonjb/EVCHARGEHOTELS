@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+/* Système repris du canvas Claude Design (PlugStays v3). */
+@theme {
+  --color-ink: #141b34;
+  --color-ink-2: #3a4160;
+  --color-lo: #8b8fa3;
+  --color-line: #ebebf2;
+  --color-line-2: #dedeea;
+  --color-green: #0e9e7e;
+  --color-green-dk: #0a5c4d;
+  --color-green-lk: #0e7c68;
+  --color-mint: #f1f9f5;
+  --color-mint-2: #dcede5;
+  --color-mint-3: #c9e7dc;
+  --color-lime: #e4fb4f;
+  --color-grey-bg: #f3f3f8;
+
+  --font-sans: var(--ff-archivo), system-ui, sans-serif;
+  --font-hand: var(--ff-caveat), cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #141b34;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #0e7c68;
+  text-decoration: none;
+}
+a:hover {
+  color: #0a5c4d;
+  text-decoration: underline;
+}
+
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: #cfede3;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #dedeea;
+  border-radius: 999px;
+}
+
+.hand {
+  font-family: var(--font-hand);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.photo-slot {
+  background: repeating-linear-gradient(135deg, #efede6 0 7px, #f6f4ee 7px 14px);
+}
+
+/* Boutons sombres : hover citron, comme dans le canvas. */
+.ps-dark-btn:hover {
+  background: #e4fb4f !important;
+  color: #141b34 !important;
+  text-decoration: none;
+}
+
+/* Cartes hôtel : bordure au survol. */
+.group:hover {
+  border-color: #cfccc2 !important;
+}
+
+@media (max-width: 1100px) {
+  .ps-hero,
+  .ps-faq,
+  .ps-hotel-body {
+    grid-template-columns: 1fr !important;
+  }
+  .ps-grid-4,
+  .ps-grid-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .ps-map {
+    display: none !important;
+  }
+  .ps-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .ps-proof {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .ps-grid-4,
+  .ps-grid-3,
+  .ps-grid-2,
+  .ps-cards,
+  .ps-faq-row {
+    grid-template-columns: 1fr !important;
+  }
+  .ps-gallery {
+    height: auto !important;
+    flex-direction: column !important;
+  }
+  .ps-gallery > div:first-child {
+    height: 260px;
+  }
+}
