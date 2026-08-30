@@ -1,5 +1,28 @@
 [
   {
+    "slug": "bordeaux",
+    "name": "Bordeaux",
+    "country": "France",
+    "countryCode": "fr",
+    "lat": 44.8378,
+    "lng": -0.5792,
+    "radiusM": 7000,
+    "corridorKm": 0,
+    "bookingSearch": "Bordeaux",
+    "nameEn": "Bordeaux",
+    "countryEn": "France",
+    "hotelCount": 15,
+    "declaredCount": 2,
+    "onSiteCount": 2,
+    "doorstepCount": 11,
+    "bestKw": null,
+    "chargersInCity": 94,
+    "chargersDc": 13,
+    "chargersKwKnown": 36,
+    "medianPrice": 203,
+    "scrapedAt": "2026-08-30T08:58:57.711Z"
+  },
+  {
     "slug": "poitiers",
     "name": "Poitiers",
     "country": "France",

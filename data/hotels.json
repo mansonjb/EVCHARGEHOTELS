@@ -1,5 +1,2894 @@
 [
   {
+    "slug": "villas-foch-boutique-hotel-spa-bordeaux",
+    "name": "Villas Foch Boutique Hotel & Spa Bordeaux",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.8473,
+    "lng": -0.575405,
+    "address": "25 Cours du Maréchal Foch, 33000 Bordeaux, France",
+    "stars": 5,
+    "rating": 9.3,
+    "ratingLabel": "Superb",
+    "reviews": null,
+    "price": 642,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/villas-foch.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/887817919.jpg?k=d88370b90e428441652cab7d79862b669ac6745dcd5cd7be24422adbbb865cd1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/887821397.jpg?k=9308cadc691a9a27ff348801879c0ec2587315b0bed9403aeb4e5638c2b937ee&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/301315207.jpg?k=d6e367bbe83333c81de4ddba1ac065ac27c5250385f286d799ada532cd9a80e3&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/889653357.jpg?k=958ebb1f627a5853baf8f866fda37f7702da2bcde74d5bc63747b2cc86e96eb9&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/888123180.jpg?k=96a4a6fddb86b985e78cf955c6234cea823b9e70c9712b79d197bbff609a98c9&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/887785248.jpg?k=7569ad05bf52e9cbc66d83c2ddc05ab4f2da765baed9810866b450dadb89de51&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/887817919.jpg?k=d88370b90e428441652cab7d79862b669ac6745dcd5cd7be24422adbbb865cd1&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Private bathroom",
+      "Air conditioning",
+      "Spa & wellness centre",
+      "Free WiFi",
+      "Family rooms",
+      "Airport shuttle",
+      "Fitness centre",
+      "Room service",
+      "Facilities for disabled guests",
+      "Toilet paper",
+      "Towels",
+      "Slippers",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Bathrobe",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "Children's high chair",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Bicycle rental",
+      "Tour or class about local culture",
+      "Bike tours",
+      "Walking tours",
+      "iPod dock",
+      "Flat-screen TV",
+      "Satellite channels",
+      "Radio",
+      "Telephone",
+      "TV",
+      "Pay-per-view channels",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Special diet menus (on request)",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Valet parking",
+      "Invoice provided",
+      "Private check-in/check-out",
+      "Concierge service",
+      "Luggage storage",
+      "Tour desk",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Babysitting/child services",
+      "Daily housekeeping",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Fire extinguishers",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Shuttle service",
+      "Grocery deliveries",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Car hire",
+      "Laptop safe",
+      "Packed lunches",
+      "Soundproof rooms",
+      "Lift",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Airport shuttle",
+      "Non-smoking rooms",
+      "Iron",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Emergency cord in bathroom",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Sun loungers or beach chairs",
+      "Fitness/spa locker rooms",
+      "Fitness",
+      "Full body massage",
+      "Hand massage",
+      "Head massage",
+      "Couples massage",
+      "Foot massage",
+      "Neck massage",
+      "Back massage",
+      "Spa lounge/relaxation area",
+      "Spa facilities",
+      "Sun loungers or beach chairs",
+      "Massage",
+      "Spa & wellness centre",
+      "Fitness centre",
+      "Sauna"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 95,
+        "kw": null,
+        "kwLabel": null,
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "Freshmile SAS"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 7,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 95,
+        "list": [
+          {
+            "name": "Freshmile SAS",
+            "distance": 95,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 242,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 440,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 443,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 554,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 630,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Villas Foch Boutique Hotel & Spa Bordeaux, 5 étoiles à Bordeaux, bar, salle de sport, wifi gratuit. Note des voyageurs 9,3/10.",
+        "en": "Villas Foch Boutique Hotel & Spa Bordeaux, 5-star in Bordeaux, bar, gym, free WiFi. Guest rating 9.3/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "logis-hotel-hotel-des-voyageurs",
+    "name": "Logis Hôtel - Hôtel des Voyageurs",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84065908257635,
+    "lng": -0.5587747306884694,
+    "address": "3 bis Avenue Thiers, Bastide, 33100 Bordeaux, France",
+    "stars": 2,
+    "rating": 9.1,
+    "ratingLabel": "Superb",
+    "reviews": null,
+    "price": 147,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/des-voyageurs-bordeaux.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263973135.jpg?k=b7b83f9a5c81c84865c4328b8d908218c90ad1ffabcdefb3b418b042527d5daa&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263972011.jpg?k=eccaf5d4dc248f21b174540b7bddf195549187f703ea4c7af76a01a7c461b3a9&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263972585.jpg?k=8f64e7ef9476b68e5364488d6217d50ed1e7e6f1ee684b56094188e529b1b658&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263972871.jpg?k=840c29d6a2afbaf905044712b5e42923f509474381695df4b1c0635320ee98b1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263972187.jpg?k=463596ae8945e850826836c18d9659b6577d766371862e8f8dba5e8f54be7d5a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263972782.jpg?k=8ee0f048014154e4fda77db6c973e673eda25e7c89d67a0f0c744ee37a8b3a5c&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263973135.jpg?k=b7b83f9a5c81c84865c4328b8d908218c90ad1ffabcdefb3b418b042527d5daa&o=&hp=1",
+    "facilities": [
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Room service",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Shower",
+      "Luggage storage",
+      "Toilet paper",
+      "Towels",
+      "Private bathroom",
+      "Toilet",
+      "Hairdryer",
+      "Shower",
+      "Wardrobe or closet",
+      "Socket near the bed",
+      "Desk",
+      "Flat-screen TV",
+      "TV",
+      "Internet services",
+      "Daily housekeeping",
+      "Concierge service",
+      "Luggage storage",
+      "Fax/photocopying",
+      "Room service",
+      "Invoice provided",
+      "Fire extinguishers",
+      "Smoke alarms",
+      "Security alarm",
+      "Key access",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Non-smoking rooms",
+      "Upper floors accessible by stairs only"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 54,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 5,
+        "within": 700,
+        "bestKw": 50,
+        "bestKwLabel": "50 kW",
+        "nearestM": 54,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 54,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 190,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 219,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies Charging Services",
+            "distance": 352,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 20,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 364,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Logis Hôtel - Hôtel des Voyageurs, 2 étoiles à Bordeaux, wifi gratuit, chambres non-fumeurs. Note des voyageurs 9,1/10.",
+        "en": "Logis Hôtel - Hôtel des Voyageurs, 2-star in Bordeaux, free WiFi, non-smoking rooms. Guest rating 9.1/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "intercontinental-bordeaux-le-grand-hotel-by-ihg",
+    "name": "InterContinental Bordeaux Le Grand Hotel by IHG",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84241074149864,
+    "lng": -0.5749160796403885,
+    "address": "2-5 Place De La Comédie, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 5,
+    "rating": 9,
+    "ratingLabel": "Superb",
+    "reviews": null,
+    "price": 582,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/grand-hotel-bordeaux-spa.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245809996.jpg?k=431308f93702ded41526942cf003e2117cb1530d9e225df7ee0ed0fd12131396&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486229841.jpg?k=c44ffc41855e369113c63e753b38e6cdeba421d769db2014127953984c09c540&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486229884.jpg?k=345875ab42f0aa27dd6613f97a51ba55405f51b45b13d6b1f063fbd68794e80a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486229195.jpg?k=6f0f8b5ab402d27ab0fbbca13710d374781f35116a6fb8eddd6984cfdccee9e3&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486229020.jpg?k=d1d2d920ebd3ac7b2ce29051963928819393c3cde95d48dc3c1bc0c7c1f94d7d&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486228312.jpg?k=789eab04587a76631e85fa36222f17d39538fde067b3b6c1051f4e8ce257c696&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245809996.jpg?k=431308f93702ded41526942cf003e2117cb1530d9e225df7ee0ed0fd12131396&o=&hp=1",
+    "facilities": [
+      "2 restaurants",
+      "Parking",
+      "Pets allowed",
+      "Spa & wellness centre",
+      "Free WiFi",
+      "Family rooms",
+      "Shuttle service",
+      "Fitness centre",
+      "Room service",
+      "Facilities for disabled guests",
+      "Outdoor fireplace",
+      "Sun terrace",
+      "Terrace",
+      "Bicycle rental",
+      "Nightclub/DJ",
+      "Fruits",
+      "Wine/champagne",
+      "Special diet menus (on request)",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Restaurant",
+      "Internet services",
+      "Valet parking",
+      "Lockers",
+      "Private check-in/check-out",
+      "Concierge service",
+      "Luggage storage",
+      "Tour desk",
+      "Currency exchange",
+      "24-hour front desk",
+      "Family rooms",
+      "Babysitting/child services",
+      "Kid-friendly buffet",
+      "Kids' meals",
+      "Daily housekeeping",
+      "Ironing service",
+      "Dry cleaning",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Shuttle service",
+      "Pet bowls",
+      "Pet basket",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Allergy-free room",
+      "Heating",
+      "Car hire",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Room service",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Pool/beach towels",
+      "Fitness/spa locker rooms",
+      "Fitness",
+      "Full body massage",
+      "Hand massage",
+      "Head massage",
+      "Couples massage",
+      "Foot massage",
+      "Neck massage",
+      "Back massage",
+      "Spa/wellness packages",
+      "Spa lounge/relaxation area",
+      "Spa facilities",
+      "Body wrap",
+      "Body scrub",
+      "Body treatments",
+      "Pedicure",
+      "Manicure",
+      "Waxing services",
+      "Facial treatments",
+      "Beauty services",
+      "Hammam",
+      "Hot tub/Jacuzzi",
+      "Massage",
+      "Spa & wellness centre",
+      "Fitness centre",
+      "Sauna"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 112,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 112,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 112,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 360,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 370,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Bouygues Energies & Services",
+            "distance": 409,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 83,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 566,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 574,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "InterContinental Bordeaux Le Grand Hotel by IHG, 5 étoiles à Bordeaux, restaurant sur place, bar, salle de sport. Note des voyageurs 9/10.",
+        "en": "InterContinental Bordeaux Le Grand Hotel by IHG, 5-star in Bordeaux, restaurant on site, bar, gym. Guest rating 9/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "staycity-aparthotels-bordeaux-city-centre",
+    "name": "Staycity Aparthotels Bordeaux City Centre",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.833724,
+    "lng": -0.569607,
+    "address": "45 Rue Leyteire, 33000 Bordeaux, France",
+    "stars": 3,
+    "rating": 8.8,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 148,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/staycity-aparthotels-bordeaux-city-centre.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/868376669.jpg?k=2d043c000ecf817a1f429a43c0052fc1c2581a8ca9ea5d9854351f8343782a4e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304833384.jpg?k=5ba626b4772c4561e1fc90a5e7ddde66bdbcd96cdeee69fd23901d7e428e41f7&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/603256054.jpg?k=6cf1b16941ec9ded5f648df7076027d4607749589c1225c3c6e3535ebd59f19b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304833805.jpg?k=e75e3ed7200a650423002b1a7b7f4d3ff0a399784c00c917cbf05e7a74f1d287&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304833605.jpg?k=103cc402d89aff40d8fdb19160b33e32d4db894934802b66f9eb32f9ba704060&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/623672657.jpg?k=ea9bf34a47ace948fd8d620bc15d65b77dc39ec62cbaba63b3a19ded29e1146c&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/868376669.jpg?k=2d043c000ecf817a1f429a43c0052fc1c2581a8ca9ea5d9854351f8343782a4e&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Kitchenette",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Shower",
+      "Toilet paper",
+      "Towels",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Coffee machine",
+      "Cleaning products",
+      "Toaster",
+      "Stovetop",
+      "Kitchenware",
+      "Electric kettle",
+      "Microwave",
+      "Refrigerator",
+      "Kitchenette",
+      "Socket near the bed",
+      "Bicycle rental",
+      "Flat-screen TV",
+      "TV",
+      "Coffee house on site",
+      "Wine/champagne",
+      "Snack bar",
+      "Bar",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Daily housekeeping",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "Laundry",
+      "24-hour front desk",
+      "Invoice provided",
+      "Family rooms",
+      "Kids' meals",
+      "Board games/puzzles",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Minimarket on site",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Lift",
+      "Ironing facilities",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Iron",
+      "Emergency cord in bathroom",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Fitness"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "declared",
+      "linkReason": null,
+      "doorstep": null,
+      "onSite": null,
+      "nearby": {
+        "count": 5,
+        "within": 700,
+        "bestKw": 50,
+        "bestKwLabel": "50 kW",
+        "nearestM": 400,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 400,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 466,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 514,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 559,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 680,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Staycity Aparthotels Bordeaux City Centre, 3 étoiles à Bordeaux, bar, wifi gratuit, chambres familiales. Note des voyageurs 8,8/10.",
+        "en": "Staycity Aparthotels Bordeaux City Centre, 3-star in Bordeaux, bar, free WiFi, family rooms. Guest rating 8.8/10."
+      },
+      "charge": {
+        "fr": "Recharge déclarée par l'hôtel, caractéristiques non publiées.",
+        "en": "Charging declared by the hotel, specifications not published."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "le-boutique-hotel-spa",
+    "name": "Le Boutique Hotel & Spa",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84306734025963,
+    "lng": -0.5795542895793915,
+    "address": "3 Rue Lafaurie de Monbadon, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 5,
+    "rating": 8.7,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 423,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/le-boutique-bordeaux.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/440576041.jpg?k=a0e60027fb067e37e78071bf8e00c13e0ae17641168381673a481c639d485bb3&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/320121839.jpg?k=2add754777d03a4c4bb66f1f076bc75266e072f4423b55149b21bd17fb3d47f1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/320130170.jpg?k=248b4af59fe0d45cf4cb1c36a9db8ad57df3ba55fdb116a7a6697f0c2ef315b8&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/361602057.jpg?k=0837118b48e6c2bd5ff666730a2a5f64e3aa6fbdc039d126a3a50815dbd82d81&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/901197624.jpg?k=73883d185c9112d0bed0af301ff0fb3ef6d1b04b23049ff403cd3d2f2cbabaf4&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/320119165.jpg?k=8be85fdc2124db4c89ab4c48e18619ea5c6d87eb872eb96a3308f85e6c8daabf&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/440576041.jpg?k=a0e60027fb067e37e78071bf8e00c13e0ae17641168381673a481c639d485bb3&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Airport shuttle",
+      "Room service",
+      "Facilities for disabled guests",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Slippers",
+      "Toilet",
+      "Free toiletries",
+      "Bathrobe",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "Dressing room",
+      "Extra long beds (> 2 metres)",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Children's high chair",
+      "Coffee machine",
+      "Cleaning products",
+      "Electric kettle",
+      "Refrigerator",
+      "Socket near the bed",
+      "Drying rack for clothing",
+      "Clothes rack",
+      "Bicycle rental",
+      "Bike tours",
+      "Walking tours",
+      "Temporary art galleries",
+      "Seating area",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Wine/champagne",
+      "Kid-friendly buffet",
+      "Kids' meals",
+      "Special diet menus (on request)",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Parking garage",
+      "Invoice provided",
+      "Private check-in/check-out",
+      "Concierge service",
+      "Luggage storage",
+      "Tour desk",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Babysitting/child services",
+      "Daily housekeeping",
+      "Trouser press",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "Key access",
+      "24-hour security",
+      "Safety deposit box",
+      "Pet bowls",
+      "Pet basket",
+      "Grocery deliveries",
+      "Shared lounge/TV area",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Allergy-free room",
+      "Wake-up service",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Soundproofing",
+      "Laptop safe",
+      "Packed lunches",
+      "Soundproof rooms",
+      "Lift",
+      "Family rooms",
+      "Ironing facilities",
+      "Facilities for disabled guests",
+      "Airport shuttle",
+      "Non-smoking rooms",
+      "Iron",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Upper floors accessible by elevator",
+      "Pool/beach towels",
+      "Full body massage",
+      "Couples massage",
+      "Spa lounge/relaxation area",
+      "Steam room",
+      "Spa facilities",
+      "Sun loungers or beach chairs",
+      "Hammam",
+      "Hot tub/Jacuzzi",
+      "Massage",
+      "Sauna"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 71,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 3,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 71,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 71,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 318,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 539,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Le Boutique Hotel & Spa, 5 étoiles à Bordeaux, restaurant sur place, bar, jardin. Note des voyageurs 8,7/10.",
+        "en": "Le Boutique Hotel & Spa, 5-star in Bordeaux, restaurant on site, bar, garden. Guest rating 8.7/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "seeko-o-hotel-bordeaux",
+    "name": "Seeko'o Hotel Bordeaux",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.85893183814008,
+    "lng": -0.5569124221801758,
+    "address": "54 Quai De Bacalan, Chartrons, 33300 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.7,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 203,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/seeko-o.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137358256.jpg?k=cbfe7bac0f61be06b3178b27c435a5ff37703b989adb78ab7200b48cebbbbe75&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137355898.jpg?k=22f6cade2b637d6b9ea5fa8d07d852a9ac3344bbd9a21c1b85a720f13422760d&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/195335083.jpg?k=ed1718f45c929ed5ceaf9e7915df75aaa12a1d9c2f61fd01ac919b6b1c91b3c6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/139029113.jpg?k=9b1bbc60378a3b30fc7429b1edfa08576ac9870c5b23da3ce37cd674e3d0d760&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727898559.jpg?k=c8065c75f578bdd85c84c6fce8753964d076ffc6e0d5c1e4bf954e3f4377fc8a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137358263.jpg?k=7da1fb182f0d0f06ec9bd98c99cbe36593b553d7a5cf5b92869ff178f1663aab&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137358256.jpg?k=cbfe7bac0f61be06b3178b27c435a5ff37703b989adb78ab7200b48cebbbbe75&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Fitness centre",
+      "Room service",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Toilet paper",
+      "Towels",
+      "Toilet",
+      "Hairdryer",
+      "Linen",
+      "Wardrobe or closet",
+      "Extra long beds (> 2 metres)",
+      "Dining table",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Flat-screen TV",
+      "Telephone",
+      "TV",
+      "Wine/champagne",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Internet services",
+      "Parking garage",
+      "Public transport tickets",
+      "Invoice provided",
+      "Concierge service",
+      "Luggage storage",
+      "24-hour front desk",
+      "Family rooms",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Carpeted",
+      "Lift",
+      "Ironing facilities",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Fitness",
+      "Fitness centre",
+      "Sauna"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 102,
+        "kw": null,
+        "kwLabel": null,
+        "sockets": [],
+        "name": "bluecub"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 1,
+        "within": 700,
+        "bestKw": null,
+        "bestKwLabel": null,
+        "nearestM": 102,
+        "list": [
+          {
+            "name": "bluecub",
+            "distance": 102,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Seeko'o Hotel Bordeaux, 4 étoiles à Bordeaux, bar, salle de sport, wifi gratuit. Note des voyageurs 8,7/10.",
+        "en": "Seeko'o Hotel Bordeaux, 4-star in Bordeaux, bar, gym, free WiFi. Guest rating 8.7/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "hotel-konti-bordeaux-by-happyculture",
+    "name": "Hotel Konti Bordeaux by HappyCulture",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84238364059246,
+    "lng": -0.5785457789897919,
+    "address": "10, Rue Montesquieu, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.6,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 259,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/hotel-continental-bordeaux.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202194507.jpg?k=cda701211e9f778979ab31875fae4d7f47ada51a7256b5bf52757da9057dacbb&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/195309151.jpg?k=4b745073beeda68784fb9b4453b48ec019aeb404072fea96a4a4a7d3662ad2e1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/197615182.jpg?k=ca1ae6d903a79c5721dcdcb8b093380a0e311e986bb0d9e2354419d2cfc35f91&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202194398.jpg?k=3330cdd1a8e78bfcf0edb4acb96c0154d35d94c6931f0db2394c27f55b75cd84&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/562427525.jpg?k=15aca552c57ff59ff8301be000df257ff7c403df05ada9cda7744f76fc8a0607&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/308786786.jpg?k=c47d26e69ae20908f94b7dec0d9c9a0692a7f9d18591c79f86cd725deb24c84c&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202194507.jpg?k=cda701211e9f778979ab31875fae4d7f47ada51a7256b5bf52757da9057dacbb&o=&hp=1",
+    "facilities": [
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Tour desk",
+      "Luggage storage",
+      "Laundry",
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Linen",
+      "Wardrobe or closet",
+      "Dressing room",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Drying rack for clothing",
+      "Clothes rack",
+      "Games room",
+      "Desk",
+      "Flat-screen TV",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Snack bar",
+      "Internet services",
+      "Concierge service",
+      "Luggage storage",
+      "Tour desk",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Indoor play area",
+      "Daily housekeeping",
+      "Laundry",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Shared lounge/TV area",
+      "Vending machine (drinks)",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Executive lounge access",
+      "Wake-up service",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Soundproofing",
+      "Laptop safe",
+      "Soundproof rooms",
+      "Lift",
+      "Family rooms",
+      "Non-smoking rooms",
+      "Upper floors accessible by elevator"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 74,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 50,
+        "bestKwLabel": "50 kW",
+        "nearestM": 74,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 74,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 259,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 583,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 644,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 662,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Bouygues Energies & Services",
+            "distance": 693,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 83,
+            "fee": "paid",
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Hotel Konti Bordeaux by HappyCulture, 4 étoiles à Bordeaux, wifi gratuit, chambres familiales, animaux acceptés. Note des voyageurs 8,6/10.",
+        "en": "Hotel Konti Bordeaux by HappyCulture, 4-star in Bordeaux, free WiFi, family rooms, pets allowed. Guest rating 8.6/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "best-western-premier-hbeo-bordeaux-centre",
+    "name": "Best Western Premier HBEO Bordeaux Centre",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.842308964562264,
+    "lng": -0.575964815344264,
+    "address": "4 Rue Martignac, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.6,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 256,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/best-western-bordeaux-quot-bayonne-quot.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187674148.jpg?k=920d4a5f650f4c5f469bec9add689de8d52bf48858f2695dfee075f16810a5f6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/46074093.jpg?k=8ac8538e8c61b05b906b16bcec2a36dccdcb3f216eee6b7a28c8bb2816da0a4b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/110882953.jpg?k=3719deaa923b9faca02d74f0269af90478aff1dc78cf2be6a3bff20cb987280d&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/46036785.jpg?k=8ea32a341f90c6d1dc6d1ab620b94dbec270a1272ae310f4c411fda1a6316648&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/46036776.jpg?k=6afc240204fce47b029bc20c0fe139f0842b50e874440987d65b5fa886816777&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187674116.jpg?k=12af029f6e5339ca2be2d2cb22d8df3bf09391498fa4bdc2cf385124f04fa2b9&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187674148.jpg?k=920d4a5f650f4c5f469bec9add689de8d52bf48858f2695dfee075f16810a5f6&o=&hp=1",
+    "facilities": [
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Fitness centre",
+      "Room service",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Minibar",
+      "Bath or shower",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Linen",
+      "Wardrobe or closet",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Drying rack for clothing",
+      "Clothes rack",
+      "Desk",
+      "Flat-screen TV",
+      "Satellite channels",
+      "Radio",
+      "Telephone",
+      "TV",
+      "Fruits",
+      "Wine/champagne",
+      "Breakfast in the room",
+      "Minibar",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Public transport tickets",
+      "Invoice provided",
+      "Concierge service",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Family rooms",
+      "Daily housekeeping",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Hypoallergenic",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Private entrance",
+      "Packed lunches",
+      "Carpeted",
+      "Soundproof rooms",
+      "Lift",
+      "Ironing facilities",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Upper floors accessible by elevator",
+      "Personal trainer",
+      "Fitness",
+      "Fitness centre"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 117,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 117,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 117,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 278,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 451,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Bouygues Energies & Services",
+            "distance": 492,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 83,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 572,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 611,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Best Western Premier HBEO Bordeaux Centre, 4 étoiles à Bordeaux, salle de sport, wifi gratuit, chambres familiales. Note des voyageurs 8,6/10.",
+        "en": "Best Western Premier HBEO Bordeaux Centre, 4-star in Bordeaux, gym, free WiFi, family rooms. Guest rating 8.6/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "hotel-de-normandie",
+    "name": "Hôtel de Normandie",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.844014,
+    "lng": -0.574827,
+    "address": "7 Cours du 30 Juillet, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.6,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 276,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/de-normandie-bordeaux.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290001244.jpg?k=24799a9867336b9fe5b2f54e86eb608a384361e09b686cbfbfd4fbf6561d4f1a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290000494.jpg?k=f828c254a525fab052dcf610b28bc07aaa79ec37621234853cab687fa7e60a40&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290002197.jpg?k=eda1444f1a80e09ca5f32791e2c42f2c06e67f5b2a976621df1f3472274ebb92&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290029411.jpg?k=426b5ef854a7a5a7dd676f978684a4df395ee7243fc98f560fe4567e6830ce46&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290001465.jpg?k=0049f4f5740e32b9306c62f1b0368836932764b7c8bc7d7c1dbbe3432b6ca02a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290001998.jpg?k=c766ae19fe55e9b60d7c636aa87d9cec09211caaf4ecc23dd8080a1912d935e3&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290001244.jpg?k=24799a9867336b9fe5b2f54e86eb608a384361e09b686cbfbfd4fbf6561d4f1a&o=&hp=1",
+    "facilities": [
+      "Bathrobe",
+      "Hairdryer",
+      "Bath",
+      "Flat-screen TV",
+      "Telephone",
+      "TV",
+      "Minibar",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Dry cleaning",
+      "Wake up service/Alarm clock",
+      "24-hour front desk",
+      "Room service",
+      "Family rooms",
+      "Smoke alarms",
+      "Security alarm",
+      "Safety deposit box",
+      "Air conditioning",
+      "Soundproofing",
+      "Heating",
+      "Non-smoking rooms"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 96,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 96,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 96,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 337,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 402,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 405,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 407,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Bouygues Energies & Services",
+            "distance": 411,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 83,
+            "fee": "paid",
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Hôtel de Normandie, 4 étoiles à Bordeaux, chambres familiales, chambres non-fumeurs. Note des voyageurs 8,6/10.",
+        "en": "Hôtel de Normandie, 4-star in Bordeaux, family rooms, non-smoking rooms. Guest rating 8.6/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "hotel-indigo-bordeaux-centre-chartrons-by-ihg",
+    "name": "Hotel Indigo Bordeaux Centre Chartrons by IHG",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84978,
+    "lng": -0.57041,
+    "address": "18 Parv. des Chartrons, Chartrons, 33000 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.5,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 374,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/hotelindigobordeauxcentrechartrons.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495455567.jpg?k=21fd9500d490f2e0fc26ac1099366c274ef3631f92cef0a7cc3119ad73a6adb1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/493617643.jpg?k=9acb8dfb4e7515e1f9b1a161ef851d26d62f7569c64bb9cc32b895ca4678be89&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/486375781.jpg?k=71bbff5effbc1f4adc6e08990b9faf3d4a21e761fd339b2acf283e91a82dee7e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/493618858.jpg?k=7195bcd4eda02d096353cf9bc068015cf86b86dd4d0c004f2900b4b6541bc8dc&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/682852246.jpg?k=3d7fe8b12a8b0b02c6f6fc83a684ea4a7c3e6dcd6e35ccbc3ee1ee363d2e28cf&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577551664.jpg?k=bb651e483511cd179bb546a1b5930fee6914d209dcd25d6836b797b73731076f&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495455567.jpg?k=21fd9500d490f2e0fc26ac1099366c274ef3631f92cef0a7cc3119ad73a6adb1&o=&hp=1",
+    "facilities": [
+      "2 restaurants",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Room service",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Bath or shower",
+      "Slippers",
+      "Toilet",
+      "Free toiletries",
+      "Bathrobe",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Bicycle rental",
+      "Bike tours",
+      "Sofa",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Wine/champagne",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Invoice provided",
+      "Luggage storage",
+      "24-hour front desk",
+      "Family rooms",
+      "Kids' meals",
+      "Daily housekeeping",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Pet bowls",
+      "Shared lounge/TV area",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Laptop safe",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Iron",
+      "Room service",
+      "Auditory guidance",
+      "Visual aids: Tactile signs",
+      "Visual aids: Braille",
+      "Emergency cord in bathroom",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Fitness"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "declared",
+      "linkReason": null,
+      "doorstep": null,
+      "onSite": null,
+      "nearby": {
+        "count": 4,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 328,
+        "list": [
+          {
+            "name": "TotalEnergies",
+            "distance": 328,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 343,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 553,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 679,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Hotel Indigo Bordeaux Centre Chartrons by IHG, 4 étoiles à Bordeaux, restaurant sur place, bar, terrasse. Note des voyageurs 8,5/10.",
+        "en": "Hotel Indigo Bordeaux Centre Chartrons by IHG, 4-star in Bordeaux, restaurant on site, bar, terrace. Guest rating 8.5/10."
+      },
+      "charge": {
+        "fr": "Recharge déclarée par l'hôtel, caractéristiques non publiées.",
+        "en": "Charging declared by the hotel, specifications not published."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "hotel-la-cour-carree-bordeaux-centre",
+    "name": "Hôtel La Cour Carrée Bordeaux Centre",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84334262455213,
+    "lng": -0.5799995362758636,
+    "address": "5 Rue de Lurbe, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 3,
+    "rating": 8.4,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 197,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/la-cour-carra-c-e.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/12544552.jpg?k=cfc45ac45373e7f191d003ad8ba70330972d49fbead0dd0400e7f8d7c42293e6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/183391399.jpg?k=b0f6acda7ecc9e12a46cc6bd3ad522a9334fa42ed0773fdfba3b29e3684e6e51&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/183062864.jpg?k=f19ad77d0214da3a6eed4fd89d477b394adee4491fad8c9592685554037dbf58&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/41931843.jpg?k=1b2b2da149fe363ec259339aea6bb02ab55e5e81e8243465c99696d2352090c3&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/183391510.jpg?k=0d625f2ad804d73933fceb95c6d345ec2b1e92ed2f5e6cec706f8f6e3716f2f2&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/183391398.jpg?k=d6048b33ea6763e779eb48cd9f55e840a6882c70692ac49a262afe07b111520a&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/12544552.jpg?k=cfc45ac45373e7f191d003ad8ba70330972d49fbead0dd0400e7f8d7c42293e6&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Room service",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Private parking",
+      "Luggage storage",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Wardrobe or closet",
+      "Terrace",
+      "Flat-screen TV",
+      "Telephone",
+      "Breakfast in the room",
+      "Internet services",
+      "Parking",
+      "Luggage storage",
+      "Wake-up service",
+      "Dry cleaning",
+      "Room service",
+      "Key access",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproofing",
+      "Carpeted",
+      "Soundproof rooms",
+      "Family rooms",
+      "Non-smoking rooms"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 110,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 3,
+        "within": 700,
+        "bestKw": 7.4,
+        "bestKwLabel": "7,4 kW",
+        "nearestM": 110,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 110,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 352,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 529,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Hôtel La Cour Carrée Bordeaux Centre, 3 étoiles à Bordeaux, terrasse, parking privé, wifi gratuit. Note des voyageurs 8,4/10.",
+        "en": "Hôtel La Cour Carrée Bordeaux Centre, 3-star in Bordeaux, terrace, private parking, free WiFi. Guest rating 8.4/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "campanile-nature-bordeaux-lac",
+    "name": "Campanile NATURE - Bordeaux Lac",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.89029238109868,
+    "lng": -0.5642884969711304,
+    "address": "Rue du Petit Barail - Centre Hotelier Du Lac, 33300 Bordeaux, France",
+    "stars": 3,
+    "rating": 8.4,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 86,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/campanilebordeauxlac.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667793056.jpg?k=5d04d0d32b9ac6125c29af0c05dffb9903564057d12f5934152ebc8207044c58&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/813734492.jpg?k=9d5d443035cb1c574d7911e892d336bc73e0227b23a2d11a34274c209d3d73f7&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/756793980.jpg?k=d4ea890444c7a2d0e5c2bca7a0f410c16c44daee622379c4e68b8077e63d035b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286639887.jpg?k=f6274eee0ef036335bd286e33ca00e7f7f357a86e04ac07c6e3f00e7a66563fb&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/813734509.jpg?k=022638a96beafed68482b00351bbb04f3c969f51327f8ef3e951a88d42922f3a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667793246.jpg?k=97e9d724fda75120838e476db01cef76126a9e71dc5a42f82ec65ea4b4f5ff26&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667793056.jpg?k=5d04d0d32b9ac6125c29af0c05dffb9903564057d12f5934152ebc8207044c58&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Free parking",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Bath or shower",
+      "Hairdryer",
+      "Wardrobe or closet",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Socket near the bed",
+      "Live sport events (broadcast)",
+      "Golf course (within 3 km)",
+      "Desk",
+      "Flat-screen TV",
+      "Wine/champagne",
+      "Special diet menus (on request)",
+      "Snack bar",
+      "Bar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Accessible parking",
+      "Public transport tickets",
+      "Invoice provided",
+      "Luggage storage",
+      "24-hour front desk",
+      "Kids' meals",
+      "Board games/puzzles",
+      "Bowling",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Pet bowls",
+      "Shared lounge/TV area",
+      "Vending machine (snacks)",
+      "Vending machine (drinks)",
+      "Designated smoking area",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Soundproof rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Toilet with grab rails"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 85,
+        "kw": null,
+        "kwLabel": null,
+        "sockets": [],
+        "name": null
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 3,
+        "within": 700,
+        "bestKw": 225,
+        "bestKwLabel": "225 kW",
+        "nearestM": 85,
+        "list": [
+          {
+            "name": null,
+            "distance": 85,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": 4,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Electra Bordeaux - Novotel Bordeaux Lac",
+            "distance": 167,
+            "kw": 225,
+            "kwLabel": "225 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "Izivia",
+            "distance": 319,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Campanile NATURE - Bordeaux Lac, 3 étoiles à Bordeaux, restaurant sur place, bar, jardin. Note des voyageurs 8,4/10.",
+        "en": "Campanile NATURE - Bordeaux Lac, 3-star in Bordeaux, restaurant on site, bar, garden. Guest rating 8.4/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "mercure-bordeaux-centre-ville",
+    "name": "Mercure Bordeaux Centre Ville",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.839157115288145,
+    "lng": -0.5863416194915771,
+    "address": "5 Rue Robert Lateulade, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 4,
+    "rating": 8.2,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 157,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/mercure-bordeaux-centre-meriadeck.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/770133940.jpg?k=f8271e95983d9db91db574ff602dda5e5ee9cd2760794a021615eda0d996ef12&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/910857876.jpg?k=acb35e7dc69579840a7ead17854fd8ee60e660b03f16eb141e75a5a4349542ed&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/910857879.jpg?k=2c8040df66ae43552bc0ac070d39be6fec26502abaf40a33be7f91e9257c0ef5&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/765666366.jpg?k=662aa13f2ce333409c6e3b7817609d313a6c3ebcff1e14daf1f7f9ad809f876e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/765666412.jpg?k=ff937497cbdb3746a4614fb6cf9af8b268255167447ef063bb00f5ca5112e682&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/765666356.jpg?k=b95e3057d2df91511fe5d14adf28f5257d758d647c2161cdff21c784f5b88b9d&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/770133940.jpg?k=f8271e95983d9db91db574ff602dda5e5ee9cd2760794a021615eda0d996ef12&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Bath",
+      "Free WiFi",
+      "Fitness centre",
+      "Room service",
+      "Facilities for disabled guests",
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Bath or shower",
+      "Toilet",
+      "Hairdryer",
+      "Bath",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "City view",
+      "Socket near the bed",
+      "Clothes rack",
+      "Live sport events (broadcast)",
+      "Tour or class about local culture",
+      "Desk",
+      "Flat-screen TV",
+      "Satellite channels",
+      "Radio",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Restaurant",
+      "Internet services",
+      "Parking garage",
+      "Invoice provided",
+      "Private check-in/check-out",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Babysitting/child services",
+      "Kids' meals",
+      "Daily housekeeping",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Shared lounge/TV area",
+      "Vending machine (snacks)",
+      "Vending machine (drinks)",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Laptop safe",
+      "Carpeted",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Fitness centre"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "mapped",
+      "linkReason": "distance",
+      "doorstep": null,
+      "onSite": {
+        "osmId": "node/12754321928",
+        "distance": 36,
+        "kw": null,
+        "kwLabel": null,
+        "dc": false,
+        "sockets": [],
+        "socketLabels": [],
+        "points": 2,
+        "fee": "paid",
+        "open247": false,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "Bordeaux Métropole",
+        "access": "yes"
+      },
+      "nearby": {
+        "count": 5,
+        "within": 700,
+        "bestKw": 50,
+        "bestKwLabel": "50 kW",
+        "nearestM": 339,
+        "list": [
+          {
+            "name": "Bordeaux Métropole Charging Station",
+            "distance": 339,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": 2,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "Bordeaux Métropole Charging Station",
+            "distance": 339,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": 2,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 471,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile",
+            "distance": 540,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 652,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Mercure Bordeaux Centre Ville, 4 étoiles à Bordeaux, restaurant sur place, bar, salle de sport. Note des voyageurs 8,2/10.",
+        "en": "Mercure Bordeaux Centre Ville, 4-star in Bordeaux, restaurant on site, bar, gym. Guest rating 8.2/10."
+      },
+      "charge": {
+        "fr": "Borne de puissance non renseignée sur place, 2 points de charge.",
+        "en": "A charger of unstated power on site, 2 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "hotel-des-grands-hommes-bordeaux-centre",
+    "name": "Hotel Des Grands Hommes - Bordeaux Centre",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.84231992963997,
+    "lng": -0.5782856047153473,
+    "address": "7 rue Franklin, Bordeaux City-Centre, 33000 Bordeaux, France",
+    "stars": 2,
+    "rating": 8.2,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 201,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/de-france-bordeaux.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470148380.jpg?k=32af74e9569809f99c469f2b6740f0a50de090971260e66ad295e1f957bace70&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577704475.jpg?k=49a9626df20fba52c2f62e68f3f127c0f13a6e2e635815fb81cd246aa7f114f1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577705864.jpg?k=cd2481711f20b1242a937612e1fb5e9a0b622ecec09e58716db3b5ce857b2983&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577706386.jpg?k=35384692569446dd1e75e8a1c3075ecb268cb6d9f6d1b5470b7040cb9c413095&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577704527.jpg?k=5ce5f89e4c24f0dd7b4da2683e66590b0959b30337704d96e5c523515e49d25d&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577704554.jpg?k=6b48fc36ba9ba7754e57051353e22f5769b93e3de8ec8cb4708f2a59f6715be5&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/470148380.jpg?k=32af74e9569809f99c469f2b6740f0a50de090971260e66ad295e1f957bace70&o=&hp=1",
+    "facilities": [
+      "Private bathroom",
+      "Free WiFi",
+      "Adults only",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Shower",
+      "Luggage storage",
+      "Toilet paper",
+      "Towels",
+      "Toilet",
+      "Hairdryer",
+      "Shower",
+      "Socket near the bed",
+      "Cycling",
+      "Desk",
+      "Streaming service (like Netflix)",
+      "Flat-screen TV",
+      "Satellite channels",
+      "TV",
+      "Internet services",
+      "Daily housekeeping",
+      "Private check-in/check-out",
+      "Luggage storage",
+      "Fax/photocopying",
+      "Express check-in/check-out",
+      "Ironing service",
+      "Wake up service/Alarm clock",
+      "Invoice provided",
+      "Fire extinguishers",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "24-hour security",
+      "Adults only",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproofing",
+      "Carpeted",
+      "Fan",
+      "Ironing facilities",
+      "Non-smoking rooms",
+      "Iron",
+      "Upper floors accessible by stairs only"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "linkReason": null,
+      "doorstep": {
+        "distance": 95,
+        "kw": 7.4,
+        "kwLabel": "7,4 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile | FR*FR1"
+      },
+      "onSite": null,
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 50,
+        "bestKwLabel": "50 kW",
+        "nearestM": 95,
+        "list": [
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 95,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 243,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile SAS",
+            "distance": 584,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 626,
+            "kw": 7.4,
+            "kwLabel": "7,4 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile | FR*FR1",
+            "distance": 663,
+            "kw": 50,
+            "kwLabel": "50 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "CHAdeMO",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Bouygues Energies & Services",
+            "distance": 673,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 83,
+            "fee": "paid",
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Hotel Des Grands Hommes - Bordeaux Centre, 2 étoiles à Bordeaux, wifi gratuit, chambres non-fumeurs. Note des voyageurs 8,2/10.",
+        "en": "Hotel Des Grands Hommes - Bordeaux Centre, 2-star in Bordeaux, free WiFi, non-smoking rooms. Guest rating 8.2/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "montempo-appart-hotel-bordeaux-lac",
+    "name": "Montempô Appart'hôtel Bordeaux Lac",
+    "citySlug": "bordeaux",
+    "city": "Bordeaux",
+    "cityEn": "Bordeaux",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 44.8870467,
+    "lng": -0.5637352,
+    "address": "25b Rue du Cardinal Richaud, 33300 Bordeaux, France",
+    "stars": null,
+    "rating": 7.8,
+    "ratingLabel": "Good",
+    "reviews": null,
+    "price": 62,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/montempo-appart-bordeaux-lac.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919891.jpg?k=814ac0298368e76e1cae10b0546678b5b50ef6fda3e8bb55fe0fe7b46d96be94&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919857.jpg?k=a7ec587f6fa6d447f3ee5ae2a2f6992a4422a6c02c1329ad49600b7b72d48f44&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919860.jpg?k=0004873866858fcd10b3b843cabc932a281ca4b7e7fb46c254fba11451e48d22&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/870291439.jpg?k=889170b31b16f8cff3a97ac3d897b869b0991f724f814f607f548d050d3ee6eb&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/870291353.jpg?k=600b7ef615fd7f8c78213edb1aec4276c8ab5eb46bc4f2388168fb41a4946762&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/870289894.jpg?k=256d4172fae06cb2b2ee8f197ec8e134a0e4bf7f9f45330ce151e4f09d8a4528&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919891.jpg?k=814ac0298368e76e1cae10b0546678b5b50ef6fda3e8bb55fe0fe7b46d96be94&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Private bathroom",
+      "Free WiFi",
+      "Kitchenette",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Shower",
+      "Private parking",
+      "Luggage storage",
+      "Accessible parking",
+      "Internet services",
+      "Dining table",
+      "Coffee machine",
+      "Stovetop",
+      "Kitchenware",
+      "Electric kettle",
+      "Microwave",
+      "Refrigerator",
+      "Kitchenette",
+      "Linen",
+      "Wardrobe or closet",
+      "Toilet paper",
+      "Towels",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Shower",
+      "Flat-screen TV",
+      "TV",
+      "Soundproofing",
+      "Upper floors accessible by elevator",
+      "Picnic area",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Shared lounge/TV area",
+      "Vending machine (snacks)",
+      "Vending machine (drinks)",
+      "Tea/Coffee maker",
+      "Invoice provided",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Board games/puzzles",
+      "Laundry",
+      "Fax/photocopying",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Designated smoking area",
+      "Non-smoking throughout",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "24-hour security"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "mapped",
+      "linkReason": "access",
+      "doorstep": null,
+      "onSite": {
+        "osmId": "node/7315467156",
+        "distance": 118,
+        "kw": null,
+        "kwLabel": null,
+        "dc": false,
+        "sockets": [
+          "type2",
+          "typee"
+        ],
+        "socketLabels": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 4,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "Izivia",
+        "access": "private"
+      },
+      "nearby": {
+        "count": 4,
+        "within": 700,
+        "bestKw": 250,
+        "bestKwLabel": "250 kW",
+        "nearestM": 279,
+        "list": [
+          {
+            "name": null,
+            "distance": 279,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": 4,
+            "fee": null,
+            "open247": false
+          },
+          {
+            "name": "Electra Bordeaux - Novotel Bordeaux Lac",
+            "distance": 501,
+            "kw": 225,
+            "kwLabel": "225 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "Bordeaux Lac Supercharger",
+            "distance": 532,
+            "kw": 250,
+            "kwLabel": "250 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 16,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": null,
+            "distance": 580,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [],
+            "points": null,
+            "fee": null,
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Montempô Appart'hôtel Bordeaux Lac à Bordeaux, terrasse, parking privé, wifi gratuit. Note des voyageurs 7,8/10.",
+        "en": "Montempô Appart'hôtel Bordeaux Lac in Bordeaux, terrace, private parking, free WiFi. Guest rating 7.8/10."
+      },
+      "charge": {
+        "fr": "Borne de puissance non renseignée sur place en Type 2 et Prise E, 4 points de charge.",
+        "en": "A charger of unstated power on site with Type 2 and Prise E, 4 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
     "slug": "ace-hotel-poitiers",
     "name": "Ace Hotel Poitiers",
     "citySlug": "poitiers",

@@ -42,12 +42,17 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
   const [guarOnly, setGuarOnly] = useState(false);
   const [showMap, setShowMap] = useState(true);
 
-  const list = hotels.filter((h) => {
+  const all = hotels.filter((h) => {
     const kw = h.charging.onSite?.kw ?? 0;
     if (dcOnly) return Boolean(h.charging.onSite?.dc);
     if (guarOnly) return Boolean(h.charging.onSite);
     return kw >= minKw;
   });
+
+  // Les hôtels sans borne propre sont listés à part, comme dans la maquette :
+  // une borne publique devant la porte n'est pas une borne d'hôtel.
+  const list = all.filter((h) => h.charging.confidence !== "doorstep");
+  const doorstep = all.filter((h) => h.charging.confidence === "doorstep");
 
   const count =
     lang === "fr"
@@ -142,7 +147,51 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
             ))}
           </div>
 
-          {list.length === 0 && (
+          {doorstep.length > 0 && (
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
+              <h2 style={{ margin: 0, fontWeight: 700, fontSize: 19, letterSpacing: "-0.02em" }}>
+                {lang === "fr"
+                  ? "Sans borne à l'hôtel, mais une borne publique devant"
+                  : "No hotel charger, but a public one at the door"}
+              </h2>
+              {doorstep.map((h) => (
+                <a
+                  key={h.slug}
+                  href={`/${lang}/${h.citySlug}/${h.slug}`}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 14,
+                    padding: "16px 20px",
+                    background: "#FFFFFF",
+                    border: "1px solid #EBEBF2",
+                    borderRadius: 16,
+                    textDecoration: "none",
+                    color: "inherit",
+                  }}
+                >
+                  <span style={{ width: 9, height: 9, borderRadius: "50%", background: "#B9B5AC" }} />
+                  <span style={{ fontWeight: 600, fontSize: 17, letterSpacing: "-0.02em", color: "#8B8FA3", flex: 1, minWidth: 0 }}>
+                    {h.name}
+                  </span>
+                  <span className="tnum" style={{ fontWeight: 600, fontSize: 12, color: "#8B8FA3" }}>
+                    {h.charging.doorstep
+                      ? lang === "fr"
+                        ? `borne publique à ${h.charging.doorstep.distance} m`
+                        : `public charger ${h.charging.doorstep.distance} m away`
+                      : t.noCharger}
+                  </span>
+                  {h.price != null && (
+                    <span className="tnum" style={{ fontWeight: 600, fontSize: 14, color: "#8B8FA3" }}>
+                      {h.price} €
+                    </span>
+                  )}
+                </a>
+              ))}
+            </div>
+          )}
+
+          {list.length === 0 && doorstep.length === 0 && (
             <p style={{ color: "#8B8FA3", fontSize: 15 }}>
               {lang === "fr"
                 ? "Aucun hôtel ne passe ce filtre dans cette ville. Élargissez la puissance minimale."
