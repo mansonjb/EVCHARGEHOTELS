@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import stationsJson from "@/data/irve-hotel-stations.json";
+import { FranceMap } from "@/components/france-map";
+import { departments, nationalHotels } from "@/lib/national";
 import { cities } from "@/lib/data";
 import { LANGS, alternatesFor, type Lang } from "@/lib/i18n";
 
-interface Station {
+type Station = {
   id: string;
   name: string | null;
   operator: string | null;
@@ -21,9 +22,10 @@ interface Station {
   free: boolean;
   hours: string | null;
   updated: string | null;
-}
+};
 
-const stations = (stationsJson as { stations: Station[] }).stations;
+// Le dataset publiable : nom d'hôtel nettoyé, dédoublonné, avec lien Booking.
+const stations = nationalHotels as unknown as Station[];
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
@@ -117,6 +119,52 @@ export default async function FrancePage({ params }: { params: Promise<{ lang: s
         {stat(slow.length, fr ? "sous 22 kW" : "below 22 kW")}
       </div>
 
+      <div style={{ marginTop: 40 }}>
+        <FranceMap lang={lang} count={stations.length} />
+      </div>
+
+      <h2 style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.035em", marginTop: 48 }}>
+        {fr ? "Par département" : "By department"}
+      </h2>
+      <p style={{ fontSize: 14.5, color: "#8B8FA3", marginTop: 6 }}>
+        {fr
+          ? `${departments.length} départements couverts. Chaque page liste les hôtels, leur puissance et le lien de réservation.`
+          : `${departments.length} departments covered. Each page lists the hotels, their power and the booking link.`}
+      </p>
+      <div
+        className="ps-grid-3"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3,1fr)",
+          gap: 1,
+          background: "#EBEBF2",
+          border: "1px solid #EBEBF2",
+          borderRadius: 18,
+          overflow: "hidden",
+          marginTop: 18,
+        }}
+      >
+        {departments.map((d) => (
+          <Link
+            key={d.code}
+            href={`/${lang}/france/${d.code.toLowerCase()}`}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 12,
+              padding: "13px 18px",
+              background: "#FFFFFF",
+              textDecoration: "none",
+            }}
+          >
+            <span style={{ fontWeight: 700, fontSize: 14.5, flex: 1, minWidth: 0, color: "#141B34" }}>{d.name}</span>
+            <span className="tnum" style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
+              {d.count} · {d.bestKw ? `${String(d.bestKw).replace(".", ",")} kW` : "—"}
+            </span>
+          </Link>
+        ))}
+      </div>
+
       <h2 style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.035em", marginTop: 48 }}>
         {fr ? "Les villes les mieux équipées" : "Best-equipped towns"}
       </h2>
@@ -169,28 +217,6 @@ export default async function FrancePage({ params }: { params: Promise<{ lang: s
             </div>
           );
         })}
-      </div>
-
-      <h2 style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.035em", marginTop: 48 }}>
-        {fr ? "Par département" : "By department"}
-      </h2>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 16 }}>
-        {topDepts.map(([d, n]) => (
-          <span
-            key={d}
-            className="tnum"
-            style={{
-              padding: "8px 14px",
-              borderRadius: 999,
-              border: "1px solid #EBEBF2",
-              fontWeight: 600,
-              fontSize: 13,
-              color: "#3A4160",
-            }}
-          >
-            {d} <span style={{ color: "#0E7C68" }}>{n}</span>
-          </span>
-        ))}
       </div>
 
       <h2 style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.035em", marginTop: 48 }}>
