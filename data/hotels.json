@@ -16867,5 +16867,2680 @@
       "hotel": "booking",
       "charging": "booking"
     }
+  },
+  {
+    "slug": "les-nomades-beaune",
+    "name": "Les Nomades Beaune",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.01597,
+    "lng": 4.823196,
+    "address": "61 route de Pommard, 21200 Beaune, France",
+    "stars": 4,
+    "rating": 8.7,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 246,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/les-nomades-beaune.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/246047440.jpg?k=450138c877993cdac1846bfd2d9a742ed5b0166d0441fef01f3d21f4cb819023&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/246124639.jpg?k=2ee4bf9610dca3a9ae80de3a47247d7b11950dc6907a78c46b29b0369146e36e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268588867.jpg?k=a97d5fd08bc1d434b928969fa771482466ea182d2e6c5cad7a85f55ababc1d86&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/324699392.jpg?k=200496c524e33466db1f3353bb50f1326571c8ac128ae807107cd48136400f03&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268582164.jpg?k=c9daee5c81458036b9383a7cbec9f9337d1a0f254c26ee889d4924b5bca4f1d7&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/246123873.jpg?k=6bcead9e37e6f0564e7b89f0c2cd23cb37a5edca3246831ba24489d9a67f6f77&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/246047440.jpg?k=450138c877993cdac1846bfd2d9a742ed5b0166d0441fef01f3d21f4cb819023&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Spa & wellness centre",
+      "View",
+      "Free WiFi",
+      "Family rooms",
+      "Fitness centre",
+      "Free parking",
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Slippers",
+      "Toilet",
+      "Free toiletries",
+      "Bathrobe",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "Dressing room",
+      "Extra long beds (> 2 metres)",
+      "View",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Coffee machine",
+      "Electric kettle",
+      "Socket near the bed",
+      "Clothes rack",
+      "Bicycle rental",
+      "Bike tours",
+      "Cycling",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Wine/champagne",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Invoice provided",
+      "Private check-in/check-out",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Family rooms",
+      "Books, DVDs, or music for children",
+      "Board games/puzzles",
+      "Daily housekeeping",
+      "Laundry",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Executive lounge access",
+      "Wake-up service",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Soundproofing",
+      "Laptop safe",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Visual aids: Tactile signs",
+      "Visual aids: Braille",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Entire unit located on ground floor",
+      "Pool/beach towels",
+      "Fitness/spa locker rooms",
+      "Fitness",
+      "Spa lounge/relaxation area",
+      "Spa facilities",
+      "Hot tub/Jacuzzi",
+      "Spa & wellness centre",
+      "Fitness centre",
+      "Sauna"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "confirmed",
+      "score": 130,
+      "matchMethod": "nom+adresse+booking",
+      "matchReasons": [
+        "borne à 73 m",
+        "la borne porte le nom de l'hôtel",
+        "même numéro et même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRETIP21054C",
+        "dataSource": "irve",
+        "address": "61 Rte de Pommard, 21200 Beaune",
+        "updated": "2026-08-22",
+        "distance": 73,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "dc": false,
+        "sockets": [
+          "type2",
+          "typee"
+        ],
+        "socketLabels": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 6,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "E-Totem",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 352,
+        "kw": 180,
+        "kwLabel": "180 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "e-Totem - Panorama Beaune e-Fast",
+        "points": 5
+      },
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 320,
+        "bestKwLabel": "320 kW",
+        "nearestM": 352,
+        "list": [
+          {
+            "name": "e-Totem - Panorama Beaune e-Fast",
+            "distance": 352,
+            "kw": 180,
+            "kwLabel": "180 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "DRIVECO",
+            "distance": 379,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "Prise E"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "BMW - Beaune - powered by DRIVECO",
+            "distance": 390,
+            "kw": 24,
+            "kwLabel": "24 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E",
+              "CCS2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "e-Totem - Panorama Beaune e-Smart",
+            "distance": 413,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "BEAUNE-SUD",
+            "distance": 444,
+            "kw": 320,
+            "kwLabel": "320 kW",
+            "sockets": [
+              "CCS2",
+              "Type 2"
+            ],
+            "points": 7,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/ZBH7CKKHWZ",
+            "distance": 472,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Les Nomades Beaune, 4 étoiles à Beaune, bar, salle de sport, jardin. Note des voyageurs 8,7/10.",
+        "en": "Les Nomades Beaune, 4-star in Beaune, bar, gym, garden. Guest rating 8.7/10."
+      },
+      "charge": {
+        "fr": "Borne de 22 kW sur place en Type 2 et Prise E, 6 points de charge.",
+        "en": "A 22 kW on site with Type 2 and Prise E, 6 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "domitys-les-demoiselles",
+    "name": "DOMITYS - Les Demoiselles",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.0335951,
+    "lng": 4.8413761,
+    "address": "28 Route de Savigny, 21200 Beaune, France",
+    "stars": null,
+    "rating": 8.6,
+    "ratingLabel": "Fabulous",
+    "reviews": null,
+    "price": 135,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/domitys-les-demoiselles.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526930937.jpg?k=e1ccf5c823f6d0d639ee79abcdeab927b979af370608de892f52abbac2d394bc&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526922389.jpg?k=39ccc3f2c0a2a5f9fe90540e1c906cdedaafbed6383c5d98e24bb101ec9c60f7&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526712137.jpg?k=34a0d901681ee4a0fd01bee8c104bdc2e43cb45e4c61fdb1cf359274426e57c6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/644530664.jpg?k=1b756a9a26eb872a361df5864d62f74f8618e4884815593058dc1d39b526b872&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526930177.jpg?k=8d80a37bf8a0623ddde04eae2c08d48b1d34e372caf758409c41d9e0c232b419&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526930943.jpg?k=e54a2aeb98bd1f1dfc501f6716b29eedaa56f28b41be7b349f26ddffb78f0586&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/526930937.jpg?k=e1ccf5c823f6d0d639ee79abcdeab927b979af370608de892f52abbac2d394bc&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Balcony",
+      "Pets allowed",
+      "Private bathroom",
+      "View",
+      "Free WiFi",
+      "Kitchen",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Electric vehicle charging station",
+      "Internet services",
+      "Dining table",
+      "Coffee machine",
+      "Toaster",
+      "Stovetop",
+      "Kitchenware",
+      "Electric kettle",
+      "Kitchen",
+      "Microwave",
+      "Refrigerator",
+      "Kitchenette",
+      "Linen",
+      "Wardrobe or closet",
+      "Dressing room",
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Dining area",
+      "Sofa",
+      "Seating area",
+      "Flat-screen TV",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Socket near the bed",
+      "Drying rack for clothing",
+      "Clothes rack",
+      "Soundproofing",
+      "Hearing accessible",
+      "Entire unit wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Balcony",
+      "Terrace",
+      "Garden",
+      "Shared lounge/TV area",
+      "Indoor swimming pool",
+      "Massage chair",
+      "Spa lounge/relaxation area",
+      "Spa facilities",
+      "Wine/champagne",
+      "Bar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "View",
+      "Detached",
+      "Invoice provided",
+      "Board games/puzzles",
+      "Board games/puzzles",
+      "Entertainment staff",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproof rooms",
+      "Lift",
+      "Non-smoking rooms",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Key access",
+      "24-hour security",
+      "Safety deposit box"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "declared",
+      "score": null,
+      "matchMethod": null,
+      "matchReasons": [],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": null,
+      "nearestKnown": {
+        "distance": 276,
+        "kw": 7,
+        "kwLabel": "7 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "SPORT ET NATURE - SCI DUBOIS SIMONNEAU  BEAUNE",
+        "points": 4
+      },
+      "nearby": {
+        "count": 5,
+        "within": 700,
+        "bestKw": 44,
+        "bestKwLabel": "44 kW",
+        "nearestM": 276,
+        "list": [
+          {
+            "name": "SPORT ET NATURE - SCI DUBOIS SIMONNEAU  BEAUNE",
+            "distance": 276,
+            "kw": 7,
+            "kwLabel": "7 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 276,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Residence Les Primeveres - Beaune",
+            "distance": 370,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 370,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "MONTCHAPET AUTOMOBILES BEAUNE",
+            "distance": 390,
+            "kw": 44,
+            "kwLabel": "44 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": false
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "DOMITYS - Les Demoiselles à Beaune, restaurant sur place, bar, piscine intérieure. Note des voyageurs 8,6/10.",
+        "en": "DOMITYS - Les Demoiselles in Beaune, restaurant on site, bar, indoor pool. Guest rating 8.6/10."
+      },
+      "charge": {
+        "fr": "Recharge déclarée par l'hôtel, caractéristiques non publiées.",
+        "en": "Charging declared by the hotel, specifications not published."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "novotel-beaune",
+    "name": "Novotel Beaune",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.007496849238734,
+    "lng": 4.849090576171875,
+    "address": "25 avenue Charles de Gaulle , 21200 Beaune, France",
+    "stars": 4,
+    "rating": 8.3,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 223,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/novotel-beaune.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/748786497.jpg?k=98f8e423e1cb26e98c5ffcaabb5e39fc07dd5e8ed8bf3e2af005ad8b71e2483b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/871566495.jpg?k=d50fd701079346d2c3c6587f748044cf5e78a695218002ac3f2cf4890a661ad8&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/871566493.jpg?k=cef31126eb8bb7841d69aa13845b5a3c63efbb82adcf0e4569315af0d5c37866&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/871566490.jpg?k=f374b947ca0ecd1cd010fe431f817bef3bbbc32acfade49f2ebdab5fa7197e09&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/846206893.jpg?k=26465c57353f627463e9ab4a1d7fff276e066ce30e7f4ec3d93135e3b0aeca54&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/748786549.jpg?k=c6f05c3b3d7b9e8ef819087984fd5d9f48c08c3b15735b0872cada343fde1bb0&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/748786497.jpg?k=98f8e423e1cb26e98c5ffcaabb5e39fc07dd5e8ed8bf3e2af005ad8b71e2483b&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Restaurant",
+      "Private bathroom",
+      "Air conditioning",
+      "Pets allowed",
+      "Free WiFi",
+      "Fitness centre",
+      "Family rooms",
+      "Free parking",
+      "Flat-screen TV",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Electric kettle",
+      "Socket near the bed",
+      "Sofa bed",
+      "Bike tours",
+      "Walking tours",
+      "Hiking",
+      "Table tennis",
+      "Sofa",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Snack bar",
+      "Breakfast in the room",
+      "Bar",
+      "Minibar",
+      "Restaurant",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Invoice provided",
+      "Concierge service",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Family rooms",
+      "Kids' meals",
+      "Kids' outdoor play equipment",
+      "Indoor play area",
+      "Games room",
+      "Daily housekeeping",
+      "Ironing service",
+      "Dry cleaning",
+      "Laundry",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproofing",
+      "Laptop safe",
+      "Carpeted",
+      "Soundproof rooms",
+      "Lift",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Room service",
+      "Emergency cord in bathroom",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Sun loungers or beach chairs",
+      "Fitness",
+      "Sun umbrellas",
+      "Sun loungers or beach chairs",
+      "Fitness centre"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "confirmed",
+      "score": 90,
+      "matchMethod": "distance+marque+booking",
+      "matchReasons": [
+        "borne à 17 m",
+        "la borne porte la marque « novotel »",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRGSPP89241520",
+        "dataSource": "irve",
+        "address": "16 rue du Moulin Noize",
+        "updated": "2026-08-29",
+        "distance": 17,
+        "kw": 22.1,
+        "kwLabel": "22,1 kW",
+        "dc": false,
+        "sockets": [
+          "type2",
+          "typee"
+        ],
+        "socketLabels": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 5,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "Greenspot",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 197,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile France/LLHYP2D9MOFJAJ",
+        "points": 4
+      },
+      "nearby": {
+        "count": 10,
+        "within": 700,
+        "bestKw": 300,
+        "bestKwLabel": "300 kW",
+        "nearestM": 197,
+        "list": [
+          {
+            "name": "Freshmile France/LLHYP2D9MOFJAJ",
+            "distance": 197,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLWHSWLNRRBE92",
+            "distance": 235,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Electra Beaune - Greet Hotel",
+            "distance": 307,
+            "kw": 300,
+            "kwLabel": "300 kW",
+            "sockets": [
+              "CHAdeMO",
+              "CCS2",
+              "Type 2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune - Greet Hotel",
+            "distance": 307,
+            "kw": 300,
+            "kwLabel": "300 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Electra Beaune - Greet Hotel",
+            "distance": 318,
+            "kw": 225,
+            "kwLabel": "225 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLIA2BS71158VL",
+            "distance": 543,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Novotel Beaune, 4 étoiles à Beaune, restaurant sur place, bar, salle de sport. Note des voyageurs 8,3/10.",
+        "en": "Novotel Beaune, 4-star in Beaune, restaurant on site, bar, gym. Guest rating 8.3/10."
+      },
+      "charge": {
+        "fr": "Borne de 22,1 kW sur place en Type 2 et Prise E, 5 points de charge.",
+        "en": "A 22,1 kW on site with Type 2 and Prise E, 5 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "greet-hotel-beaune",
+    "name": "greet Hotel Beaune",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.0092965602948,
+    "lng": 4.851252436637878,
+    "address": "58 Route De Verdun / Angle Rocade Est, 21200 Beaune, France",
+    "stars": 3,
+    "rating": 8.3,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 111,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/comfort-beaune-congres.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875704416.jpg?k=d478af77a81ef841df722380f70d78acc927e441718dbee0ea9a9e5e89128c42&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/764140316.jpg?k=dd31d688911b6516b685d554e41896e9bbbb9179e302a6201b310a77b94c0994&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/764140312.jpg?k=3441bb7a8ae1053a60cf4be939d4f321b7d7e1148ba4665c23882c288987267a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/764140314.jpg?k=5e75ff69341b99e9e724aa2f3c3fc5df2498d86e3f86d8c4358ef7d945054c58&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/776029641.jpg?k=2a99dc9f8072c603a82549d4d7d22ce407f7ea75900bd59c257d1c41e53c97fa&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/776029664.jpg?k=7d68859b65d11d2296a66202d7d0007647eed7db13ad7ca53b99211aeb36d3f5&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875704416.jpg?k=d478af77a81ef841df722380f70d78acc927e441718dbee0ea9a9e5e89128c42&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Free parking",
+      "Room service",
+      "Facilities for disabled guests",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Garden view",
+      "Picnic area",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Electric kettle",
+      "Socket near the bed",
+      "Clothes rack",
+      "Bicycle rental",
+      "Live sport events (broadcast)",
+      "Badminton equipment",
+      "Evening entertainment",
+      "Bowling",
+      "Table tennis",
+      "Children's playground",
+      "Games room",
+      "Golf course (within 3 km)",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Kids' meals",
+      "Special diet menus (on request)",
+      "Snack bar",
+      "Bar",
+      "Restaurant",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Invoice provided",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Child safety socket covers",
+      "Babysitting/child services",
+      "Kids' outdoor play equipment",
+      "Board games/puzzles",
+      "Books, DVDs, or music for children",
+      "Board games/puzzles",
+      "Daily housekeeping",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Pet bowls",
+      "Shared lounge/TV area",
+      "Hypoallergenic",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Allergy-free room",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Soundproof rooms",
+      "Lift",
+      "Fan",
+      "Family rooms",
+      "Ironing facilities",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Room service",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Pool/beach towels",
+      "Sun loungers or beach chairs"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "confirmed",
+      "score": 130,
+      "matchMethod": "marque+adresse+booking",
+      "matchReasons": [
+        "borne à 51 m",
+        "la borne porte la marque « greet »",
+        "même numéro et même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRELCP12953860",
+        "dataSource": "irve",
+        "address": "58 route de Verdun, 21200 Beaune",
+        "updated": "2026-08-28",
+        "distance": 51,
+        "kw": 300,
+        "kwLabel": "300 kW",
+        "dc": true,
+        "sockets": [
+          "chademo",
+          "ccs2",
+          "type2"
+        ],
+        "socketLabels": [
+          "CHAdeMO",
+          "CCS2",
+          "Type 2"
+        ],
+        "points": 8,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "Electra",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 51,
+        "kw": 300,
+        "kwLabel": "300 kW",
+        "sockets": [
+          "CCS2"
+        ],
+        "name": "Beaune - Greet Hotel",
+        "points": 8
+      },
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 300,
+        "bestKwLabel": "300 kW",
+        "nearestM": 51,
+        "list": [
+          {
+            "name": "Beaune - Greet Hotel",
+            "distance": 51,
+            "kw": 300,
+            "kwLabel": "300 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Electra Beaune - Greet Hotel",
+            "distance": 60,
+            "kw": 225,
+            "kwLabel": "225 kW",
+            "sockets": [
+              "CCS2"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLWHSWLNRRBE92",
+            "distance": 234,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Novotel Beaune",
+            "distance": 272,
+            "kw": 22.1,
+            "kwLabel": "22,1 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 5,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLHYP2D9MOFJAJ",
+            "distance": 320,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLIA2BS71158VL",
+            "distance": 615,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "greet Hotel Beaune, 3 étoiles à Beaune, restaurant sur place, bar, jardin. Note des voyageurs 8,3/10.",
+        "en": "greet Hotel Beaune, 3-star in Beaune, restaurant on site, bar, garden. Guest rating 8.3/10."
+      },
+      "charge": {
+        "fr": "Borne de 300 kW sur place en CHAdeMO et CCS2 et Type 2, 8 points de charge.",
+        "en": "A 300 kW on site with CHAdeMO and CCS2 and Type 2, 8 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "mercure-beaune-centre",
+    "name": "Mercure Beaune Centre",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.01711289425265,
+    "lng": 4.836596846580505,
+    "address": "Avenue Charles De Gaulle, 21200 Beaune, France",
+    "stars": 4,
+    "rating": 8.3,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 163,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/mercure-beaune-centre.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/763718873.jpg?k=a5d04ade809c0d0aecb6ee0a4907a03542bf4fe1a73bdadfb59f6aaa24445a4a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/911079676.jpg?k=1782dbd16bbe7a152b1db2e2561d348ce6a884610ebc5a29e6e9f228ff59245f&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912486837.jpg?k=82947bb5b393ecf2b4d38bfed0091d0a941234e2c4e2545026ac871bbdc324fe&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912486823.jpg?k=9b5b67ebe89edc5fb9e3a876ce29e37253a55db54295b5289d36e3b9f027125a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/873157854.jpg?k=bb63cc33fe4bbf074b1dd3db3097c90dc49662a4236f5fe8eb4f89a6daa3bd0d&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/880316655.jpg?k=1e066192d7215b59f16583b8d46d7b31dc2b3e86b7311311e7f0733572d6846d&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/763718873.jpg?k=a5d04ade809c0d0aecb6ee0a4907a03542bf4fe1a73bdadfb59f6aaa24445a4a&o=&hp=1",
+    "facilities": [
+      "Toilet paper",
+      "Towels",
+      "Towels/sheets (extra fee)",
+      "Bath or shower",
+      "Private bathroom",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Electric kettle",
+      "Socket near the bed",
+      "Fold-up bed",
+      "Clothes rack",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Radio",
+      "Telephone",
+      "TV",
+      "Wine/champagne",
+      "Kid-friendly buffet",
+      "Kids' meals",
+      "Special diet menus (on request)",
+      "Breakfast in the room",
+      "Bar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Babysitting/child services",
+      "Ironing service",
+      "Fax/photocopying",
+      "Business centre",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Designated smoking area",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Interconnected room(s) available",
+      "Soundproof rooms",
+      "Lift",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Room service",
+      "Entire unit wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Outdoor swimming pool"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "probable",
+      "score": 58,
+      "matchMethod": "voie+booking",
+      "matchReasons": [
+        "borne à 95 m",
+        "même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": {
+        "distance": 95,
+        "kw": 250,
+        "kwLabel": "250 kW",
+        "sockets": [
+          "Type 2",
+          "CCS2"
+        ],
+        "points": 1,
+        "name": "Beaune Centre, France",
+        "score": 58,
+        "reasons": [
+          "borne à 95 m",
+          "même voie",
+          "même code postal",
+          "recharge déclarée par l'hôtel sur Booking"
+        ]
+      },
+      "doorstep": {
+        "distance": 83,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 4,
+        "name": "Freshmile France/KCALTA6R9C"
+      },
+      "onSite": null,
+      "nearestKnown": {
+        "distance": 83,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "Freshmile France/KCALTA6R9C",
+        "points": 4
+      },
+      "nearby": {
+        "count": 11,
+        "within": 700,
+        "bestKw": 250,
+        "bestKwLabel": "250 kW",
+        "nearestM": 83,
+        "list": [
+          {
+            "name": "Freshmile France/KCALTA6R9C",
+            "distance": 83,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune Centre, France",
+            "distance": 95,
+            "kw": 250,
+            "kwLabel": "250 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2"
+            ],
+            "points": 1,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune Supercharger",
+            "distance": 95,
+            "kw": 150,
+            "kwLabel": "150 kW",
+            "sockets": [
+              "CCS2",
+              "Tesla"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE",
+            "distance": 344,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 344,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE",
+            "distance": 505,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Mercure Beaune Centre, 4 étoiles à Beaune, restaurant sur place, bar, piscine extérieure. Note des voyageurs 8,3/10.",
+        "en": "Mercure Beaune Centre, 4-star in Beaune, restaurant on site, bar, outdoor pool. Guest rating 8.3/10."
+      },
+      "charge": {
+        "fr": "Recharge déclarée par l'hôtel, caractéristiques non publiées.",
+        "en": "Charging declared by the hotel, specifications not published."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "kyriad-prestige-beaune-le-panorama",
+    "name": "Kyriad Prestige Beaune le Panorama",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.01575051312542,
+    "lng": 4.8193395137786865,
+    "address": "74 Route De Pommard, 21200 Beaune, France",
+    "stars": 3,
+    "rating": 8.2,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 151,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/panorama.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/398760821.jpg?k=bfeb778aac3e8033051c491a074404060be86021b20c5cf6ac7c541a38da6a73&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/911906710.jpg?k=6bcfb6ef9096f9b2563f464ba9cadf5cb28f41bb79bf14302a75b3165f85581e&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/911906221.jpg?k=e5524203a4cae2b2d94df38338db104ad04730fb2615d78571ebd5b22eb7f00a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/357736346.jpg?k=4881be5382c2772154b21033086382ebf35ed549402c893f51a5e5f1eac0bf74&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/325068263.jpg?k=f7dfbb92f079c18eecbf7f113019d2af84a7934a65bfa992c4db6951e0559270&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/158482529.jpg?k=7a10f4ba97856adeb30e3fd3fd2ebf17389cfbc464e75e41d3a57526ddca46b3&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/398760821.jpg?k=bfeb778aac3e8033051c491a074404060be86021b20c5cf6ac7c541a38da6a73&o=&hp=1",
+    "facilities": [
+      "2 restaurants",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "View",
+      "Free WiFi",
+      "Family rooms",
+      "Free parking",
+      "Non-smoking rooms",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Toilet",
+      "Hairdryer",
+      "Linen",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "Landmark view",
+      "View",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Electric kettle",
+      "Bicycle rental",
+      "Tour or class about local culture",
+      "Happy hour",
+      "Walking tours",
+      "Cycling",
+      "Table tennis",
+      "Billiards",
+      "Golf course (within 3 km)",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Radio",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Special diet menus (on request)",
+      "Snack bar",
+      "Bar",
+      "Minibar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Invoice provided",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Family rooms",
+      "Kids' meals",
+      "Children's high chair",
+      "Kids' outdoor play equipment",
+      "Indoor play area",
+      "Children's playground",
+      "Games room",
+      "Daily housekeeping",
+      "Fax/photocopying",
+      "Meeting/banquet facilities",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Safety deposit box",
+      "Shared lounge/TV area",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Wake-up service",
+      "Heating",
+      "Soundproofing",
+      "Soundproof rooms",
+      "Non-smoking rooms",
+      "Wake up service/Alarm clock",
+      "Upper floors accessible by stairs only",
+      "Sun loungers or beach chairs",
+      "Fitness",
+      "Sun loungers or beach chairs"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "confirmed",
+      "score": 130,
+      "matchMethod": "nom+adresse+booking",
+      "matchReasons": [
+        "borne à 70 m",
+        "la borne porte le nom de l'hôtel",
+        "même numéro et même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRETIP21054E",
+        "dataSource": "irve",
+        "address": "74 Rte de Pommard, 21200 Beaune",
+        "updated": "2026-08-19",
+        "distance": 70,
+        "kw": 180,
+        "kwLabel": "180 kW",
+        "dc": true,
+        "sockets": [
+          "type2",
+          "typee"
+        ],
+        "socketLabels": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 5,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "E-Totem",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 143,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "e-Totem - Panorama Beaune e-Smart",
+        "points": 6
+      },
+      "nearby": {
+        "count": 6,
+        "within": 700,
+        "bestKw": 320,
+        "bestKwLabel": "320 kW",
+        "nearestM": 134,
+        "list": [
+          {
+            "name": "DRIVECO",
+            "distance": 134,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "Prise E"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "e-Totem - Panorama Beaune e-Smart",
+            "distance": 143,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "BMW - Beaune - powered by DRIVECO",
+            "distance": 144,
+            "kw": 24,
+            "kwLabel": "24 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E",
+              "CCS2"
+            ],
+            "points": 3,
+            "fee": "paid",
+            "open247": false
+          },
+          {
+            "name": "BEAUNE-SUD",
+            "distance": 179,
+            "kw": 320,
+            "kwLabel": "320 kW",
+            "sockets": [
+              "CCS2",
+              "Type 2"
+            ],
+            "points": 7,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/ZBH7CKKHWZ",
+            "distance": 199,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 8,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "e-Totem - Hôtel Les Nomades Beaune",
+            "distance": 246,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Kyriad Prestige Beaune le Panorama, 3 étoiles à Beaune, restaurant sur place, bar, jardin. Note des voyageurs 8,2/10.",
+        "en": "Kyriad Prestige Beaune le Panorama, 3-star in Beaune, restaurant on site, bar, garden. Guest rating 8.2/10."
+      },
+      "charge": {
+        "fr": "Borne de 180 kW sur place en Type 2 et Prise E, 5 points de charge.",
+        "en": "A 180 kW on site with Type 2 and Prise E, 5 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "coto-hotel",
+    "name": "Coto Hotel",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.012355669636904,
+    "lng": 4.8421601242777115,
+    "address": "8 Rue André Marie Ampère, 21200 Beaune, France",
+    "stars": 2,
+    "rating": 8,
+    "ratingLabel": "Very good",
+    "reviews": null,
+    "price": 84,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/coto.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79439866.jpg?k=4ee2a6bf6859dfdb1a74c41bbfe83fffb2b544ea41b71ca32679f19f12e2bda9&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79658226.jpg?k=73c849320ab9f9ad5afc6f83ef96637e16a0fa4eecbe946d7b89d4b54ffeaf4b&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79658183.jpg?k=6c7476ff800d1f8d05ab2b801d912f4f8dd05333679db7bdea8d353b82e29056&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79658094.jpg?k=92efa1f0bdb49af9cae6282282acd908083a49435bbf4aecb0afe8d4bdd71751&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/354745639.jpg?k=a881fb3e1ab5803a97d3f5299bd1718599668b09d2dead448b2074f91d89432c&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79439863.jpg?k=81e71ce071144a55c7d598d50cc2b09cd60062fc49c4df4308b85e216eacea1e&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/79439866.jpg?k=4ee2a6bf6859dfdb1a74c41bbfe83fffb2b544ea41b71ca32679f19f12e2bda9&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Free parking",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Linen",
+      "Wardrobe or closet",
+      "Dressing room",
+      "Garden view",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Socket near the bed",
+      "Clothes rack",
+      "Desk",
+      "Flat-screen TV",
+      "Radio",
+      "TV",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Daily housekeeping",
+      "Shared lounge/TV area",
+      "Vending machine (snacks)",
+      "Vending machine (drinks)",
+      "Private check-in/check-out",
+      "Luggage storage",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproofing",
+      "Carpeted",
+      "Soundproof rooms",
+      "Family rooms",
+      "Ironing facilities",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Iron",
+      "Entire unit located on ground floor"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "probable",
+      "score": 65,
+      "matchMethod": "voie+booking",
+      "matchReasons": [
+        "borne à 46 m",
+        "même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": {
+        "distance": 46,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "points": 12,
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+        "score": 65,
+        "reasons": [
+          "borne à 46 m",
+          "même voie",
+          "même code postal",
+          "recharge déclarée par l'hôtel sur Booking"
+        ]
+      },
+      "doorstep": {
+        "distance": 46,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "points": 12,
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES"
+      },
+      "onSite": null,
+      "nearestKnown": {
+        "distance": 46,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+        "points": 12
+      },
+      "nearby": {
+        "count": 11,
+        "within": 700,
+        "bestKw": 250,
+        "bestKwLabel": "250 kW",
+        "nearestM": 46,
+        "list": [
+          {
+            "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+            "distance": 46,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 2",
+            "distance": 110,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLWHSWLNRRBE92",
+            "distance": 555,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLHYP2D9MOFJAJ",
+            "distance": 557,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 586,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 586,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Coto Hotel, 2 étoiles à Beaune, jardin, terrasse, wifi gratuit. Note des voyageurs 8/10.",
+        "en": "Coto Hotel, 2-star in Beaune, garden, terrace, free WiFi. Guest rating 8/10."
+      },
+      "charge": {
+        "fr": "Recharge déclarée par l'hôtel, caractéristiques non publiées.",
+        "en": "Charging declared by the hotel, specifications not published."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "ibis-beaune-la-ferme-aux-vins",
+    "name": "ibis Beaune La Ferme Aux Vins",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.01142175075339,
+    "lng": 4.843516945838928,
+    "address": "rue Yves-Bertrand Burgalat, 21200 Beaune, France",
+    "stars": 3,
+    "rating": 7.9,
+    "ratingLabel": "Good",
+    "reviews": null,
+    "price": 154,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/ibis-la-ferme-aux-vins.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/772929741.jpg?k=e4df1f7b6dfab6b93e2a7bfc818aa1c2000e16f64452e382555d5dce79f4aa78&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/903177774.jpg?k=678b1e1f094ca7d26bb4ea7cac368512a995d6a493cd601d1a2a4052bdd58ae6&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/874608640.jpg?k=6c4b900765f768f20b6a33fa5913c47951e71de3d875ea82cb6ed23f09cd9a01&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912481979.jpg?k=6eef6289524b33c8256eda64a6f27368ba25992ce8c0710753492f18b4ee3974&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/779352114.jpg?k=f2c51e8e8179a9dfc8f647af7530e964a7806824b67dc1fca9d03270ca860309&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/876051922.jpg?k=a4e47856458afdd96af1ea2dd68b018fed7f6f8f28cfc43196d322b57be4fc4b&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/772929741.jpg?k=e4df1f7b6dfab6b93e2a7bfc818aa1c2000e16f64452e382555d5dce79f4aa78&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Free parking",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Toilet paper",
+      "Towels",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Shower",
+      "Wardrobe or closet",
+      "Alarm clock",
+      "Outdoor furniture",
+      "Sun terrace",
+      "Terrace",
+      "Socket near the bed",
+      "Desk",
+      "Flat-screen TV",
+      "Satellite channels",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Kids' meals",
+      "Special diet menus (on request)",
+      "Bar",
+      "Restaurant",
+      "Internet services",
+      "Street parking",
+      "Wake-up service",
+      "Fax/photocopying",
+      "Express check-in/check-out",
+      "Wake up service/Alarm clock",
+      "24-hour front desk",
+      "Meeting/banquet facilities",
+      "Invoice provided",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "24-hour security",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Hardwood or parquet floors",
+      "Heating",
+      "Soundproofing",
+      "Soundproof rooms",
+      "Lift",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Emergency cord in bathroom",
+      "Lower bathroom sink",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Upper floors accessible by elevator",
+      "Entire unit located on ground floor",
+      "Sun loungers or beach chairs",
+      "Sun loungers or beach chairs"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "score": null,
+      "matchMethod": null,
+      "matchReasons": [],
+      "maybe": null,
+      "doorstep": {
+        "distance": 110,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "points": 12,
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES"
+      },
+      "onSite": null,
+      "nearestKnown": {
+        "distance": 110,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+        "points": 12
+      },
+      "nearby": {
+        "count": 12,
+        "within": 700,
+        "bestKw": 300,
+        "bestKwLabel": "300 kW",
+        "nearestM": 110,
+        "list": [
+          {
+            "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+            "distance": 110,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 2",
+            "distance": 220,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLHYP2D9MOFJAJ",
+            "distance": 411,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLWHSWLNRRBE92",
+            "distance": 412,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 2,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 524,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 524,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "ibis Beaune La Ferme Aux Vins, 3 étoiles à Beaune, restaurant sur place, bar, terrasse. Note des voyageurs 7,9/10.",
+        "en": "ibis Beaune La Ferme Aux Vins, 3-star in Beaune, restaurant on site, bar, terrace. Guest rating 7.9/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "campanile-beaune",
+    "name": "Campanile Beaune",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 46.998804708160506,
+    "lng": 4.853188991546631,
+    "address": "route de Montagny Les Beaune, 21200 Beaune, France",
+    "stars": 3,
+    "rating": 7.8,
+    "ratingLabel": "Good",
+    "reviews": null,
+    "price": 120,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/campanile-beaune.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208429681.jpg?k=03c740743c7727a7e6c44378c274fcc9a830b1485e18362175182ba533c5222a&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208435193.jpg?k=6aef28a4addc5a21995155cca4fe7918cfa08dce1c4fed9220da7563544623e8&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208435877.jpg?k=8bff774039ff2fba36641166c9c63468716f344ca4cb8a25fd57edbb0e6210dc&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/400979244.jpg?k=a5b67d88bbc5c5be51b01a341b18993b29fbb69de0c770ac1c2c3a731804a9d2&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208437330.jpg?k=1e59d5cb6796bfd31aff10ffaa7290aebcf80686546fe605d54f15f59f76516c&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208434324.jpg?k=3ca9fc26eadf51ad1b46e17f8b1648cf3c2357c5b6b1a36a81394fb573f076a0&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208429681.jpg?k=03c740743c7727a7e6c44378c274fcc9a830b1485e18362175182ba533c5222a&o=&hp=1",
+    "facilities": [
+      "Restaurant",
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Free parking",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Toilet paper",
+      "Bath or shower",
+      "Toilet",
+      "Free toiletries",
+      "Hairdryer",
+      "Wardrobe or closet",
+      "Sun terrace",
+      "Terrace",
+      "Garden",
+      "Electric kettle",
+      "Socket near the bed",
+      "Live sport events (broadcast)",
+      "Badminton equipment",
+      "Golf course (within 3 km)",
+      "Desk",
+      "Streaming service (like Netflix)",
+      "Flat-screen TV",
+      "Cable channels",
+      "Satellite channels",
+      "Telephone",
+      "TV",
+      "Coffee house on site",
+      "Fruits",
+      "Wine/champagne",
+      "Kids' meals",
+      "Bar",
+      "Restaurant",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Parking garage",
+      "Pet bowls",
+      "Shared lounge/TV area",
+      "Luggage storage",
+      "Fax/photocopying",
+      "Business centre",
+      "Wake up service/Alarm clock",
+      "24-hour front desk",
+      "Board games/puzzles",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Smoke alarms",
+      "Security alarm",
+      "Key card access",
+      "Key access",
+      "24-hour security",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Visual aids: Tactile signs",
+      "Raised toilet",
+      "Toilet with grab rails",
+      "Wheelchair accessible",
+      "Sun loungers or beach chairs",
+      "Sun loungers or beach chairs"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "confirmed",
+      "score": 90,
+      "matchMethod": "marque+voie",
+      "matchReasons": [
+        "borne à 44 m",
+        "la borne porte la marque « campanile »",
+        "même voie",
+        "même code postal"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRETIP21054B",
+        "dataSource": "irve",
+        "address": "Route de Montagny les Beaune, 21200 Beaune",
+        "updated": "2026-08-24",
+        "distance": 44,
+        "kw": 150,
+        "kwLabel": "150 kW",
+        "dc": true,
+        "sockets": [
+          "ccs2",
+          "type2",
+          "typee"
+        ],
+        "socketLabels": [
+          "CCS2",
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 5,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "E-Totem",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 176,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "e-Totem - Première Classe Beaune",
+        "points": 6
+      },
+      "nearby": {
+        "count": 5,
+        "within": 700,
+        "bestKw": 150,
+        "bestKwLabel": "150 kW",
+        "nearestM": 50,
+        "list": [
+          {
+            "name": "e-Totem",
+            "distance": 50,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "CCS2",
+              "Prise E"
+            ],
+            "points": null,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "e-Totem - Première Classe Beaune",
+            "distance": 176,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 6,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "e-Totem",
+            "distance": 177,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": null,
+            "fee": null,
+            "open247": true
+          },
+          {
+            "name": "IZIVIA FAST - McDonald's - Beaune Levernois",
+            "distance": 360,
+            "kw": 150,
+            "kwLabel": "150 kW",
+            "sockets": [
+              "CCS2",
+              "Type 2"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/LLIA2BS71158VL",
+            "distance": 605,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Campanile Beaune, 3 étoiles à Beaune, restaurant sur place, bar, jardin. Note des voyageurs 7,8/10.",
+        "en": "Campanile Beaune, 3-star in Beaune, restaurant on site, bar, garden. Guest rating 7.8/10."
+      },
+      "charge": {
+        "fr": "Borne de 150 kW sur place en CCS2 et Type 2 et Prise E, 5 points de charge.",
+        "en": "A 150 kW on site with CCS2 and Type 2 and Prise E, 5 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
+  },
+  {
+    "slug": "best-western-plus-au-grand-saint-jean",
+    "name": "Best Western Plus Au Grand Saint Jean",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.02119617200806,
+    "lng": 4.841293394565582,
+    "address": "18 Rue Du Faubourg Madeleine, 21200 Beaune, France",
+    "stars": 4,
+    "rating": 7.7,
+    "ratingLabel": "Good",
+    "reviews": null,
+    "price": 169,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/au-grand-saint-jean.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674475188.jpg?k=3ed1190cae4a8b8241b3bfbf51296c474230c6f7be431e426dd6076119bed365&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674475205.jpg?k=507b3e65fea8933d65e6a68b01428f51948e4b7ccffa0657756d72b7958c34fa&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674470294.jpg?k=0f0f463193565a67f7e2c52bee86de6724fcc60faf4217fe9d944603feb22c1f&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/568255589.jpg?k=838aa9aaff1708e62d32b7fef786024fb4c5f9cfb65fa2bf6f926ae51a176022&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674470249.jpg?k=341320d89a81600e5ba7e00ff866fcaa23a7e90b9632c5436151836e507de7a3&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674468719.jpg?k=7e7f155c12b372a364bc4865d051a2efba51d521903e098930dff1891bb954f7&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/674475188.jpg?k=3ed1190cae4a8b8241b3bfbf51296c474230c6f7be431e426dd6076119bed365&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Pets allowed",
+      "Air conditioning",
+      "Free WiFi",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Private parking",
+      "Luggage storage",
+      "Cable channels",
+      "Bathrobe",
+      "Hairdryer",
+      "Desk",
+      "Cable channels",
+      "Telephone",
+      "Tea/Coffee maker",
+      "Internet services",
+      "Accessible parking",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "24-hour front desk",
+      "Invoice provided",
+      "Board games/puzzles",
+      "Fire extinguishers",
+      "Smoke alarms",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Interconnected room(s) available",
+      "Family rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms"
+    ],
+    "charging": {
+      "declaredOnBooking": false,
+      "confidence": "doorstep",
+      "score": null,
+      "matchMethod": null,
+      "matchReasons": [],
+      "maybe": null,
+      "doorstep": {
+        "distance": 117,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "points": 4,
+        "name": "DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE"
+      },
+      "onSite": null,
+      "nearestKnown": {
+        "distance": 117,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2",
+          "Prise E"
+        ],
+        "name": "DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE",
+        "points": 4
+      },
+      "nearby": {
+        "count": 11,
+        "within": 700,
+        "bestKw": 250,
+        "bestKwLabel": "250 kW",
+        "nearestM": 117,
+        "list": [
+          {
+            "name": "DESFOSSEY - ACCOR - IBIS STYLES BEAUNE CENTRE",
+            "distance": 117,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "TotalEnergies",
+            "distance": 117,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune Centre, France",
+            "distance": 498,
+            "kw": 250,
+            "kwLabel": "250 kW",
+            "sockets": [
+              "Type 2",
+              "CCS2"
+            ],
+            "points": 1,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune Supercharger",
+            "distance": 500,
+            "kw": 150,
+            "kwLabel": "150 kW",
+            "sockets": [
+              "CCS2",
+              "Tesla"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Freshmile France/KCALTA6R9C",
+            "distance": 509,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "DESFOSSEY - ACCOR - IBIS RED BEAUNE CENTRE",
+            "distance": 522,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "Best Western Plus Au Grand Saint Jean, 4 étoiles à Beaune, parking privé, wifi gratuit, chambres familiales. Note des voyageurs 7,7/10.",
+        "en": "Best Western Plus Au Grand Saint Jean, 4-star in Beaune, private parking, free WiFi, family rooms. Guest rating 7.7/10."
+      },
+      "charge": {
+        "fr": "",
+        "en": ""
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "booking"
+    }
+  },
+  {
+    "slug": "b-b-hotel-beaune-sud-2",
+    "name": "B&B HOTEL Beaune Sud 2",
+    "citySlug": "beaune",
+    "city": "Beaune",
+    "cityEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "lat": 47.01229538238878,
+    "lng": 4.840889106071927,
+    "address": "4 bis Rue Yves Bertrand Burgalat, 21200 Beaune, France",
+    "stars": 2,
+    "rating": 7.5,
+    "ratingLabel": "Good",
+    "reviews": null,
+    "price": 115,
+    "currency": "€",
+    "bookingUrl": "https://www.booking.com/hotel/fr/b-amp-b-beaune-sud.en-gb.html",
+    "images": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874850.jpg?k=3fab58e47253573500e19f707bbacc77e0e8b576223d0a3f71d8a4e971497427&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874851.jpg?k=df0728a5345fca83967ee4a99dae734a9aad03d19c1f5ea775dfcd3ec4c99a27&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874860.jpg?k=b450336fdb79855d1333f096514115a106c4727b2273edcc89646d5e5d9fe55c&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874859.jpg?k=04c054543e4fdb866c82d54601558ded387de08f3c4ac049f954409c042a1a91&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874852.jpg?k=be5c4e9676405b9ec903c0fa9d0fb21eddd95de3b38a424bd406fb4682ef1ad1&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881790867.jpg?k=e3a05025c6a45057bfad0925f6f1f3434a37937f991de6ac2cd9be1897420812&o=&hp=1"
+    ],
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874850.jpg?k=3fab58e47253573500e19f707bbacc77e0e8b576223d0a3f71d8a4e971497427&o=&hp=1",
+    "facilities": [
+      "Parking",
+      "Pets allowed",
+      "Private bathroom",
+      "Air conditioning",
+      "Free WiFi",
+      "Free parking",
+      "Facilities for disabled guests",
+      "Non-smoking rooms",
+      "Flat-screen TV",
+      "Shower",
+      "Toilet paper",
+      "Towels",
+      "Private bathroom",
+      "Toilet",
+      "Shower",
+      "Wardrobe or closet",
+      "Desk",
+      "Flat-screen TV",
+      "Cable channels",
+      "TV",
+      "Internet services",
+      "Electric vehicle charging station",
+      "Vending machine (snacks)",
+      "Vending machine (drinks)",
+      "Fire extinguishers",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "Air conditioning",
+      "Non-smoking throughout",
+      "Heating",
+      "Soundproofing",
+      "Soundproof rooms",
+      "Facilities for disabled guests",
+      "Non-smoking rooms"
+    ],
+    "charging": {
+      "declaredOnBooking": true,
+      "confidence": "confirmed",
+      "score": 115,
+      "matchMethod": "distance+marque+voie+booking",
+      "matchReasons": [
+        "borne à 27 m",
+        "la borne porte la marque « b&b hotel »",
+        "même voie",
+        "même code postal",
+        "recharge déclarée par l'hôtel sur Booking"
+      ],
+      "maybe": null,
+      "doorstep": null,
+      "onSite": {
+        "osmId": "irve/FRVIAP122005",
+        "dataSource": "irve",
+        "address": "Rue Yves-Bertrand Burgalat, 21200 Beaune",
+        "updated": "2026-06-15",
+        "distance": 27,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "dc": false,
+        "sockets": [
+          "type2"
+        ],
+        "socketLabels": [
+          "Type 2"
+        ],
+        "points": 12,
+        "fee": "paid",
+        "open247": true,
+        "reservation": null,
+        "amperage": null,
+        "voltage": null,
+        "operator": "ENGIE Vianeo",
+        "access": "yes"
+      },
+      "nearestKnown": {
+        "distance": 142,
+        "kw": 22,
+        "kwLabel": "22 kW",
+        "sockets": [
+          "Type 2"
+        ],
+        "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+        "points": 12
+      },
+      "nearby": {
+        "count": 10,
+        "within": 700,
+        "bestKw": 250,
+        "bestKwLabel": "250 kW",
+        "nearestM": 142,
+        "list": [
+          {
+            "name": "ENGIE Vianeo - B&B HOTEL BEAUNE SUD 1 PAL CONGRES",
+            "distance": 142,
+            "kw": 22,
+            "kwLabel": "22 kW",
+            "sockets": [
+              "Type 2"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 565,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 565,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 565,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Centre logistique",
+            "distance": 565,
+            "kw": null,
+            "kwLabel": null,
+            "sockets": [
+              "Type 2",
+              "Prise E"
+            ],
+            "points": 4,
+            "fee": "paid",
+            "open247": true
+          },
+          {
+            "name": "Beaune Supercharger",
+            "distance": 613,
+            "kw": 150,
+            "kwLabel": "150 kW",
+            "sockets": [
+              "CCS2",
+              "Tesla"
+            ],
+            "points": 12,
+            "fee": "paid",
+            "open247": true
+          }
+        ]
+      }
+    },
+    "copy": {
+      "envie": {
+        "fr": "B&B HOTEL Beaune Sud 2, 2 étoiles à Beaune, wifi gratuit, animaux acceptés, chambres non-fumeurs. Note des voyageurs 7,5/10.",
+        "en": "B&B HOTEL Beaune Sud 2, 2-star in Beaune, free WiFi, pets allowed, non-smoking rooms. Guest rating 7.5/10."
+      },
+      "charge": {
+        "fr": "Borne de 22 kW sur place en Type 2, 12 points de charge.",
+        "en": "A 22 kW on site with Type 2, 12 charging points."
+      }
+    },
+    "source": {
+      "hotel": "booking",
+      "charging": "osm"
+    }
   }
 ]

@@ -94,5 +94,29 @@
     "chargersKwKnown": 123,
     "medianPrice": 166,
     "scrapedAt": "2026-08-30T18:22:24.986Z"
+  },
+  {
+    "slug": "beaune",
+    "name": "Beaune",
+    "nameEn": "Beaune",
+    "country": "France",
+    "countryEn": "France",
+    "countryCode": "fr",
+    "lat": 47.0245,
+    "lng": 4.8397,
+    "radiusM": 9000,
+    "corridor": null,
+    "corridorKm": 0,
+    "bookingSearch": "Beaune",
+    "hotelCount": 11,
+    "declaredCount": 8,
+    "onSiteCount": 6,
+    "doorstepCount": 2,
+    "bestKw": 300,
+    "chargersInCity": 89,
+    "chargersDc": 24,
+    "chargersKwKnown": 66,
+    "medianPrice": 151,
+    "scrapedAt": "2026-08-30T18:28:48.333Z"
   }
 ]
