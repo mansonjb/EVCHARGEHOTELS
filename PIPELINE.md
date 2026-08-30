@@ -46,6 +46,24 @@ node scripts/build-dataset.mjs
 - Overpass exige un `User-Agent` explicite (sinon 406) et limite fortement le débit (429) : le script attend douze secondes entre deux villes et réessaie avec une pente de quinze secondes.
 - Environ **un hôtel sur trente** déclare la recharge sur Booking dans une recherche généraliste. C'est pour cela qu'on scrape 60 hôtels par ville et qu'on complète avec OSM.
 
+## État de l'API Open Charge Map
+
+La clé est configurée dans `.env.local` (`OCM_API_KEY`). Au 30/08/2026 l'API
+répond en **524 Cloudflare** (l'origine d'OCM ne répond plus) pour toute
+requête dépassant quelques dizaines de résultats, aussi bien depuis le shell
+que depuis un navigateur. Le script encaisse la panne : quatre tentatives,
+temporisation de 180 s, et il s'arrête sans casser la jointure. À relancer
+quand leur API est rétablie :
+
+```bash
+node --env-file=.env.local scripts/fetch-chargers-ocm.mjs && node scripts/build-dataset.mjs
+```
+
+`build-dataset.mjs` fusionne automatiquement `data/raw/ocm-<slug>.json` avec les
+bornes OSM dès que les fichiers existent. C'est OCM qui apportera l'ampérage,
+la tension et le type d'usage (« Private - for staff, visitors or customers »),
+qui manquent presque partout dans OSM.
+
 ## Licences et mentions
 
 - Bornes : © contributeurs OpenStreetMap, ODbL. La mention est affichée sur les pages ville et les fiches. On publie des résultats produits, jamais un dump de la base.
