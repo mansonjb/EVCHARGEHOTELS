@@ -278,6 +278,15 @@ function copyFor(hotel, dest, charging, facs) {
 }
 
 async function main() {
+  // Relevé national : sert à mesurer, ville par ville, ce que la base IRVE
+  // recense et que le scrape Booking n'a pas ramené.
+  let national = [];
+  try {
+    national = JSON.parse(await readFile(path.join(ROOT, "data", "france-hotels.json"), "utf8")).hotels;
+  } catch {
+    /* le dataset national est optionnel */
+  }
+
   const { destinations } = JSON.parse(
     await readFile(path.join(ROOT, "data", "destinations.json"), "utf8"),
   );
@@ -365,8 +374,11 @@ async function main() {
     const dcCity = chargers.filter((c) => c.dc).length;
     const kwKnown = chargers.filter((c) => c.maxKw != null);
 
+    const irveHotels = national.filter((h) => haversine(d, h) <= d.radiusM).length;
+
     cities.push({
       ...d,
+      irveHotels,
       hotelCount: kept.length,
       declaredCount: kept.filter((h) => h.charging.declaredOnBooking).length,
       onSiteCount: withOnSite.length,

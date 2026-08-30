@@ -116,6 +116,39 @@ export default async function CityPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <ListView city={c} hotels={list} lang={lang} />
 
+      {c.irveHotels > 0 && (
+        <div style={{ borderTop: "1px solid #EBEBF2", background: "#F1F9F5" }}>
+          <div
+            style={{
+              maxWidth: 1180,
+              margin: "0 auto",
+              padding: "22px 26px",
+              display: "flex",
+              gap: 18,
+              flexWrap: "wrap",
+              alignItems: "baseline",
+            }}
+          >
+            <span className="tnum" style={{ fontWeight: 800, fontSize: 26, letterSpacing: "-0.03em", color: "#0A5C4D" }}>
+              {c.irveHotels}
+            </span>
+            <span style={{ fontSize: 15, lineHeight: 1.55, color: "#0A5C4D", maxWidth: "70ch" }}>
+              {fr
+                ? `hôtels équipés recensés dans ce rayon par la base nationale IRVE. Nous en publions ${list.length} avec une fiche complète ; les autres figurent sur la carte nationale.`
+                : `equipped hotels recorded within this radius by the national IRVE database. We publish ${list.length} with a full page here; the others appear on the national map.`}
+            </span>
+            <span style={{ flex: 1 }} />
+            <Link
+              href={`/${lang}/france`}
+              className="tnum"
+              style={{ fontWeight: 700, fontSize: 13, color: "#0E7C68", whiteSpace: "nowrap" }}
+            >
+              {fr ? "Voir la carte de France" : "See the France map"}
+            </Link>
+          </div>
+        </div>
+      )}
+
       <div style={{ borderTop: "1px solid #EBEBF2", background: "#FFFFFF" }}>
         <div
           className="ps-faq"
