@@ -50,10 +50,12 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
     return kw >= minKw;
   });
 
-  // Les hôtels sans borne propre sont listés à part, comme dans la maquette :
-  // une borne publique devant la porte n'est pas une borne d'hôtel.
-  const list = all.filter((h) => h.charging.confidence !== "doorstep");
-  const doorstep = all.filter((h) => h.charging.confidence === "doorstep");
+  // Une fiche sans puissance chiffrée ne sert à rien : elle passe en second
+  // rideau, avec la raison. La sélection ne garde que ce qui est mesuré.
+  const hasPower = (h: Hotel) =>
+    Boolean(h.charging.onSite?.kwLabel || h.charging.maybe?.kwLabel || h.charging.doorstep?.kwLabel);
+  const list = all.filter(hasPower);
+  const doorstep = all.filter((h) => !hasPower(h));
 
   const count =
     lang === "fr"
@@ -142,8 +144,8 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
             <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
               <h2 style={{ margin: 0, fontWeight: 700, fontSize: 19, letterSpacing: "-0.02em" }}>
                 {lang === "fr"
-                  ? "Sans borne à l'hôtel, mais une borne publique devant"
-                  : "No hotel charger, but a public one at the door"}
+                  ? "Puissance non publiée par les sources"
+                  : "Power not published by the sources"}
               </h2>
               {doorstep.map((h) => (
                 <a
@@ -166,10 +168,10 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
                     {h.name}
                   </span>
                   <span className="tnum" style={{ fontWeight: 600, fontSize: 12, color: "#8B8FA3" }}>
-                    {h.charging.doorstep
+                    {h.charging.nearestKnown
                       ? lang === "fr"
-                        ? `borne publique à ${h.charging.doorstep.distance} m`
-                        : `public charger ${h.charging.doorstep.distance} m away`
+                        ? `borne connue la plus proche : ${h.charging.nearestKnown.kwLabel} à ${h.charging.nearestKnown.distance} m`
+                        : `nearest known charger: ${h.charging.nearestKnown.kwLabel}, ${h.charging.nearestKnown.distance} m`
                       : t.noCharger}
                   </span>
                   {h.price != null && (

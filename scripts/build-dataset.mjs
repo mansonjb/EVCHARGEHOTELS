@@ -12,6 +12,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
+import { matchScore, ON_SITE_SCORE, MAYBE_SCORE } from "../lib/match.mjs";
 
 const ROOT = process.cwd();
 const RAW = path.join(ROOT, "data", "raw");
@@ -88,63 +89,108 @@ function kwLabel(kw) {
  * indice la rattache à l'établissement : l'hôtel l'a déclarée sur Booking, ou
  * l'accès OSM est réservé aux clients, ou le nom de la borne cite l'hôtel.
  */
-function linkedToHotel(charger, hotelName, declared) {
-  if (declared && charger.distance <= ON_SITE_M) return "declared";
-  if (charger.distance <= AT_BUILDING_M) return "distance";
-  const access = (charger.access || "").toLowerCase();
-  if (["customers", "private", "permissive"].includes(access) && charger.distance <= ON_SITE_M)
-    return "access";
-  const label = `${charger.name || ""} ${charger.operator || ""}`.toLowerCase();
-  const words = hotelName
-    .toLowerCase()
-    .split(/[^a-zà-ÿ0-9]+/)
-    .filter((w) => w.length > 4 && !["hotel", "hôtel"].includes(w));
-  if (label && words.some((w) => label.includes(w))) return "name";
-  return null;
-}
-
-function buildCharging(hotel, chargers, declared, hotelName) {
+function buildCharging(hotel, chargers, declared, hotelName, cityName, hotelAddress) {
   const near = chargers
     .map((c) => ({ ...c, distance: haversine(hotel, c) }))
     .filter((c) => c.distance <= NEARBY_M)
     .sort((a, b) => a.distance - b.distance);
 
-  const linked = near
+  // Chaque borne proche est notée : la fiche affiche ensuite le score et ses
+  // raisons, plutôt qu'un « sur place » assené sans justification.
+  const scored = near
     .filter((c) => c.distance <= ON_SITE_M)
-    .map((c) => ({ ...c, link: linkedToHotel(c, hotelName, declared) }))
-    .filter((c) => c.link);
-  // On garde la borne la plus puissante parmi celles rattachées à l'hôtel.
-  const onSite = linked.slice().sort((a, b) => (b.maxKw ?? 0) - (a.maxKw ?? 0))[0] || null;
+    .map((c) => ({ ...c, ...matchScore({ hotelName, hotelAddress, cityName, declared }, c, c.distance) }))
+    .sort((a, b) => b.score - a.score || (b.maxKw ?? 0) - (a.maxKw ?? 0));
+
+  const linked = scored.filter((c) => c.score >= ON_SITE_SCORE);
+  const maybe = scored.filter((c) => c.score >= MAYBE_SCORE && c.score < ON_SITE_SCORE);
+  // On garde d'abord une borne dont la puissance est connue (IRVE et OCM la
+  // donnent presque toujours, OSM rarement), puis la plus puissante.
+  const rank = (c) => (c.maxKw ? 0 : 1) * 10 + (c.source === "irve" ? 0 : c.source === "ocm" ? 1 : 2);
+  let onSite =
+    linked.slice().sort((a, b) => rank(a) - rank(b) || b.score - a.score)[0] || null;
+
+  // Une même borne physique est souvent décrite par OSM (position) et par la
+  // base IRVE ou OCM (puissance, prises, points). Quand la borne retenue n'a
+  // pas de puissance, on complète avec l'enregistrement d'une autre source
+  // situé au même endroit, à trente mètres près.
+  if (onSite && onSite.maxKw == null) {
+    const twin = near
+      .filter((c) => c.osmId !== onSite.osmId && c.maxKw != null)
+      .map((c) => ({ c, gap: haversine(onSite, c) }))
+      .filter((x) => x.gap <= 60)
+      .sort((a, b) => a.gap - b.gap)[0];
+    if (twin) {
+      onSite = {
+        ...onSite,
+        maxKw: twin.c.maxKw,
+        dc: twin.c.dc,
+        sockets: onSite.sockets.length ? onSite.sockets : twin.c.sockets,
+        points: onSite.points ?? twin.c.points,
+        fee: onSite.fee ?? twin.c.fee,
+        open247: onSite.open247 || twin.c.open247,
+        operator: onSite.operator || twin.c.operator,
+        amperage: onSite.amperage ?? twin.c.amperage,
+        voltage: onSite.voltage ?? twin.c.voltage,
+        address: onSite.address ?? twin.c.address,
+        updated: onSite.updated ?? twin.c.updated,
+        source: twin.c.source || onSite.source,
+        mergedFrom: twin.c.source || null,
+      };
+    }
+  }
 
   // Borne publique littéralement devant la porte, sans lien avec l'hôtel.
-  const doorstep =
-    !onSite ? near.find((c) => c.distance <= DOORSTEP_M) || null : null;
+  const doorstep = !onSite
+    ? near
+        .filter((c) => c.distance <= DOORSTEP_M)
+        .sort((a, b) => (a.maxKw ? 0 : 1) - (b.maxKw ? 0 : 1) || a.distance - b.distance)[0] || null
+    : null;
 
   const nearby = near.filter((c) => !onSite || c.osmId !== onSite.osmId);
   const bestNearby = nearby.slice().sort((a, b) => (b.maxKw ?? 0) - (a.maxKw ?? 0))[0] || null;
 
   let confidence = "none";
-  if (declared && onSite) confidence = "confirmed";
-  else if (declared) confidence = "declared";
+  if (onSite && onSite.score >= 90) confidence = "confirmed";
   else if (onSite) confidence = "mapped";
+  else if (maybe.length) confidence = "probable";
+  else if (declared) confidence = "declared";
   else if (doorstep) confidence = "doorstep";
 
   return {
     declaredOnBooking: declared,
     confidence,
-    linkReason: onSite?.link ?? null,
+    score: onSite?.score ?? maybe[0]?.score ?? null,
+    matchMethod: onSite?.method ?? maybe[0]?.method ?? null,
+    matchReasons: onSite?.reasons ?? maybe[0]?.reasons ?? [],
+    maybe: maybe[0]
+      ? {
+          distance: maybe[0].distance,
+          kw: maybe[0].maxKw,
+          kwLabel: kwLabel(maybe[0].maxKw),
+          sockets: maybe[0].sockets.map((x) => SOCKET_LABEL[x] || x),
+          points: maybe[0].points ?? null,
+          name: maybe[0].name,
+          score: maybe[0].score,
+          reasons: maybe[0].reasons,
+        }
+      : null,
     doorstep: doorstep
       ? {
           distance: doorstep.distance,
           kw: doorstep.maxKw,
           kwLabel: kwLabel(doorstep.maxKw),
           sockets: doorstep.sockets.map((x) => SOCKET_LABEL[x] || x),
+          points: doorstep.points ?? null,
           name: doorstep.name,
         }
       : null,
     onSite: onSite
       ? {
           osmId: onSite.osmId,
+          dataSource: onSite.source || "osm",
+          address: onSite.address ?? null,
+          updated: onSite.updated ?? null,
           distance: onSite.distance,
           kw: onSite.maxKw,
           kwLabel: kwLabel(onSite.maxKw),
@@ -161,6 +207,14 @@ function buildCharging(hotel, chargers, declared, hotelName) {
           access: onSite.access,
         }
       : null,
+    // La borne connue la plus proche : c'est elle qui rend la page utile quand
+    // la borne de l'hôtel n'a pas de puissance publiée.
+    nearestKnown: (() => {
+      const k = nearby.find((c) => c.maxKw != null);
+      return k
+        ? { distance: k.distance, kw: k.maxKw, kwLabel: kwLabel(k.maxKw), sockets: k.sockets.map((x) => SOCKET_LABEL[x] || x), name: k.name, points: k.points }
+        : null;
+    })(),
     nearby: {
       count: nearby.length,
       within: NEARBY_M,
@@ -245,7 +299,14 @@ async function main() {
     // souvent l'ampérage, la tension et le type d'usage, que OSM n'a pas.
     const ocmFile = path.join(RAW, `ocm-${d.slug}.json`);
     const ocm = existsSync(ocmFile) ? JSON.parse(await readFile(ocmFile, "utf8")).chargers : [];
-    const chargers = [...osmChargers, ...ocm];
+
+    // France : base nationale IRVE (data.gouv.fr), la source de référence pour
+    // la puissance et le nombre de points. Elle prime sur OSM quand les deux
+    // décrivent la même borne.
+    const irveFile = path.join(RAW, `irve-${d.slug}.json`);
+    const irve = existsSync(irveFile) ? JSON.parse(await readFile(irveFile, "utf8")).chargers : [];
+
+    const chargers = [...irve, ...ocm, ...osmChargers];
 
     const kept = [];
     for (const h of items) {
@@ -255,7 +316,14 @@ async function main() {
 
       const facs = facilityNames(h);
       const declared = facs.some((f) => f.toLowerCase().includes(EV_LABEL));
-      const charging = buildCharging({ lat, lng }, chargers, declared, h.name);
+      const charging = buildCharging(
+        { lat, lng },
+        chargers,
+        declared,
+        h.name,
+        d.name,
+        h.address?.full || (typeof h.address === "string" ? h.address : null),
+      );
       if (charging.confidence === "none") continue;
 
       const slug = slugify(h.name);

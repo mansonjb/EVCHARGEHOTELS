@@ -8,10 +8,12 @@ export function NightMaths({
   night,
   lang,
   kwLabel,
+  basis,
 }: {
-  night: { km: number; energy: number; hoursToFull: number; hours: number };
+  night: { km: number; energy: number; hoursToFull: number; hours: number; full: boolean };
   lang: Lang;
   kwLabel: string;
+  basis?: string | null;
 }) {
   const [open, setOpen] = useState(false);
   const t = STR[lang];
@@ -34,9 +36,13 @@ export function NightMaths({
       >
         <span style={{ fontWeight: 600, fontSize: 13, color: "#0E9E7E" }}>{open ? "−" : "+"}</span>
         <span className="tnum" style={{ fontWeight: 600, fontSize: 13 }}>
-          {lang === "fr"
-            ? `${night.hours} h sur place × ${kwLabel} = environ ${night.km} km récupérés`
-            : `${night.hours} h on site × ${kwLabel} = about ${night.km} km recovered`}
+          {night.full
+            ? lang === "fr"
+              ? `${kwLabel} pendant ${night.hours} h : batterie pleine au matin, en ${String(night.hoursToFull).replace(".", ",")} h`
+              : `${kwLabel} for ${night.hours} h: full battery by morning, in ${night.hoursToFull} h`
+            : lang === "fr"
+              ? `${night.hours} h sur place × ${kwLabel} = environ ${night.km} km récupérés`
+              : `${night.hours} h on site × ${kwLabel} = about ${night.km} km recovered`}
         </span>
         <span style={{ flex: 1 }} />
         <span style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>{t.nightHint}</span>
@@ -57,6 +63,11 @@ export function NightMaths({
                 : `full battery in ${night.hoursToFull} h`}
             </span>
           </div>
+          {basis && (
+            <div style={{ fontSize: 13, lineHeight: 1.5, color: "#8A6414", background: "#FDF6E7", padding: "8px 12px", borderRadius: 10 }}>
+              {basis}
+            </div>
+          )}
           <div style={{ fontSize: 13.5, lineHeight: 1.5, color: "#8B8FA3", maxWidth: "62ch", textWrap: "pretty" }}>
             {lang === "fr"
               ? "Calcul indicatif : batterie 77 kWh, consommation 18 kWh/100 km, pertes de charge comprises. Beaucoup de voitures plafonnent à 11 kW en courant alternatif, ce qui limite le résultat quelle que soit la borne."

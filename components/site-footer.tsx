@@ -72,8 +72,8 @@ export function SiteFooter({ lang }: { lang: Lang }) {
         >
           <span>
             {fr
-              ? "Données de bornes © contributeurs OpenStreetMap (ODbL). Équipements, photos et prix : Booking."
-              : "Charger data © OpenStreetMap contributors (ODbL). Facilities, photos and prices: Booking."}
+              ? "Bornes : base nationale IRVE (data.gouv.fr, licence ouverte) et contributeurs OpenStreetMap (ODbL). Équipements, photos et prix : Booking."
+              : "Chargers: French national IRVE database (data.gouv.fr, open licence) and OpenStreetMap contributors (ODbL). Facilities, photos and prices: Booking."}
           </span>
           <span>
             {fr

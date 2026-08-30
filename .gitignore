@@ -6,3 +6,4 @@ node_modules
 next-env.d.ts
 .DS_Store
 data/raw/_probe*.json
+data/raw/_irve.csv

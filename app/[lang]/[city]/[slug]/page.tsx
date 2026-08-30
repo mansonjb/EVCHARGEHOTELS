@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { NightMaths } from "@/components/night-maths";
 import { ConnectorIcon } from "@/components/connector-icon";
-import { cityBySlug, hotelBySlug, hotelCityName, hotels, overnight } from "@/lib/data";
+import { cityBySlug, hotelBySlug, hotelCityName, hotels, overnight, sealFor } from "@/lib/data";
 import { LANGS, STR, alternatesFor, type Lang } from "@/lib/i18n";
 
 export function generateStaticParams() {
@@ -28,6 +28,12 @@ export async function generateMetadata({
     alternates: alternatesFor(lang as Lang, `/${h.citySlug}/${h.slug}`),
   };
 }
+
+const SOURCE_LABEL: Record<string, string> = {
+  irve: "base nationale IRVE",
+  ocm: "Open Charge Map",
+  osm: "OpenStreetMap",
+};
 
 const cell: React.CSSProperties = {
   background: "#FFFFFF",
@@ -57,7 +63,23 @@ export default async function HotelPage({
   const t = STR[lang];
   const on = h.charging.onSite;
   const known = Boolean(on);
-  const night = overnight(on?.kw ?? null);
+  const nk = h.charging.nearestKnown;
+  const door = h.charging.doorstep;
+  const seal = sealFor(h, lang);
+  // Ce que la fiche montre : la borne de l'hôtel si on la connaît, sinon la
+  // borne publique devant la porte, en le disant.
+  const may = h.charging.maybe;
+  const ref = on
+    ? { kwLabel: on.kwLabel, sockets: on.socketLabels, points: on.points, distance: on.distance, isPublic: false }
+    : may
+      ? { kwLabel: may.kwLabel, sockets: may.sockets, points: may.points, distance: may.distance, isPublic: false }
+      : door
+      ? { kwLabel: door.kwLabel, sockets: door.sockets, points: door.points ?? null, distance: door.distance, isPublic: true }
+      : null;
+  const sockets = ref?.sockets.length ? ref.sockets : (nk?.sockets ?? []);
+  const publicNote = (d: number) =>
+    lang === "fr" ? `borne publique à ${d} m, pas celle de l'hôtel` : `public charger ${d} m away, not the hotel's`;
+  const night = overnight(on?.kw ?? may?.kw ?? door?.kw ?? nk?.kw ?? null);
 
   const feeLabel = on?.fee === "free"
     ? lang === "fr" ? "gratuite" : "free"
@@ -118,14 +140,10 @@ export default async function HotelPage({
                 backdropFilter: "blur(4px)",
                 fontWeight: 600,
                 fontSize: 12.5,
-                color: known ? "#3FD9B0" : "#F5C25B",
+                color: seal.tone === "known" ? "#3FD9B0" : seal.tone === "declared" ? "#F5C25B" : "#C3C8DC",
               }}
             >
-              {known
-                ? `${on!.kwLabel ?? "?"} · ${on!.socketLabels[0] ?? "Type 2"} · ${on!.distance} m`
-                : lang === "fr"
-                  ? "recharge déclarée · puissance inconnue"
-                  : "charging declared · power unknown"}
+              {seal.text}
             </div>
           </div>
           <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 10 }}>
@@ -189,7 +207,7 @@ export default async function HotelPage({
               <span style={{ fontWeight: 600, fontSize: 12.5, color: "#4F776A" }}>
                 {h.charging.declaredOnBooking ? (lang === "fr" ? "déclaré Booking" : "declared on Booking") : ""}
                 {h.charging.declaredOnBooking && on ? " + " : ""}
-                {on ? "OpenStreetMap" : ""}
+                {on ? SOURCE_LABEL[on.dataSource] : ""}
               </span>
             </div>
 
@@ -197,13 +215,19 @@ export default async function HotelPage({
               <div style={cell}>
                 <span style={cellLabel}>{t.lPower}</span>
                 <span className="tnum" style={{ fontWeight: 600, fontSize: 21 }}>
-                  {on?.kwLabel ?? (lang === "fr" ? "non publiée" : "not stated")}
+                  {ref?.kwLabel ?? (lang === "fr" ? "non publiée" : "not stated")}
                 </span>
                 <span style={cellSub}>
-                  {on?.dc
-                    ? lang === "fr" ? "courant continu" : "direct current"
-                    : on
-                      ? lang === "fr" ? "courant alternatif" : "alternating current"
+                  {ref?.isPublic && ref.kwLabel
+                    ? publicNote(ref.distance)
+                    : ref?.kwLabel
+                    ? on?.dc
+                      ? lang === "fr" ? "courant continu" : "direct current"
+                      : lang === "fr" ? "courant alternatif" : "alternating current"
+                    : nk
+                      ? lang === "fr"
+                        ? `la plus proche avec puissance connue : ${nk.kwLabel} à ${nk.distance} m`
+                        : `nearest with known power: ${nk.kwLabel}, ${nk.distance} m away`
                       : lang === "fr" ? "à confirmer auprès de l'hôtel" : "to confirm with the hotel"}
                 </span>
               </div>
@@ -211,30 +235,36 @@ export default async function HotelPage({
               <div style={cell}>
                 <span style={cellLabel}>{t.lConn}</span>
                 <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
-                  {on?.socketLabels.length ? <ConnectorIcon conn={on.socketLabels[0]} /> : null}
-                  <span style={{ fontWeight: 600, fontSize: on?.socketLabels.length ? 18 : 15 }}>
-                    {on?.socketLabels.join(", ") ?? (lang === "fr" ? "non publié" : "not stated")}
+                  {sockets.length ? <ConnectorIcon conn={sockets[0]} /> : null}
+                  <span style={{ fontWeight: 600, fontSize: sockets.length ? 18 : 15 }}>
+                    {sockets.length
+                      ? sockets.join(", ")
+                      : lang === "fr" ? "non publié" : "not stated"}
                   </span>
                 </div>
                 <span style={cellSub}>
-                  {on?.amperage || on?.voltage
+                  {!on?.socketLabels.length && nk?.sockets.length
+                    ? lang === "fr" ? `d'après la borne voisine à ${nk.distance} m` : `from the neighbouring charger ${nk.distance} m away`
+                    : on?.amperage || on?.voltage
                     ? [on?.amperage ? `${on.amperage} A` : null, on?.voltage ? `${on.voltage} V` : null]
                         .filter(Boolean)
                         .join(" · ")
-                    : lang === "fr" ? "ampérage non renseigné" : "amperage not stated"}
+                      : lang === "fr" ? "ampérage non renseigné" : "amperage not stated"}
                 </span>
               </div>
 
               <div style={cell}>
                 <span style={cellLabel}>{t.lPoints}</span>
                 <span className="tnum" style={{ fontWeight: 600, fontSize: 21 }}>
-                  {on?.points ?? (lang === "fr" ? "?" : "?")}
+                  {ref?.points ?? "?"}
                 </span>
                 <span style={cellSub}>
-                  {on
-                    ? lang === "fr"
-                      ? `borne à ${on.distance} m de l'entrée`
-                      : `charger ${on.distance} m from the door`
+                  {ref
+                    ? ref.isPublic
+                      ? publicNote(ref.distance)
+                      : lang === "fr"
+                        ? `borne à ${ref.distance} m de l'entrée`
+                        : `charger ${ref.distance} m from the door`
                     : lang === "fr" ? "nombre non publié" : "count not published"}
                 </span>
               </div>
@@ -251,7 +281,48 @@ export default async function HotelPage({
               </div>
             </div>
 
-            {night && <NightMaths night={night} lang={lang} kwLabel={on?.kwLabel ?? ""} />}
+            {(h.charging.matchReasons.length > 0 || may) && (
+              <div style={{ padding: "12px 20px", background: "#FFFFFF", borderTop: "1px solid #DCEDE5" }}>
+                <p style={{ margin: 0, fontWeight: 600, fontSize: 12, letterSpacing: "0.04em", color: "#8B8FA3" }}>
+                  {lang === "fr" ? "POURQUOI CETTE BORNE EST ATTRIBUÉE À CET HÔTEL" : "WHY THIS CHARGER IS ATTRIBUTED TO THIS HOTEL"}
+                </p>
+                <p style={{ margin: "6px 0 0", fontSize: 13.5, lineHeight: 1.55, color: "#3A4160" }}>
+                  {(h.charging.matchReasons.length ? h.charging.matchReasons : may?.reasons ?? []).join(" · ")}
+                  {h.charging.score != null && (
+                    <span className="tnum" style={{ color: "#8B8FA3" }}>
+                      {" "}
+                      — {lang === "fr" ? "indice" : "score"} {h.charging.score}
+                      {h.charging.confidence === "probable" && (
+                        <span style={{ color: "#8A6414" }}>
+                          {lang === "fr" ? " · rapprochement probable, à confirmer" : " · likely match, to confirm"}
+                        </span>
+                      )}
+                    </span>
+                  )}
+                </p>
+              </div>
+            )}
+
+            {night && (
+              <NightMaths
+                night={night}
+                lang={lang}
+                kwLabel={on?.kwLabel ?? may?.kwLabel ?? door?.kwLabel ?? nk?.kwLabel ?? ""}
+                basis={
+                  on?.kwLabel
+                    ? null
+                    : door?.kwLabel
+                      ? lang === "fr"
+                        ? `calcul basé sur la borne publique à ${door.distance} m : cet hôtel n'a pas de borne à lui`
+                        : `based on the public charger ${door.distance} m away: this hotel has no charger of its own`
+                      : nk
+                      ? lang === "fr"
+                        ? `calcul basé sur la borne publique à ${nk.distance} m, la borne de l'hôtel n'ayant pas de puissance publiée`
+                        : `based on the public charger ${nk.distance} m away, the hotel charger having no published power`
+                      : null
+                }
+              />
+            )}
           </div>
 
           {/* Bornes publiques autour */}
@@ -384,8 +455,8 @@ export default async function HotelPage({
 
       <p style={{ marginTop: 40, fontSize: 12.5, color: "#8B8FA3", borderTop: "1px solid #EBEBF2", paddingTop: 16 }}>
         {lang === "fr"
-          ? `Équipements et prix : Booking, relevé ${new Date(c?.scrapedAt ?? Date.now()).toLocaleDateString("fr-FR")}. Caractéristiques de borne : OpenStreetMap. Nous ne visitons pas les hôtels.`
-          : `Facilities and prices: Booking, sampled ${new Date(c?.scrapedAt ?? Date.now()).toLocaleDateString("en-GB")}. Charger specifications: OpenStreetMap. We do not visit the hotels.`}
+          ? `Équipements et prix : Booking, relevé ${new Date(c?.scrapedAt ?? Date.now()).toLocaleDateString("fr-FR")}. Caractéristiques de borne : base nationale IRVE (data.gouv.fr) et OpenStreetMap${on?.updated ? `, mise à jour ${on.updated}` : ""}. Nous ne visitons pas les hôtels.`
+          : `Facilities and prices: Booking, sampled ${new Date(c?.scrapedAt ?? Date.now()).toLocaleDateString("en-GB")}. Charger specifications: French national IRVE database (data.gouv.fr) and OpenStreetMap${on?.updated ? `, updated ${on.updated}` : ""}. We do not visit the hotels.`}
       </p>
     </div>
   );
