@@ -1,5 +1,12 @@
 # Process de données PlugStays
 
+**État au 31/08/2026** : 15 villes éditoriales (Paris, Lyon, Toulouse, Marseille,
+Lille, Nantes, Montpellier, Rouen, Dijon, Deauville, Bordeaux, Tours, Poitiers,
+La Rochelle, Beaune), **342 hôtels avec fiche complète**, dont 112 avec une borne
+attribuée par le moteur contre 48 déclarés sur Booking, et 307 avec une puissance
+chiffrée. À côté, le relevé national publie **1 273 hôtels** sur 97 pages
+départements et une carte. 919 pages statiques au total.
+
 Trois étapes, deux sources, aucune invention entre les deux.
 
 ```bash
