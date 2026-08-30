@@ -4,6 +4,7 @@ import { useState } from "react";
 import { cityName, countryName, type City, type Hotel } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
 import { HotelCard } from "./hotel-card";
+import { CityPicker } from "./city-picker";
 
 const INK = "#141B34";
 const GREEN = "#0E9E7E";
@@ -76,21 +77,11 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
           borderBottom: "1px solid #EBEBF2",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            flex: "0 0 auto",
-            height: 46,
-            border: "1px solid #DEDEEA",
-            borderRadius: 999,
-            background: "#FFFFFF",
-            padding: "0 18px",
-          }}
-        >
-          <span style={{ fontSize: 14.5, fontWeight: 700 }}>{cityName(city, lang)}</span>
-          <span style={{ width: 1, height: 20, background: "#EBEBF2", margin: "0 14px" }} />
-          <span style={{ fontWeight: 600, fontSize: 13.5, color: "#8B8FA3" }}>{countryName(city, lang)}</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, flex: "0 0 auto" }}>
+          <CityPicker lang={lang} current={city.slug} />
+          <span style={{ fontWeight: 600, fontSize: 13.5, color: "#8B8FA3" }}>
+            {countryName(city, lang)}
+          </span>
         </div>
 
         <span style={{ flex: "0 0 1px", width: 1, height: 26, background: "#EBEBF2" }} />

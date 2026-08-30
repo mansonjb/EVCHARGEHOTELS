@@ -344,29 +344,14 @@ export default async function HotelPage({
           >
             {h.price != null && (
               <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+                <span style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
+                  {lang === "fr" ? "à partir de" : "from"}
+                </span>
                 <span className="tnum" style={{ fontWeight: 600, fontSize: 27 }}>
                   {h.price} €
                 </span>
-                <span style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
-                  {lang === "fr" ? "la nuit, relevé en septembre" : "per night, sampled in September"}
-                </span>
               </div>
             )}
-
-            <div style={{ display: "flex", flexDirection: "column", gap: 1, background: "#EBEBF2", border: "1px solid #EBEBF2", borderRadius: 12, overflow: "hidden" }}>
-              <div className="tnum" style={{ background: "#FFFFFF", padding: "11px 13px", display: "flex", justifyContent: "space-between", fontWeight: 600, fontSize: 12 }}>
-                <span style={{ color: "#8B8FA3" }}>{t.lPower}</span>
-                <span>{on?.kwLabel ?? "—"}</span>
-              </div>
-              <div className="tnum" style={{ background: "#FFFFFF", padding: "11px 13px", display: "flex", justifyContent: "space-between", fontWeight: 600, fontSize: 12 }}>
-                <span style={{ color: "#8B8FA3" }}>{t.lConn}</span>
-                <span>{on?.socketLabels[0] ?? "—"}</span>
-              </div>
-              <div className="tnum" style={{ background: "#F1F9F5", padding: "11px 13px", display: "flex", justifyContent: "space-between", fontWeight: 600, fontSize: 12, color: "#0A5C4D" }}>
-                <span>{lang === "fr" ? "nuit de 13 h" : "13 h night"}</span>
-                <span>{night ? `≈ ${night.km} km` : "—"}</span>
-              </div>
-            </div>
 
             <a
               href={h.bookingUrl}

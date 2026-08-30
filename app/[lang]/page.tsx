@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { HOME, STR, alternatesFor, type Lang } from "@/lib/i18n";
+import { CityPicker } from "@/components/city-picker";
 import { cities, cityName, hotels } from "@/lib/data";
 
 export async function generateMetadata({
@@ -72,9 +73,11 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   padding: "0 6px 0 20px",
                 }}
               >
-                <span style={{ width: 132, fontSize: 15, fontWeight: 700 }}>{cityName(firstCity, lang)}</span>
+                <CityPicker lang={lang} />
                 <span style={{ width: 1, height: 22, background: "#EBEBF2", margin: "0 16px" }} />
-                <span style={{ width: 104, fontWeight: 600, fontSize: 14 }}>12 – 13 juin</span>
+                <span style={{ fontWeight: 600, fontSize: 14, color: "#8B8FA3" }}>
+                  {cities.length} {lang === "fr" ? "étapes ouvertes" : "stops open"}
+                </span>
                 <Link
                   href={`/${lang}/${firstCity.slug}`}
                   className="ps-dark-btn"
