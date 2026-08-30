@@ -36,6 +36,8 @@ const argv = process.argv.slice(2);
 const only = argv.includes("--only") ? argv[argv.indexOf("--only") + 1] : null;
 const force = argv.includes("--force");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const MAX = Number(process.env.OCM_MAX || 100);
+const TIMEOUT_MS = Number(process.env.OCM_TIMEOUT_MS || 180000);
 
 const SOCKET_MAP = [
   [/type 2|mennekes/i, "type2"],
@@ -103,15 +105,29 @@ async function main() {
     }
     const url =
       `https://api.openchargemap.io/v3/poi?output=json&latitude=${d.lat}&longitude=${d.lng}` +
-      `&distance=${(d.radiusM / 1000).toFixed(1)}&distanceunit=KM&maxresults=500&compact=false&verbose=false`;
+      `&distance=${(d.radiusM / 1000).toFixed(1)}&distanceunit=KM&maxresults=${MAX}&compact=false&verbose=false`;
 
     process.stdout.write(`[ocm] ${d.name} ... `);
-    const res = await fetch(url, { headers: { "X-API-Key": KEY, "User-Agent": "PlugStays/0.1" } });
-    if (!res.ok) {
-      console.log(`erreur ${res.status}`);
+    // L'origine OCM répond parfois en plus d'une minute, et Cloudflare renvoie
+    // un 524 quand elle ne répond pas du tout : temporisation longue et reprises.
+    let pois = null;
+    for (let attempt = 0; attempt < 4 && !pois; attempt++) {
+      try {
+        const res = await fetch(url, {
+          headers: { "X-API-Key": KEY, "User-Agent": "PlugStays/0.1 (+contact manson.jeanbaptiste@gmail.com)" },
+          signal: AbortSignal.timeout(TIMEOUT_MS),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        pois = await res.json();
+      } catch (err) {
+        process.stdout.write(`[${err.message}] `);
+        if (attempt < 3) await sleep(20000 * (attempt + 1));
+      }
+    }
+    if (!pois) {
+      console.log("abandon, API injoignable");
       continue;
     }
-    const pois = await res.json();
     const list = pois.map(normalise).filter((c) => c.lat != null && c.lng != null);
     await writeFile(
       outFile,
