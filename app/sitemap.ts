@@ -10,9 +10,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const lang of LANGS) {
     urls.push({ url: `${BASE}/${lang}`, lastModified: now, changeFrequency: "weekly", priority: 1 });
+    urls.push({ url: `${BASE}/${lang}/france`, lastModified: now, changeFrequency: "weekly", priority: 0.8 });
     urls.push({ url: `${BASE}/${lang}/methode`, lastModified: now, changeFrequency: "monthly", priority: 0.5 });
     urls.push({
-      url: `${BASE}/${lang}/route/amsterdam-bordeaux`,
+      url: `${BASE}/${lang}/route/paris-bordeaux`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,

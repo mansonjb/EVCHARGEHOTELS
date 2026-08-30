@@ -116,6 +116,7 @@ export interface City {
   lat: number;
   lng: number;
   radiusM: number;
+  corridor: string | null;
   corridorKm: number;
   hotelCount: number;
   declaredCount: number;

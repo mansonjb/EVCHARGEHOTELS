@@ -90,7 +90,10 @@ export function SiteHeader({ lang }: { lang: Lang }) {
         <Link href={`/${lang}/${firstCity}`} style={navStyle(isList || isHotel)}>
           {nav.list}
         </Link>
-        <Link href={`/${lang}/route/amsterdam-bordeaux`} style={navStyle(segs[1] === "route")}>
+        <Link href={`/${lang}/france`} style={navStyle(segs[1] === "france")}>
+          France
+        </Link>
+        <Link href={`/${lang}/route/paris-bordeaux`} style={navStyle(segs[1] === "route")}>
           {lang === "fr" ? "Route" : "Route"}
         </Link>
         <Link href={`/${lang}/methode`} style={navStyle(isMethod)}>

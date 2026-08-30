@@ -44,8 +44,8 @@ export function SiteFooter({ lang }: { lang: Lang }) {
           <span style={{ fontWeight: 600, fontSize: 12, letterSpacing: "0.04em", color: "#8B8FA3" }}>
             {fr ? "LE SITE" : "THE SITE"}
           </span>
-          <Link href={`/${lang}/route/amsterdam-bordeaux`} style={{ fontSize: 14, color: "#3A4160" }}>
-            {fr ? "Corridor Amsterdam vers Bordeaux" : "Amsterdam to Bordeaux corridor"}
+          <Link href={`/${lang}/route/paris-bordeaux`} style={{ fontSize: 14, color: "#3A4160" }}>
+            {fr ? "Corridor Paris vers Bordeaux" : "Paris to Bordeaux corridor"}
           </Link>
           <Link href={`/${lang}/methode`} style={{ fontSize: 14, color: "#3A4160" }}>
             {fr ? "Méthode et sources" : "Method and sources"}

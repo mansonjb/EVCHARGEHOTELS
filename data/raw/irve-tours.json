@@ -1,6 +1,6 @@
 {
   "destination": "tours",
-  "fetchedAt": "2026-08-30T18:05:53.595Z",
+  "fetchedAt": "2026-08-30T18:20:15.639Z",
   "chargers": [
     {
       "osmId": "irve/FR3R3P89333944",
@@ -25,6 +25,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15 Rue Gutenberg, 37300 Joue les tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,55€/kWh",
+      "reservationTag": "false",
       "updated": "2025-12-12"
     },
     {
@@ -49,6 +52,9 @@
       "voltage": null,
       "authNone": null,
       "address": "rue Henri Potez 550, 37210 Parcay-Meslay",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -73,6 +79,9 @@
       "voltage": null,
       "authNone": null,
       "address": "rue Henri Potez 550, 37210 Parcay-Meslay",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -100,6 +109,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Avenue Du Couvent des minimes37520 LA RICHE",
+      "implantation": "Parking privé à usage public",
+      "tarification": "59 cts/kWh",
+      "reservationTag": "false",
       "updated": "2025-01-16"
     },
     {
@@ -126,6 +138,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue Du Couvent Des Minimes",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -153,6 +168,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Chemin des minimes37520 LA RICHE",
+      "implantation": "Parking privé à usage public",
+      "tarification": "59 cts/kWh",
+      "reservationTag": "false",
       "updated": "2023-07-12"
     },
     {
@@ -180,6 +198,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Carrefour Tours - Saint Pierre Des Corps, Avenue Jacques Duclos, Zac De Rochepinard Cc Atlantes, 37700 Saint-Pierre-des-Corps",
+      "implantation": "Parking privé à usage public",
+      "tarification": "AC 36cts/KWh",
+      "reservationTag": "FALSE",
       "updated": "2026-03-05"
     },
     {
@@ -205,6 +226,9 @@
       "voltage": null,
       "authNone": null,
       "address": "6 Rue du Franc Palais, Joué-lès-Tours, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-08-26"
     },
     {
@@ -230,6 +254,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue Jeanne D'Arc 37700 LA VILLE-AUX-DAMES",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-08-26"
     },
     {
@@ -255,6 +282,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 La Madeleine, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-18"
     },
     {
@@ -280,6 +310,9 @@
       "voltage": null,
       "authNone": null,
       "address": "La Madeleine, 2, Chambray-lès-Tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-30"
     },
     {
@@ -305,6 +338,9 @@
       "voltage": null,
       "authNone": null,
       "address": "206 Avenue du Grand Sud, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-16"
     },
     {
@@ -330,6 +366,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Av du Grand Sud, 206, Chambray-lès-Tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-30"
     },
     {
@@ -355,6 +394,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1586 Av. Jean Lachenaud 83600 Fréjus",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-02-10"
     },
     {
@@ -380,6 +422,9 @@
       "voltage": null,
       "authNone": null,
       "address": "213-215 Av. du Grand Sud, 37170, Chambray-les-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-30"
     },
     {
@@ -404,6 +449,9 @@
       "voltage": null,
       "authNone": null,
       "address": "64 Rue Charles Coulomb, 37170 Chambray-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -426,6 +474,9 @@
       "voltage": null,
       "authNone": null,
       "address": "64 Rue Charles Coulomb, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-15"
     },
     {
@@ -451,6 +502,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 RUE DENIS PAPIN 37300",
+      "implantation": "Parking privé réservé à la clientèle",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2021-09-07"
     },
     {
@@ -475,6 +529,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Amélia Earhart, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -499,6 +556,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Amélia Earhart, La Ville-aux-Dames 37700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-15"
     },
     {
@@ -523,6 +583,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Amélia Earhart, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -547,6 +610,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Amélia Earhart, La Ville-aux-Dames 37700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-15"
     },
     {
@@ -571,6 +637,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Boulevard Charles de Gaulle 266-268",
+      "implantation": "Parking privé à usage public",
+      "tarification": "-",
+      "reservationTag": "False",
       "updated": "2026-05-15"
     },
     {
@@ -598,6 +667,9 @@
       "voltage": null,
       "authNone": null,
       "address": "300 Rue du Général Renault, 37000 Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-30"
     },
     {
@@ -623,6 +695,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parc D Activites Du Clos De La Lande, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -648,6 +723,9 @@
       "voltage": null,
       "authNone": null,
       "address": "18 Boulevard des Bretonnières, 37300 Joué-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -673,6 +751,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Raoul Follereau, Tours 37100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-03-27"
     },
     {
@@ -698,6 +779,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Raoul Follereau 37100 Tours",
+      "implantation": "Voirie",
+      "tarification": "par défaut : 0.4667€ par kwh de charge, par défaut : 6.6667€ par heure d'occupation hors charge, 6.6667€ par heure de charge, 0.4667€ par kwh de charge, par défaut : 0.4667€ par kwh de charge",
+      "reservationTag": "True",
       "updated": "2026-05-19"
     },
     {
@@ -722,6 +806,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue Gaspard Monge 37270 Montlouis-sur-Loire",
+      "implantation": "Parking privé à usage public",
+      "tarification": "1€/kWh",
+      "reservationTag": "false",
       "updated": "2024-12-12"
     },
     {
@@ -747,6 +834,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue Gaspard Monge, Montlouis-sur-Loire 37270 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": "La recharge est gratuite pour les Admin CQFD, CQFD véhicules, Véhicules EKLEO",
+      "reservationTag": "False",
       "updated": "2026-01-08"
     },
     {
@@ -772,6 +862,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue Gaspard Monge 37270 Montlouis-sur-Loire",
+      "implantation": "Parking privé à usage public",
+      "tarification": "1â‚¬/kWh",
+      "reservationTag": "FALSE",
       "updated": "2025-03-02"
     },
     {
@@ -797,6 +890,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 rue Gutenberg 37300 Joué-lès-Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -822,6 +918,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 rue Gutenberg, 37300 Joué-lès-Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -847,6 +946,9 @@
       "voltage": null,
       "authNone": null,
       "address": "338 avenue André Maginot 37100 Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -871,6 +973,9 @@
       "voltage": null,
       "authNone": null,
       "address": "338 avenue André Maginot, 37100 Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -897,6 +1002,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue Jacques Duclos",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -922,6 +1030,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Charles Coulomb, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-06-30"
     },
     {
@@ -947,6 +1058,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Charles Coulomb 37170 Chambray Les Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -972,6 +1086,9 @@
       "voltage": null,
       "authNone": null,
       "address": "186 Boulevard Jean Jaurès, Joué-lès-Tours 37300 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-15"
     },
     {
@@ -997,6 +1114,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Boulevard Jean Jaurès 186 37300 Joue Les Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1022,6 +1142,9 @@
       "voltage": null,
       "authNone": null,
       "address": "34 Rue Michael Faraday, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -1047,6 +1170,9 @@
       "voltage": null,
       "authNone": null,
       "address": "310 Rue Morane Saulnier, Parçay-Meslay 37210 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-17"
     },
     {
@@ -1073,6 +1199,9 @@
       "voltage": null,
       "authNone": null,
       "address": "14 Rue Gustave Eiffel, Joué-lès-Tours 37300 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-09-04"
     },
     {
@@ -1098,6 +1227,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 rue de l'Aviation",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-30"
     },
     {
@@ -1123,6 +1255,9 @@
       "voltage": null,
       "authNone": null,
       "address": "7 rue de l'aviation",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-30"
     },
     {
@@ -1148,6 +1283,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 rue de l'Aviation 37100 TOURS",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -1173,6 +1311,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 rue de l'Aviation 37100 TOURS",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -1199,6 +1340,9 @@
       "voltage": null,
       "authNone": null,
       "address": "77 avenue du Grand Sud, 37170 CHAMBRAY LES TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-07"
     },
     {
@@ -1225,6 +1369,9 @@
       "voltage": null,
       "authNone": null,
       "address": "77 avenue du Grand Sud 37170 CHAMBRAY LES TOURS",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2024-07-08"
     },
     {
@@ -1249,6 +1396,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Désiré Lecomte 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1273,6 +1423,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Désiré Lecomte 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1297,6 +1450,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Désiré Lecomte 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1321,6 +1477,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Désiré Lecomte 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1346,6 +1505,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 rue Victor Hugo 37000 TOURS",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2023-06-02"
     },
     {
@@ -1371,6 +1533,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10, rue Victor Hugo, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1396,6 +1561,9 @@
       "voltage": null,
       "authNone": null,
       "address": "114-118 Avenue du Grand Sud, 37170 Chambray-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1421,6 +1589,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue Albert Einstein, 37100 Tours",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1446,6 +1617,9 @@
       "voltage": null,
       "authNone": null,
       "address": "60 Avenue Jacques Duclos, 37700 Saint-Pierre-des-Corps",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1471,6 +1645,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Daniel Mayer",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,29€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -1496,6 +1673,9 @@
       "voltage": null,
       "authNone": null,
       "address": "268 Boulevard Charles de Gaulle",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,29€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -1523,6 +1703,9 @@
       "voltage": null,
       "authNone": null,
       "address": "195 boulevard Jean Jaurès",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,39€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -1549,6 +1732,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des Fontaines, 37550, SAINT AVERTIN",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-20"
     },
     {
@@ -1573,6 +1759,9 @@
       "voltage": null,
       "authNone": null,
       "address": "131 Av du Grand Sud",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,39€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -1598,6 +1787,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Avenue Jean Jaurès, Fondettes 37230 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-21"
     },
     {
@@ -1622,6 +1814,9 @@
       "voltage": null,
       "authNone": null,
       "address": "236,Avenue du grand Sud",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,55€KWH HT",
+      "reservationTag": "false",
       "updated": "2025-07-02"
     },
     {
@@ -1646,6 +1841,9 @@
       "voltage": null,
       "authNone": null,
       "address": "236,Avenue du grand Sud",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,55€KWH HT",
+      "reservationTag": "false",
       "updated": "2025-07-02"
     },
     {
@@ -1671,6 +1869,9 @@
       "voltage": null,
       "authNone": null,
       "address": "90 Rue Georges Méliès, 37100   tours ",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Coût de l’énergie : 0.40€ / KWH Coût de la durée lorsque le véhicule est en charge : 0.1€ / Minute Coût de la durée lorsque le véhicule est chargé : 0.1€ / Minute",
+      "reservationTag": "False",
       "updated": "2025-03-04"
     },
     {
@@ -1696,6 +1897,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Charles Coulomb 37170 Chambray-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1721,6 +1925,9 @@
       "voltage": null,
       "authNone": null,
       "address": "34 Rue Fabienne Landy, Saint-Pierre-des-Corps 37700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-02"
     },
     {
@@ -1746,6 +1953,9 @@
       "voltage": null,
       "authNone": null,
       "address": "34 Rue Fabienne Landy, 37700, Saint-Pierre-des-Corps, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0.392€/kWh jusqu'à 3h de charge, 0.392€/kWh et 1.66€/h après 3h de charge",
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -1770,6 +1980,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD CHARLES DE GAULLE 37540 SAINT-CYR-SUR-LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1795,6 +2008,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD CHARLES DE GAULLE 37540 SAINT-CYR-SUR-LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1820,6 +2036,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 RUE MARIE DE LORRAINE ZAC DES 37700 LA VILLE AUX DAMES",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1845,6 +2064,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 RUE MARIE DE LORRAINE ZAC DES 37700 LA VILLE AUX DAMES",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1870,6 +2092,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1895,6 +2120,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1920,6 +2148,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1945,6 +2176,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1970,6 +2204,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -1995,6 +2232,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD DES BRETONNIERES 37300 JOUE-LES-TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -2019,6 +2259,9 @@
       "voltage": null,
       "authNone": null,
       "address": "0 RUE GALBOISIÈRE, 37700 ST PIERRE DES CORPS",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-24"
     },
     {
@@ -2045,6 +2288,9 @@
       "voltage": null,
       "authNone": null,
       "address": "233 Av. André Maginot, 37100 Tours, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-15"
     },
     {
@@ -2071,6 +2317,9 @@
       "voltage": null,
       "authNone": null,
       "address": "102-108 Avenue du Grand Sud 37170 Chambray-lès-Tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-06"
     },
     {
@@ -2097,6 +2346,9 @@
       "voltage": null,
       "authNone": null,
       "address": "18 Rue Michael Faraday 37170 Chambray-lès-Tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-16"
     },
     {
@@ -2123,6 +2375,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9001 Rue Védrines, 37100 Tours, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-04-21"
     },
     {
@@ -2147,6 +2402,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Place du Général Leclerc  37100      Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2171,6 +2429,9 @@
       "voltage": null,
       "authNone": null,
       "address": "113 Place Anatole France  37000 Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2195,6 +2456,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5, Rue Emile Zola  37000 Tours FRANCE",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2219,6 +2483,9 @@
       "voltage": null,
       "authNone": null,
       "address": "35, Rue Mirabeau  37100      Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2243,6 +2510,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Bernard Jacquemin  37100      Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2267,6 +2537,9 @@
       "voltage": null,
       "authNone": null,
       "address": "18 Rue Gamard  37300 Joué-lés-Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2291,6 +2564,9 @@
       "voltage": null,
       "authNone": null,
       "address": "36 Place Gaston Paillhou  37100      Tours FRANCE",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -2315,6 +2591,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Mail de la Papoterie 37170 CHAMBRAY-LÈS-TOURS",
+      "implantation": "Parking public",
+      "tarification": "Tarification au kWh plus frais de connexion éventuelles en fonction de l abonnement détenu",
+      "reservationTag": "0",
       "updated": "2026-06-02"
     },
     {
@@ -2340,6 +2619,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Gutenberg 15, 37300 Joué-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -2362,6 +2644,9 @@
       "voltage": null,
       "authNone": null,
       "address": "400 rue Morane Saulnier 37210 Parçay-Meslay",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2022-11-16"
     },
     {
@@ -2384,6 +2669,9 @@
       "voltage": null,
       "authNone": null,
       "address": "32 Rue Gutenberg, 37300 Joué-lès-Tours",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2023-03-16"
     },
     {
@@ -2408,6 +2696,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Denis Papin, 37300 JOUE LES TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2432,6 +2723,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Denis Papin, 37300 JOUE LES TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2456,6 +2750,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Esplanade des Droits de l'enfant, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2480,6 +2777,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Esplanade des Droits de l'enfant, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2504,6 +2804,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Maurice Genevoix 1- Face A, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2528,6 +2831,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Maurice Genevoix 1- Face A, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2552,6 +2858,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue des Martyrs, 37300 Joué-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2576,6 +2885,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue des Martyrs, 37300 Joué-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2600,6 +2912,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place André Mauxion, 37510 Ballan-Mire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2624,6 +2939,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place André Mauxion, 37510 Ballan-Mire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2648,6 +2966,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Guy Raynaud, 37540 SAINT CYR SUR LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2672,6 +2993,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Guy Raynaud, 37540 SAINT CYR SUR LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2696,6 +3020,9 @@
       "voltage": null,
       "authNone": null,
       "address": "All. René Coulon, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -2720,6 +3047,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue du Colombeau, 37390 La Membrolle-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2744,6 +3074,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue du Colombeau, 37390 La Membrolle-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2768,6 +3101,9 @@
       "voltage": null,
       "authNone": null,
       "address": "19 Rue Jacqueline Auriol, 37390 La Membrolle-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2792,6 +3128,9 @@
       "voltage": null,
       "authNone": null,
       "address": "19 Rue Jacqueline Auriol, 37390 La Membrolle-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2816,6 +3155,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue du 8 mai 1945, 37270 Larçay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2840,6 +3182,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue du 8 mai 1945, 37270 Larçay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2864,6 +3209,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Espace Coselia, 37390 Mettray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -2888,6 +3236,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Espace Coselia, 37390 Mettray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -2912,6 +3263,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Rue de la Plaine, 37390 Mettray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -2936,6 +3290,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Rue de la Plaine, 37390 Mettray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -2960,6 +3317,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Rue de Couleuvrou, 37390 Notre-Dame-d'Oé",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -2984,6 +3344,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Rue de Couleuvrou, 37390 Notre-Dame-d'Oé",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3008,6 +3371,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Place de l'Église, 37210 Parçay-Meslay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3032,6 +3398,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Place de l'Église, 37210 Parçay-Meslay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3056,6 +3425,9 @@
       "voltage": null,
       "authNone": null,
       "address": "24 Rue de la Grosse Ferme, 37390 Chanceaux-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3080,6 +3452,9 @@
       "voltage": null,
       "authNone": null,
       "address": "24 Rue de la Grosse Ferme, 37390 Chanceaux-sur-Choisille",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3104,6 +3479,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Av. Léonard de Vinci, 37270 Montlouis-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3128,6 +3506,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Av. Léonard de Vinci, 37270 Montlouis-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3152,6 +3533,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Henri Barbusse, 37300 Saint-Pierre-des-Corps",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3176,6 +3560,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Henri Barbusse, 37300 Saint-Pierre-des-Corps",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3200,6 +3587,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Simply, 19 Rue Jules Guesde, 37700 Saint-Pierre-des-Corps",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3224,6 +3614,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Parking Simply, 19 Rue Jules Guesde, 37700 Saint-Pierre-des-Corps",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3248,6 +3641,9 @@
       "voltage": null,
       "authNone": null,
       "address": "All. René Coulon, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3272,6 +3668,9 @@
       "voltage": null,
       "authNone": null,
       "address": "89bis Av. George Sand, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3296,6 +3695,9 @@
       "voltage": null,
       "authNone": null,
       "address": "89bis Av. George Sand, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3320,6 +3722,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Jacqueline Auriol, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3344,6 +3749,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Jacqueline Auriol, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3368,6 +3776,9 @@
       "voltage": null,
       "authNone": null,
       "address": "89bis avenue Jeanne d'Arc, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3392,6 +3803,9 @@
       "voltage": null,
       "authNone": null,
       "address": "89bis avenue Jeanne d'Arc, 37700 La Ville-aux-Dames",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3416,6 +3830,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place de la Marne, 37550 Saint-Avertin",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3440,6 +3857,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place de la Marne, 37550 Saint-Avertin",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3464,6 +3884,9 @@
       "voltage": null,
       "authNone": null,
       "address": "35 Place Sainte-Anne, 37520 La Riche",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3488,6 +3911,9 @@
       "voltage": null,
       "authNone": null,
       "address": "35 Place Sainte-Anne, 37520 La Riche",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3512,6 +3938,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue Gustave Eiffel, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3536,6 +3965,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue Gustave Eiffel, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3560,6 +3992,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Edouard Branly, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3584,6 +4019,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Edouard Branly, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -3608,6 +4046,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Avenue André Maginot, 37210 Vouvray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3632,6 +4073,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Avenue André Maginot, 37210 Vouvray",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3656,6 +4100,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de la Fourbisserie, 37170 Chambray-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3680,6 +4127,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de la Fourbisserie, 37170 Chambray-lès-Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3704,6 +4154,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Alfred de Musset, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3728,6 +4181,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Alfred de Musset, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3752,6 +4208,9 @@
       "voltage": null,
       "authNone": null,
       "address": "218 Rue Giraudeau, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3776,6 +4235,9 @@
       "voltage": null,
       "authNone": null,
       "address": "218 Rue Giraudeau, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3800,6 +4262,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de TOURCOING, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3824,6 +4289,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue des Anciens Combattants, 37270 Larcay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3848,6 +4316,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de TOURCOING, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3872,6 +4343,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue Marcel Dassault, 37206 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3896,6 +4370,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue des Anciens Combattants, 37270 Larcay",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3920,6 +4397,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue Marcel Dassault, 37206 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3944,6 +4424,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Rabelais, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3968,6 +4451,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Rabelais, 37000 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -3992,6 +4478,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue THERESE et RENE PLANIOL, 37540 ST CYR SUR LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4016,6 +4505,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue THERESE et RENE PLANIOL, 37540 ST CYR SUR LOIRE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4040,6 +4532,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de l'AUBRIERE, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4064,6 +4559,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de l'AUBRIERE, 37230 Fondettes",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4088,6 +4586,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Maréchal LECLERC, 37550 SAINT AVERTIN",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4112,6 +4613,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Maréchal LECLERC, 37550 SAINT AVERTIN",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4136,6 +4640,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Maréchal LECLERC, 37550 SAINT AVERTIN",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4160,6 +4667,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place Maréchal LECLERC, 37550 SAINT AVERTIN",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4184,6 +4694,9 @@
       "voltage": null,
       "authNone": null,
       "address": "RUE DE LA GITONNIERE, 37300 JOUE LES TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4208,6 +4721,9 @@
       "voltage": null,
       "authNone": null,
       "address": "RUE DE LA GITONNIERE, 37300 JOUE LES TOURS",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4232,6 +4748,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allée du Chesne, 37550 Saint Avertin",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4256,6 +4775,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allée du Chesne, 37550 Saint Avertin",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -4282,6 +4804,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 rue Mireille Brochier, 37540 Saint-Cyr-sur-Loire",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -4308,6 +4833,9 @@
       "voltage": null,
       "authNone": null,
       "address": "7 Rue Benjamin Franklin, 37170 Chambray-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -4334,6 +4862,9 @@
       "voltage": null,
       "authNone": null,
       "address": "66 Rue Charles Coulomb, 37170 Chambray-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -4359,6 +4890,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Z.I. de la Vrillonnerie 3 Rue Benjamin Franklin, 37170 Chambray-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -4384,6 +4918,9 @@
       "voltage": null,
       "authNone": null,
       "address": "16 Rue Benjamin Franklin, 37170 Chambray-lès-Tours",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -4409,6 +4946,9 @@
       "voltage": null,
       "authNone": null,
       "address": "19 Quai de la Loire, 37210 Rochecorbon",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-03-20"
     },
     {
@@ -4433,6 +4973,9 @@
       "voltage": null,
       "authNone": null,
       "address": "CC Ma Petite Madelaine, 213 Av. du Grand S, 37170 Chambray-lès-Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-03-20"
     },
     {
@@ -4457,6 +5000,9 @@
       "voltage": null,
       "authNone": null,
       "address": "16  Rue du Champ de Tir, 37000 Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-03-20"
     },
     {
@@ -4482,6 +5028,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rond-Point de l'Hippodrome, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-25"
     },
     {
@@ -4507,6 +5056,9 @@
       "voltage": null,
       "authNone": null,
       "address": "26 rue Georges Meliès, Tours 37100 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-31"
     },
     {
@@ -4532,6 +5084,9 @@
       "voltage": null,
       "authNone": null,
       "address": "276 Avenue du Grand Sud, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-01"
     },
     {
@@ -4557,6 +5112,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Boulevard Jean Jaurès 188, 37300 Joué-lès-Tours",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-27"
     },
     {
@@ -4582,6 +5140,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue André Maginot 311, 37100 TOURS",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-27"
     },
     {
@@ -4606,6 +5167,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Denis PAPIN, 37300 Joué Les Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4630,6 +5194,9 @@
       "voltage": null,
       "authNone": null,
       "address": "54 avenue Gustave Eiffel, 37100 Tours",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -4655,6 +5222,9 @@
       "voltage": null,
       "authNone": null,
       "address": "81 Avenue du Grand Sud, Chambray-lès-Tours 37170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-15"
     },
     {
@@ -4679,6 +5249,9 @@
       "voltage": null,
       "authNone": null,
       "address": "280 Boulevard Charles de Gaulle, Saint-Cyr-sur-Loire 37540 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-30"
     },
     {
@@ -4703,6 +5276,9 @@
       "voltage": null,
       "authNone": null,
       "address": "236 Avenue du Grand Sud",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-29"
     }
   ]

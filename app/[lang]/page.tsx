@@ -294,7 +294,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       >
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap" }}>
           <h2 style={{ margin: 0, fontWeight: 800, fontSize: 32, letterSpacing: "-0.035em" }}>{home.citiesH}</h2>
-          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{lang === "fr" ? "Corridor Amsterdam vers Bordeaux, cinq étapes ouvertes." : "Amsterdam to Bordeaux corridor, five stops open."}</span>
+          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{lang === "fr" ? "Cinq villes françaises ouvertes, données de la base nationale IRVE." : "Five French cities open, data from the national IRVE database."}</span>
         </div>
         <div
           className="ps-grid-2"

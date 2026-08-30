@@ -1,6 +1,6 @@
 {
   "destination": "bordeaux",
-  "fetchedAt": "2026-08-30T18:05:53.592Z",
+  "fetchedAt": "2026-08-30T18:20:15.635Z",
   "chargers": [
     {
       "osmId": "irve/FR190P330001SPE24SIE40012",
@@ -24,6 +24,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 3 cardinaux 10",
+      "implantation": "Voirie",
+      "tarification": "Price per kWh (billed per 1 Wh): 0.5190 EUR",
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -49,6 +52,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 AVENUE DES TROIS CARDINAUX 33000 BORDEAUX",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-01-08"
     },
     {
@@ -73,6 +79,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 3 cardinaux 10",
+      "implantation": "Voirie",
+      "tarification": "Price per kWh (billed per 1 Wh): 0.5190 EUR",
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -97,6 +106,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1, Rue Georges Lafont 33110 Le Bouscat",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "TRUE",
       "updated": "2025-10-30"
     },
     {
@@ -121,6 +133,9 @@
       "voltage": null,
       "authNone": null,
       "address": "72, Rue des Écus 33110 Le Bouscat",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "TRUE",
       "updated": "2025-10-30"
     },
     {
@@ -145,6 +160,9 @@
       "voltage": null,
       "authNone": null,
       "address": "124, Rue Raymond Lavigne 33110 Le Bouscat",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "TRUE",
       "updated": "2025-10-30"
     },
     {
@@ -169,6 +187,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5, Rue Serge Mallet 33320 Eysines",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "TRUE",
       "updated": "2025-10-30"
     },
     {
@@ -196,6 +217,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Carrefour Bègles, Chemin De Tartifume, Cc Les Rives D'arcins, 33130 Bègles",
+      "implantation": "Parking privé à usage public",
+      "tarification": "AC 36cts/KWh",
+      "reservationTag": "FALSE",
       "updated": "2026-03-05"
     },
     {
@@ -222,6 +246,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Carrefour Lormont, Rn 10, Cc Les 4 Pavillons, 33310 Lormont",
+      "implantation": "Parking privé à usage public",
+      "tarification": "AC 36cts/KWh",
+      "reservationTag": "FALSE",
       "updated": "2026-03-05"
     },
     {
@@ -249,6 +276,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Carrefour Merignac, 52 Avenue De La Somme Cc Merignac Soleil, 33700 Merignac",
+      "implantation": "Parking privé à usage public",
+      "tarification": "AC 36cts/KWh",
+      "reservationTag": "FALSE",
       "updated": "2026-03-05"
     },
     {
@@ -274,6 +304,9 @@
       "voltage": null,
       "authNone": null,
       "address": "58 Cours Du Raccordement  33300 BORDEAUX",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-08-26"
     },
     {
@@ -299,6 +332,9 @@
       "voltage": null,
       "authNone": null,
       "address": "325 Avenue De La Liberation, 33110,  LE BOUSCAT",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-08-26"
     },
     {
@@ -324,6 +360,9 @@
       "voltage": null,
       "authNone": null,
       "address": "C. C, Rue des Garosses, Genicart 33310 Lormont",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-08-26"
     },
     {
@@ -349,6 +388,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 All. du Champ de Course, Eysines 33320 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-18"
     },
     {
@@ -374,6 +416,9 @@
       "voltage": null,
       "authNone": null,
       "address": "All. du Champ de Course, 11, Eysines",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-30"
     },
     {
@@ -396,6 +441,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 All. Carthon Ferrière 33170 Gradignan",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "True",
       "updated": "2025-12-29"
     },
     {
@@ -420,6 +468,9 @@
       "voltage": null,
       "authNone": null,
       "address": "90 Av. des 40 Journaux 33300 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "False",
       "updated": "2025-12-05"
     },
     {
@@ -442,6 +493,9 @@
       "voltage": null,
       "authNone": null,
       "address": "21 Rue André Maginot 33200 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "True",
       "updated": "2025-11-04"
     },
     {
@@ -466,6 +520,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 RUE BERTRAND BALGUERIE 33520 BRUGES",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "True",
       "updated": "2026-03-25"
     },
     {
@@ -488,6 +545,9 @@
       "voltage": null,
       "authNone": null,
       "address": "255 Cr Marechal Gallieni, 33000 Bordeaux 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "True",
       "updated": "2026-08-24"
     },
     {
@@ -513,6 +573,9 @@
       "voltage": null,
       "authNone": null,
       "address": "rue fieuzal 33520 Bruges",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Inconnu",
+      "reservationTag": "False",
       "updated": "2026-03-30"
     },
     {
@@ -537,6 +600,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -561,6 +627,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-09-09"
     },
     {
@@ -586,6 +655,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 Rue André Bourvil - Domaine de l'implantation - 33140 Villenave d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2021-09-30"
     },
     {
@@ -610,6 +682,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -634,6 +709,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-11-26"
     },
     {
@@ -658,6 +736,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -682,6 +763,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-11-26"
     },
     {
@@ -706,6 +790,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -730,6 +817,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-11-26"
     },
     {
@@ -754,6 +844,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -778,6 +871,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-11-26"
     },
     {
@@ -802,6 +898,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -826,6 +925,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Quai de Brazza, Bordeaux 33100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2024-11-26"
     },
     {
@@ -850,6 +952,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -875,6 +980,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Avenue du Millac, Artigues-près-Bordeaux 33370 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-06-24"
     },
     {
@@ -899,6 +1007,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -923,6 +1034,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -947,6 +1061,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -972,6 +1089,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Avenue du Millac, Artigues-près-Bordeaux 33370 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-06-23"
     },
     {
@@ -996,6 +1116,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1020,6 +1143,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1044,6 +1170,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1069,6 +1198,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Avenue du Millac, Artigues-près-Bordeaux 33370 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-06-23"
     },
     {
@@ -1093,6 +1225,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue du Millac 9, 33370 Artigues-près-Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1117,6 +1252,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Quatre Pavillons 33310 Lormont",
+      "implantation": "Voirie",
+      "tarification": "-",
+      "reservationTag": "False",
       "updated": "2026-04-13"
     },
     {
@@ -1142,6 +1280,9 @@
       "voltage": null,
       "authNone": null,
       "address": "6 Av. Favard 33170 Gradignan",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1167,6 +1308,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux, 33300 Bordeaux",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -1192,6 +1336,9 @@
       "voltage": null,
       "authNone": null,
       "address": "90 Av. Henri Vigneau, 33700 Mérignac",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-07-21"
     },
     {
@@ -1216,6 +1363,9 @@
       "voltage": null,
       "authNone": null,
       "address": "30 Rue Isaac Newton, Mérignac 33700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-09"
     },
     {
@@ -1240,6 +1390,9 @@
       "voltage": null,
       "authNone": null,
       "address": "30 Zi Chemin Long,rue Isaac Newton 33700 MERIGNAC",
+      "implantation": "Voirie",
+      "tarification": "par défaut : 0.4667€ par kwh de charge, par défaut : 0.4667€ par kwh de charge, 6.6667€ par heure d'occupation hors charge, 6.6667€ par heure de charge, par défaut : 0.4667€ par kwh de charge",
+      "reservationTag": "True",
       "updated": "2026-05-20"
     },
     {
@@ -1266,6 +1419,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Avenue du 7ème art, Villenave-d'Ornon 33140 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-28"
     },
     {
@@ -1290,6 +1446,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15 Rue Carle Vernet, Bordeaux 33800 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -1314,6 +1473,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15 Rue Carle Vernet, Bordeaux 33800 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -1340,6 +1502,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Jean Samazeuilh, 33300 Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1364,6 +1529,9 @@
       "voltage": null,
       "authNone": null,
       "address": "102 avenue du Général Leclerc 33200 Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1389,6 +1557,9 @@
       "voltage": null,
       "authNone": null,
       "address": "102 avenue du Général Leclerc, 33200 Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1413,6 +1584,9 @@
       "voltage": null,
       "authNone": null,
       "address": "37 Av. John Fitzgerald Kennedy 33700 Mérignac",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1437,6 +1611,9 @@
       "voltage": null,
       "authNone": null,
       "address": "37 Av. John Fitzgerald Kennedy, 33700 Mérignac",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1461,6 +1638,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Jean Samazeuilh 33300 Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1486,6 +1666,9 @@
       "voltage": null,
       "authNone": null,
       "address": "26 à 34 avenue de l'Île de France 33370 Artigues-près-Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1511,6 +1694,9 @@
       "voltage": null,
       "authNone": null,
       "address": "26 à 34 avenue de l'Île de France, 33370 Artigues-près-Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1535,6 +1721,9 @@
       "voltage": null,
       "authNone": null,
       "address": "74 avenue du Médoc 33320 Eysines",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1560,6 +1749,9 @@
       "voltage": null,
       "authNone": null,
       "address": "74 avenue du Médoc, 33320 Eysines",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1584,6 +1776,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 allée des demoiselles 33700 Gradignan",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1609,6 +1804,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 allée des demoiselles, 33700 Gradignan",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1633,6 +1831,9 @@
       "voltage": null,
       "authNone": null,
       "address": "235 route de Toulouse 33400 Talence",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1658,6 +1859,9 @@
       "voltage": null,
       "authNone": null,
       "address": "235 route de Toulouse, 33400 Talence",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1682,6 +1886,9 @@
       "voltage": null,
       "authNone": null,
       "address": "6 rue Salvador Dali 33140 Villenave-d'Ornon",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2026-08-29"
     },
     {
@@ -1707,6 +1914,9 @@
       "voltage": null,
       "authNone": null,
       "address": "6 rue Salvador Dali, 33140 Villenave-d'Ornon",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -1732,6 +1942,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Rue Vincent Van Gogh, 33140 Villenave-d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-24"
     },
     {
@@ -1757,6 +1970,9 @@
       "voltage": null,
       "authNone": null,
       "address": "23 Chemin d'Arcins, Parc d'activité Tanesse 33360 Latresne",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,50 € / kwh",
+      "reservationTag": "false",
       "updated": "2022-02-02"
     },
     {
@@ -1783,6 +1999,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Les Rives D'Arcins",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1809,6 +2028,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Centre commercial Les 4 Pavillons _BP 7",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1835,6 +2057,9 @@
       "voltage": null,
       "authNone": null,
       "address": "52 Avenue De La Somme",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1860,6 +2085,9 @@
       "voltage": null,
       "authNone": null,
       "address": "19 Rue Georges Ohm, Mérignac 33700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-16"
     },
     {
@@ -1885,6 +2113,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Georges Ohm 19 33700 Mérignac",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1910,6 +2141,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Chemin De Vimeney, Floirac 33270 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-23"
     },
     {
@@ -1935,6 +2169,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Chemin De Vimeney 33270 Floirac",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -1960,6 +2197,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Avenue de la Jalle Noire, Bruges 33520 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-02-13"
     },
     {
@@ -1985,6 +2225,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Rue Franz Schrader, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-02"
     },
     {
@@ -2010,6 +2253,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 Rue Paulette Sauboua, Talence 33400 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-16"
     },
     {
@@ -2035,6 +2281,9 @@
       "voltage": null,
       "authNone": null,
       "address": "68 Avenue du Maréchal de Lattre de Tassigny, Mérignac 33700 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-30"
     },
     {
@@ -2059,6 +2308,9 @@
       "voltage": null,
       "authNone": null,
       "address": "142 Av. du Docteur Albert Schweitzer, Pessac 33600 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2083,6 +2335,9 @@
       "voltage": null,
       "authNone": null,
       "address": "57 Av. de la Gare, Bordeaux 33200 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2107,6 +2362,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue Camille Vic, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2131,6 +2389,9 @@
       "voltage": null,
       "authNone": null,
       "address": "297 Av. d'Arès, Mérignac 33700 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2156,6 +2417,9 @@
       "voltage": null,
       "authNone": null,
       "address": "34 Av. du Maréchal de Lattre de Tassigny, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -2181,6 +2445,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Place Charles de Gaulle, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -2206,6 +2473,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 Allée du Commandant Moos, Villenave-d'Ornon 33140 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-12"
     },
     {
@@ -2231,6 +2501,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Cours Marc Nouaux, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -2256,6 +2529,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Avenue de la Libération Charles de Gaulle, Le Bouscat 33110 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-04-07"
     },
     {
@@ -2281,6 +2557,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Place des Capucins, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -2306,6 +2585,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Quai de la Monnaie, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-02-27"
     },
     {
@@ -2330,6 +2612,9 @@
       "voltage": null,
       "authNone": null,
       "address": "47 Rue Marc Sangnier, Bègles 33130 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -2355,6 +2640,9 @@
       "voltage": null,
       "authNone": null,
       "address": "140 Cours de l'Yser, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-17"
     },
     {
@@ -2379,6 +2667,9 @@
       "voltage": null,
       "authNone": null,
       "address": "75 Rue Furtado, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2403,6 +2694,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Cours du Médoc, Bordeaux 33300 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-24"
     },
     {
@@ -2427,6 +2721,9 @@
       "voltage": null,
       "authNone": null,
       "address": "166 Cours de l'Argonne, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2452,6 +2749,9 @@
       "voltage": null,
       "authNone": null,
       "address": "95 Rue de Tauzia, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -2476,6 +2776,9 @@
       "voltage": null,
       "authNone": null,
       "address": "51 Bd Albert 1er, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2501,6 +2804,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Des Jasmins, Eysines 33320 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-30"
     },
     {
@@ -2526,6 +2832,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Avenue Jean Zay, Cenon 33150 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-11-17"
     },
     {
@@ -2551,6 +2860,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Avenue de Chavailles, Bruges 33520 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-23"
     },
     {
@@ -2576,6 +2888,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Avenue de la mission Haut Brion, Talence 33400 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-28"
     },
     {
@@ -2601,6 +2916,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Danguilhem, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-22"
     },
     {
@@ -2626,6 +2944,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Jacques Ellul, Bordeaux 33800 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -2650,6 +2971,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11-12 Place Amédée Larrieu, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-02-27"
     },
     {
@@ -2676,6 +3000,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 Rue de la Pelouse de Douet, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-23"
     },
     {
@@ -2700,6 +3027,9 @@
       "voltage": null,
       "authNone": null,
       "address": "53 Avenue Gaston Cabannes, Floirac 33270 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-24"
     },
     {
@@ -2726,6 +3056,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49-50 Av. Maryse Bastié, Bruges 33520 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-15"
     },
     {
@@ -2753,6 +3086,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 Place du 11 Novembre, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-09"
     },
     {
@@ -2780,6 +3116,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue du Grand Barail, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-16"
     },
     {
@@ -2807,6 +3146,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Joseph de Carayon Latour, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-19"
     },
     {
@@ -2834,6 +3176,9 @@
       "voltage": null,
       "authNone": null,
       "address": "63 Cours Georges Clemenceau, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-19"
     },
     {
@@ -2861,6 +3206,9 @@
       "voltage": null,
       "authNone": null,
       "address": "65 Rue Henri Dunant, Bordeaux 33100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-09"
     },
     {
@@ -2885,6 +3233,9 @@
       "voltage": null,
       "authNone": null,
       "address": "29 Cours de Québec, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -2910,6 +3261,9 @@
       "voltage": null,
       "authNone": null,
       "address": "123 Place de l'Église Saint-Augustin, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-10"
     },
     {
@@ -2936,6 +3290,9 @@
       "voltage": null,
       "authNone": null,
       "address": "6 Allée Serr, Bordeaux 33100 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-15"
     },
     {
@@ -2961,6 +3318,9 @@
       "voltage": null,
       "authNone": null,
       "address": "68 Avenue Gaston Cabannes, Floirac 33270 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-24"
     },
     {
@@ -2987,6 +3347,9 @@
       "voltage": null,
       "authNone": null,
       "address": "40 Quai Richelieu, Bordeaux 33000 France",
+      "implantation": "Parking privé réservé à la clientèle",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-02-10"
     },
     {
@@ -3012,6 +3375,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Rue du Pont de Chiquet, Pessac 33600 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3037,6 +3403,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Rue Albert Camus, Lormont 33310 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3061,6 +3430,9 @@
       "voltage": null,
       "authNone": null,
       "address": "120 Bd George V, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3087,6 +3459,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Place Jean Jaurès, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-02"
     },
     {
@@ -3112,6 +3487,9 @@
       "voltage": null,
       "authNone": null,
       "address": "38 Cours de Verdun, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3136,6 +3514,9 @@
       "voltage": null,
       "authNone": null,
       "address": "34 Bd Pierre 1er, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3162,6 +3543,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Lavoisier, Cenon 33150 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3187,6 +3571,9 @@
       "voltage": null,
       "authNone": null,
       "address": "56 Cours Saint-Louis, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -3211,6 +3598,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Allée Vercingétorix, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3238,6 +3628,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Place François Mitterrand, Cenon 33150 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-16"
     },
     {
@@ -3265,6 +3658,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15B Av. Descartes, Artigues-près-Bordeaux 33370 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-16"
     },
     {
@@ -3290,6 +3686,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Quai Louis XVIII, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-02-13"
     },
     {
@@ -3314,6 +3713,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Cours de l'Argonne, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-02-27"
     },
     {
@@ -3339,6 +3741,9 @@
       "voltage": null,
       "authNone": null,
       "address": "18 Cours Georges Clemenceau, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3363,6 +3768,9 @@
       "voltage": null,
       "authNone": null,
       "address": "33 Rue de la Béchade, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3388,6 +3796,9 @@
       "voltage": null,
       "authNone": null,
       "address": "63 Cours de Verdun, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3413,6 +3824,9 @@
       "voltage": null,
       "authNone": null,
       "address": "309 Route de Toulouse, Villenave-d'Ornon 33140 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-02-13"
     },
     {
@@ -3437,6 +3851,9 @@
       "voltage": null,
       "authNone": null,
       "address": "25 Place de la Victoire, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3463,6 +3880,9 @@
       "voltage": null,
       "authNone": null,
       "address": "21 Rue de Rivière, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3487,6 +3907,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 Rue Robert Lateulade, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-15"
     },
     {
@@ -3512,6 +3935,9 @@
       "voltage": null,
       "authNone": null,
       "address": "66 Quai des Chartrons, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -3536,6 +3962,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Place de l'Église Saint-Augustin, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3561,6 +3990,9 @@
       "voltage": null,
       "authNone": null,
       "address": "23 Chem. Pomerol, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -3585,6 +4017,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Place du Capitaine Dutertre, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3610,6 +4045,9 @@
       "voltage": null,
       "authNone": null,
       "address": "54 Rue Louis Fleuranceau, Bruges 33520 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3634,6 +4072,9 @@
       "voltage": null,
       "authNone": null,
       "address": "5 Rue du Dr Rocaz, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3659,6 +4100,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15 Av. Abadie, Bordeaux 33100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -3685,6 +4129,9 @@
       "voltage": null,
       "authNone": null,
       "address": "24 Av. Georges Clemenceau, Le Bouscat 33110 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3711,6 +4158,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Place Aristide Briand, Talence 33400 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-02"
     },
     {
@@ -3736,6 +4186,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue d'Ornano, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3761,6 +4214,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue du Grand Lebrun, Bordeaux 33200 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3786,6 +4242,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue le Chapelier, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3811,6 +4270,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Allée des Borges, Bruges 33520 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -3836,6 +4298,9 @@
       "voltage": null,
       "authNone": null,
       "address": "210 Av. Thiers, Bordeaux 33100 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -3860,6 +4325,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Coudol, Le Bouscat 33110 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3884,6 +4352,9 @@
       "voltage": null,
       "authNone": null,
       "address": "322 Rte de Toulouse, Villenave-d'Ornon 33140 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3908,6 +4379,9 @@
       "voltage": null,
       "authNone": null,
       "address": "65 Av. Jean Jaurès, Cenon 33150 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-02-27"
     },
     {
@@ -3932,6 +4406,9 @@
       "voltage": null,
       "authNone": null,
       "address": "16 Avenue Léon Duguit, Pessac 33600 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-27"
     },
     {
@@ -3956,6 +4433,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Aristide Briand, Cenon 33150 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -3980,6 +4460,9 @@
       "voltage": null,
       "authNone": null,
       "address": "130 Av. Charles de Gaulle, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4004,6 +4487,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1418 Rue de l'Église, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4028,6 +4514,9 @@
       "voltage": null,
       "authNone": null,
       "address": "419 Av. d'Eysines, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4052,6 +4541,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Bahr, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4077,6 +4569,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Place du Bicentenaire, Bègles 33130 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4102,6 +4597,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Ferdinand Buisson, Bègles 33130 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-16"
     },
     {
@@ -4127,6 +4625,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Léon Blum, Bordeaux 33300 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4151,6 +4652,9 @@
       "voltage": null,
       "authNone": null,
       "address": "310 Bd du Président Wilson, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4176,6 +4680,9 @@
       "voltage": null,
       "authNone": null,
       "address": "122 Av. de la République, Bordeaux 33200 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -4201,6 +4708,9 @@
       "voltage": null,
       "authNone": null,
       "address": "228 Cours de l'Yser, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-02"
     },
     {
@@ -4226,6 +4736,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Delphin Loche, Bègles 33130 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-02"
     },
     {
@@ -4251,6 +4764,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Av. Léon Blum, Pessac 33600 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4276,6 +4792,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Av. Robert Schuman, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4300,6 +4819,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Av. du Président François Mitterrand, Floirac 33270 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4325,6 +4847,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Av. de Verdun, Bruges 33520 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4350,6 +4875,9 @@
       "voltage": null,
       "authNone": null,
       "address": "267 Bd Godard, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-29"
     },
     {
@@ -4375,6 +4903,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue du Jard, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-02"
     },
     {
@@ -4400,6 +4931,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Place Branly, Bègles 33130 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4425,6 +4959,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Quai Chaigneau - Bichon, Lormont 33310 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4450,6 +4987,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Jules Guesde, Floirac 33270 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4475,6 +5015,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Coluche, Floirac 33270 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4499,6 +5042,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rte de Latresne, Bouliac 33270 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-16"
     },
     {
@@ -4524,6 +5070,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Rue du Professeur Vézes, Bordeaux 33300 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -4548,6 +5097,9 @@
       "voltage": null,
       "authNone": null,
       "address": "22 Av. Marcel Dassault, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4573,6 +5125,9 @@
       "voltage": null,
       "authNone": null,
       "address": "118 Quai de Bacalan, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-10"
     },
     {
@@ -4598,6 +5153,9 @@
       "voltage": null,
       "authNone": null,
       "address": "204 Cours Saint-Louis, Bordeaux 33300 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-11"
     },
     {
@@ -4622,6 +5180,9 @@
       "voltage": null,
       "authNone": null,
       "address": "281 Cours de la Libération, Talence 33400 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -4647,6 +5208,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Côte du Piquet, Bouliac 33270 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4673,6 +5237,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Rue de l'Église, Bordeaux 33200 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4698,6 +5265,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue de Suzon, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-17"
     },
     {
@@ -4723,6 +5293,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Dominique Ingres, Floirac 33270 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-19"
     },
     {
@@ -4748,6 +5321,9 @@
       "voltage": null,
       "authNone": null,
       "address": "55 Avenue du Maréchal de Lattre de Tassigny, Mérignac 33700 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-11-03"
     },
     {
@@ -4773,6 +5349,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Cours Barbey, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-04"
     },
     {
@@ -4798,6 +5377,9 @@
       "voltage": null,
       "authNone": null,
       "address": "81 Rue Alexandre Dumas, Cenon 33150 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-01"
     },
     {
@@ -4823,6 +5405,9 @@
       "voltage": null,
       "authNone": null,
       "address": "9 Cours Edouard Vaillant, Bordeaux 33300 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-30"
     },
     {
@@ -4848,6 +5433,9 @@
       "voltage": null,
       "authNone": null,
       "address": "140 Rue de Saint- Genès, Bordeaux 33000 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-11-17"
     },
     {
@@ -4873,6 +5461,9 @@
       "voltage": null,
       "authNone": null,
       "address": "7 Rue Victor Hugo, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-04-08"
     },
     {
@@ -4897,6 +5488,9 @@
       "voltage": null,
       "authNone": null,
       "address": "77 Cours d'Albret, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-15"
     },
     {
@@ -4922,6 +5516,9 @@
       "voltage": null,
       "authNone": null,
       "address": "153 Rue Izzet Koç, Lormont 33310 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-30"
     },
     {
@@ -4947,6 +5544,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Stade Nautique, Pessac 33600 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-09-22"
     },
     {
@@ -4972,6 +5572,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue René Bonnac, Cenon 33150 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-11"
     },
     {
@@ -4997,6 +5600,9 @@
       "voltage": null,
       "authNone": null,
       "address": "189 Avenue de la Libération, Mérignac 33700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-14"
     },
     {
@@ -5022,6 +5628,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Place du Rouillaou, Eysines 33320 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-14"
     },
     {
@@ -5047,6 +5656,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Avenue de la Chapelle Sainte-Bernadette, Mérignac 33700 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-13"
     },
     {
@@ -5071,6 +5683,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Université de Bordeaux, 33400 Talence, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-30"
     },
     {
@@ -5095,6 +5710,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Université de Bordeaux, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-17"
     },
     {
@@ -5119,6 +5737,9 @@
       "voltage": null,
       "authNone": null,
       "address": "351 Cours de la Libération, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-14"
     },
     {
@@ -5143,6 +5764,9 @@
       "voltage": null,
       "authNone": null,
       "address": "42 Av. Roul, Talence 33400 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -5167,6 +5791,9 @@
       "voltage": null,
       "authNone": null,
       "address": "90 Rue André Messager, Bruges 33520 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -5191,6 +5818,9 @@
       "voltage": null,
       "authNone": null,
       "address": "11 Av. des Martyrs de la Resistance, Bruges 33520 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -5215,6 +5845,9 @@
       "voltage": null,
       "authNone": null,
       "address": "29 Av. Eugène et Marc Dulout, Pessac 33600 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -5239,6 +5872,9 @@
       "voltage": null,
       "authNone": null,
       "address": "47 Rue de Compostelle, Pessac 33600 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-01-15"
     },
     {
@@ -5264,6 +5900,9 @@
       "voltage": null,
       "authNone": null,
       "address": "48 Cours d'Ornano, Mérignac 33700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-31"
     },
     {
@@ -5289,6 +5928,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Émile Péreire, Bordeaux 33800 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-22"
     },
     {
@@ -5314,6 +5956,9 @@
       "voltage": null,
       "authNone": null,
       "address": "109 Rue Paulin, Bordeaux 33000 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-31"
     },
     {
@@ -5339,6 +5984,9 @@
       "voltage": null,
       "authNone": null,
       "address": "22 Rue Galin, Bordeaux 33100 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-31"
     },
     {
@@ -5363,6 +6011,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue de l'Hermite, Bruges 33520 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": "https://www.go-fuzed.com/cgv",
+      "reservationTag": "False",
       "updated": "2026-07-02"
     },
     {
@@ -5388,6 +6039,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue de l'Hermite, Bruges 33520 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": "https://www.go-fuzed.com/cgv",
+      "reservationTag": "False",
       "updated": "2026-07-02"
     },
     {
@@ -5412,6 +6066,9 @@
       "voltage": null,
       "authNone": null,
       "address": "162 Av. du Maréchal Leclerc",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-05-02"
     },
     {
@@ -5436,6 +6093,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allée F, Cours Jules Ladoumègue",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-30"
     },
     {
@@ -5463,6 +6123,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49 AVENUE DE MONTESQUIEU",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-29"
     },
     {
@@ -5489,6 +6152,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,45 € / Kwh",
+      "reservationTag": "false",
       "updated": "2024-07-15"
     },
     {
@@ -5515,6 +6181,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-29"
     },
     {
@@ -5541,6 +6210,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,45 € / Kwh",
+      "reservationTag": "false",
       "updated": "2024-07-15"
     },
     {
@@ -5566,6 +6238,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,50€/kWh + 0,02€/mn",
+      "reservationTag": "false",
       "updated": "2024-06-04"
     },
     {
@@ -5591,6 +6266,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-29"
     },
     {
@@ -5615,6 +6293,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,50€/kWh + 0,02€/mn",
+      "reservationTag": "false",
       "updated": "2024-06-04"
     },
     {
@@ -5639,6 +6320,9 @@
       "voltage": null,
       "authNone": null,
       "address": "51 Rue de Daugère",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-26"
     },
     {
@@ -5663,6 +6347,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,40 € / Kwh",
+      "reservationTag": "false",
       "updated": "2024-07-15"
     },
     {
@@ -5687,6 +6374,9 @@
       "voltage": null,
       "authNone": null,
       "address": "172 Rue Jules Ferry, 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,40 € / Kwh",
+      "reservationTag": "false",
       "updated": "2024-07-15"
     },
     {
@@ -5711,6 +6401,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49 AVENUE DE MONTESQUIEU 33700 MERIGNAC",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -5735,6 +6428,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49 AVENUE DE MONTESQUIEU 33700 MERIGNAC",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -5759,6 +6455,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49 AVENUE DE MONTESQUIEU 33700 MERIGNAC",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -5784,6 +6483,9 @@
       "voltage": null,
       "authNone": null,
       "address": "49 AVENUE DE MONTESQUIEU 33700 MERIGNAC",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-03"
     },
     {
@@ -5808,6 +6510,9 @@
       "voltage": null,
       "authNone": null,
       "address": "50 AVENUE DE MONTESQUIEU 33700 MERIGNAC",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-06-04"
     },
     {
@@ -5833,6 +6538,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Quartier du Lac, 33300 Bordeaux",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -5858,6 +6566,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Salvador Dali 2, 33140 Villenave-d'Ornon",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -5884,6 +6595,9 @@
       "voltage": null,
       "authNone": null,
       "address": "A10 AIRE  FONTBELLEAU PARIS BAYO",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2024-04-03"
     },
     {
@@ -5911,6 +6625,9 @@
       "voltage": null,
       "authNone": null,
       "address": "A10 AIRE FONTBELLEAU BAYONNE  PA",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2024-04-03"
     },
     {
@@ -5937,6 +6654,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allées de Bristol, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -5962,6 +6682,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Rue des Echoppes, 33800 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -5987,6 +6710,9 @@
       "voltage": null,
       "authNone": null,
       "address": "35 Rue René Buthaud, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -6012,6 +6738,9 @@
       "voltage": null,
       "authNone": null,
       "address": "50 avenue Jean Alfonséa, 33270 Floirac",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6037,6 +6766,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue Nicolas Beaujon, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -6063,6 +6795,9 @@
       "voltage": null,
       "authNone": null,
       "address": "36 Rue Edmond Michelet, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6089,6 +6824,9 @@
       "voltage": null,
       "authNone": null,
       "address": "36 rue François Lévêque, 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6114,6 +6852,9 @@
       "voltage": null,
       "authNone": null,
       "address": "59 Av. d'Eysines, 33110 Le Bouscat",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -6139,6 +6880,9 @@
       "voltage": null,
       "authNone": null,
       "address": "256 Av. de la Libération Charles de Gaulle, 33110 LE BOUSCAT",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -6164,6 +6908,9 @@
       "voltage": null,
       "authNone": null,
       "address": "place Charles de Gaulle, 33700 Mérignac",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6190,6 +6937,9 @@
       "voltage": null,
       "authNone": null,
       "address": "17 Rue des Poilus, 33600 Pessac",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-01-06"
     },
     {
@@ -6215,6 +6965,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Quai de Paludate, 33800 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6240,6 +6993,9 @@
       "voltage": null,
       "authNone": null,
       "address": "place de la republique, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6264,6 +7020,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Allée de Francs, 33130 BEGLES",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-01-06"
     },
     {
@@ -6289,6 +7048,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue des Frères Lumière, 33130 Bègles",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6313,6 +7075,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6337,6 +7102,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6361,6 +7129,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6386,6 +7157,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6410,6 +7184,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Avenue des 40 Journaux 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6435,6 +7212,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Rue de Gironde 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2023-06-15"
     },
     {
@@ -6460,6 +7240,9 @@
       "voltage": null,
       "authNone": null,
       "address": "27, Rue Paul PEYRAT, 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -6485,6 +7268,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2, rue de Gironde, 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -6510,6 +7296,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rond Point Marie Fel, Cr Charles Bricaud, 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6535,6 +7324,9 @@
       "voltage": null,
       "authNone": null,
       "address": "183 Boulevard Maréchal Leclerc, 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6560,6 +7352,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de la Gabarre, 33270 Floirac",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6585,6 +7380,9 @@
       "voltage": null,
       "authNone": null,
       "address": "4 Route de Toulouse, 33800 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6610,6 +7408,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Avenue de Paris, 33310 LORMONT",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -6636,6 +7437,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12-16 Léon Blum",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,39€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -6662,6 +7466,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Malbec 64, 33800, Bordeaux",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-20"
     },
     {
@@ -6688,6 +7495,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 avenue du 7ème art",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,39€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -6714,6 +7524,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Avenue Salvador Allende, 33270, Floirac",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-20"
     },
     {
@@ -6738,6 +7551,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Za Thouars / rue Victor Jara",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0,39€ / kWh",
+      "reservationTag": "false",
       "updated": "2025-12-11"
     },
     {
@@ -6763,6 +7579,9 @@
       "voltage": null,
       "authNone": null,
       "address": "110B Avenue Jean Jaurès, Pessac 33600 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-22"
     },
     {
@@ -6788,6 +7607,9 @@
       "voltage": null,
       "authNone": null,
       "address": " Rue Pacaris, Talence 33400 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-21"
     },
     {
@@ -6813,6 +7635,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12 Rue Cardinal Richaud 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "entre 07:00 et 22:00 : 0.3333€ par kwh de charge, entre 07:00 et 22:00 : 5.0€ par heure de charge, 0.3333€ par kwh de charge, 5.0€ par heure d'occupation hors charge, entre 22:00 et 07:00 : 0.3333€ par kwh de charge, par défaut : 0.3333€ par kwh de charge",
+      "reservationTag": "true",
       "updated": "2026-07-09"
     },
     {
@@ -6838,6 +7663,9 @@
       "voltage": null,
       "authNone": null,
       "address": "469 Rte du Médoc, 33520 Bruges",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:0.32€/Kwh + 0.1€ /minlorsque la voiture est chargée mais toujours branché: 0.1€/min",
+      "reservationTag": "False",
       "updated": "2025-01-10"
     },
     {
@@ -6863,6 +7691,9 @@
       "voltage": null,
       "authNone": null,
       "address": "363 Rte de Toulouse, 33140 Villenave-d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:on applique 0.32€/Kwh + 0.1€ /min ( App Tarif) et 0.032€/Kwh) lorsque la voiture est chargée mais toujours branché: on applique 0.1€/min (App tarif) ",
+      "reservationTag": "False",
       "updated": "2026-03-13"
     },
     {
@@ -6888,6 +7719,9 @@
       "voltage": null,
       "authNone": null,
       "address": "469 Rte du Médoc, 33520 Bruges",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:0.32€/Kwh + 0.1€ /minlorsque la voiture est chargée mais toujours branché: 0.1€/min",
+      "reservationTag": "False",
       "updated": "2025-01-10"
     },
     {
@@ -6913,6 +7747,9 @@
       "voltage": null,
       "authNone": null,
       "address": "363 Rte de Toulouse, 33140 Villenave-d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:on applique 0.32€/Kwh + 0.1€ /min ( App Tarif) et 0.032€/Kwh) lorsque la voiture est chargée mais toujours branché: on applique 0.1€/min (App tarif) ",
+      "reservationTag": "False",
       "updated": "2026-03-13"
     },
     {
@@ -6938,6 +7775,9 @@
       "voltage": null,
       "authNone": null,
       "address": "363 Rte de Toulouse, 33140 Villenave-d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:on applique 0.32€/Kwh + 0.1€ /min ( App Tarif) et 0.032€/Kwh) lorsque la voiture est chargée mais toujours branché: on applique 0.1€/min (App tarif) ",
+      "reservationTag": "False",
       "updated": "2026-03-13"
     },
     {
@@ -6963,6 +7803,9 @@
       "voltage": null,
       "authNone": null,
       "address": "363 rte de Toulouse, 33550 Villenave",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Coût de l’énergie : 0.32€ / KWH Coût de la durée lorsque le véhicule est en charge : 0.1€ / Minute Coût de la durée lorsque le véhicule est chargé : 0.1€ / Minute",
+      "reservationTag": "False",
       "updated": "2023-12-06"
     },
     {
@@ -6988,6 +7831,9 @@
       "voltage": null,
       "authNone": null,
       "address": "469 Rte du Médoc, 33520 Bruges",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:0.32€/Kwh + 0.1€ /minlorsque la voiture est chargée mais toujours branché: 0.1€/min",
+      "reservationTag": "False",
       "updated": "2025-01-10"
     },
     {
@@ -7013,6 +7859,9 @@
       "voltage": null,
       "authNone": null,
       "address": "469 Rte du Médoc, 33520 Bruges",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:0.32€/Kwh + 0.1€ /minlorsque la voiture est chargée mais toujours branché: 0.1€/min",
+      "reservationTag": "False",
       "updated": "2025-01-10"
     },
     {
@@ -7038,6 +7887,9 @@
       "voltage": null,
       "authNone": null,
       "address": "363 Rte de Toulouse, 33140 Villenave-d'Ornon",
+      "implantation": "Parking privé à usage public",
+      "tarification": "lorsque la voitutre est branché:on applique 0.32€/Kwh + 0.1€ /min ( App Tarif) et 0.032€/Kwh) lorsque la voiture est chargée mais toujours branché: on applique 0.1€/min (App tarif) ",
+      "reservationTag": "False",
       "updated": "2026-03-13"
     },
     {
@@ -7064,6 +7916,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Cantelaudette 33310 Lormont",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -7089,6 +7944,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Allée Jean Anouilh, Mérignac 33700 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-02"
     },
     {
@@ -7114,6 +7972,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Allée Jean Anouilh, 33700, Mérignac, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": "0.392€/kWh de 08:00 à 20:00 jusqu'à 3h de charge, 0.392€/kWh et 1.662€/h de 08:00 à 20:00 après 3h de charge, 0.392€/kWh de 20:00 à 08:00",
+      "reservationTag": "false",
       "updated": "2026-08-28"
     },
     {
@@ -7139,6 +8000,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7164,6 +8028,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7189,6 +8056,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7214,6 +8084,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7239,6 +8112,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7263,6 +8139,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7287,6 +8166,9 @@
       "voltage": null,
       "authNone": null,
       "address": "208 AVENUE EMILE COUNORD 33300 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7312,6 +8194,9 @@
       "voltage": null,
       "authNone": null,
       "address": "78 AVENUE DE MAGUDAS 33700 MERIGNAC",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7337,6 +8222,9 @@
       "voltage": null,
       "authNone": null,
       "address": "78 AVENUE DE MAGUDAS 33700 MERIGNAC",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7362,6 +8250,9 @@
       "voltage": null,
       "authNone": null,
       "address": "78 AVENUE DE MAGUDAS 33700 MERIGNAC",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7387,6 +8278,9 @@
       "voltage": null,
       "authNone": null,
       "address": "78 AVENUE DE MAGUDAS 33700 MERIGNAC",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7412,6 +8306,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 AVENUE DE PARIS 33310 LORMONT",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7437,6 +8334,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 AVENUE DE PARIS 33310 LORMONT",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7462,6 +8362,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7487,6 +8390,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7512,6 +8418,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7537,6 +8446,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7562,6 +8474,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7587,6 +8502,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7612,6 +8530,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7637,6 +8558,9 @@
       "voltage": null,
       "authNone": null,
       "address": "151 COURS DE LA LIBERATION 33400 TALENCE",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-09-30"
     },
     {
@@ -7663,6 +8587,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Chem. de Sarcignan, 33140 Villenave-d'Ornon, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-29"
     },
     {
@@ -7689,6 +8616,9 @@
       "voltage": null,
       "authNone": null,
       "address": "493, AVENUE MAL DE LATTRE DE TASSIGNY",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-03-28"
     },
     {
@@ -7715,6 +8645,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 Rue Denis Papin, 33130 Bègles, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-03-16"
     },
     {
@@ -7741,6 +8674,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 Rue Denis Papin, 33130 Bègles, France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-15"
     },
     {
@@ -7765,6 +8701,9 @@
       "voltage": null,
       "authNone": null,
       "address": "141 Rue des Terres de Borde - 33800 Bordeaux",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7789,6 +8728,9 @@
       "voltage": null,
       "authNone": null,
       "address": "RUE ELVIRA GUERRA",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7813,6 +8755,9 @@
       "voltage": null,
       "authNone": null,
       "address": "16 rue des Maraîchers  33000 Bordeaux FRANCE",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7837,6 +8782,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Place André Meunier 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7861,6 +8809,9 @@
       "voltage": null,
       "authNone": null,
       "address": "12, quai des Salinières 33000 BORDEAUX",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7885,6 +8836,9 @@
       "voltage": null,
       "authNone": null,
       "address": "rue lucien faure",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7909,6 +8863,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 Place de la Bourse 33000 Bordeaux",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7933,6 +8890,9 @@
       "voltage": null,
       "authNone": null,
       "address": "19, Rue de la Garonne",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7957,6 +8917,9 @@
       "voltage": null,
       "authNone": null,
       "address": "15 rue de l'Orénoque 33000 Bordeaux",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-25"
     },
     {
@@ -7982,6 +8945,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Aire de Thouars, A630, 33170 Gradignan",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-28"
     },
     {
@@ -8009,6 +8975,9 @@
       "voltage": null,
       "authNone": null,
       "address": "77 Rue de la Croix de Monjous, Gradignan 33170 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-22"
     },
     {
@@ -8034,6 +9003,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Avenue de la Résistance, Lormont 33310 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-05-21"
     },
     {
@@ -8059,6 +9031,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD ALFRED DANEY 33300 BORDEAUX",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Tarification au kWh plus frais de connexion éventuelles en fonction de l'abonnement détenu. Supplément de tarif à la minute pour les recharges en roaming",
+      "reservationTag": "0",
       "updated": "2025-07-03"
     },
     {
@@ -8084,6 +9059,9 @@
       "voltage": null,
       "authNone": null,
       "address": "BOULEVARD ALFRED DANEY 33310 BORDEAUX",
+      "implantation": "Parking public",
+      "tarification": "Tarification au kWh plus frais de connexion éventuelles en fonction de l abonnement détenu",
+      "reservationTag": "0",
       "updated": "2026-04-29"
     },
     {
@@ -8109,6 +9087,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 RUE JEAN FRAGONARD 33140 VILLENAVE D ORNON",
+      "implantation": "Parking privé à usage public",
+      "tarification": "Tarification au kWh plus frais de connexion éventuelles en fonction de l'abonnement détenu. Supplément de tarif à la minute pour les recharges en roaming",
+      "reservationTag": "0",
       "updated": "2025-07-03"
     },
     {
@@ -8134,6 +9115,9 @@
       "voltage": null,
       "authNone": null,
       "address": "2 RUE JEAN FRAGONARD 33140 VILLENAVE D ORNON",
+      "implantation": "Parking public",
+      "tarification": "Tarification au kWh plus frais de connexion éventuelles en fonction de l abonnement détenu",
+      "reservationTag": "0",
       "updated": "2026-07-27"
     },
     {
@@ -8158,6 +9142,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8182,6 +9169,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -8206,6 +9196,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8230,6 +9223,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -8254,6 +9250,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8278,6 +9277,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8302,6 +9304,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8326,6 +9331,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8350,6 +9358,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8374,6 +9385,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8398,6 +9412,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8422,6 +9439,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8446,6 +9466,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8470,6 +9493,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8494,6 +9520,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": "Les tarifs de recharge peuvent varier en fonction de plusieurs facteurs, y compris le fournisseur de services, l'emplacement de la borne, la puissance de charge, et les éventuelles promotions en cours. Il est recommandé de consulter directement les informations tarifaires auprès du gestionnaire de la borne ou via l'application mobile associée pour obtenir les détails les plus récents et précis.",
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -8518,6 +9547,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8542,6 +9574,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8566,6 +9601,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8590,6 +9628,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8614,6 +9655,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8638,6 +9682,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8662,6 +9709,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8686,6 +9736,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Cours Georges Clémenceau 33000 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2025-11-15"
     },
     {
@@ -8711,6 +9764,9 @@
       "voltage": null,
       "authNone": null,
       "address": "281 RUES DES QUATRE CASTERA, 33130 BEGLES",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-12-03"
     },
     {
@@ -8736,6 +9792,9 @@
       "voltage": null,
       "authNone": null,
       "address": "23 Rue René Magné, 33300 BORDEAUX",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-03-30"
     },
     {
@@ -8761,6 +9820,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allée St Joseph, 33140 VILLENAVE D ORNON",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2025-12-03"
     },
     {
@@ -8787,6 +9849,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Allées de Bristol 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -8813,6 +9878,9 @@
       "voltage": null,
       "authNone": null,
       "address": "36 Rue Edmond Michelet 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -8839,6 +9907,9 @@
       "voltage": null,
       "authNone": null,
       "address": "17 Rue des Poilus, 33600 Pessac",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2025-12-22"
     },
     {
@@ -8865,6 +9936,9 @@
       "voltage": null,
       "authNone": null,
       "address": "36 rue François Lévêque, 33300 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -8889,6 +9963,9 @@
       "voltage": null,
       "authNone": null,
       "address": "13 Allée de Francs, 33130 BEGLES",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -8914,6 +9991,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Quai de Paludate, 33800 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -8939,6 +10019,9 @@
       "voltage": null,
       "authNone": null,
       "address": "place de la republique, 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -8964,6 +10047,9 @@
       "voltage": null,
       "authNone": null,
       "address": "50 avenue Jean Alfonséa, 33270 Floirac",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -8989,6 +10075,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue Nicolas Beaujon 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -9014,6 +10103,9 @@
       "voltage": null,
       "authNone": null,
       "address": "256 Av. de la Libération Charles de Gaulle 33110 LE BOUSCAT",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -9039,6 +10131,9 @@
       "voltage": null,
       "authNone": null,
       "address": "35 Rue René Buthaud 33000 BORDEAUX",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -9064,6 +10159,9 @@
       "voltage": null,
       "authNone": null,
       "address": "59 Av. d'Eysines 33110 Le Bouscat",
+      "implantation": "Voirie",
+      "tarification": "https://apps.total-ev-charge.com/charge-points",
+      "reservationTag": "FALSE",
       "updated": "2025-01-14"
     },
     {
@@ -9089,6 +10187,9 @@
       "voltage": null,
       "authNone": null,
       "address": "3 Rue des Echoppes, 33800 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-12-22"
     },
     {
@@ -9114,6 +10215,9 @@
       "voltage": null,
       "authNone": null,
       "address": "54 René Buthaud 33100 Bordeaux",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2024-10-07"
     },
     {
@@ -9138,6 +10242,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Centre Commercial Rives d'Arcins, Rocade Sortie 20, 33130 Bègles",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-03-20"
     },
     {
@@ -9162,6 +10269,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue des 40 Journaux, 33300 Bordeaux",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "FALSE",
       "updated": "2026-03-20"
     },
     {
@@ -9187,6 +10297,9 @@
       "voltage": null,
       "authNone": null,
       "address": "108 Rue du Vélodrome, Bordeaux 33200 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-01"
     },
     {
@@ -9212,6 +10325,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue de Daugère 59, 33520 Bruges",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-10-27"
     },
     {
@@ -9237,6 +10353,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Rue Salvador Dali 4, 33140 Villenave-d'Ornon",
+      "implantation": "Station dédiée à la recharge rapide",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2025-07-27"
     },
     {
@@ -9262,6 +10381,9 @@
       "voltage": null,
       "authNone": null,
       "address": "8 Rue de Campilleau, 33520 Bruges",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2026-08-29"
     },
     {
@@ -9287,6 +10409,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 Avenue du marechal leclerc",
+      "implantation": "Parking privé réservé à la clientèle",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-11-25"
     },
     {
@@ -9312,6 +10437,9 @@
       "voltage": null,
       "authNone": null,
       "address": "10 Avenue du marechal leclerc",
+      "implantation": "Parking privé réservé à la clientèle",
+      "tarification": null,
+      "reservationTag": "false",
       "updated": "2024-11-25"
     },
     {
@@ -9336,6 +10464,9 @@
       "voltage": null,
       "authNone": null,
       "address": "23 Avenue de Canteranne, Pessac 33600 France",
+      "implantation": "Voirie",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-30"
     },
     {
@@ -9360,6 +10491,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue de Canteranne 23, 33600 Pessac",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -9384,6 +10518,9 @@
       "voltage": null,
       "authNone": null,
       "address": "295 Avenue Thiers, Bordeaux 33100 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -9408,6 +10545,9 @@
       "voltage": null,
       "authNone": null,
       "address": "23 Avenue de Canteranne, Pessac 33600 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -9432,6 +10572,9 @@
       "voltage": null,
       "authNone": null,
       "address": "Avenue de Canteranne 23, 33600 Pessac",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-29"
     },
     {
@@ -9456,6 +10599,9 @@
       "voltage": null,
       "authNone": null,
       "address": "96 Boulevard Pierre 1er, Bordeaux 33000 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -9480,6 +10626,9 @@
       "voltage": null,
       "authNone": null,
       "address": "138 Avenue du Général Leclerc, Bordeaux 33000 France",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-06-29"
     },
     {
@@ -9504,6 +10653,9 @@
       "voltage": null,
       "authNone": null,
       "address": "14 Rue Claude Bonnier, Bordeaux 33000 France",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-07-05"
     },
     {
@@ -9528,6 +10680,9 @@
       "voltage": null,
       "authNone": null,
       "address": "17 rue Charles Tellier",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "True",
       "updated": "2026-08-13"
     },
     {
@@ -9552,6 +10707,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Rue Port Arthur 33130 Bègles",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2023-05-31"
     },
     {
@@ -9576,6 +10734,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 RUE PORT ARTHUR, 33130 BEGLES",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2023-06-27"
     },
     {
@@ -9600,6 +10761,9 @@
       "voltage": null,
       "authNone": null,
       "address": " 1 Rue Port Arthur 33130 Bègles",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2020-11-18"
     },
     {
@@ -9624,6 +10788,9 @@
       "voltage": null,
       "authNone": null,
       "address": "27 rue René Magné, 33300 BORDEAUX",
+      "implantation": "Parking privé réservé à la clientèle",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-25"
     },
     {
@@ -9649,6 +10816,9 @@
       "voltage": null,
       "authNone": null,
       "address": "82 avenue de la libération, 33700 Mérignac",
+      "implantation": "Parking public",
+      "tarification": null,
+      "reservationTag": "False",
       "updated": "2026-08-30"
     },
     {
@@ -9673,6 +10843,9 @@
       "voltage": null,
       "authNone": null,
       "address": "1 Av du Maréchal Juin 33700 Merignac",
+      "implantation": "Parking privé à usage public",
+      "tarification": null,
+      "reservationTag": "true",
       "updated": "2022-10-23"
     }
   ]

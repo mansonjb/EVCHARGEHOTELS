@@ -7,8 +7,9 @@ import { LANGS, type Lang } from "@/lib/i18n";
 
 const ROUTES = [
   {
-    slug: "amsterdam-bordeaux",
-    from: "Amsterdam",
+    slug: "paris-bordeaux",
+    key: "paris-bordeaux",
+    from: "Paris",
     to: "Bordeaux",
     assumedRangeKm: 320,
   },
@@ -50,8 +51,9 @@ export default async function RoutePage({
   const fr = lang === "fr";
 
   // Du plus loin de l'arrivée au plus proche.
-  const stops = [...cities].sort((a, b) => b.corridorKm - a.corridorKm);
-  const total = stops[0]?.corridorKm ?? 0;
+  const stops = cities.filter((c) => c.corridor === r.key).sort((a, b) => b.corridorKm - a.corridorKm);
+  // Paris n'est pas une étape du site : la première étape est à 240 km.
+  const total = 580;
 
   return (
     <div style={{ maxWidth: 1180, margin: "0 auto", padding: "34px 26px 90px" }}>
@@ -102,7 +104,7 @@ export default async function RoutePage({
       <div style={{ marginTop: 46, display: "flex", flexDirection: "column", gap: 54 }}>
         {stops.map((c, i) => {
           const prev = stops[i - 1];
-          const leg = prev ? prev.corridorKm - c.corridorKm : null;
+          const leg = prev ? prev.corridorKm - c.corridorKm : total - c.corridorKm;
           const picks = rankHotels(hotelsInCity(c.slug)).slice(0, 3);
 
           return (

@@ -19,6 +19,31 @@ node --env-file=.env.local scripts/fetch-hotels-booking.mjs --only anvers --max 
 node scripts/build-dataset.mjs
 ```
 
+## Pipeline inversé : partir des bornes, pas des hôtels
+
+```bash
+node scripts/discover-hotels-irve.mjs --top 30
+```
+
+Au lieu de partir d'une liste d'hôtels et de chercher leurs bornes, on lit la
+base nationale entière et on isole les stations dont le NOM désigne un
+hébergement. Résultat au 30/08/2026 : **1 515 hôtels français distincts, 99 %
+avec puissance publiée, 665 à 50 kW ou plus**. Le fichier produit,
+`data/irve-hotel-stations.json`, alimente la page `/fr/france` et sert à
+choisir les prochaines villes à ouvrir.
+
+Deux pièges appris en route :
+
+- **« Hôtel de Ville » est une mairie**, pas un hébergement. Sans liste
+  d'exclusion (hôtel de police, hôtel-Dieu, hôtel du département, préfecture,
+  hôpital), le jeu de données est inexploitable.
+- Le seul critère `implantation_station = parking privé réservé à la clientèle`
+  ramène surtout des parkings de supermarchés : 683 stations écartées. Le nom
+  de station est trois fois plus discriminant.
+
+Les noms de communes viennent du référentiel INSEE (`geo.api.gouv.fr`), les
+adresses IRVE étant trop hétérogènes pour être parsées de façon fiable.
+
 ## Ce que chaque source apporte
 
 | Donnée | Source | Remarque |
@@ -27,6 +52,26 @@ node scripts/build-dataset.mjs
 | « Electric vehicle charging station » | Booking, liste d'équipements | booléen déclaré par l'hôtel, jamais présenté comme vérifié |
 | Puissance de sortie, types de prises, nombre de points, tarif, 24/7, ampérage, tension, opérateur | OpenStreetMap (Overpass) | c'est la seule source gratuite qui donne la donnée physique |
 | Bornes publiques autour | OpenStreetMap | rayon de 700 m, environ huit minutes à pied |
+
+## Moteur d'appariement (`lib/match.mjs`)
+
+Aucune source ne dit « cette borne appartient à cet hôtel ». On le déduit par
+recoupement, avec un score dont le détail est affiché sur la fiche :
+
+| Signal | Points |
+|---|---|
+| Même numéro et même voie | 50 |
+| Même voie seulement | 25 |
+| La station porte le nom de l'hôtel ou sa marque | 40 |
+| Distance : 15 m / 25 m / 40 m / 80 m / 120 m | 45 / 35 / 25 / 15 / 8 |
+| Implantation « parking privé réservé à la clientèle » | 20 |
+| Même code postal | 10 |
+| Accès réservé aux clients (OSM, OCM) | 10 |
+| Recharge déclarée par l'hôtel sur Booking | 15 |
+
+Seuils : **70 et plus** la borne est attribuée à l'hôtel, **50 à 70** le
+rapprochement est affiché comme probable et signalé comme tel, en dessous la
+borne reste une borne publique du voisinage.
 
 ## Règles de jointure (`scripts/build-dataset.mjs`)
 
