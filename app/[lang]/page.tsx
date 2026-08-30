@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { HOME, STR, alternatesFor, type Lang } from "@/lib/i18n";
-import { cities, hotels } from "@/lib/data";
+import { cities, cityName, hotels } from "@/lib/data";
 
 export async function generateMetadata({
   params,
@@ -72,7 +72,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   padding: "0 6px 0 20px",
                 }}
               >
-                <span style={{ width: 132, fontSize: 15, fontWeight: 700 }}>{firstCity.name}</span>
+                <span style={{ width: 132, fontSize: 15, fontWeight: 700 }}>{cityName(firstCity, lang)}</span>
                 <span style={{ width: 1, height: 22, background: "#EBEBF2", margin: "0 16px" }} />
                 <span style={{ width: 104, fontWeight: 600, fontSize: 14 }}>12 – 13 juin</span>
                 <Link
@@ -318,7 +318,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 textDecoration: "none",
               }}
             >
-              <span style={{ fontWeight: 700, fontSize: 16, flex: 1, minWidth: 0, color: "#141B34" }}>{c.name}</span>
+              <span style={{ fontWeight: 700, fontSize: 16, flex: 1, minWidth: 0, color: "#141B34" }}>{cityName(c, lang)}</span>
               <span className="tnum" style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>
                 {c.hotelCount} {lang === "fr" ? "hôtels" : "hotels"} · {c.chargersInCity}{" "}
                 {lang === "fr" ? "bornes" : "chargers"}

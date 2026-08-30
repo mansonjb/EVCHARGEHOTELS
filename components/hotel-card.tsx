@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Hotel } from "@/lib/data";
-import { proofFor, sealFor } from "@/lib/data";
+import { hotelCityName, proofFor, sealFor } from "@/lib/data";
 import type { Lang } from "@/lib/i18n";
 
 export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
@@ -45,7 +45,7 @@ export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
             backdropFilter: "blur(4px)",
             fontWeight: 600,
             fontSize: 12.5,
-            color: known ? "#3FD9B0" : "#F5C25B",
+            color: seal.tone === "known" ? "#3FD9B0" : seal.tone === "declared" ? "#F5C25B" : "#C3C8DC",
           }}
         >
           {seal.text}
@@ -58,7 +58,7 @@ export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
           alignItems: "center",
           gap: 9,
           padding: "11px 14px",
-          background: known ? "#F1F9F5" : "#FDF6E7",
+          background: seal.tone === "known" ? "#F1F9F5" : seal.tone === "declared" ? "#FDF6E7" : "#F3F3F8",
           borderBottom: "1px solid #EBEBF2",
         }}
       >
@@ -67,11 +67,11 @@ export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
             width: 7,
             height: 7,
             borderRadius: "50%",
-            background: known ? "#0E9E7E" : "#D89B1C",
+            background: seal.tone === "known" ? "#0E9E7E" : seal.tone === "declared" ? "#D89B1C" : "#8B8FA3",
             flex: "0 0 7px",
           }}
         />
-        <span className="tnum" style={{ fontWeight: 600, fontSize: 12, color: known ? "#0A5C4D" : "#8A6414" }}>
+        <span className="tnum" style={{ fontWeight: 600, fontSize: 12, color: seal.tone === "known" ? "#0A5C4D" : seal.tone === "declared" ? "#8A6414" : "#3A4160" }}>
           {proofFor(h, lang)}
         </span>
       </div>
@@ -80,7 +80,7 @@ export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
         <div style={{ fontWeight: 700, fontSize: 21, lineHeight: 1.12, letterSpacing: "-0.025em", textWrap: "pretty" }}>
           {h.name}
         </div>
-        <div style={{ fontSize: 13.5, color: "#8B8FA3" }}>{h.city}</div>
+        <div style={{ fontSize: 13.5, color: "#8B8FA3" }}>{hotelCityName(h, lang)}</div>
         <div
           style={{
             display: "flex",

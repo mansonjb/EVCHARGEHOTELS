@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { City, Hotel } from "@/lib/data";
+import { cityName, countryName, type City, type Hotel } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
 import { HotelCard } from "./hotel-card";
 
@@ -83,9 +83,9 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
             padding: "0 18px",
           }}
         >
-          <span style={{ fontSize: 14.5, fontWeight: 700 }}>{city.name}</span>
+          <span style={{ fontSize: 14.5, fontWeight: 700 }}>{cityName(city, lang)}</span>
           <span style={{ width: 1, height: 20, background: "#EBEBF2", margin: "0 14px" }} />
-          <span style={{ fontWeight: 600, fontSize: 13.5, color: "#8B8FA3" }}>{city.country}</span>
+          <span style={{ fontWeight: 600, fontSize: 13.5, color: "#8B8FA3" }}>{countryName(city, lang)}</span>
         </div>
 
         <span style={{ flex: "0 0 1px", width: 1, height: 26, background: "#EBEBF2" }} />

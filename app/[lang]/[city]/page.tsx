@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ListView } from "@/components/list-view";
-import { cities, cityBySlug, hotelsInCity, rankHotels } from "@/lib/data";
+import { cities, cityBySlug, cityName, hotelsInCity, rankHotels } from "@/lib/data";
 import { LANGS, STR, alternatesFor, type Lang } from "@/lib/i18n";
 
 export function generateStaticParams() {
@@ -18,12 +18,13 @@ export async function generateMetadata({
   const c = cityBySlug(city);
   if (!c) return {};
   const t = STR[lang as Lang];
+  const cn = cityName(c, lang as Lang);
   return {
-    title: `${t.listH1} ${t.listH1b} · ${c.name}`,
+    title: `${t.listH1} ${t.listH1b} · ${cn}`,
     description:
       lang === "fr"
-        ? `${c.hotelCount} hôtels de ${c.name} avec recharge : puissance, connecteur, nombre de points, bornes publiques autour. Données Booking et OpenStreetMap, datées.`
-        : `${c.hotelCount} hotels in ${c.name} with charging: power, connector, number of points, public chargers nearby. Booking and OpenStreetMap data, dated.`,
+        ? `${c.hotelCount} hôtels de ${cn} avec recharge : puissance, connecteur, nombre de points, bornes publiques autour. Données Booking et OpenStreetMap, datées.`
+        : `${c.hotelCount} hotels in ${cn} with charging: power, connector, number of points, public chargers nearby. Booking and OpenStreetMap data, dated.`,
     alternates: alternatesFor(lang as Lang, `/${c.slug}`),
   };
 }
@@ -38,6 +39,7 @@ export default async function CityPage({
   const c = cityBySlug(city);
   if (!c) notFound();
   const list = rankHotels(hotelsInCity(c.slug));
+  const cn = cityName(c, lang);
 
   const others = cities.filter((x) => x.slug !== c.slug);
   const fr = lang === "fr";
@@ -48,17 +50,17 @@ export default async function CityPage({
   const faq = fr
     ? [
         {
-          q: `Combien d'hôtels de ${c.name} ont une borne de recharge ?`,
+          q: `Combien d'hôtels de ${cn} ont une borne de recharge ?`,
           a: `${c.hotelCount} établissements de notre sélection en annoncent une : ${c.declaredCount} l'ont déclarée sur Booking, et ${c.onSiteCount} ont une borne cartographiée sur OpenStreetMap à moins de 120 m de l'entrée. Le reste de la ville compte ${c.chargersInCity} bornes publiques, dont ${c.chargersDc} en courant continu.`,
         },
         {
-          q: `Quelle est la borne d'hôtel la plus puissante à ${c.name} ?`,
+          q: `Quelle est la borne d'hôtel la plus puissante à ${cn} ?`,
           a: best
             ? `${best.name}, avec ${best.charging.onSite?.kwLabel} en ${best.charging.onSite?.socketLabels.join(" et ") || "Type 2"}. Sur une nuit de treize heures, cette puissance suffit largement à remplir une batterie de 77 kWh.`
             : `Aucune borne d'hôtel de la ville n'a de puissance publiée pour l'instant. Les fiches indiquent « non publiée » plutôt qu'une estimation.`,
         },
         {
-          q: `La recharge est-elle gratuite à ${c.name} ?`,
+          q: `La recharge est-elle gratuite à ${cn} ?`,
           a: `${free > 0 ? `${free} hôtel${free > 1 ? "s" : ""} de la sélection a${free > 1 ? "" : ""} une borne annoncée gratuite dans OpenStreetMap` : "Aucune borne de la sélection n'est annoncée gratuite"}. Pour les autres, le tarif dépend de l'opérateur et n'est pas toujours publié : la fiche laisse le champ vide plutôt que de deviner.`,
         },
         {
@@ -68,17 +70,17 @@ export default async function CityPage({
       ]
     : [
         {
-          q: `How many hotels in ${c.name} have a charger?`,
+          q: `How many hotels in ${cn} have a charger?`,
           a: `${c.hotelCount} properties in our selection state one: ${c.declaredCount} declared it on Booking, and ${c.onSiteCount} have a charger mapped on OpenStreetMap within 120 m of the door. The rest of the city counts ${c.chargersInCity} public chargers, ${c.chargersDc} of them DC.`,
         },
         {
-          q: `What is the most powerful hotel charger in ${c.name}?`,
+          q: `What is the most powerful hotel charger in ${cn}?`,
           a: best
             ? `${best.name}, with ${best.charging.onSite?.kwLabel} on ${best.charging.onSite?.socketLabels.join(" and ") || "Type 2"}. Over a thirteen-hour night that is more than enough to fill a 77 kWh battery.`
             : `No hotel charger in town has a published power rating yet. Pages say "not stated" rather than estimating.`,
         },
         {
-          q: `Is charging free in ${c.name}?`,
+          q: `Is charging free in ${cn}?`,
           a: `${free > 0 ? `${free} hotel${free > 1 ? "s" : ""} in the selection has a charger listed as free on OpenStreetMap` : "No charger in the selection is listed as free"}. For the others, pricing depends on the operator and is not always published: the page leaves the field empty rather than guessing.`,
         },
         {
@@ -128,7 +130,7 @@ export default async function CityPage({
           }}
         >
           <h2 style={{ margin: 0, fontWeight: 800, fontSize: 32, letterSpacing: "-0.035em" }}>
-            {fr ? `Recharger à ${c.name}` : `Charging in ${c.name}`}
+            {fr ? `Recharger à ${cn}` : `Charging in ${cn}`}
           </h2>
           <div style={{ display: "flex", flexDirection: "column" }}>
             {faq.map((f) => (
@@ -177,7 +179,7 @@ export default async function CityPage({
                   textDecoration: "none",
                 }}
               >
-                <span style={{ fontWeight: 700, fontSize: 17, color: "#141B34" }}>{o.name}</span>
+                <span style={{ fontWeight: 700, fontSize: 17, color: "#141B34" }}>{cityName(o, lang)}</span>
                 <span className="tnum" style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
                   {o.hotelCount} {lang === "fr" ? "hôtels" : "hotels"} · {o.chargersInCity}{" "}
                   {lang === "fr" ? "bornes" : "chargers"}

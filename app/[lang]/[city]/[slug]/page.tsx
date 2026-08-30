@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { NightMaths } from "@/components/night-maths";
 import { ConnectorIcon } from "@/components/connector-icon";
-import { cityBySlug, hotelBySlug, hotels, overnight } from "@/lib/data";
+import { cityBySlug, hotelBySlug, hotelCityName, hotels, overnight } from "@/lib/data";
 import { LANGS, STR, alternatesFor, type Lang } from "@/lib/i18n";
 
 export function generateStaticParams() {
@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!h) return {};
   const kw = h.charging.onSite?.kwLabel;
   return {
-    title: `${h.name}${kw ? `, ${kw}` : ""} · ${h.city}`,
+    title: `${h.name}${kw ? `, ${kw}` : ""} · ${hotelCityName(h, lang as Lang)}`,
     description: h.copy.envie[lang as Lang],
     alternates: alternatesFor(lang as Lang, `/${h.citySlug}/${h.slug}`),
   };
@@ -93,9 +93,9 @@ export default async function HotelPage({
       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         <div style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
           <Link href={`/${lang}/${h.citySlug}`} style={{ color: "#0E7C68" }}>
-            {h.city}
+            {hotelCityName(h, lang)}
           </Link>{" "}
-          · {h.country}
+          · {lang === "en" ? h.countryEn : h.country}
         </div>
 
         <div className="ps-gallery" style={{ display: "flex", gap: 10, height: 400 }}>
@@ -171,7 +171,7 @@ export default async function HotelPage({
               {h.stars ? <span>{"★".repeat(Math.round(h.stars))}</span> : null}
               {h.rating != null && <span style={{ color: "#0E7C68" }}>{String(h.rating).replace(".", ",")}/10</span>}
               <span>·</span>
-              <span>{h.address || h.city}</span>
+              <span>{h.address || hotelCityName(h, lang)}</span>
             </div>
             <p style={{ margin: 0, fontSize: 18, lineHeight: 1.55, color: "#3A4160", maxWidth: "58ch", textWrap: "pretty" }}>
               {h.copy.envie[lang]}

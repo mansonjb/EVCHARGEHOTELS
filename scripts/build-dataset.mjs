@@ -17,6 +17,8 @@ const ROOT = process.cwd();
 const RAW = path.join(ROOT, "data", "raw");
 
 const ON_SITE_M = 120;   // au-delà, ce n'est plus « sur le parking »
+const AT_BUILDING_M = 40; // à cette distance, la borne est sur la parcelle
+const DOORSTEP_M = 120;   // borne publique devant l'hôtel, sans lien établi
 const NEARBY_M = 700;    // ~8 minutes à pied
 const EV_LABEL = "electric vehicle charging";
 
@@ -80,16 +82,43 @@ function kwLabel(kw) {
   return `${String(kw).replace(".", ",")} kW`;
 }
 
-function buildCharging(hotel, chargers, declared) {
+/**
+ * Aux Pays-Bas une borne à 80 m d'un hôtel est presque toujours une borne de
+ * rue, pas celle de l'hôtel. On ne parle donc de borne « sur place » que si un
+ * indice la rattache à l'établissement : l'hôtel l'a déclarée sur Booking, ou
+ * l'accès OSM est réservé aux clients, ou le nom de la borne cite l'hôtel.
+ */
+function linkedToHotel(charger, hotelName, declared) {
+  if (declared && charger.distance <= ON_SITE_M) return "declared";
+  if (charger.distance <= AT_BUILDING_M) return "distance";
+  const access = (charger.access || "").toLowerCase();
+  if (["customers", "private", "permissive"].includes(access) && charger.distance <= ON_SITE_M)
+    return "access";
+  const label = `${charger.name || ""} ${charger.operator || ""}`.toLowerCase();
+  const words = hotelName
+    .toLowerCase()
+    .split(/[^a-zà-ÿ0-9]+/)
+    .filter((w) => w.length > 4 && !["hotel", "hôtel"].includes(w));
+  if (label && words.some((w) => label.includes(w))) return "name";
+  return null;
+}
+
+function buildCharging(hotel, chargers, declared, hotelName) {
   const near = chargers
     .map((c) => ({ ...c, distance: haversine(hotel, c) }))
     .filter((c) => c.distance <= NEARBY_M)
     .sort((a, b) => a.distance - b.distance);
 
-  const onSiteCandidates = near.filter((c) => c.distance <= ON_SITE_M);
-  // On garde la borne la plus puissante parmi celles qui sont sur place.
-  const onSite =
-    onSiteCandidates.slice().sort((a, b) => (b.maxKw ?? 0) - (a.maxKw ?? 0))[0] || null;
+  const linked = near
+    .filter((c) => c.distance <= ON_SITE_M)
+    .map((c) => ({ ...c, link: linkedToHotel(c, hotelName, declared) }))
+    .filter((c) => c.link);
+  // On garde la borne la plus puissante parmi celles rattachées à l'hôtel.
+  const onSite = linked.slice().sort((a, b) => (b.maxKw ?? 0) - (a.maxKw ?? 0))[0] || null;
+
+  // Borne publique littéralement devant la porte, sans lien avec l'hôtel.
+  const doorstep =
+    !onSite ? near.find((c) => c.distance <= DOORSTEP_M) || null : null;
 
   const nearby = near.filter((c) => !onSite || c.osmId !== onSite.osmId);
   const bestNearby = nearby.slice().sort((a, b) => (b.maxKw ?? 0) - (a.maxKw ?? 0))[0] || null;
@@ -98,10 +127,21 @@ function buildCharging(hotel, chargers, declared) {
   if (declared && onSite) confidence = "confirmed";
   else if (declared) confidence = "declared";
   else if (onSite) confidence = "mapped";
+  else if (doorstep) confidence = "doorstep";
 
   return {
     declaredOnBooking: declared,
     confidence,
+    linkReason: onSite?.link ?? null,
+    doorstep: doorstep
+      ? {
+          distance: doorstep.distance,
+          kw: doorstep.maxKw,
+          kwLabel: kwLabel(doorstep.maxKw),
+          sockets: doorstep.sockets.map((x) => SOCKET_LABEL[x] || x),
+          name: doorstep.name,
+        }
+      : null,
     onSite: onSite
       ? {
           osmId: onSite.osmId,
@@ -199,7 +239,13 @@ async function main() {
       continue;
     }
     const { items } = JSON.parse(await readFile(hf, "utf8"));
-    const { chargers } = JSON.parse(await readFile(cf, "utf8"));
+    const { chargers: osmChargers } = JSON.parse(await readFile(cf, "utf8"));
+
+    // Open Charge Map en complément quand la clé API est configurée : il porte
+    // souvent l'ampérage, la tension et le type d'usage, que OSM n'a pas.
+    const ocmFile = path.join(RAW, `ocm-${d.slug}.json`);
+    const ocm = existsSync(ocmFile) ? JSON.parse(await readFile(ocmFile, "utf8")).chargers : [];
+    const chargers = [...osmChargers, ...ocm];
 
     const kept = [];
     for (const h of items) {
@@ -209,7 +255,7 @@ async function main() {
 
       const facs = facilityNames(h);
       const declared = facs.some((f) => f.toLowerCase().includes(EV_LABEL));
-      const charging = buildCharging({ lat, lng }, chargers, declared);
+      const charging = buildCharging({ lat, lng }, chargers, declared, h.name);
       if (charging.confidence === "none") continue;
 
       const slug = slugify(h.name);
@@ -221,7 +267,9 @@ async function main() {
         name: h.name,
         citySlug: d.slug,
         city: d.name,
+        cityEn: d.nameEn ?? d.name,
         country: d.country,
+        countryEn: d.countryEn ?? d.country,
         lat,
         lng,
         address: h.address?.full || h.address || null,
@@ -245,6 +293,7 @@ async function main() {
     kept.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
 
     const withOnSite = kept.filter((h) => h.charging.onSite);
+    const withDoorstep = kept.filter((h) => h.charging.confidence === "doorstep");
     const dcCity = chargers.filter((c) => c.dc).length;
     const kwKnown = chargers.filter((c) => c.maxKw != null);
 
@@ -253,6 +302,7 @@ async function main() {
       hotelCount: kept.length,
       declaredCount: kept.filter((h) => h.charging.declaredOnBooking).length,
       onSiteCount: withOnSite.length,
+      doorstepCount: withDoorstep.length,
       bestKw: withOnSite.reduce((m, h) => Math.max(m, h.charging.onSite.kw ?? 0), 0) || null,
       chargersInCity: chargers.length,
       chargersDc: dcCity,

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { HotelCard } from "@/components/hotel-card";
-import { cities, hotelsInCity, rankHotels } from "@/lib/data";
+import { cities, cityName, hotelsInCity, rankHotels } from "@/lib/data";
 import { LANGS, type Lang } from "@/lib/i18n";
 
 const ROUTES = [
@@ -124,7 +124,7 @@ export default async function RoutePage({
               <div style={{ display: "flex", alignItems: "baseline", gap: 16, flexWrap: "wrap" }}>
                 <h2 style={{ margin: 0, fontWeight: 800, fontSize: 32, letterSpacing: "-0.035em" }}>
                   <Link href={`/${lang}/${c.slug}`} style={{ color: "#141B34" }}>
-                    {c.name}
+                    {cityName(c, lang)}
                   </Link>
                 </h2>
                 {leg != null && (

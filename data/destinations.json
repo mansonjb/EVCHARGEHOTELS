@@ -1,9 +1,69 @@
 {
   "destinations": [
-    { "slug": "bordeaux",  "name": "Bordeaux",  "country": "France",      "countryCode": "fr", "lat": 44.8378, "lng": -0.5792, "radiusM": 7000, "corridorKm": 0,    "bookingSearch": "Bordeaux" },
-    { "slug": "poitiers",  "name": "Poitiers",  "country": "France",      "countryCode": "fr", "lat": 46.5802, "lng": 0.3404,  "radiusM": 8000, "corridorKm": 230,  "bookingSearch": "Poitiers" },
-    { "slug": "tours",     "name": "Tours",     "country": "France",      "countryCode": "fr", "lat": 47.3941, "lng": 0.6848,  "radiusM": 9000, "corridorKm": 335,  "bookingSearch": "Tours" },
-    { "slug": "anvers",    "name": "Anvers",    "country": "Belgique",    "countryCode": "be", "lat": 51.2194, "lng": 4.4025,  "radiusM": 7000, "corridorKm": 925,  "bookingSearch": "Antwerp" },
-    { "slug": "utrecht",   "name": "Utrecht",   "country": "Pays-Bas",    "countryCode": "nl", "lat": 52.0907, "lng": 5.1214,  "radiusM": 7000, "corridorKm": 1085, "bookingSearch": "Utrecht" }
+    {
+      "slug": "bordeaux",
+      "name": "Bordeaux",
+      "country": "France",
+      "countryCode": "fr",
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "radiusM": 7000,
+      "corridorKm": 0,
+      "bookingSearch": "Bordeaux",
+      "nameEn": "Bordeaux",
+      "countryEn": "France"
+    },
+    {
+      "slug": "poitiers",
+      "name": "Poitiers",
+      "country": "France",
+      "countryCode": "fr",
+      "lat": 46.5802,
+      "lng": 0.3404,
+      "radiusM": 8000,
+      "corridorKm": 230,
+      "bookingSearch": "Poitiers",
+      "nameEn": "Poitiers",
+      "countryEn": "France"
+    },
+    {
+      "slug": "tours",
+      "name": "Tours",
+      "country": "France",
+      "countryCode": "fr",
+      "lat": 47.3941,
+      "lng": 0.6848,
+      "radiusM": 9000,
+      "corridorKm": 335,
+      "bookingSearch": "Tours",
+      "nameEn": "Tours",
+      "countryEn": "France"
+    },
+    {
+      "slug": "anvers",
+      "name": "Anvers",
+      "country": "Belgique",
+      "countryCode": "be",
+      "lat": 51.2194,
+      "lng": 4.4025,
+      "radiusM": 7000,
+      "corridorKm": 925,
+      "bookingSearch": "Antwerp",
+      "nameEn": "Antwerp",
+      "countryEn": "Belgium"
+    },
+    {
+      "slug": "utrecht",
+      "name": "Utrecht",
+      "country": "Pays-Bas",
+      "countryCode": "nl",
+      "lat": 52.0907,
+      "lng": 5.1214,
+      "radiusM": 7000,
+      "corridorKm": 1085,
+      "bookingSearch": "Utrecht",
+      "nameEn": "Utrecht",
+      "countryEn": "Netherlands"
+    }
   ]
 }
