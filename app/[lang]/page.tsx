@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { HOME, STR, type Lang } from "@/lib/i18n";
+import { HOME, STR, alternatesFor, type Lang } from "@/lib/i18n";
+import { cities, hotels } from "@/lib/data";
 
 export async function generateMetadata({
   params,
@@ -9,7 +10,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const h = HOME[lang as Lang];
-  return { title: `${h.h1a} ${h.h1b}`, description: h.lede };
+  return { title: `${h.h1a} ${h.h1b}`, description: h.lede, alternates: alternatesFor(lang as Lang) };
 }
 
 export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
@@ -17,6 +18,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const lang = raw as Lang;
   const t = STR[lang];
   const home = HOME[lang];
+  const totalChargers = cities.reduce((n, c) => n + c.chargersInCity, 0);
+  const firstCity = cities[0];
 
   return (
     <div>
@@ -69,11 +72,11 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   padding: "0 6px 0 20px",
                 }}
               >
-                <span style={{ width: 132, fontSize: 15, fontWeight: 700 }}>Bordeaux</span>
+                <span style={{ width: 132, fontSize: 15, fontWeight: 700 }}>{firstCity.name}</span>
                 <span style={{ width: 1, height: 22, background: "#EBEBF2", margin: "0 16px" }} />
                 <span style={{ width: 104, fontWeight: 600, fontSize: 14 }}>12 – 13 juin</span>
                 <Link
-                  href={`/${lang}/bordeaux`}
+                  href={`/${lang}/${firstCity.slug}`}
                   className="ps-dark-btn"
                   style={{
                     flex: "0 0 auto",
@@ -128,7 +131,9 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </div>
             ))}
             <div style={{ padding: "16px 22px", background: "#F1F9F5", fontWeight: 600, fontSize: 12.5, color: "#0A5C4D" }}>
-              {home.statsNote}
+              {lang === "fr"
+                ? `${hotels.length} hôtels sur ${cities.length} étapes, ${totalChargers} bornes cartographiées autour d'eux.`
+                : `${hotels.length} hotels across ${cities.length} stops, ${totalChargers} chargers mapped around them.`}
             </div>
           </div>
         </div>
@@ -286,7 +291,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       >
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap" }}>
           <h2 style={{ margin: 0, fontWeight: 800, fontSize: 32, letterSpacing: "-0.035em" }}>{home.citiesH}</h2>
-          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{home.citiesNote}</span>
+          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{lang === "fr" ? "Corridor Amsterdam vers Bordeaux, cinq étapes ouvertes." : "Amsterdam to Bordeaux corridor, five stops open."}</span>
         </div>
         <div
           className="ps-grid-2"
@@ -300,47 +305,39 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             overflow: "hidden",
           }}
         >
-          {home.cities.map((ct) => {
-            const open = ct.tag === "ouvert" || ct.tag === "open";
-            const inner = (
-              <>
-                <span style={{ fontWeight: 700, fontSize: 16, flex: 1, minWidth: 0, color: "#141B34" }}>{ct.name}</span>
-                <span className="tnum" style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>
-                  {ct.n}
-                </span>
-                <span
-                  style={{
-                    fontWeight: 600,
-                    fontSize: 12.5,
-                    color: "#0A5C4D",
-                    background: "#F1F9F5",
-                    padding: "5px 10px",
-                    borderRadius: 999,
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  {ct.tag}
-                </span>
-              </>
-            );
-            const style: React.CSSProperties = {
-              display: "flex",
-              alignItems: "center",
-              gap: 14,
-              padding: "17px 22px",
-              background: "#FFFFFF",
-              textDecoration: "none",
-            };
-            return open ? (
-              <Link key={ct.name} href={`/${lang}/bordeaux`} style={style}>
-                {inner}
-              </Link>
-            ) : (
-              <div key={ct.name} style={style}>
-                {inner}
-              </div>
-            );
-          })}
+          {cities.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/${lang}/${c.slug}`}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 14,
+                padding: "17px 22px",
+                background: "#FFFFFF",
+                textDecoration: "none",
+              }}
+            >
+              <span style={{ fontWeight: 700, fontSize: 16, flex: 1, minWidth: 0, color: "#141B34" }}>{c.name}</span>
+              <span className="tnum" style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>
+                {c.hotelCount} {lang === "fr" ? "hôtels" : "hotels"} · {c.chargersInCity}{" "}
+                {lang === "fr" ? "bornes" : "chargers"}
+              </span>
+              <span
+                style={{
+                  fontWeight: 600,
+                  fontSize: 12.5,
+                  color: "#0A5C4D",
+                  background: "#F1F9F5",
+                  padding: "5px 10px",
+                  borderRadius: 999,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {c.bestKw ? `${String(c.bestKw).replace(".", ",")} kW max` : lang === "fr" ? "ouvert" : "open"}
+              </span>
+            </Link>
+          ))}
         </div>
       </div>
 
@@ -398,10 +395,10 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         >
           <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontWeight: 800, fontSize: 26, letterSpacing: "-0.03em" }}>{home.ctaH}</span>
-            <span style={{ fontSize: 15, color: "#3A4160" }}>{home.ctaP}</span>
+            <span style={{ fontSize: 15, color: "#3A4160" }}>{lang === "fr" ? `${hotels.length} fiches détaillées, puissance et connecteur pour chacune.` : `${hotels.length} detailed pages, power and connector on each.`}</span>
           </div>
           <Link
-            href={`/${lang}/bordeaux`}
+            href={`/${lang}/${firstCity.slug}`}
             className="ps-dark-btn"
             style={{
               background: "#141B34",

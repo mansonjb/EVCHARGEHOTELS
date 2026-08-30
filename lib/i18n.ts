@@ -312,3 +312,17 @@ export const HOME = {
     ctaBtn: "See the hotels",
   },
 } as const;
+
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || "https://plugstays.com";
+
+/** hreflang : chaque page existe en fr et en en, au même chemin. */
+export function alternatesFor(lang: Lang, rest = "") {
+  return {
+    canonical: `${BASE}/${lang}${rest}`,
+    languages: {
+      fr: `${BASE}/fr${rest}`,
+      en: `${BASE}/en${rest}`,
+      "x-default": `${BASE}/en${rest}`,
+    },
+  };
+}

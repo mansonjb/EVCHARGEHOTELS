@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { HOME, type Lang } from "@/lib/i18n";
+import { cities } from "@/lib/data";
 
 const INK = "#141B34";
 const LO = "#8B8FA3";
@@ -40,11 +41,14 @@ function langStyle(active: boolean): React.CSSProperties {
 export function SiteHeader({ lang }: { lang: Lang }) {
   const pathname = usePathname();
   const nav = HOME[lang].nav;
+  const firstCity = cities[0]?.slug ?? "";
   const rest = pathname.replace(/^\/(fr|en)/, "") || "";
 
-  const isHome = pathname === `/${lang}`;
-  const isList = pathname === `/${lang}/bordeaux`;
-  const isHotel = pathname.startsWith(`/${lang}/bordeaux/`);
+  const segs = pathname.split("/").filter(Boolean);
+  const isHome = segs.length === 1;
+  const isList = segs.length === 2 && segs[1] !== "methode";
+  const isHotel = segs.length === 3;
+  const isMethod = segs[1] === "methode";
 
   return (
     <div
@@ -83,11 +87,14 @@ export function SiteHeader({ lang }: { lang: Lang }) {
         <Link href={`/${lang}`} style={navStyle(isHome)}>
           {nav.home}
         </Link>
-        <Link href={`/${lang}/bordeaux`} style={navStyle(isList)}>
+        <Link href={`/${lang}/${firstCity}`} style={navStyle(isList || isHotel)}>
           {nav.list}
         </Link>
-        <Link href={`/${lang}/bordeaux/hotel-sainte-croix`} style={navStyle(isHotel)}>
-          {nav.hotel}
+        <Link href={`/${lang}/route/amsterdam-bordeaux`} style={navStyle(segs[1] === "route")}>
+          {lang === "fr" ? "Route" : "Route"}
+        </Link>
+        <Link href={`/${lang}/methode`} style={navStyle(isMethod)}>
+          {lang === "fr" ? "Méthode" : "Method"}
         </Link>
       </nav>
 

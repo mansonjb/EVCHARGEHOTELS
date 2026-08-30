@@ -35,5 +35,7 @@ export function Ccs2Icon({ size = 26, color = "#0E9E7E" }: { size?: number; colo
 }
 
 export function ConnectorIcon({ conn, size = 26 }: { conn: string; size?: number }) {
-  return conn === "CCS2" ? <Ccs2Icon size={size} /> : <Type2Icon size={size} />;
+  const c = (conn || "").toLowerCase();
+  if (c.includes("ccs") || c.includes("combo")) return <Ccs2Icon size={size} />;
+  return <Type2Icon size={size} />;
 }

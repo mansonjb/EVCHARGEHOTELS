@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { HOTELS, NO_CHARGER } from "@/data/hotels";
+import type { City, Hotel } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
 import { HotelCard } from "./hotel-card";
 
@@ -26,26 +26,41 @@ function chip(active: boolean): React.CSSProperties {
   };
 }
 
-export function ListView({ lang }: { lang: Lang }) {
+/** Projection simple des coordonnées dans le cadre de la carte. */
+function project(city: City, lat: number, lng: number) {
+  const span = city.radiusM / 111000; // degrés de latitude couverts
+  const lngSpan = span / Math.cos((city.lat * Math.PI) / 180);
+  const x = 50 + ((lng - city.lng) / lngSpan) * 45;
+  const y = 50 - ((lat - city.lat) / span) * 45;
+  return { left: `${Math.max(4, Math.min(96, x))}%`, top: `${Math.max(6, Math.min(94, y))}%` };
+}
+
+export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; lang: Lang }) {
   const t = STR[lang];
   const [minKw, setMinKw] = useState(0);
   const [dcOnly, setDcOnly] = useState(false);
   const [guarOnly, setGuarOnly] = useState(false);
   const [showMap, setShowMap] = useState(true);
-  const [chargersOn, setChargersOn] = useState(false);
 
-  const list = HOTELS.filter(
-    (h) => (dcOnly ? h.dc : h.kwNum >= minKw) && (!guarOnly || h.guar),
-  );
+  const list = hotels.filter((h) => {
+    const kw = h.charging.onSite?.kw ?? 0;
+    if (dcOnly) return Boolean(h.charging.onSite?.dc);
+    if (guarOnly) return Boolean(h.charging.onSite);
+    return kw >= minKw;
+  });
 
   const count =
     lang === "fr"
       ? `${list.length} ${list.length > 1 ? "hôtels" : "hôtel"}`
       : `${list.length} ${list.length > 1 ? "hotels" : "hotel"}`;
 
+  const verified = new Date(city.scrapedAt).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", {
+    month: "2-digit",
+    year: "numeric",
+  });
+
   return (
     <div>
-      {/* Barre de filtres */}
       <div
         style={{
           display: "flex",
@@ -65,73 +80,43 @@ export function ListView({ lang }: { lang: Lang }) {
             border: "1px solid #DEDEEA",
             borderRadius: 999,
             background: "#FFFFFF",
-            padding: "0 5px 0 18px",
+            padding: "0 18px",
           }}
         >
-          <span style={{ width: 104, fontSize: 14.5, fontWeight: 700 }}>Bordeaux</span>
+          <span style={{ fontSize: 14.5, fontWeight: 700 }}>{city.name}</span>
           <span style={{ width: 1, height: 20, background: "#EBEBF2", margin: "0 14px" }} />
-          <span style={{ width: 92, fontWeight: 600, fontSize: 13.5 }}>12 – 13 juin</span>
-          <button
-            className="ps-dark-btn"
-            style={{
-              flex: "0 0 auto",
-              marginLeft: 12,
-              border: 0,
-              background: INK,
-              color: "#FFFFFF",
-              height: 36,
-              padding: "0 20px",
-              borderRadius: 999,
-              fontSize: 14,
-              fontWeight: 700,
-              cursor: "pointer",
-            }}
-          >
-            {t.search}
-          </button>
+          <span style={{ fontWeight: 600, fontSize: 13.5, color: "#8B8FA3" }}>{city.country}</span>
         </div>
 
         <span style={{ flex: "0 0 1px", width: 1, height: 26, background: "#EBEBF2" }} />
 
         <div style={{ display: "flex", alignItems: "center", gap: 8, flex: "1 1 auto", minWidth: 0, overflowX: "auto" }}>
-          <button onClick={() => { setMinKw(0); setDcOnly(false); }} style={chip(!dcOnly && minKw === 0)}>
+          <button onClick={() => { setMinKw(0); setDcOnly(false); setGuarOnly(false); }} style={chip(!dcOnly && !guarOnly && minKw === 0)}>
             {t.allChargers}
           </button>
-          <button onClick={() => { setMinKw(11); setDcOnly(false); }} style={chip(!dcOnly && minKw === 11)}>
+          <button onClick={() => { setMinKw(11); setDcOnly(false); setGuarOnly(false); }} style={chip(!dcOnly && minKw === 11)}>
             11 kW+
           </button>
-          <button onClick={() => { setMinKw(22); setDcOnly(false); }} style={chip(!dcOnly && minKw === 22)}>
+          <button onClick={() => { setMinKw(22); setDcOnly(false); setGuarOnly(false); }} style={chip(!dcOnly && minKw === 22)}>
             22 kW+
           </button>
-          <button onClick={() => { setMinKw(0); setDcOnly(true); }} style={chip(dcOnly)}>
+          <button onClick={() => { setMinKw(0); setDcOnly(true); setGuarOnly(false); }} style={chip(dcOnly)}>
             DC
           </button>
-          <button onClick={() => setGuarOnly((g) => !g)} style={chip(guarOnly)}>
-            {t.guaranteedChip}
+          <button onClick={() => { setGuarOnly((g) => !g); setDcOnly(false); setMinKw(0); }} style={chip(guarOnly)}>
+            {lang === "fr" ? "Borne cartographiée" : "Charger mapped"}
           </button>
         </div>
 
         <div style={{ flex: "0 0 auto" }}>
-          <button
-            onClick={() => setShowMap((m) => !m)}
-            style={{ ...chip(false), border: `1px solid ${INK}` }}
-          >
+          <button onClick={() => setShowMap((m) => !m)} style={{ ...chip(false), border: `1px solid ${INK}` }}>
             {showMap ? t.mapHide : t.mapShow}
           </button>
         </div>
       </div>
 
       <div style={{ display: "flex", alignItems: "flex-start" }}>
-        <div
-          style={{
-            flex: 1,
-            minWidth: 0,
-            padding: "30px 26px 60px",
-            display: "flex",
-            flexDirection: "column",
-            gap: 22,
-          }}
-        >
+        <div style={{ flex: 1, minWidth: 0, padding: "30px 26px 60px", display: "flex", flexDirection: "column", gap: 22 }}>
           <div style={{ display: "flex", alignItems: "flex-end", gap: 18, flexWrap: "wrap" }}>
             <h1 style={{ margin: 0, fontWeight: 800, fontSize: 42, lineHeight: 1.02, letterSpacing: "-0.035em" }}>
               {t.listH1}{" "}
@@ -140,7 +125,7 @@ export function ListView({ lang }: { lang: Lang }) {
               </span>
             </h1>
             <div className="tnum" style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3", paddingBottom: 5 }}>
-              {count} · {t.verifiedNote}
+              {count} · {lang === "fr" ? `relevé ${verified}` : `checked ${verified}`}
             </div>
           </div>
 
@@ -157,27 +142,13 @@ export function ListView({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 14,
-              padding: "18px 20px",
-              background: "#FFFFFF",
-              border: "1px solid #EBEBF2",
-              borderRadius: 16,
-            }}
-          >
-            <span style={{ width: 9, height: 9, borderRadius: "50%", background: "#B9B5AC" }} />
-            <span style={{ fontWeight: 600, fontSize: 19, letterSpacing: "-0.02em", color: "#8B8FA3" }}>
-              {NO_CHARGER.name}
-            </span>
-            <span style={{ flex: 1 }} />
-            <span style={{ fontWeight: 600, fontSize: 12, color: "#8B8FA3" }}>{t.noCharger}</span>
-            <span className="tnum" style={{ fontWeight: 600, fontSize: 14, color: "#8B8FA3" }}>
-              {NO_CHARGER.price}
-            </span>
-          </div>
+          {list.length === 0 && (
+            <p style={{ color: "#8B8FA3", fontSize: 15 }}>
+              {lang === "fr"
+                ? "Aucun hôtel ne passe ce filtre dans cette ville. Élargissez la puissance minimale."
+                : "No hotel matches this filter in this city. Lower the minimum power."}
+            </p>
+          )}
         </div>
 
         {showMap && (
@@ -216,98 +187,66 @@ export function ListView({ lang }: { lang: Lang }) {
               {t.mapTitle}
             </div>
 
-            {list.map((h) => (
-              <div
-                key={h.slug}
-                style={{
-                  position: "absolute",
-                  transform: "translate(-50%,-100%)",
-                  left: h.mx,
-                  top: h.my,
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: 4,
-                }}
-              >
+            {list.map((h) => {
+              const pos = project(city, h.lat, h.lng);
+              const kw = h.charging.onSite?.kwLabel;
+              return (
                 <div
-                  className="tnum"
+                  key={h.slug}
                   style={{
-                    padding: "6px 12px",
-                    borderRadius: 999,
-                    background: "#FFFFFF",
-                    border: "1px solid #DCD9D1",
-                    boxShadow: "0 1px 2px rgba(0,0,0,0.06)",
-                    fontWeight: 600,
-                    fontSize: 12.5,
-                    whiteSpace: "nowrap",
+                    position: "absolute",
+                    transform: "translate(-50%,-100%)",
+                    left: pos.left,
+                    top: pos.top,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: 4,
                   }}
                 >
-                  {h.price} <span style={{ color: GREEN }}>{h.kw}</span>
+                  <div
+                    className="tnum"
+                    style={{
+                      padding: "6px 12px",
+                      borderRadius: 999,
+                      background: "#FFFFFF",
+                      border: "1px solid #DCD9D1",
+                      boxShadow: "0 1px 2px rgba(0,0,0,0.06)",
+                      fontWeight: 600,
+                      fontSize: 12.5,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {h.price != null ? `${h.price} €` : h.name.slice(0, 14)}{" "}
+                    {kw && <span style={{ color: GREEN }}>{kw}</span>}
+                  </div>
+                  <span style={{ width: 9, height: 9, borderRadius: "50%", background: GREEN, border: "2px solid #FFFFFF" }} />
                 </div>
-                <span
-                  style={{ width: 9, height: 9, borderRadius: "50%", background: GREEN, border: "2px solid #FFFFFF" }}
-                />
-              </div>
-            ))}
+              );
+            })}
 
             <div
+              className="tnum"
               style={{
                 position: "absolute",
-                left: 26,
+                right: 26,
                 bottom: 26,
                 display: "flex",
-                alignItems: "center",
-                gap: 12,
-                padding: "12px 16px",
+                flexDirection: "column",
+                gap: 6,
+                padding: "14px 16px",
                 background: "#FFFFFF",
                 border: "1px solid #DEDEEA",
-                borderRadius: 999,
+                borderRadius: 16,
+                fontWeight: 600,
+                fontSize: 12.5,
+                color: "#8B8FA3",
               }}
             >
-              <span style={{ fontWeight: 600, fontSize: 12, color: INK }}>{t.showChargers}</span>
-              <span
-                onClick={() => setChargersOn((c) => !c)}
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  width: 40,
-                  height: 22,
-                  borderRadius: 999,
-                  background: chargersOn ? GREEN : "#DCD9D1",
-                  padding: 2,
-                  cursor: "pointer",
-                  justifyContent: chargersOn ? "flex-end" : "flex-start",
-                }}
-              >
-                <span style={{ display: "block", width: 18, height: 18, borderRadius: "50%", background: "#FFFFFF" }} />
-              </span>
+              <span style={{ color: INK }}>{t.publicChargers}</span>
+              <span>· {city.chargersInCity} {lang === "fr" ? "en ville" : "in town"}</span>
+              <span>· {city.chargersDc} {lang === "fr" ? "en DC" : "DC"}</span>
             </div>
-
-            {chargersOn && (
-              <div
-                className="tnum"
-                style={{
-                  position: "absolute",
-                  right: 26,
-                  bottom: 26,
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: 6,
-                  padding: "14px 16px",
-                  background: "#FFFFFF",
-                  border: "1px solid #DEDEEA",
-                  borderRadius: 16,
-                  fontWeight: 600,
-                  fontSize: 12.5,
-                  color: "#8B8FA3",
-                }}
-              >
-                <span style={{ color: INK }}>{t.publicChargers}</span>
-                <span>· 34 en 22 kW</span>
-                <span>· 11 en DC 50+</span>
-              </div>
-            )}
           </div>
         )}
       </div>
