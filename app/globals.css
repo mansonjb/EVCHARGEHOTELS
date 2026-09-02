@@ -134,18 +134,21 @@ select {
   }
 }
 
-/* Pastilles de prix de la carte ville : la div-icon ne doit pas contraindre
-   la largeur de l'étiquette. */
-.ps-pin {
-  width: auto !important;
-  height: auto !important;
-  margin: 0 !important;
-  transform-origin: left top;
+/* Infobulles de carte : la pointe et le fond blanc du style MapLibre. */
+.maplibregl-popup-content {
+  padding: 12px 14px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(20, 27, 52, 0.16);
 }
-.ps-pin > span {
-  transform: translate(-50%, -130%);
-  display: inline-flex;
+.maplibregl-popup-close-button {
+  font-size: 18px;
+  color: #8b8fa3;
+  padding: 2px 8px;
 }
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+
 
 /* Carte d'accueil : le panneau passe sous la carte sur petit écran. */
 @media (max-width: 900px) {
@@ -160,10 +163,4 @@ select {
   }
 }
 
-/* Fond de carte : teinte papier chaude. Le canevas d'Esri est gris et mort ;
-   une pointe de sépia lui redonne une matière sans le colorer. La menthe
-   avait été essayée puis écartée : à cette surface, le vert devenait acide et
-   se battait avec nos pastilles. */
-.leaflet-tile-pane {
-  filter: sepia(0.38) saturate(0.85) brightness(1.045);
-}
+

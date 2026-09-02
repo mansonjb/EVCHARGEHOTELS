@@ -225,7 +225,7 @@ export default async function FrancePage({ params }: { params: Promise<{ lang: s
       <div style={{ marginTop: 18, overflowX: "auto", border: "1px solid #EBEBF2", borderRadius: 18 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 640 }}>
           <thead>
-            <tr style={{ background: "#F1F9F5", textAlign: "left" }}>
+            <tr style={{ background: "#F7F5F1", textAlign: "left" }}>
               {[
                 fr ? "Station" : "Station",
                 fr ? "Commune" : "Town",

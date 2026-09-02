@@ -58,7 +58,7 @@ export function Stay22Map({
           border: "1px solid #DEDEEA",
           borderRadius: 22,
           overflow: "hidden",
-          background: "#F1F9F5",
+          background: "#F7F5F1",
         }}
       >
         <iframe
@@ -66,7 +66,7 @@ export function Stay22Map({
           title={fr ? `Carte des prix à ${city}` : `Price map in ${city}`}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          style={{ display: "block", width: "100%", height, border: 0, background: "#F1F9F5" }}
+          style={{ display: "block", width: "100%", height, border: 0, background: "#F7F5F1" }}
         />
         <div
           style={{

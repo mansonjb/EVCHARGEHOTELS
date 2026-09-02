@@ -2,19 +2,19 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import "leaflet/dist/leaflet.css";
+import "maplibre-gl/dist/maplibre-gl.css";
 import type { Lang } from "@/lib/i18n";
-import { addBasemap } from "@/lib/tiles";
+import { MAP_ATTRIBUTION, MAP_STYLE } from "@/lib/tiles";
 
 /**
  * Explorateur national : la carte pilote la recherche.
  *
- * Fond de carte en tuiles image (Leaflet, rendu canvas 2D) et non en tuiles
- * vectorielles : le vectoriel exige WebGL et une fenêtre qui compose vraiment
- * ses images, ce qui laissait un rectangle gris dans plusieurs contextes.
+ * Rendu vectoriel (MapLibre) : les 1 273 points partent en une seule couche
+ * dessinée par le GPU, au lieu d'autant de marqueurs dans le DOM, et le fond
+ * garde ses couleurs de sens, l'eau en bleu et les bois en vert.
  *
- * Les 1 273 points sont chargés une fois depuis un GeoJSON statique et filtrés
- * côté client : aucun appel serveur au déplacement de la carte.
+ * Le GeoJSON est chargé une fois et filtré côté client : aucun appel serveur
+ * au déplacement de la carte.
  */
 
 interface Props {
@@ -67,10 +67,9 @@ function chipStyle(active: boolean): React.CSSProperties {
 export function FranceExplorer({ lang, total }: Props) {
   const fr = lang === "fr";
   const mapNode = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<import("leaflet").Map | null>(null);
-  const libRef = useRef<typeof import("leaflet") | null>(null);
-  const layerRef = useRef<import("leaflet").LayerGroup | null>(null);
-  const markersRef = useRef<Map<string, import("leaflet").CircleMarker>>(new Map());
+  const mapRef = useRef<import("maplibre-gl").Map | null>(null);
+  const libRef = useRef<typeof import("maplibre-gl") | null>(null);
+  const popupRef = useRef<import("maplibre-gl").Popup | null>(null);
 
   const [all, setAll] = useState<Hotel[]>([]);
   const [bounds, setBounds] = useState<[number, number, number, number] | null>(null);
@@ -113,7 +112,7 @@ export function FranceExplorer({ lang, total }: Props) {
     const p = new URLSearchParams();
     p.set("lat", c.lat.toFixed(4));
     p.set("lng", c.lng.toFixed(4));
-    p.set("zoom", String(map.getZoom()));
+    p.set("zoom", String(Math.round(map.getZoom())));
     if (minKw) p.set("kw", String(minKw));
     if (sockets !== "all") p.set("prise", sockets);
     window.history.replaceState(null, "", `?${p}`);
@@ -145,76 +144,108 @@ export function FranceExplorer({ lang, total }: Props) {
 
   useEffect(() => {
     let cancelled = false;
+    let ro: ResizeObserver | null = null;
 
     (async () => {
       try {
-        const L = (await import("leaflet")).default;
-        if (cancelled || !mapNode.current) return;
-        libRef.current = L;
+        const maplibregl = (await import("maplibre-gl")).default;
+        if (cancelled || !mapNode.current || mapRef.current) return;
+        libRef.current = maplibregl;
 
         const url = new URL(window.location.href);
         const lat = Number(url.searchParams.get("lat")) || 46.6;
         const lng = Number(url.searchParams.get("lng")) || 2.4;
-        const zoom = Number(url.searchParams.get("zoom")) || 6;
+        const zoom = Number(url.searchParams.get("zoom")) || 5.2;
         const kw = Number(url.searchParams.get("kw"));
         const prise = url.searchParams.get("prise");
         if (kw) setMinKw(kw);
         if (prise === "ccs" || prise === "type2") setSockets(prise);
 
-        // preferCanvas : les points sont dessinés en canvas 2D, ce qui tient
-        // largement les 1 273 marqueurs sans WebGL.
-        const map = L.map(mapNode.current, { preferCanvas: true, zoomControl: true }).setView([lat, lng], zoom);
+        const map = new maplibregl.Map({
+          container: mapNode.current,
+          style: MAP_STYLE,
+          center: [lng, lat],
+          zoom,
+          attributionControl: false,
+        });
         mapRef.current = map;
-
-        addBasemap(L, map);
-
-        const group = L.layerGroup().addTo(map);
-        layerRef.current = group;
+        map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+        map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: MAP_ATTRIBUTION }));
 
         const readBounds = () => {
           const b = map.getBounds();
           setBounds([b.getWest(), b.getSouth(), b.getEast(), b.getNorth()]);
         };
-        readBounds();
 
-        map.on("moveend zoomend", () => {
+        map.on("moveend", () => {
           readBounds();
           setLimit(40);
           syncUrl();
         });
 
-        // Le conteneur est dans une grille : sa taille peut arriver après la
-        // création de la carte.
-        const ro = new ResizeObserver(() => map.invalidateSize());
+        ro = new ResizeObserver(() => map.resize());
         ro.observe(mapNode.current);
-        requestAnimationFrame(() => map.invalidateSize());
 
-        const res = await fetch("/france-hotels.geojson");
-        const geo = (await res.json()) as GeoJSON.FeatureCollection<GeoJSON.Point>;
-        if (cancelled) return;
+        map.on("load", async () => {
+          readBounds();
+          const res = await fetch("/france-hotels.geojson");
+          const geo = (await res.json()) as GeoJSON.FeatureCollection<GeoJSON.Point>;
+          if (cancelled) return;
 
-        const list: Hotel[] = geo.features.map((f) => ({
-          ...(f.properties as unknown as Hotel),
-          lng: f.geometry.coordinates[0],
-          lat: f.geometry.coordinates[1],
-        }));
-        setAll(list);
+          const list: Hotel[] = geo.features.map((f) => ({
+            ...(f.properties as unknown as Hotel),
+            lng: f.geometry.coordinates[0],
+            lat: f.geometry.coordinates[1],
+          }));
+          setAll(list);
 
-        for (const h of list) {
-          const marker = L.circleMarker([h.lat, h.lng], {
-            radius: 5,
-            color: "#FFFFFF",
-            weight: 2,
-            fillColor: (h.k ?? 0) >= 50 ? INK : GREEN,
-            fillOpacity: 1,
+          map.addSource("hotels", { type: "geojson", data: geo, promoteId: "s" });
+          map.addLayer({
+            id: "hotels",
+            type: "circle",
+            source: "hotels",
+            paint: {
+              "circle-radius": [
+                "case",
+                ["boolean", ["feature-state", "hover"], false],
+                10,
+                ["interpolate", ["linear"], ["zoom"], 5, 4, 9, 6, 13, 8],
+              ],
+              "circle-color": [
+                "case",
+                [">=", ["coalesce", ["get", "k"], 0], 50],
+                INK,
+                GREEN,
+              ],
+              "circle-stroke-color": "#FFFFFF",
+              "circle-stroke-width": 2,
+            },
           });
-          marker.bindPopup(popupHtml(h), { maxWidth: 280 });
-          marker.on("mouseover", () => setHovered(h.s));
-          marker.on("mouseout", () => setHovered(null));
-          markersRef.current.set(h.s, marker);
-        }
 
-        return () => ro.disconnect();
+          map.on("mouseenter", "hotels", () => (map.getCanvas().style.cursor = "pointer"));
+          map.on("mouseleave", "hotels", () => {
+            map.getCanvas().style.cursor = "";
+            setHovered(null);
+          });
+          map.on("mousemove", "hotels", (e) => {
+            const f = e.features?.[0];
+            if (f?.id) setHovered(String(f.id));
+          });
+          map.on("click", "hotels", (e) => {
+            const f = e.features?.[0];
+            if (!f) return;
+            const h = {
+              ...(f.properties as unknown as Hotel),
+              lng: (f.geometry as GeoJSON.Point).coordinates[0],
+              lat: (f.geometry as GeoJSON.Point).coordinates[1],
+            };
+            popupRef.current?.remove();
+            popupRef.current = new maplibregl.Popup({ offset: 12, maxWidth: "280px" })
+              .setLngLat([h.lng, h.lat])
+              .setHTML(popupHtml(h))
+              .addTo(map);
+          });
+        });
       } catch {
         setError(true);
       }
@@ -222,9 +253,9 @@ export function FranceExplorer({ lang, total }: Props) {
 
     return () => {
       cancelled = true;
+      ro?.disconnect();
       mapRef.current?.remove();
       mapRef.current = null;
-      markersRef.current.clear();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -232,22 +263,25 @@ export function FranceExplorer({ lang, total }: Props) {
   /* ------------------------------------------- points affichés = filtrés */
 
   useEffect(() => {
-    const group = layerRef.current;
-    if (!group || all.length === 0) return;
-    group.clearLayers();
-    for (const h of all) {
-      if (!matches(h)) continue;
-      const m = markersRef.current.get(h.s);
-      if (m) group.addLayer(m);
-    }
-  }, [all, matches]);
+    const map = mapRef.current;
+    if (!map || !map.getLayer?.("hotels")) return;
+    const filters: unknown[] = ["all"];
+    if (minKw) filters.push([">=", ["coalesce", ["get", "k"], 0], minKw]);
+    if (sockets === "ccs") filters.push([">=", ["index-of", "CCS", ["coalesce", ["get", "so"], ""]], 0]);
+    if (sockets === "type2") filters.push([">=", ["index-of", "Type 2", ["coalesce", ["get", "so"], ""]], 0]);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    map.setFilter("hotels", filters.length > 1 ? (filters as any) : null);
+  }, [minKw, sockets, all]);
 
   /* ------------------------------------------------------- surbrillance */
 
+  const lastHover = useRef<string | null>(null);
   useEffect(() => {
-    for (const [slug, marker] of markersRef.current) {
-      marker.setRadius(slug === hovered ? 10 : 5);
-    }
+    const map = mapRef.current;
+    if (!map || !map.getSource?.("hotels")) return;
+    if (lastHover.current) map.setFeatureState({ source: "hotels", id: lastHover.current }, { hover: false });
+    if (hovered) map.setFeatureState({ source: "hotels", id: hovered }, { hover: true });
+    lastHover.current = hovered;
   }, [hovered]);
 
   /* --------------------------------------------------- recherche commune */
@@ -278,16 +312,21 @@ export function FranceExplorer({ lang, total }: Props) {
   const goTo = (c: Commune) => {
     const coords = c.centre?.coordinates;
     if (!coords || !mapRef.current) return;
-    mapRef.current.setView([coords[1], coords[0]], 13);
+    mapRef.current.flyTo({ center: [coords[0], coords[1]], zoom: 12 });
     setQuery("");
     setSuggestions([]);
   };
 
   const focus = (h: Hotel) => {
     const map = mapRef.current;
-    if (!map) return;
-    map.setView([h.lat, h.lng], Math.max(map.getZoom(), 14));
-    markersRef.current.get(h.s)?.openPopup();
+    const maplibregl = libRef.current;
+    if (!map || !maplibregl) return;
+    map.flyTo({ center: [h.lng, h.lat], zoom: Math.max(map.getZoom(), 13) });
+    popupRef.current?.remove();
+    popupRef.current = new maplibregl.Popup({ offset: 12, maxWidth: "280px" })
+      .setLngLat([h.lng, h.lat])
+      .setHTML(popupHtml(h))
+      .addTo(map);
   };
 
   /* ---------------------------------------------------------------- rendu */
@@ -423,8 +462,8 @@ export function FranceExplorer({ lang, total }: Props) {
                   height: 62,
                   borderRadius: 12,
                   overflow: "hidden",
-                  background: "#F1F9F5",
-                  border: "1px solid #DCEDE5",
+                  background: "#F7F5F1",
+                  border: "1px solid #EAE6DE",
                 }}
               >
                 {h.im ? (
@@ -490,7 +529,7 @@ export function FranceExplorer({ lang, total }: Props) {
                 display: "block",
                 width: "100%",
                 border: 0,
-                background: "#F1F9F5",
+                background: "#F7F5F1",
                 padding: "13px 16px",
                 fontWeight: 700,
                 fontSize: 13,

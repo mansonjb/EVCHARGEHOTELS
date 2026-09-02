@@ -195,7 +195,7 @@ export default async function CityPage({
         </div>
       </div>
 
-      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F1F9F5" }}>
+      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F7F5F1" }}>
         <div style={{ maxWidth: 1180, margin: "0 auto", padding: "40px 26px 56px", display: "flex", flexDirection: "column", gap: 18 }}>
           <h2 style={{ margin: 0, fontWeight: 800, fontSize: 26, letterSpacing: "-0.03em" }}>
             {lang === "fr" ? "Les autres étapes du corridor" : "Other stops on the corridor"}
@@ -220,7 +220,7 @@ export default async function CityPage({
                   gap: 6,
                   padding: 18,
                   background: "#FFFFFF",
-                  border: "1px solid #DCEDE5",
+                  border: "1px solid #EAE6DE",
                   borderRadius: 16,
                   textDecoration: "none",
                 }}

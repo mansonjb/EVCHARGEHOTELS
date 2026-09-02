@@ -304,7 +304,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       {/* Ce que chaque fiche indique */}
-      <div style={{ borderTop: "1px solid #EBEBF2", borderBottom: "1px solid #EBEBF2", background: "#F1F9F5" }}>
+      <div style={{ borderTop: "1px solid #EBEBF2", borderBottom: "1px solid #EBEBF2", background: "#F7F5F1" }}>
         <div
           style={{
             maxWidth: 1180,
@@ -338,7 +338,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   gap: 8,
                   padding: 24,
                   background: "#FFFFFF",
-                  border: "1px solid #DCEDE5",
+                  border: "1px solid #EAE6DE",
                   borderRadius: 18,
                 }}
               >
@@ -513,7 +513,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       {/* CTA */}
-      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F1F9F5" }}>
+      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F7F5F1" }}>
         <div
           style={{
             maxWidth: 1180,
