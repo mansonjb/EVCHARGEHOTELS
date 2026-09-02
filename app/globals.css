@@ -159,3 +159,9 @@ select {
     grid-template-rows: auto !important;
   }
 }
+
+/* Fond de carte : teinte menthe très légère, pour que la carte respire sans
+   virer au gris mort. */
+.leaflet-tile-pane {
+  filter: sepia(0.3) saturate(1.5) hue-rotate(88deg) brightness(1.02);
+}
