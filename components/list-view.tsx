@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { cityName, countryName, type Hotel } from "@/lib/data";
 import type { City } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
@@ -36,20 +36,25 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
   const [guarOnly, setGuarOnly] = useState(false);
   const [showMap, setShowMap] = useState(true);
   const [hovered, setHovered] = useState<string | null>(null);
+  // Référence stable : la carte ne doit pas se reconstruire quand le parent rend.
+  const handleHover = useCallback((slug: string | null) => setHovered(slug), []);
 
-  const all = hotels.filter((h) => {
+  // Mémoïsé : sans cela la liste change d'identité à chaque rendu, la carte
+  // reconstruit ses pastilles en boucle et perd la surbrillance.
+  const all = useMemo(() => hotels.filter((h) => {
     const kw = h.charging.onSite?.kw ?? 0;
     if (dcOnly) return Boolean(h.charging.onSite?.dc);
     if (guarOnly) return Boolean(h.charging.onSite);
     return kw >= minKw;
-  });
+  }), [hotels, dcOnly, guarOnly, minKw]);
 
   // Une fiche sans puissance chiffrée ne sert à rien : elle passe en second
   // rideau, avec la raison. La sélection ne garde que ce qui est mesuré.
   const hasPower = (h: Hotel) =>
     Boolean(h.charging.onSite?.kwLabel || h.charging.maybe?.kwLabel || h.charging.doorstep?.kwLabel);
-  const list = all.filter(hasPower);
-  const doorstep = all.filter((h) => !hasPower(h));
+
+  const list = useMemo(() => all.filter(hasPower), [all]);
+  const doorstep = useMemo(() => all.filter((h) => !hasPower(h)), [all]);
 
   const count =
     lang === "fr"
@@ -134,7 +139,13 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
                 key={h.slug}
                 onMouseEnter={() => setHovered(h.slug)}
                 onMouseLeave={() => setHovered(null)}
-                style={{ outline: hovered === h.slug ? "2px solid #0E9E7E" : "none", borderRadius: 16 }}
+                style={{
+                  borderRadius: 16,
+                  outline: hovered === h.slug ? "2px solid #0E9E7E" : "2px solid transparent",
+                  outlineOffset: 2,
+                  transition: "outline-color 140ms ease, transform 140ms ease",
+                  transform: hovered === h.slug ? "translateY(-2px)" : "none",
+                }}
               >
                 <HotelCard hotel={h} lang={lang} />
               </div>
@@ -206,7 +217,7 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
               borderLeft: "1px solid #EBEBF2",
             }}
           >
-            <CityMap hotels={list} lang={lang} hovered={hovered} onHover={setHovered} />
+            <CityMap hotels={list} lang={lang} hovered={hovered} onHover={handleHover} />
             <div
               className="tnum"
               style={{

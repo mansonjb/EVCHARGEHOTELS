@@ -70,9 +70,9 @@ export function CityMap({
         const seal = sealFor(h, lang);
         const kw = h.charging.onSite?.kwLabel ?? h.charging.maybe?.kwLabel ?? h.charging.doorstep?.kwLabel;
         const label = `
-          <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#FFFFFF;border:1px solid #DCD9D1;box-shadow:0 1px 3px rgba(20,27,52,0.12);font-family:var(--font-sans);font-weight:600;font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap">
+          <span data-pin="${h.slug}" style="display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:#FFFFFF;border:1px solid #DCD9D1;box-shadow:0 1px 3px rgba(20,27,52,0.12);font-family:var(--font-sans);font-weight:600;font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap;transition:background 140ms ease,color 140ms ease,transform 140ms ease,box-shadow 140ms ease">
             ${h.price != null ? `${h.price} €` : h.name.slice(0, 12)}
-            ${kw ? `<span style="color:#0E9E7E">${kw}</span>` : ""}
+            ${kw ? `<span data-kw style="color:#0E9E7E">${kw}</span>` : ""}
           </span>`;
 
         const marker = L.marker([h.lat, h.lng], {
@@ -101,21 +101,41 @@ export function CityMap({
     return () => {
       cancelled = true;
     };
-  }, [hotels, lang, fr, onHover]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hotels.map((h) => h.slug).join(","), lang]);
 
-  // Surbrillance pilotée par la liste.
+  /**
+   * Surbrillance pilotée par la liste : l'étiquette de l'hôtel survolé passe
+   * en encre sur fond sombre, grossit, et la carte se décale si elle se
+   * trouve hors du champ visible. C'est ce qui permet de relier d'un coup
+   * d'oeil une carte de gauche à sa borne sur le plan.
+   */
   useEffect(() => {
     for (const [slug, marker] of markers.current) {
       const el = marker.getElement();
-      if (!el) continue;
-      const pill = el.firstElementChild as HTMLElement | null;
+      const pill = el?.querySelector("[data-pin]") as HTMLElement | null;
       if (!pill) continue;
+      const kwSpan = pill.querySelector("[data-kw]") as HTMLElement | null;
       const on = slug === hovered;
+
       pill.style.background = on ? "#141B34" : "#FFFFFF";
       pill.style.color = on ? "#FFFFFF" : "#141B34";
       pill.style.borderColor = on ? "#141B34" : "#DCD9D1";
-      if (on) marker.setZIndexOffset(1000);
-      else marker.setZIndexOffset(0);
+      pill.style.transform = on ? "scale(1.18)" : "scale(1)";
+      pill.style.boxShadow = on
+        ? "0 6px 18px rgba(20,27,52,0.28)"
+        : "0 1px 3px rgba(20,27,52,0.12)";
+      if (kwSpan) kwSpan.style.color = on ? "#E4FB4F" : "#0E9E7E";
+      marker.setZIndexOffset(on ? 1000 : 0);
+    }
+
+    const map = mapRef.current;
+    if (!map || !hovered) return;
+    const marker = markers.current.get(hovered);
+    if (!marker) return;
+    // On ne bouge la carte que si l'étiquette est réellement hors cadre.
+    if (!map.getBounds().pad(-0.08).contains(marker.getLatLng())) {
+      map.panInside(marker.getLatLng(), { padding: [70, 70] });
     }
   }, [hovered, hotels]);
 

@@ -195,9 +195,15 @@ export default async function CityPage({
           </h2>
           <div
             className="ps-grid-4"
-            style={{ display: "grid", gridTemplateColumns: `repeat(${others.length}, 1fr)`, gap: 12 }}
+            style={{
+              display: "grid",
+              // Quinze villes ne tiennent pas sur une ligne : la grille
+              // s'adapte au lieu de pousser la page en largeur.
+              gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))",
+              gap: 12,
+            }}
           >
-            {others.map((o) => (
+            {others.slice(0, 8).map((o) => (
               <Link
                 key={o.slug}
                 href={`/${lang}/${o.slug}`}
