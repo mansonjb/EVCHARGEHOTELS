@@ -11,7 +11,7 @@ const LO = "#8B8FA3";
 function navStyle(active: boolean): React.CSSProperties {
   return {
     border: 0,
-    background: active ? "#F3F3F8" : "transparent",
+    background: active ? "#F1F9F5" : "transparent",
     color: active ? INK : LO,
     padding: "8px 14px",
     borderRadius: 999,

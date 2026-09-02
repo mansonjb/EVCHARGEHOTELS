@@ -183,23 +183,32 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             style={{
               display: "grid",
               gridTemplateColumns: "1.45fr 0.55fr",
-              gap: 1,
-              background: "#EBEBF2",
+              gridTemplateRows: 660,
+              background: "#FFFFFF",
               border: "1px solid #EBEBF2",
               borderRadius: 22,
               overflow: "hidden",
             }}
           >
-            <div className="ps-home-map-canvas" style={{ height: 600, background: "#EDF1EE" }}>
+            <div className="ps-home-map-canvas" style={{ height: "100%", minHeight: 0, background: "#EDF1EE" }}>
               <FranceMiniMap lang={lang} cities={mapCities} />
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", background: "#FFFFFF", minWidth: 0 }}>
-              <div style={{ padding: "20px 22px", borderBottom: "1px solid #F3F3F8", display: "flex", flexDirection: "column", gap: 4 }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                minWidth: 0,
+                minHeight: 0,
+                background: "#FFFFFF",
+                borderLeft: "1px solid #EBEBF2",
+              }}
+            >
+              <div style={{ padding: "20px 22px", background: "#F1F9F5", display: "flex", flexDirection: "column", gap: 4 }}>
                 <span className="tnum" style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.03em" }}>
                   {num(nationalFast)}
                 </span>
-                <span style={{ fontSize: 14, lineHeight: 1.45, color: "#3A4160" }}>
+                <span style={{ fontSize: 14, lineHeight: 1.45, color: "#0A5C4D" }}>
                   {lang === "fr"
                     ? "hôtels dont la borne dépasse 50 kW, de quoi repartir plein même après une arrivée tardive."
                     : "hotels whose charger exceeds 50 kW, enough to leave full even after a late arrival."}
@@ -295,7 +304,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       {/* Ce que chaque fiche indique */}
-      <div style={{ borderTop: "1px solid #EBEBF2", borderBottom: "1px solid #EBEBF2", background: "#F3F3F8" }}>
+      <div style={{ borderTop: "1px solid #EBEBF2", borderBottom: "1px solid #EBEBF2", background: "#F1F9F5" }}>
         <div
           style={{
             maxWidth: 1180,
@@ -317,17 +326,21 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(3,1fr)",
-              gap: 1,
-              background: "#DEDEEA",
-              border: "1px solid #DEDEEA",
-              borderRadius: 22,
-              overflow: "hidden",
+              gap: 12,
             }}
           >
             {home.checks.map((ck) => (
               <div
                 key={ck.k}
-                style={{ display: "flex", flexDirection: "column", gap: 8, padding: 24, background: "#FFFFFF" }}
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 8,
+                  padding: 24,
+                  background: "#FFFFFF",
+                  border: "1px solid #DCEDE5",
+                  borderRadius: 18,
+                }}
               >
                 <span style={{ fontWeight: 600, fontSize: 12, letterSpacing: "0.04em", color: "#0A5C4D" }}>{ck.k}</span>
                 <span style={{ fontWeight: 700, fontSize: 18, letterSpacing: "-0.02em" }}>{ck.h}</span>
@@ -408,50 +421,53 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       >
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap" }}>
           <h2 style={{ margin: 0, fontWeight: 800, fontSize: 32, letterSpacing: "-0.035em" }}>{home.citiesH}</h2>
-          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{lang === "fr" ? "Cinq villes françaises ouvertes, données de la base nationale IRVE." : "Five French cities open, data from the national IRVE database."}</span>
+          <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>{lang === "fr" ? `${cities.length} villes françaises ouvertes, données de la base nationale IRVE.` : `${cities.length} French cities open, data from the national IRVE database.`}</span>
         </div>
         <div
-          className="ps-grid-2"
           style={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: 1,
-            background: "#EBEBF2",
-            border: "1px solid #EBEBF2",
-            borderRadius: 22,
-            overflow: "hidden",
+            gridTemplateColumns: "repeat(auto-fill, minmax(268px, 1fr))",
+            gap: 12,
           }}
         >
           {cities.map((c) => (
             <Link
               key={c.slug}
               href={`/${lang}/${c.slug}`}
+              className="ps-city-card"
               style={{
                 display: "flex",
-                alignItems: "center",
-                gap: 14,
-                padding: "17px 22px",
+                flexDirection: "column",
+                gap: 9,
+                padding: "16px 18px",
                 background: "#FFFFFF",
+                border: "1px solid #EBEBF2",
+                borderRadius: 18,
                 textDecoration: "none",
               }}
             >
-              <span style={{ fontWeight: 700, fontSize: 16, flex: 1, minWidth: 0, color: "#141B34" }}>{cityName(c, lang)}</span>
-              <span className="tnum" style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>
-                {c.hotelCount} {lang === "fr" ? "hôtels" : "hotels"} · {c.chargersInCity}{" "}
-                {lang === "fr" ? "bornes" : "chargers"}
+              <span style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <span style={{ fontWeight: 700, fontSize: 17, flex: 1, minWidth: 0, color: "#141B34" }}>
+                  {cityName(c, lang)}
+                </span>
+                <span
+                  className="tnum"
+                  style={{
+                    fontWeight: 700,
+                    fontSize: 12,
+                    color: "#0A5C4D",
+                    background: "#F1F9F5",
+                    padding: "5px 10px",
+                    borderRadius: 999,
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  {c.bestKw ? `${String(c.bestKw).replace(".", ",")} kW max` : lang === "fr" ? "ouvert" : "open"}
+                </span>
               </span>
-              <span
-                style={{
-                  fontWeight: 600,
-                  fontSize: 12.5,
-                  color: "#0A5C4D",
-                  background: "#F1F9F5",
-                  padding: "5px 10px",
-                  borderRadius: 999,
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {c.bestKw ? `${String(c.bestKw).replace(".", ",")} kW max` : lang === "fr" ? "ouvert" : "open"}
+              <span className="tnum" style={{ fontWeight: 600, fontSize: 12.5, color: "#8B8FA3" }}>
+                {c.hotelCount} {lang === "fr" ? "hôtels" : "hotels"} · {num(c.chargersInCity)}{" "}
+                {lang === "fr" ? "bornes en ville" : "chargers in town"}
               </span>
             </Link>
           ))}
@@ -497,7 +513,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       </div>
 
       {/* CTA */}
-      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F3F3F8" }}>
+      <div style={{ borderTop: "1px solid #EBEBF2", background: "#F1F9F5" }}>
         <div
           style={{
             maxWidth: 1180,

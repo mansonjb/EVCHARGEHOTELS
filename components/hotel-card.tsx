@@ -58,7 +58,7 @@ export function HotelCard({ hotel: h, lang }: { hotel: Hotel; lang: Lang }) {
           alignItems: "center",
           gap: 9,
           padding: "11px 14px",
-          background: seal.tone === "known" ? "#F1F9F5" : seal.tone === "declared" ? "#FDF6E7" : "#F3F3F8",
+          background: seal.tone === "known" ? "#F1F9F5" : seal.tone === "declared" ? "#FDF6E7" : "#F2F5FA",
           borderBottom: "1px solid #EBEBF2",
         }}
       >

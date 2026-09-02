@@ -148,3 +148,47 @@ les pastilles.
 3. `node --env-file=.env.local scripts/fetch-hotels-booking.mjs --only <slug> --max 60`
 4. `node scripts/build-dataset.mjs`
 5. `npm run build` puis relire la page ville avant de déployer.
+
+## Photos : ce qui marche, et ce qui ne marche pas
+
+Les 1 273 hôtels de la carte nationale viennent de la base IRVE, qui décrit
+une borne et jamais un établissement : ni photo, ni prix, ni note.
+
+**Testé et écarté : la recherche par nom d'hôtel.** L'acteur
+`voyager/booking-scraper` ne résout que des destinations, pas des
+établissements. Trois essais, chiffres relevés :
+
+| requête | résultats |
+| --- | --- |
+| 100 URL de recherche `ss=<nom> <commune>` | 15, dont des hôtels américains |
+| 12 URL avec dates et « France » | 2 |
+| `search: "Novotel, Bron, France"` | 0 |
+| `search: "Ki Space Hotel & Spa, Serris, France"` | 0 |
+| `search: "Bron, France"` | 3, avec photos |
+
+Une recherche de commune répond, une recherche d'hôtel non. Et « Bron » seul
+renvoie le Bronx : le pays est obligatoire dans la requête.
+
+**Conséquence sur la méthode.** Les photos ne s'obtiennent pas par une passe
+nationale séparée : elles arrivent commune par commune, avec le relevé
+Booking qui sert déjà à ouvrir une ville. Ouvrir une ville et l'illustrer
+sont la même opération, facturée une fois.
+
+En attendant, `scripts/attach-photos.mjs` recolle sur la carte nationale les
+photos des villes déjà ouvertes, par distance (600 m) et mot distinctif
+commun : 67 hôtels sur 1 273. Les autres portent une vignette qui affiche la
+puissance. Un Novotel n'hérite jamais de la photo d'un autre Novotel.
+
+## Combien de villes le gisement porte-t-il ?
+
+`scripts/coverage-cities.mjs` croise les hôtels équipés IRVE avec la
+population des communes (geo.api.gouv.fr) et écrit
+`data/raw/city-coverage.json`.
+
+- 846 communes comptent au moins un hôtel équipé
+- 234 en comptent au moins deux, 101 au moins trois, 22 au moins cinq
+- seuil population 25 000 habitants : 194 communes avec au moins un hôtel
+  équipé, 63 avec au moins trois
+
+Le seuil de publication retenu doit rester le nombre d'hôtels, pas la
+population : une page ville avec un seul établissement est une page vide.

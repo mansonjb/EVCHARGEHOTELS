@@ -96,7 +96,7 @@ export default async function DeptPage({
       <div style={{ marginTop: 26, overflowX: "auto", border: "1px solid #EBEBF2", borderRadius: 18 }}>
         <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 720 }}>
           <thead>
-            <tr style={{ background: "#F3F3F8", textAlign: "left" }}>
+            <tr style={{ background: "#F1F9F5", textAlign: "left" }}>
               {[
                 fr ? "Hôtel" : "Hotel",
                 fr ? "Commune" : "Town",

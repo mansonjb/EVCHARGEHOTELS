@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import type { Lang } from "@/lib/i18n";
@@ -29,6 +30,8 @@ interface Hotel {
   p: number | null;
   so: string;
   u: string;
+  /** Photo réelle de l'établissement, quand notre relevé Booking en a une. */
+  im?: string;
   lat: number;
   lng: number;
 }
@@ -126,6 +129,7 @@ export function FranceExplorer({ lang, total }: Props) {
     (h: Hotel) => {
       const kw = h.k ? `${String(h.k).replace(".", ",")} kW` : fr ? "puissance non publiée" : "power not published";
       return `<div style="font-family:var(--font-sans);min-width:200px">
+        ${h.im ? `<img src="${h.im}" alt="" loading="lazy" style="display:block;width:100%;height:110px;object-fit:cover;border-radius:10px;margin-bottom:8px">` : ""}
         <div style="font-weight:700;font-size:15px;line-height:1.2">${h.n}</div>
         <div style="font-size:12.5px;color:#8B8FA3;margin-top:2px">${h.c}</div>
         <div style="margin-top:8px;font-weight:600;font-size:13px;color:${GREEN_DK}">${kw}${h.so ? ` · ${h.so}` : ""}${h.p ? ` · ${h.p} ${fr ? "points" : "points"}` : ""}</div>
@@ -404,13 +408,51 @@ export function FranceExplorer({ lang, total }: Props) {
               style={{
                 display: "flex",
                 gap: 12,
-                alignItems: "baseline",
+                alignItems: "flex-start",
                 padding: "13px 16px",
-                borderBottom: "1px solid #F3F3F8",
+                borderBottom: "1px solid #F1F4F2",
                 cursor: "pointer",
                 background: hovered === h.s ? "#F1F9F5" : "#FFFFFF",
               }}
             >
+              <div
+                style={{
+                  position: "relative",
+                  flex: "0 0 auto",
+                  width: 78,
+                  height: 62,
+                  borderRadius: 12,
+                  overflow: "hidden",
+                  background: "#F1F9F5",
+                  border: "1px solid #DCEDE5",
+                }}
+              >
+                {h.im ? (
+                  <Image src={h.im} alt="" fill sizes="78px" style={{ objectFit: "cover" }} />
+                ) : (
+                  <span
+                    className="tnum"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      gap: 1,
+                      fontWeight: 800,
+                      fontSize: 15,
+                      color: GREEN_DK,
+                      letterSpacing: "-0.02em",
+                    }}
+                  >
+                    {h.k ? String(h.k).replace(".", ",") : "–"}
+                    <span style={{ fontWeight: 700, fontSize: 9.5, letterSpacing: "0.06em", color: "#5FA894" }}>
+                      {h.k ? "KW" : fr ? "N.C." : "N/A"}
+                    </span>
+                  </span>
+                )}
+              </div>
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{ fontWeight: 700, fontSize: 14.5, lineHeight: 1.25 }}>{h.n}</div>
                 <div style={{ fontSize: 12.5, color: "#8B8FA3", marginTop: 2 }}>{h.c}</div>
@@ -448,7 +490,7 @@ export function FranceExplorer({ lang, total }: Props) {
                 display: "block",
                 width: "100%",
                 border: 0,
-                background: "#F3F3F8",
+                background: "#F1F9F5",
                 padding: "13px 16px",
                 fontWeight: 700,
                 fontSize: 13,

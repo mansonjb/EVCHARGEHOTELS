@@ -153,6 +153,9 @@ select {
     grid-template-columns: 1fr !important;
   }
   .ps-home-map-canvas {
-    height: 400px !important;
+    height: 420px !important;
+  }
+  .ps-home-map {
+    grid-template-rows: auto !important;
   }
 }

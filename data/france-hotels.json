@@ -1093,7 +1093,14 @@
       "reservation": false,
       "updated": "2026-08-28",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Greet+Hotel+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Greet+Hotel+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875704416.jpg?k=d478af77a81ef841df722380f70d78acc927e441718dbee0ea9a9e5e89128c42&o=&hp=1",
+      "photoFrom": {
+        "slug": "greet-hotel-beaune",
+        "city": "beaune",
+        "distance": 51,
+        "shared": 1
+      }
     },
     {
       "slug": "novotel-rennes-alma-rennes",
@@ -1533,7 +1540,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Purpan+A%C3%A9roport+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Purpan+A%C3%A9roport+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912477453.jpg?k=c9b7d1eabc0d0d20c2c362c3f1d9fcaba81e1f1cda34ed9d1394d841ac60a387&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-toulouse-purpan-aeroport",
+        "city": "toulouse",
+        "distance": 21,
+        "shared": 3
+      }
     },
     {
       "slug": "novotel-purpan-aeroport-vieille-toulouse",
@@ -1558,7 +1572,14 @@
       "reservation": false,
       "updated": "2026-08-28",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Purpan+A%C3%A9roport+Vieille-Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Purpan+A%C3%A9roport+Vieille-Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912477453.jpg?k=c9b7d1eabc0d0d20c2c362c3f1d9fcaba81e1f1cda34ed9d1394d841ac60a387&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-toulouse-purpan-aeroport",
+        "city": "toulouse",
+        "distance": 21,
+        "shared": 3
+      }
     },
     {
       "slug": "hotel-kyriad-les-ponts-de-ce",
@@ -3651,7 +3672,14 @@
       "reservation": false,
       "updated": "2025-07-27",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+DIJON+NORD+Z%C3%89NITH+Dijon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+DIJON+NORD+Z%C3%89NITH+Dijon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/497893390.jpg?k=d43f74a2791293643a62a5018e9f790c3e79f7189f069c2e1e00d7409ad654fa&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-dijon-nord-zenith",
+        "city": "dijon",
+        "distance": 19,
+        "shared": 3
+      }
     },
     {
       "slug": "b-b-hotel-le-havre-harfleur-1-harfleur",
@@ -4026,7 +4054,14 @@
       "reservation": false,
       "updated": "2025-07-27",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+TOULOUSE+CIT%C3%89+DE+L%27ESPACE+HUREL+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+TOULOUSE+CIT%C3%89+DE+L%27ESPACE+HUREL+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/678881357.jpg?k=878b36331811407027f9c2139f9e894309c6cd4c78ca1c10e9e825c32217f4a1&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-toulouse-cite-de-l-espace-hurel",
+        "city": "toulouse",
+        "distance": 46,
+        "shared": 4
+      }
     },
     {
       "slug": "b-b-hotel-nantes-reze-saint-saint-sebastien-sur-loire",
@@ -4176,7 +4211,14 @@
       "reservation": false,
       "updated": "2025-07-27",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+NANTES+PARC+EXPOS+LA+BEAUJOIRE+Nantes&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+NANTES+PARC+EXPOS+LA+BEAUJOIRE+Nantes&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/634665088.jpg?k=ceb3d98b6d607f25076f85e51d0dcdcd8e8d677d41ee423f310574e0164b5885&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-nantes-parc-expos-la-beaujoire",
+        "city": "nantes",
+        "distance": 18,
+        "shared": 4
+      }
     },
     {
       "slug": "b-b-hotel-lorient-lanester-lanester",
@@ -4726,7 +4768,14 @@
       "reservation": false,
       "updated": "2025-07-27",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+TOURS+NORD+1+VAL+DE+LOIRE+Tours&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+TOURS+NORD+1+VAL+DE+LOIRE+Tours&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/699158348.jpg?k=d47df5effb282c1de285936b1be89fd1c745733f0db20432f0bcd9e3d3684b64&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-tours-nord-1-val-de-loire",
+        "city": "tours",
+        "distance": 9,
+        "shared": 4
+      }
     },
     {
       "slug": "b-b-hotel-meaux-meaux",
@@ -4998,7 +5047,14 @@
       "reservation": false,
       "updated": "2026-08-28",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Bordeaux+Lac+Carignan-de-Bordeaux&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Bordeaux+Lac+Carignan-de-Bordeaux&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881284156.jpg?k=bfa108ddda964ecfecd0788ba829bfb2988ed3a9a4f6db967f41ac9b1c196ac6&o=&hp=1",
+      "photoFrom": {
+        "slug": "pullman-bordeaux-lac",
+        "city": "bordeaux",
+        "distance": 168,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-mercure-bale-mulhouse-aeroport-blotzheim",
@@ -5046,7 +5102,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Bordeaux+Lac+Bordeaux&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Bordeaux+Lac+Bordeaux&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881284156.jpg?k=bfa108ddda964ecfecd0788ba829bfb2988ed3a9a4f6db967f41ac9b1c196ac6&o=&hp=1",
+      "photoFrom": {
+        "slug": "pullman-bordeaux-lac",
+        "city": "bordeaux",
+        "distance": 168,
+        "shared": 2
+      }
     },
     {
       "slug": "kyriad-prestige-bordeaux-aeroport-merignac",
@@ -5512,7 +5575,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Sofitel+Vieux+Port+Marseille&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Sofitel+Vieux+Port+Marseille&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881658574.jpg?k=5b81bbf8f4a48d843393c6cc367e00e60694045e433d29defbc48e7239ecd9bb&o=&hp=1",
+      "photoFrom": {
+        "slug": "sofitel-marseille-vieux-port",
+        "city": "marseille",
+        "distance": 18,
+        "shared": 3
+      }
     },
     {
       "slug": "the-originals-city-hotel-marseille-aeroport-vitrolles",
@@ -5793,7 +5863,14 @@
       "reservation": false,
       "updated": "2025-06-02",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Marseille&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Marseille&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875025431.jpg?k=a07edbe5a37b02a5e6a5cfab8c5060bb60d23c69d5f91478f6b136702c122fe7&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-marseille-valentine",
+        "city": "marseille",
+        "distance": 64,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-ibis-nanterre",
@@ -6778,7 +6855,14 @@
       "reservation": false,
       "updated": "2026-06-15",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Poitiers&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Poitiers&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715958969.jpg?k=6e93527a14dcbd9fd9416ae83a96b24452844e307803d943c1ffe0d375402b52&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-poitiers-sud",
+        "city": "poitiers",
+        "distance": 19,
+        "shared": 2
+      }
     },
     {
       "slug": "ibis-budget-saint-lo",
@@ -7038,7 +7122,14 @@
       "reservation": false,
       "updated": "2025-03-28",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/752482904.jpg?k=4148719af302943bdf3f5a5ca3053e3ad02e93635fc6a93ba3c1d34bcf78d851&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-toulouse-purpan-aeroport",
+        "city": "toulouse",
+        "distance": 20,
+        "shared": 1
+      }
     },
     {
       "slug": "greet-hotel-pont-du-gard-estezargues",
@@ -7769,7 +7860,14 @@
       "reservation": false,
       "updated": "2026-08-19",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Croix+Argent+Montpellier+Montpellier&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Croix+Argent+Montpellier+Montpellier&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/324419845.jpg?k=1b84db205049b21e8c29ec75a4d2a67c6c8c4696416ac571772251466bdd82c1&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-montpellier-ouest-croix-d-argent",
+        "city": "montpellier",
+        "distance": 26,
+        "shared": 4
+      }
     },
     {
       "slug": "hotelf1-chilly-mazarin",
@@ -8347,7 +8445,14 @@
       "reservation": true,
       "updated": "2025-12-05",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Lyon+Part+Dieu+Lyon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Lyon+Part+Dieu+Lyon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/856919894.jpg?k=30a733b534340c28bc543554bd69731c6e99e64a4e56da36aab04fbacc9d8d50&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-prime-lyon-centre-gare-part-dieu",
+        "city": "lyon",
+        "distance": 27,
+        "shared": 4
+      }
     },
     {
       "slug": "hotel-revotel-nancy",
@@ -8880,7 +8985,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Campanile+Montpellier&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Campanile+Montpellier&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692066316.jpg?k=ad1335aa572e8645a79412d15e866b0c51713a56ad58203f548a4a2e680795fe&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-nature-montpellier-sud",
+        "city": "montpellier",
+        "distance": 38,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-premiere-classe-bussy-saint-georges",
@@ -9172,7 +9284,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Budget+Mill%C3%A9naire+Montpellier&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Budget+Mill%C3%A9naire+Montpellier&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/883292083.jpg?k=444fdae1ddb74b881d2dba32fac695fb7c70e94f51174ea93ed7ee809b994e2b&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-ibis-budget-montpellier-centre-millenaire",
+        "city": "montpellier",
+        "distance": 15,
+        "shared": 3
+      }
     },
     {
       "slug": "kyriad-direct-saint-jean-de-vedas",
@@ -9392,7 +9511,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Gare+Saint+Charles+Marseille&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Gare+Saint+Charles+Marseille&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907410105.jpg?k=89f17eef80bfa502fc61f3a7e20d69e6ca46976025fe30b30d4a7c0ea4a10ce7&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-styles-marseille-gare-saint-charles",
+        "city": "marseille",
+        "distance": 258,
+        "shared": 4
+      }
     },
     {
       "slug": "euro-hotel-orly-rungis-fresnes",
@@ -9891,7 +10017,14 @@
       "reservation": false,
       "updated": "2026-08-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Beaune+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Campanile+Beaune+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208429681.jpg?k=03c740743c7727a7e6c44378c274fcc9a830b1485e18362175182ba533c5222a&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-beaune",
+        "city": "beaune",
+        "distance": 44,
+        "shared": 2
+      }
     },
     {
       "slug": "baho-premiere-classe-saint-brieuc-tregueux",
@@ -10481,7 +10614,14 @@
       "reservation": false,
       "updated": "2026-08-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Lyon+M%C3%A9tropole+Artelodge+Lyon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Lyon+M%C3%A9tropole+Artelodge+Lyon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/584321193.jpg?k=11c83c6afd6f9b6861d5071fe176813383f2eb25859471fd7bcccb48e93dd002&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-lyon-metropole-spa",
+        "city": "lyon",
+        "distance": 29,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-parkest-genas",
@@ -11150,7 +11290,14 @@
       "reservation": false,
       "updated": "2025-06-02",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Montpellier&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Montpellier&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/903170563.jpg?k=bab9e56a07f512bc27e14dce572a9812d5218f0db854d3bd1d5d53f4c68a8c39&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-montpellier",
+        "city": "montpellier",
+        "distance": 17,
+        "shared": 1
+      }
     },
     {
       "slug": "logis-hotel-le-capricorne-av-hubert-ruffe-marmande",
@@ -12036,7 +12183,14 @@
       "reservation": false,
       "updated": "2026-07-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Brit+Hotel+Rouen&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Brit+Hotel+Rouen&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/763461228.jpg?k=e750eaf6646bf55bb96d8cc90322d8eee469c10d1d6248c20a90a8429fe0fafe&o=&hp=1",
+      "photoFrom": {
+        "slug": "brit-hotel-confort-rouen-centre",
+        "city": "rouen",
+        "distance": 21,
+        "shared": 1
+      }
     },
     {
       "slug": "contact-hotel-colmar",
@@ -13481,7 +13635,14 @@
       "reservation": false,
       "updated": "2024-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Marriott+Toulouse+Airport+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Marriott+Toulouse+Airport+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/880060173.jpg?k=1abf1d5fb40252d3977efc11a7c1132fd2e4e24b4fa151a47a76c3ff414096a8&o=&hp=1",
+      "photoFrom": {
+        "slug": "courtyard-by-marriott-toulouse-airport",
+        "city": "toulouse",
+        "distance": 17,
+        "shared": 3
+      }
     },
     {
       "slug": "hotel-haitza-la-teste-de-buch",
@@ -13529,7 +13690,14 @@
       "reservation": true,
       "updated": "2025-12-05",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Hotel+Kyriad+Palais+des+Congr%C3%A8s+Marseille&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Hotel+Kyriad+Palais+des+Congr%C3%A8s+Marseille&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/874522166.jpg?k=8360598e40fda7e060332cb24fc7e19e0ce44a3197db552e91163366d94d9aa5&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-styles-marseille-palais-des-congres-velodrome",
+        "city": "marseille",
+        "distance": 14,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel3fontaines-marconne",
@@ -13729,7 +13897,14 @@
       "reservation": false,
       "updated": "2026-08-28",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+F1+Lattes&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+F1+Lattes&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553502645.jpg?k=429ee74509a8b3df042b16459baefe27bddc6f5499f8506825990c8de7ca69a9&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-montpellier-sud-lattes",
+        "city": "montpellier",
+        "distance": 35,
+        "shared": 0
+      }
     },
     {
       "slug": "domaine-de-leveno-guerande",
@@ -13981,7 +14156,14 @@
       "reservation": false,
       "updated": "2025-12-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Mac+Bed+Poitiers&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Mac+Bed+Poitiers&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268423417.jpg?k=0d3d324bcc78e837c1c773ba36799dfc89df91ce28583889aa3da57c4ec573e8&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-mac-bed",
+        "city": "poitiers",
+        "distance": 20,
+        "shared": 2
+      }
     },
     {
       "slug": "beddy-bye-hotel-contrexeville",
@@ -14401,7 +14583,14 @@
       "reservation": false,
       "updated": "2022-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=HOTEL+DE+L%27EUROPE+Poitiers&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=HOTEL+DE+L%27EUROPE+Poitiers&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/405496110.jpg?k=15ccde6546f55044398da653d8af0cbe5b334854956d18379b8f66e06e1a583b&o=&hp=1",
+      "photoFrom": {
+        "slug": "logis-hotel-de-l-europe",
+        "city": "poitiers",
+        "distance": 4,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-du-moulin-daure-graveson",
@@ -14621,7 +14810,14 @@
       "reservation": true,
       "updated": "2026-08-30",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912481956.jpg?k=25ff135f4ef7a9f79d346cad416ca1a199d67b5d0da34ab803483591a9f2b825&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-la-rochelle-centre",
+        "city": "la-rochelle",
+        "distance": 62,
+        "shared": 2
+      }
     },
     {
       "slug": "cosy-hotel-la-rochelle",
@@ -14646,7 +14842,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cosy+H%C3%B4tel+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cosy+H%C3%B4tel+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/901777494.jpg?k=26ca48383efb176850a7c1120640215aaff302c562babaab78f250bf56d7f866&o=&hp=1",
+      "photoFrom": {
+        "slug": "best-western-premier-le-masq-hotel",
+        "city": "la-rochelle",
+        "distance": 15,
+        "shared": 0
+      }
     },
     {
       "slug": "hotel-saint-nicolas-la-rochelle",
@@ -14671,7 +14874,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Saint+Nicolas+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Saint+Nicolas+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/361862920.jpg?k=06e935f8e78e15abda446b493c394097855a418a0109ac92230779f11e40d098&o=&hp=1",
+      "photoFrom": {
+        "slug": "le-saint-nicolas",
+        "city": "la-rochelle",
+        "distance": 9,
+        "shared": 2
+      }
     },
     {
       "slug": "chateau-de-pray-souvigny-de-touraine",
@@ -14721,7 +14931,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Beaune+Vignoles&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Novotel+Beaune+Vignoles&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/748786497.jpg?k=98f8e423e1cb26e98c5ffcaabb5e39fc07dd5e8ed8bf3e2af005ad8b71e2483b&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-beaune",
+        "city": "beaune",
+        "distance": 17,
+        "shared": 2
+      }
     },
     {
       "slug": "mercure-tours-nord-tours",
@@ -14746,7 +14963,14 @@
       "reservation": true,
       "updated": "2026-08-30",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+Tours+Nord+Tours&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+Tours+Nord+Tours&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/893719792.jpg?k=02313e9d5513de94aedde5e1b975073126b2124014c1f41d609ff196b912a8c5&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-tours-nord",
+        "city": "tours",
+        "distance": 30,
+        "shared": 3
+      }
     },
     {
       "slug": "ibis-budget-greet-la-rochelle",
@@ -14771,7 +14995,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Greet+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Greet+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/878551824.jpg?k=c449a6354b43e16e49fbc7bfed974a6b8b9fe4bfe4d5410564ab9ec7aa3a9333&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-la-rochelle-centre-gare",
+        "city": "la-rochelle",
+        "distance": 46,
+        "shared": 2
+      }
     },
     {
       "slug": "ibis-budget-rouen-centre-rouen",
@@ -14796,7 +15027,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Rouen+Centre+Rouen&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Rouen+Centre+Rouen&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898544470.jpg?k=18b597766a6da6f4a0ad99414f6ce166114dbf3578200fe46ffcb619b4b1833b&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-rouen-centre-rive-gauche",
+        "city": "rouen",
+        "distance": 36,
+        "shared": 4
+      }
     },
     {
       "slug": "ibis-golfe-de-st-tropez-la-mole",
@@ -14871,7 +15109,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881665425.jpg?k=4bcd7771f3f6a5a1e084a105ad834935c1422883f1dafcda5822de8ac4f9ff21&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-la-rochelle-vieux-port",
+        "city": "la-rochelle",
+        "distance": 27,
+        "shared": 2
+      }
     },
     {
       "slug": "novotel-thalassa-oleron-saint-le-grand-village-plage",
@@ -15168,7 +15413,14 @@
       "reservation": true,
       "updated": "2026-08-30",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Tours+Nord+Tours&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Tours+Nord+Tours&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/873541381.jpg?k=77617e28d5bf3e4aa75251fd328e2c9a9fda25fdc534abf7c19049805a8cd377&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-tours-nord",
+        "city": "tours",
+        "distance": 49,
+        "shared": 4
+      }
     },
     {
       "slug": "best-western-gradignan-gradignan",
@@ -16531,7 +16783,14 @@
       "reservation": false,
       "updated": "2026-05-07",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%94TEL+LE+BEAUJOIRE+...%2C+Nantes+44300+France&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%94TEL+LE+BEAUJOIRE+...%2C+Nantes+44300+France&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/779344304.jpg?k=fadb3d663408a03cb9ca2b9d44b0d568d035a3ab51e4fe0f542308242f94f7ed&o=&hp=1",
+      "photoFrom": {
+        "slug": "the-originals-city-le-beaujoire-nantes-en-face-du-parc-des-e",
+        "city": "nantes",
+        "distance": 6,
+        "shared": 1
+      }
     },
     {
       "slug": "ibis-budget-limoges-limoges-france-limoges-87100-france",
@@ -17901,7 +18160,14 @@
       "reservation": false,
       "updated": "2026-08-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Premi%C3%A8re+Classe+Beaune+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Premi%C3%A8re+Classe+Beaune+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208429681.jpg?k=03c740743c7727a7e6c44378c274fcc9a830b1485e18362175182ba533c5222a&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-beaune",
+        "city": "beaune",
+        "distance": 176,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-les-nomades-beaune-beaune",
@@ -17926,7 +18192,14 @@
       "reservation": false,
       "updated": "2026-08-22",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Les+Nomades+Beaune+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Les+Nomades+Beaune+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/246047440.jpg?k=450138c877993cdac1846bfd2d9a742ed5b0166d0441fef01f3d21f4cb819023&o=&hp=1",
+      "photoFrom": {
+        "slug": "les-nomades-beaune",
+        "city": "beaune",
+        "distance": 73,
+        "shared": 2
+      }
     },
     {
       "slug": "fast-hotel-perigueux-marsac-sur-l-isle",
@@ -19017,7 +19290,14 @@
       "reservation": false,
       "updated": "2024-06-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=MASQHOTEL+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=MASQHOTEL+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/901777494.jpg?k=26ca48383efb176850a7c1120640215aaff302c562babaab78f250bf56d7f866&o=&hp=1",
+      "photoFrom": {
+        "slug": "best-western-premier-le-masq-hotel",
+        "city": "la-rochelle",
+        "distance": 23,
+        "shared": 0
+      }
     },
     {
       "slug": "chateau-desmirail-margaux-cantenac",
@@ -19067,7 +19347,14 @@
       "reservation": false,
       "updated": "2024-06-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+et+Greet+LA+ROCHELLE+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+et+Greet+LA+ROCHELLE+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/878551824.jpg?k=c449a6354b43e16e49fbc7bfed974a6b8b9fe4bfe4d5410564ab9ec7aa3a9333&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-la-rochelle-centre-gare",
+        "city": "la-rochelle",
+        "distance": 46,
+        "shared": 3
+      }
     },
     {
       "slug": "ibis-style-rouen-rouen",
@@ -19092,7 +19379,14 @@
       "reservation": false,
       "updated": "2024-06-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+style+ROUEN+Rouen&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+style+ROUEN+Rouen&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/903687732.jpg?k=8b7a71109cd6a5ffd2a185aee02395d4c9afd0302b31035939b4e20c50e4c689&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-styles-rouen-centre-rive-gauche",
+        "city": "rouen",
+        "distance": 11,
+        "shared": 2
+      }
     },
     {
       "slug": "ibis-golf-st-tropez-cogolin",
@@ -20523,7 +20817,14 @@
       "reservation": false,
       "updated": "2025-07-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=RUE+MAURICE+MAUREL+Campanile+Cite+de+l+Espace+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=RUE+MAURICE+MAUREL+Campanile+Cite+de+l+Espace+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/605691317.jpg?k=27550caf9d1e46e2e267b8dca0c9721bcc9447ca2f83c18cbf8533c6b98db420&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-prime-toulouse-sud-balma-cite-de-l-espace",
+        "city": "toulouse",
+        "distance": 12,
+        "shared": 3
+      }
     },
     {
       "slug": "parc-d-activite-rue-henry-potez-hotel-ibis-a-albert",
@@ -20921,7 +21222,14 @@
       "reservation": false,
       "updated": "2025-07-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=33+ROUTE+DE+BAYONNE+Campanile+Purpan+31300+TO+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=33+ROUTE+DE+BAYONNE+Campanile+Purpan+31300+TO+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302632037.jpg?k=64e23ab7c6baad6387b41b37551f07c295e585dc043e1c358bc343c6696c14a7&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-toulouse-purpan",
+        "city": "toulouse",
+        "distance": 85,
+        "shared": 2
+      }
     },
     {
       "slug": "lo-campanile-bayeux-14400-bay-bayeux",
@@ -21470,7 +21778,14 @@
       "reservation": false,
       "updated": "2025-07-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=AVENUE+MICHEL+D%27ORNANO+Campanile+Deauville+St+SAINT+ARNOULT&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=AVENUE+MICHEL+D%27ORNANO+Campanile+Deauville+St+SAINT+ARNOULT&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/156422947.jpg?k=e1e9a8bb43da7dfbfc231168dbc49998cb4ecffbc713ebc8ff29fb9cd340bf8b&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-deauville-saint-arnoult",
+        "city": "deauville",
+        "distance": 15,
+        "shared": 2
+      }
     },
     {
       "slug": "70-impasse-des-terres-rouges-campanile-epernay-dizy",
@@ -21720,7 +22035,14 @@
       "reservation": false,
       "updated": "2025-07-03",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=6+ALL%C3%89E+ALFRED+NOBEL+Campanile+Dijon+Toison+D+Dijon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=6+ALL%C3%89E+ALFRED+NOBEL+Campanile+Dijon+Toison+D+Dijon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898410828.jpg?k=f0d8e63339632d11669d128ddbb54de5989e2b59d638eb14d2fcb808d0735294&o=&hp=1",
+      "photoFrom": {
+        "slug": "campanile-dijon-nord-toison-d-or",
+        "city": "dijon",
+        "distance": 37,
+        "shared": 3
+      }
     },
     {
       "slug": "500-rue-malafretoise-hotel-le-pillebois-01340-malafretaz",
@@ -22056,7 +22378,14 @@
       "reservation": true,
       "updated": "2025-02-04",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=NOVOTEL+DIJON+SUD+Marsannay-la-C%C3%B4te&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=NOVOTEL+DIJON+SUD+Marsannay-la-C%C3%B4te&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/867403206.jpg?k=970149823b5b2d8f1ae6f5d4e2f3969074494c30031f3b3a4649e28b16375d82&o=&hp=1",
+      "photoFrom": {
+        "slug": "novotel-dijon-sud",
+        "city": "dijon",
+        "distance": 31,
+        "shared": 3
+      }
     },
     {
       "slug": "novotel-maffliers-maffliers",
@@ -22608,7 +22937,14 @@
       "reservation": false,
       "updated": "2021-09-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+Lyon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mercure+Lyon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/884687746.jpg?k=4b4b37e2dfc14d773503ae5767a3f5aed1f6202871872aec7b97288f99caba19&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-lyon-centre-gare-part-dieu",
+        "city": "lyon",
+        "distance": 64,
+        "shared": 1
+      }
     },
     {
       "slug": "mercure-villeurbanne",
@@ -22708,7 +23044,14 @@
       "reservation": false,
       "updated": "2021-09-24",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mama+Shelter+Lille+Lille&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Mama+Shelter+Lille+Lille&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/865436714.jpg?k=cb40996abea5c55927e6f3c9e0c2d4477fc5f2cd9e37b0f1fd68c0f6c6001b8e&o=&hp=1",
+      "photoFrom": {
+        "slug": "mama-shelter-lille",
+        "city": "lille",
+        "distance": 11,
+        "shared": 3
+      }
     },
     {
       "slug": "ibis-saint-nazaire-trignac",
@@ -22883,7 +23226,14 @@
       "reservation": false,
       "updated": "2022-11-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Best+Western+Nantes+Beaujoire+Nantes&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Best+Western+Nantes+Beaujoire+Nantes&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/328630665.jpg?k=92182081ebe22fbaba7a8ce4b725bd691b1ec3528d372bfc0f14e4530137e128&o=&hp=1",
+      "photoFrom": {
+        "slug": "sure-hotel-by-best-western-nantes-beaujoire",
+        "city": "nantes",
+        "distance": 24,
+        "shared": 4
+      }
     },
     {
       "slug": "ibis-styles-beaune-centre-beaune",
@@ -22908,7 +23258,14 @@
       "reservation": false,
       "updated": "2023-06-15",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+STYLES+BEAUNE+CENTRE+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+STYLES+BEAUNE+CENTRE+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/763718873.jpg?k=a5d04ade809c0d0aecb6ee0a4907a03542bf4fe1a73bdadfb59f6aaa24445a4a&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-beaune-centre",
+        "city": "beaune",
+        "distance": 505,
+        "shared": 2
+      }
     },
     {
       "slug": "ibis-red-nuits-saint-georges-nuits-saint-georges",
@@ -22983,7 +23340,14 @@
       "reservation": false,
       "updated": "2023-06-15",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+RED+BEAUNE+CENTRE+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+RED+BEAUNE+CENTRE+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/763718873.jpg?k=a5d04ade809c0d0aecb6ee0a4907a03542bf4fe1a73bdadfb59f6aaa24445a4a&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-beaune-centre",
+        "city": "beaune",
+        "distance": 344,
+        "shared": 2
+      }
     },
     {
       "slug": "mercure-albi-bastides-albi",
@@ -23635,7 +23999,14 @@
       "reservation": false,
       "updated": "2026-06-13",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Premi%C3%A8re+Classe+Touques+Touques&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Premi%C3%A8re+Classe+Touques+Touques&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/504421713.jpg?k=450f9ef2d27b49789ebc62e3ed7de186a2c75b54e67f3e3ad8ff9a8e94b56454&o=&hp=1",
+      "photoFrom": {
+        "slug": "premiere-classe-deauville-touques",
+        "city": "deauville",
+        "distance": 15,
+        "shared": 3
+      }
     },
     {
       "slug": "hotel-premiere-classe-caen-mondeville-mondeville",
@@ -23731,7 +24102,14 @@
       "reservation": false,
       "updated": "2026-06-15",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+BEAUNE+SUD+1+PAL+CONGRES+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+BEAUNE+SUD+1+PAL+CONGRES+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874850.jpg?k=3fab58e47253573500e19f707bbacc77e0e8b576223d0a3f71d8a4e971497427&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-beaune-sud-2",
+        "city": "beaune",
+        "distance": 142,
+        "shared": 2
+      }
     },
     {
       "slug": "b-b-hotel-beaune-sud-2-beaune",
@@ -23755,7 +24133,14 @@
       "reservation": false,
       "updated": "2026-06-15",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+BEAUNE+SUD+2+Beaune&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=B%26B+HOTEL+BEAUNE+SUD+2+Beaune&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/498874850.jpg?k=3fab58e47253573500e19f707bbacc77e0e8b576223d0a3f71d8a4e971497427&o=&hp=1",
+      "photoFrom": {
+        "slug": "b-b-hotel-beaune-sud-2",
+        "city": "beaune",
+        "distance": 27,
+        "shared": 2
+      }
     },
     {
       "slug": "b-b-hotel-angers-1-beaucouze-beaucouze",
@@ -23923,7 +24308,14 @@
       "reservation": false,
       "updated": "2026-08-04",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Campanile+Dijon+Saint-Apollinaire&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Campanile+Dijon+Saint-Apollinaire&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875019982.jpg?k=e2bdc609819da3bc146d5a6709065dc7d228e9810485ce3dfa0fc94b64d49b63&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-dijon-saint-apollinaire",
+        "city": "dijon",
+        "distance": 99,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-campanile-dijon-marsannay-la-cote",
@@ -26012,7 +26404,14 @@
       "reservation": false,
       "updated": "2024-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881665425.jpg?k=4bcd7771f3f6a5a1e084a105ad834935c1422883f1dafcda5822de8ac4f9ff21&o=&hp=1",
+      "photoFrom": {
+        "slug": "mercure-la-rochelle-vieux-port",
+        "city": "la-rochelle",
+        "distance": 247,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-kyriad-la-rochelle-la-rochelle",
@@ -26037,7 +26436,14 @@
       "reservation": false,
       "updated": "2024-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Kyriad+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Kyriad+La+Rochelle+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/847480246.jpg?k=9efd238b5a4da37e66179b8c717fee1b373b5d3dd6b37700793633aafc1e5188&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-budget-la-rochelle-centre-les-minimes",
+        "city": "la-rochelle",
+        "distance": 45,
+        "shared": 1
+      }
     },
     {
       "slug": "auberge-de-la-caillere-cande-sur-beuvron",
@@ -26137,7 +26543,14 @@
       "reservation": false,
       "updated": "2024-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Style+Toulouse+Toulouse&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Ibis+Style+Toulouse+Toulouse&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/820190112.jpg?k=c1a60ed95f75211c937726e970aa1a033a0af825e0321673e4e34c15d75c7402&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-styles-toulouse-nord-sesquieres",
+        "city": "toulouse",
+        "distance": 13,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-le-pinarello-zonza",
@@ -26187,7 +26600,14 @@
       "reservation": false,
       "updated": "2024-11-25",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Le+Savary+La+Rochelle&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=H%C3%B4tel+Le+Savary+La+Rochelle&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/155915103.jpg?k=f69acabc0fcec800558fbc3b2a806b07db524027906630c9b39ade308e8a63c1&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-savary",
+        "city": "la-rochelle",
+        "distance": 2,
+        "shared": 1
+      }
     },
     {
       "slug": "hotel-le-cro-les-eyzies",
@@ -26362,7 +26782,14 @@
       "reservation": false,
       "updated": "2024-01-26",
       "stations": 2,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Kyriad+Lattes+Lattes&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Kyriad+Lattes+Lattes&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/789984348.jpg?k=e40773efbfe4d5d1d4f6e1779ef78c4f3ff229374089949badb1107e557c2d04&o=&hp=1",
+      "photoFrom": {
+        "slug": "kyriad-montpellier-sud-lattes",
+        "city": "montpellier",
+        "distance": 18,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-kyriad-st-jean-de-vedas-saint-jean-de-vedas",
@@ -26787,7 +27214,14 @@
       "reservation": false,
       "updated": "2024-01-26",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Kyriad+Prestige+Dijon+Dijon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Kyriad+Prestige+Dijon+Dijon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/840862000.jpg?k=32a0046bd891567be2c47f479e9f7ff8e12b8fbdd94685f3d3cb0d5dc05938a9&o=&hp=1",
+      "photoFrom": {
+        "slug": "ibis-styles-dijon-nord-valmy",
+        "city": "dijon",
+        "distance": 31,
+        "shared": 1
+      }
     },
     {
       "slug": "logis-hotel-de-la-poste-le-bonhomme",
@@ -29113,7 +29547,14 @@
       "reservation": true,
       "updated": "2026-08-29",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Deauville%2FSaint+Vauville&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Ibis+Budget+Deauville%2FSaint+Vauville&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/876880595.jpg?k=fbd123431dbd03c61742d57c7071099b22201e7dbb2e7a747f15bde4522c0ca3&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-ibis-budget-deauville",
+        "city": "deauville",
+        "distance": 441,
+        "shared": 3
+      }
     },
     {
       "slug": "ibis-budget-rouen-petit-quevilly-le-petit-quevilly",
@@ -29439,7 +29880,14 @@
       "reservation": false,
       "updated": "2025-09-30",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=HOTEL+CLEMENT+ADER+TOULOUSE&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=HOTEL+CLEMENT+ADER+TOULOUSE&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273809300.jpg?k=477f6f0786e1a7dc32af31c9c6a54edd8a4f121e5298ce4fc523e8ff7bf54e51&o=&hp=1",
+      "photoFrom": {
+        "slug": "appart-hotel-clement-ader",
+        "city": "toulouse",
+        "distance": 30,
+        "shared": 2
+      }
     },
     {
       "slug": "hotel-aquabella-aix-en-provence",
@@ -29814,7 +30262,14 @@
       "reservation": false,
       "updated": "2025-09-30",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=NH+HOTEL+MARSEILLE&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=NH+HOTEL+MARSEILLE&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/834397396.jpg?k=58fe45ff65930972d3df1c03e0f4e68ccce5a03d652bec193b66829ac4856965&o=&hp=1",
+      "photoFrom": {
+        "slug": "nhow-marseille",
+        "city": "marseille",
+        "distance": 13,
+        "shared": 0
+      }
     },
     {
       "slug": "ibis-change",
@@ -30360,7 +30815,14 @@
       "reservation": false,
       "updated": "2024-06-04",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+BUDGET+DEAUVILLE+Saint-Arnoult&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=IBIS+BUDGET+DEAUVILLE+Saint-Arnoult&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/876880595.jpg?k=fbd123431dbd03c61742d57c7071099b22201e7dbb2e7a747f15bde4522c0ca3&o=&hp=1",
+      "photoFrom": {
+        "slug": "hotel-ibis-budget-deauville",
+        "city": "deauville",
+        "distance": 442,
+        "shared": 3
+      }
     },
     {
       "slug": "ibis-budget-petit-quevilly-le-petit-quevilly",
@@ -31202,7 +31664,14 @@
       "reservation": false,
       "updated": "2026-08-28",
       "stations": 1,
-      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Porsche+Destination+Grand+Hotel+La+Cloche+Dijon&group_adults=2&no_rooms=1"
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Porsche+Destination+Grand+Hotel+La+Cloche+Dijon&group_adults=2&no_rooms=1",
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881718662.jpg?k=0b9588d268f9e211db6a6858691c963a297f20cfb83bf25bacbff0d614fd0c98&o=&hp=1",
+      "photoFrom": {
+        "slug": "grand-hotel-la-cloche-dijon-mgallery-collection",
+        "city": "dijon",
+        "distance": 28,
+        "shared": 2
+      }
     },
     {
       "slug": "porsche-destination-hotel-la-ferme-saint-honfleur",

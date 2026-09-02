@@ -1,0 +1,8462 @@
+[
+  {
+    "key": "toulouse",
+    "name": "Toulouse",
+    "dept": "31",
+    "population": 514819,
+    "hotels": 10,
+    "bestKw": 300,
+    "lat": 43.6007,
+    "lng": 1.4328
+  },
+  {
+    "key": "la-rochelle",
+    "name": "La Rochelle",
+    "dept": "17",
+    "population": 79851,
+    "hotels": 10,
+    "bestKw": 22.1,
+    "lat": 46.162,
+    "lng": -1.1765
+  },
+  {
+    "key": "beaune",
+    "name": "Beaune",
+    "dept": "21",
+    "population": 20352,
+    "hotels": 9,
+    "bestKw": 300,
+    "lat": 47.0272,
+    "lng": 4.8421
+  },
+  {
+    "key": "blagnac",
+    "name": "Blagnac",
+    "dept": "31",
+    "population": 27604,
+    "hotels": 8,
+    "bestKw": 160,
+    "lat": 43.641,
+    "lng": 1.377
+  },
+  {
+    "key": "marseille",
+    "name": "Marseille",
+    "dept": "13",
+    "population": 886040,
+    "hotels": 7,
+    "bestKw": 300,
+    "lat": 43.2803,
+    "lng": 5.3806
+  },
+  {
+    "key": "annecy",
+    "name": "Annecy",
+    "dept": "74",
+    "population": 132117,
+    "hotels": 6,
+    "bestKw": 300,
+    "lat": 45.9024,
+    "lng": 6.1264
+  },
+  {
+    "key": "paris",
+    "name": "PARIS",
+    "dept": "75",
+    "population": 2103778,
+    "hotels": 6,
+    "bestKw": 300,
+    "lat": 48.8589,
+    "lng": 2.347
+  },
+  {
+    "key": "aix-en-provence",
+    "name": "Aix-en-Provence",
+    "dept": "13",
+    "population": 149695,
+    "hotels": 6,
+    "bestKw": 300,
+    "lat": 43.536,
+    "lng": 5.3879
+  },
+  {
+    "key": "macon",
+    "name": "Mâcon",
+    "dept": "71",
+    "population": 35177,
+    "hotels": 6,
+    "bestKw": 240,
+    "lat": 46.3265,
+    "lng": 4.8083
+  },
+  {
+    "key": "merignac",
+    "name": "Mérignac",
+    "dept": "33",
+    "population": 78090,
+    "hotels": 6,
+    "bestKw": 200,
+    "lat": 44.8313,
+    "lng": -0.682
+  },
+  {
+    "key": "roissy-en-france",
+    "name": "Roissy-en-France",
+    "dept": "95",
+    "population": 2674,
+    "hotels": 5,
+    "bestKw": 600,
+    "lat": 49.0036,
+    "lng": 2.5188
+  },
+  {
+    "key": "lille",
+    "name": "Lille",
+    "dept": "59",
+    "population": 238246,
+    "hotels": 5,
+    "bestKw": 300,
+    "lat": 50.6311,
+    "lng": 3.0468
+  },
+  {
+    "key": "le-mans",
+    "name": "Le Mans",
+    "dept": "72",
+    "population": 146249,
+    "hotels": 5,
+    "bestKw": 300,
+    "lat": 47.9819,
+    "lng": 0.1957
+  },
+  {
+    "key": "trignac",
+    "name": "Trignac",
+    "dept": "44",
+    "population": 8397,
+    "hotels": 5,
+    "bestKw": 300,
+    "lat": 47.3116,
+    "lng": -2.2052
+  },
+  {
+    "key": "clermont-ferrand",
+    "name": "Clermont-Ferrand",
+    "dept": "63",
+    "population": 146351,
+    "hotels": 5,
+    "bestKw": 300,
+    "lat": 45.787,
+    "lng": 3.1127
+  },
+  {
+    "key": "change",
+    "name": "Changé",
+    "dept": "72",
+    "population": 6911,
+    "hotels": 5,
+    "bestKw": 300,
+    "lat": 47.9797,
+    "lng": 0.2966
+  },
+  {
+    "key": "blois",
+    "name": "Blois",
+    "dept": "41",
+    "population": 47219,
+    "hotels": 5,
+    "bestKw": 200,
+    "lat": 47.5813,
+    "lng": 1.3049
+  },
+  {
+    "key": "beauvais",
+    "name": "Beauvais",
+    "dept": "60",
+    "population": 55550,
+    "hotels": 5,
+    "bestKw": 200,
+    "lat": 49.4425,
+    "lng": 2.0877
+  },
+  {
+    "key": "perpignan",
+    "name": "Perpignan",
+    "dept": "66",
+    "population": 121616,
+    "hotels": 5,
+    "bestKw": 200,
+    "lat": 42.699,
+    "lng": 2.9045
+  },
+  {
+    "key": "saint-jean-de-vedas",
+    "name": "Saint-Jean-de-Védas",
+    "dept": "34",
+    "population": 13328,
+    "hotels": 5,
+    "bestKw": 180,
+    "lat": 43.5732,
+    "lng": 3.8329
+  },
+  {
+    "key": "gap",
+    "name": "Gap",
+    "dept": "05",
+    "population": 41293,
+    "hotels": 5,
+    "bestKw": 150,
+    "lat": 44.5797,
+    "lng": 6.0616
+  },
+  {
+    "key": "colmar",
+    "name": "Colmar",
+    "dept": "68",
+    "population": 66970,
+    "hotels": 5,
+    "bestKw": 100,
+    "lat": 48.1115,
+    "lng": 7.3924
+  },
+  {
+    "key": "limoges",
+    "name": "Limoges",
+    "dept": "87",
+    "population": 129937,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 45.8567,
+    "lng": 1.226
+  },
+  {
+    "key": "narbonne",
+    "name": "Narbonne",
+    "dept": "11",
+    "population": 57587,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 43.1493,
+    "lng": 3.0337
+  },
+  {
+    "key": "gennevilliers",
+    "name": "Gennevilliers",
+    "dept": "92",
+    "population": 50979,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 48.9319,
+    "lng": 2.288
+  },
+  {
+    "key": "evry-courcouronnes",
+    "name": "Évry-Courcouronnes",
+    "dept": "91",
+    "population": 66919,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 48.6287,
+    "lng": 2.4313
+  },
+  {
+    "key": "nice",
+    "name": "Nice",
+    "dept": "06",
+    "population": 357737,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 43.7032,
+    "lng": 7.2528
+  },
+  {
+    "key": "bourg-les-valence",
+    "name": "Bourg-lès-Valence",
+    "dept": "26",
+    "population": 19992,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 44.9637,
+    "lng": 4.89
+  },
+  {
+    "key": "dunkerque",
+    "name": "Dunkerque",
+    "dept": "59",
+    "population": 86263,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 51.0183,
+    "lng": 2.3431
+  },
+  {
+    "key": "saint-herblain",
+    "name": "Saint-Herblain",
+    "dept": "44",
+    "population": 50973,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 47.2246,
+    "lng": -1.6306
+  },
+  {
+    "key": "dijon",
+    "name": "Dijon",
+    "dept": "21",
+    "population": 161830,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 47.3319,
+    "lng": 5.0322
+  },
+  {
+    "key": "villenave-d-ornon",
+    "name": "Villenave-d'Ornon",
+    "dept": "33",
+    "population": 42545,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 44.7736,
+    "lng": -0.5523
+  },
+  {
+    "key": "tours",
+    "name": "Tours",
+    "dept": "37",
+    "population": 139259,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 47.3943,
+    "lng": 0.6949
+  },
+  {
+    "key": "granville",
+    "name": "Granville",
+    "dept": "50",
+    "population": 12510,
+    "hotels": 4,
+    "bestKw": 300,
+    "lat": 48.8724,
+    "lng": -1.7657
+  },
+  {
+    "key": "chasseneuil-du-poitou",
+    "name": "Chasseneuil-du-Poitou",
+    "dept": "86",
+    "population": 4743,
+    "hotels": 4,
+    "bestKw": 240,
+    "lat": 46.6476,
+    "lng": 0.356
+  },
+  {
+    "key": "belfort",
+    "name": "Belfort",
+    "dept": "90",
+    "population": 45912,
+    "hotels": 4,
+    "bestKw": 200,
+    "lat": 47.6458,
+    "lng": 6.841
+  },
+  {
+    "key": "calais",
+    "name": "Calais",
+    "dept": "62",
+    "population": 67571,
+    "hotels": 4,
+    "bestKw": 200,
+    "lat": 50.9523,
+    "lng": 1.869
+  },
+  {
+    "key": "montpellier",
+    "name": "Montpellier",
+    "dept": "34",
+    "population": 310240,
+    "hotels": 4,
+    "bestKw": 160,
+    "lat": 43.61,
+    "lng": 3.8742
+  },
+  {
+    "key": "quimper",
+    "name": "Quimper",
+    "dept": "29",
+    "population": 64385,
+    "hotels": 4,
+    "bestKw": 150,
+    "lat": 47.9982,
+    "lng": -4.0972
+  },
+  {
+    "key": "lisieux",
+    "name": "Lisieux",
+    "dept": "14",
+    "population": 19645,
+    "hotels": 4,
+    "bestKw": 150,
+    "lat": 49.1478,
+    "lng": 0.2426
+  },
+  {
+    "key": "tarbes",
+    "name": "Tarbes",
+    "dept": "65",
+    "population": 44399,
+    "hotels": 4,
+    "bestKw": 120,
+    "lat": 43.2387,
+    "lng": 0.0653
+  },
+  {
+    "key": "rouen",
+    "name": "Rouen",
+    "dept": "76",
+    "population": 117662,
+    "hotels": 4,
+    "bestKw": 100,
+    "lat": 49.4412,
+    "lng": 1.0912
+  },
+  {
+    "key": "la-teste-de-buch",
+    "name": "La Teste-de-Buch",
+    "dept": "33",
+    "population": 27566,
+    "hotels": 4,
+    "bestKw": 30,
+    "lat": 44.586,
+    "lng": -1.1809
+  },
+  {
+    "key": "nangis",
+    "name": "Nangis",
+    "dept": "77",
+    "population": 8867,
+    "hotels": 4,
+    "bestKw": 22,
+    "lat": 48.5575,
+    "lng": 3.0079
+  },
+  {
+    "key": "bourges",
+    "name": "Bourges",
+    "dept": "18",
+    "population": 64186,
+    "hotels": 4,
+    "bestKw": 22,
+    "lat": 47.078,
+    "lng": 2.3983
+  },
+  {
+    "key": "lunel",
+    "name": "Lunel",
+    "dept": "34",
+    "population": 26623,
+    "hotels": 4,
+    "bestKw": 11,
+    "lat": 43.678,
+    "lng": 4.1329
+  },
+  {
+    "key": "bron",
+    "name": "Bron",
+    "dept": "69",
+    "population": 42982,
+    "hotels": 3,
+    "bestKw": 600,
+    "lat": 45.7355,
+    "lng": 4.9116
+  },
+  {
+    "key": "pessac",
+    "name": "Pessac",
+    "dept": "33",
+    "population": 67339,
+    "hotels": 3,
+    "bestKw": 400,
+    "lat": 44.786,
+    "lng": -0.681
+  },
+  {
+    "key": "noyelle-vion",
+    "name": "Noyelle-Vion",
+    "dept": "62",
+    "population": 256,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 50.2912,
+    "lng": 2.5456
+  },
+  {
+    "key": "gonesse",
+    "name": "Gonesse",
+    "dept": "95",
+    "population": 27707,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 48.9856,
+    "lng": 2.4602
+  },
+  {
+    "key": "villepinte",
+    "name": "Villepinte",
+    "dept": "93",
+    "population": 41470,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 48.956,
+    "lng": 2.5323
+  },
+  {
+    "key": "nanterre",
+    "name": "Nanterre",
+    "dept": "92",
+    "population": 97783,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 48.8974,
+    "lng": 2.2018
+  },
+  {
+    "key": "rennes",
+    "name": "Rennes",
+    "dept": "35",
+    "population": 230890,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 48.1159,
+    "lng": -1.6884
+  },
+  {
+    "key": "brive-la-gaillarde",
+    "name": "Brive-la-Gaillarde",
+    "dept": "19",
+    "population": 47095,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 45.145,
+    "lng": 1.5144
+  },
+  {
+    "key": "lesquin",
+    "name": "Lesquin",
+    "dept": "59",
+    "population": 9600,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 50.5904,
+    "lng": 3.1132
+  },
+  {
+    "key": "les-ponts-de-ce",
+    "name": "Les Ponts-de-Cé",
+    "dept": "49",
+    "population": 13149,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.427,
+    "lng": -0.511
+  },
+  {
+    "key": "reze",
+    "name": "Rezé",
+    "dept": "44",
+    "population": 43556,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.1733,
+    "lng": -1.5573
+  },
+  {
+    "key": "noyelles-godault",
+    "name": "Noyelles-Godault",
+    "dept": "62",
+    "population": 5994,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 50.4177,
+    "lng": 2.9963
+  },
+  {
+    "key": "nantes",
+    "name": "Nantes",
+    "dept": "44",
+    "population": 327734,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.2382,
+    "lng": -1.5603
+  },
+  {
+    "key": "villeneuve-d-ascq",
+    "name": "Villeneuve-d'Ascq",
+    "dept": "59",
+    "population": 62868,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 50.6362,
+    "lng": 3.1619
+  },
+  {
+    "key": "frejus",
+    "name": "Fréjus",
+    "dept": "83",
+    "population": 59719,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 43.4553,
+    "lng": 6.7848
+  },
+  {
+    "key": "harfleur",
+    "name": "Harfleur",
+    "dept": "76",
+    "population": 8289,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 49.5137,
+    "lng": 0.1964
+  },
+  {
+    "key": "besancon",
+    "name": "Besançon",
+    "dept": "25",
+    "population": 118489,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.2602,
+    "lng": 6.0123
+  },
+  {
+    "key": "beaucouze",
+    "name": "Beaucouzé",
+    "dept": "49",
+    "population": 5732,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.4742,
+    "lng": -0.6358
+  },
+  {
+    "key": "tregueux",
+    "name": "Trégueux",
+    "dept": "22",
+    "population": 8450,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 48.4769,
+    "lng": -2.7454
+  },
+  {
+    "key": "salon-de-provence",
+    "name": "Salon-de-Provence",
+    "dept": "13",
+    "population": 44194,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 43.643,
+    "lng": 5.049
+  },
+  {
+    "key": "valence",
+    "name": "Valence",
+    "dept": "26",
+    "population": 64458,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 44.9234,
+    "lng": 4.9164
+  },
+  {
+    "key": "seclin",
+    "name": "Seclin",
+    "dept": "59",
+    "population": 13261,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 50.5453,
+    "lng": 3.0268
+  },
+  {
+    "key": "marsannay-la-cote",
+    "name": "Marsannay-la-Côte",
+    "dept": "21",
+    "population": 5433,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 47.2803,
+    "lng": 4.9875
+  },
+  {
+    "key": "evreux",
+    "name": "Evreux",
+    "dept": "27",
+    "population": 49360,
+    "hotels": 3,
+    "bestKw": 300,
+    "lat": 49.018,
+    "lng": 1.1406
+  },
+  {
+    "key": "chevilly-larue",
+    "name": "Chevilly-Larue",
+    "dept": "94",
+    "population": 19826,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 48.7679,
+    "lng": 2.3507
+  },
+  {
+    "key": "niort",
+    "name": "Niort",
+    "dept": "79",
+    "population": 59854,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 46.3274,
+    "lng": -0.4613
+  },
+  {
+    "key": "vitrolles",
+    "name": "Vitrolles",
+    "dept": "13",
+    "population": 36758,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 43.4509,
+    "lng": 5.2656
+  },
+  {
+    "key": "saint-etienne",
+    "name": "Saint-Étienne",
+    "dept": "42",
+    "population": 173136,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 45.4241,
+    "lng": 4.3665
+  },
+  {
+    "key": "saran",
+    "name": "Saran",
+    "dept": "45",
+    "population": 17316,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 47.9479,
+    "lng": 1.8806
+  },
+  {
+    "key": "poitiers",
+    "name": "Poitiers",
+    "dept": "86",
+    "population": 89916,
+    "hotels": 3,
+    "bestKw": 200,
+    "lat": 46.5846,
+    "lng": 0.3715
+  },
+  {
+    "key": "nimes",
+    "name": "Nîmes",
+    "dept": "30",
+    "population": 151839,
+    "hotels": 3,
+    "bestKw": 180,
+    "lat": 43.8322,
+    "lng": 4.3429
+  },
+  {
+    "key": "marmande",
+    "name": "Marmande",
+    "dept": "47",
+    "population": 17328,
+    "hotels": 3,
+    "bestKw": 180,
+    "lat": 44.5014,
+    "lng": 0.1689
+  },
+  {
+    "key": "cholet",
+    "name": "Cholet",
+    "dept": "49",
+    "population": 54404,
+    "hotels": 3,
+    "bestKw": 178,
+    "lat": 47.0358,
+    "lng": -0.875
+  },
+  {
+    "key": "orleans",
+    "name": "Orléans",
+    "dept": "45",
+    "population": 116357,
+    "hotels": 3,
+    "bestKw": 160,
+    "lat": 47.8734,
+    "lng": 1.9122
+  },
+  {
+    "key": "saint-aubin-sur-scie",
+    "name": "Saint-Aubin-sur-Scie",
+    "dept": "76",
+    "population": 1219,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": 49.8855,
+    "lng": 1.0802
+  },
+  {
+    "key": "lyon",
+    "name": "Lyon",
+    "dept": "69",
+    "population": 519127,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": 45.758,
+    "lng": 4.8351
+  },
+  {
+    "key": "saint-denis",
+    "name": "Saint-Denis",
+    "dept": "974",
+    "population": 155634,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": -20.9434,
+    "lng": 55.4444
+  },
+  {
+    "key": "gaillard",
+    "name": "Gaillard",
+    "dept": "74",
+    "population": 11423,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": 46.1841,
+    "lng": 6.2051
+  },
+  {
+    "key": "chateau-thierry",
+    "name": "Château-Thierry",
+    "dept": "02",
+    "population": 15097,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": 49.0556,
+    "lng": 3.3784
+  },
+  {
+    "key": "la-riviere-saint-sauveur",
+    "name": "La Rivière-Saint-Sauveur",
+    "dept": "14",
+    "population": 2527,
+    "hotels": 3,
+    "bestKw": 150,
+    "lat": 49.4086,
+    "lng": 0.2641
+  },
+  {
+    "key": "mercurey",
+    "name": "Mercurey",
+    "dept": "71",
+    "population": 1211,
+    "hotels": 3,
+    "bestKw": 120,
+    "lat": 46.8383,
+    "lng": 4.7279
+  },
+  {
+    "key": "douai",
+    "name": "Douai",
+    "dept": "59",
+    "population": 40250,
+    "hotels": 3,
+    "bestKw": 100,
+    "lat": 50.3785,
+    "lng": 3.1004
+  },
+  {
+    "key": "marcq-en-bar-ul",
+    "name": "Marcq-en-Barœul",
+    "dept": "59",
+    "population": 40184,
+    "hotels": 3,
+    "bestKw": 100,
+    "lat": 50.6793,
+    "lng": 3.1006
+  },
+  {
+    "key": "carcassonne",
+    "name": "Carcassonne",
+    "dept": "11",
+    "population": 46080,
+    "hotels": 3,
+    "bestKw": 22.1,
+    "lat": 43.2078,
+    "lng": 2.3491
+  },
+  {
+    "key": "herouville-saint-clair",
+    "name": "Hérouville-Saint-Clair",
+    "dept": "14",
+    "population": 23470,
+    "hotels": 3,
+    "bestKw": 22.1,
+    "lat": 49.2042,
+    "lng": -0.3324
+  },
+  {
+    "key": "porto-vecchio",
+    "name": "Porto-Vecchio",
+    "dept": "2A",
+    "population": 11198,
+    "hotels": 3,
+    "bestKw": 22.1,
+    "lat": 41.5849,
+    "lng": 9.2732
+  },
+  {
+    "key": "pontarlier",
+    "name": "Pontarlier",
+    "dept": "25",
+    "population": 18067,
+    "hotels": 3,
+    "bestKw": 22.1,
+    "lat": 46.9167,
+    "lng": 6.3796
+  },
+  {
+    "key": "morzine",
+    "name": "Morzine",
+    "dept": "74",
+    "population": 2658,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 46.172,
+    "lng": 6.7432
+  },
+  {
+    "key": "bayeux",
+    "name": "Bayeux",
+    "dept": "14",
+    "population": 12659,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 49.2772,
+    "lng": -0.7016
+  },
+  {
+    "key": "sarlat-la-caneda",
+    "name": "Sarlat-la-Canéda",
+    "dept": "24",
+    "population": 8763,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 44.906,
+    "lng": 1.1994
+  },
+  {
+    "key": "dax",
+    "name": "Dax",
+    "dept": "40",
+    "population": 22109,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 43.7025,
+    "lng": -1.0637
+  },
+  {
+    "key": "mondeville",
+    "name": "Mondeville",
+    "dept": "14",
+    "population": 10331,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 49.1707,
+    "lng": -0.3097
+  },
+  {
+    "key": "evian-les-bains",
+    "name": "Évian-les-Bains",
+    "dept": "74",
+    "population": 9267,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 46.3911,
+    "lng": 6.5911
+  },
+  {
+    "key": "deols",
+    "name": "Déols",
+    "dept": "36",
+    "population": 7600,
+    "hotels": 3,
+    "bestKw": 22,
+    "lat": 46.8397,
+    "lng": 1.7018
+  },
+  {
+    "key": "honfleur",
+    "name": "Honfleur",
+    "dept": "14",
+    "population": 6640,
+    "hotels": 3,
+    "bestKw": 7,
+    "lat": 49.4086,
+    "lng": 0.2297
+  },
+  {
+    "key": "courbevoie",
+    "name": "Courbevoie",
+    "dept": "92",
+    "population": 82902,
+    "hotels": 2,
+    "bestKw": 400,
+    "lat": 48.8976,
+    "lng": 2.2574
+  },
+  {
+    "key": "la-chapelle-saint-mesmin",
+    "name": "La Chapelle-Saint-Mesmin",
+    "dept": "45",
+    "population": 11017,
+    "hotels": 2,
+    "bestKw": 400,
+    "lat": 47.8861,
+    "lng": 1.8324
+  },
+  {
+    "key": "pau",
+    "name": "Pau",
+    "dept": "64",
+    "population": 80441,
+    "hotels": 2,
+    "bestKw": 320,
+    "lat": 43.3219,
+    "lng": -0.3435
+  },
+  {
+    "key": "eysines",
+    "name": "Eysines",
+    "dept": "33",
+    "population": 24825,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 44.8779,
+    "lng": -0.646
+  },
+  {
+    "key": "albaret-sainte-marie",
+    "name": "Albaret-Sainte-Marie",
+    "dept": "48",
+    "population": 559,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 44.8804,
+    "lng": 3.2536
+  },
+  {
+    "key": "cambrai",
+    "name": "Cambrai",
+    "dept": "59",
+    "population": 31134,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 50.1722,
+    "lng": 3.2413
+  },
+  {
+    "key": "aubergenville",
+    "name": "Aubergenville",
+    "dept": "78",
+    "population": 12723,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.9609,
+    "lng": 1.844
+  },
+  {
+    "key": "saint-dizier",
+    "name": "Saint-Dizier",
+    "dept": "52",
+    "population": 22858,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.6319,
+    "lng": 4.9399
+  },
+  {
+    "key": "bondues",
+    "name": "Bondues",
+    "dept": "59",
+    "population": 9747,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 50.7062,
+    "lng": 3.1002
+  },
+  {
+    "key": "gouesnou",
+    "name": "Gouesnou",
+    "dept": "29",
+    "population": 6501,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.4471,
+    "lng": -4.4614
+  },
+  {
+    "key": "rungis",
+    "name": "Rungis",
+    "dept": "94",
+    "population": 5611,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.7493,
+    "lng": 2.3499
+  },
+  {
+    "key": "creteil",
+    "name": "Créteil",
+    "dept": "94",
+    "population": 93397,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.7845,
+    "lng": 2.4523
+  },
+  {
+    "key": "trappes",
+    "name": "Trappes",
+    "dept": "78",
+    "population": 34689,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.7738,
+    "lng": 1.9964
+  },
+  {
+    "key": "woippy",
+    "name": "Woippy",
+    "dept": "57",
+    "population": 14967,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 49.1651,
+    "lng": 6.1552
+  },
+  {
+    "key": "vieille-toulouse",
+    "name": "Vieille-Toulouse",
+    "dept": "31",
+    "population": 1230,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 43.5299,
+    "lng": 1.4368
+  },
+  {
+    "key": "saint-sebastien-sur-loire",
+    "name": "Saint-Sébastien-sur-Loire",
+    "dept": "44",
+    "population": 28596,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 47.2065,
+    "lng": -1.5023
+  },
+  {
+    "key": "montreuil",
+    "name": "Montreuil",
+    "dept": "93",
+    "population": 111934,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.8637,
+    "lng": 2.4491
+  },
+  {
+    "key": "les-tourrettes",
+    "name": "Les Tourrettes",
+    "dept": "26",
+    "population": 1087,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 44.6668,
+    "lng": 4.8052
+  },
+  {
+    "key": "puilboreau",
+    "name": "Puilboreau",
+    "dept": "17",
+    "population": 6765,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 46.1849,
+    "lng": -1.1146
+  },
+  {
+    "key": "epinal",
+    "name": "Épinal",
+    "dept": "88",
+    "population": 32251,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.1637,
+    "lng": 6.4867
+  },
+  {
+    "key": "epone",
+    "name": "Épône",
+    "dept": "78",
+    "population": 7031,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.9459,
+    "lng": 1.8119
+  },
+  {
+    "key": "moneteau",
+    "name": "Monéteau",
+    "dept": "89",
+    "population": 4114,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 47.8483,
+    "lng": 3.5916
+  },
+  {
+    "key": "brest",
+    "name": "Brest",
+    "dept": "29",
+    "population": 142346,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.4085,
+    "lng": -4.4996
+  },
+  {
+    "key": "havrincourt",
+    "name": "Havrincourt",
+    "dept": "62",
+    "population": 351,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 50.1015,
+    "lng": 3.0721
+  },
+  {
+    "key": "bruges",
+    "name": "Bruges",
+    "dept": "33",
+    "population": 20020,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 44.8893,
+    "lng": -0.6029
+  },
+  {
+    "key": "vineuil",
+    "name": "Vineuil",
+    "dept": "41",
+    "population": 8064,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 47.5855,
+    "lng": 1.3886
+  },
+  {
+    "key": "le-pontet",
+    "name": "Le Pontet",
+    "dept": "84",
+    "population": 18386,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 43.9707,
+    "lng": 4.8614
+  },
+  {
+    "key": "saint-priest",
+    "name": "Saint-Priest",
+    "dept": "69",
+    "population": 49229,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 45.7014,
+    "lng": 4.9474
+  },
+  {
+    "key": "paray-le-monial",
+    "name": "Paray-le-Monial",
+    "dept": "71",
+    "population": 9291,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 46.4429,
+    "lng": 4.1115
+  },
+  {
+    "key": "bussy-saint-georges",
+    "name": "Bussy-Saint-Georges",
+    "dept": "77",
+    "population": 27498,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.8297,
+    "lng": 2.7091
+  },
+  {
+    "key": "allonne",
+    "name": "Allonne",
+    "dept": "60",
+    "population": 1767,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 49.3952,
+    "lng": 2.1157
+  },
+  {
+    "key": "saint-saturnin",
+    "name": "Saint-Saturnin",
+    "dept": "72",
+    "population": 2774,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.0607,
+    "lng": 0.1755
+  },
+  {
+    "key": "cherbourg-en-cotentin",
+    "name": "Cherbourg-en-Cotentin",
+    "dept": "50",
+    "population": 78258,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 49.6277,
+    "lng": -1.6356
+  },
+  {
+    "key": "lisses",
+    "name": "Lisses",
+    "dept": "91",
+    "population": 7373,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.5935,
+    "lng": 2.4259
+  },
+  {
+    "key": "falaise",
+    "name": "Falaise",
+    "dept": "14",
+    "population": 7680,
+    "hotels": 2,
+    "bestKw": 300,
+    "lat": 48.8986,
+    "lng": -0.1924
+  },
+  {
+    "key": "genas",
+    "name": "Genas",
+    "dept": "69",
+    "population": 13421,
+    "hotels": 2,
+    "bestKw": 250,
+    "lat": 45.7286,
+    "lng": 5.0172
+  },
+  {
+    "key": "bordeaux",
+    "name": "Bordeaux",
+    "dept": "33",
+    "population": 267991,
+    "hotels": 2,
+    "bestKw": 225,
+    "lat": 44.8624,
+    "lng": -0.5848
+  },
+  {
+    "key": "saint-etienne-du-rouvray",
+    "name": "Saint-Étienne-du-Rouvray",
+    "dept": "76",
+    "population": 29518,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 49.3833,
+    "lng": 1.0909
+  },
+  {
+    "key": "la-chapelle-saint-luc",
+    "name": "La Chapelle-Saint-Luc",
+    "dept": "10",
+    "population": 12648,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 48.3165,
+    "lng": 4.0303
+  },
+  {
+    "key": "guerande",
+    "name": "Guérande",
+    "dept": "44",
+    "population": 16804,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 47.3358,
+    "lng": -2.4133
+  },
+  {
+    "key": "bretigny-sur-orge",
+    "name": "Brétigny-sur-Orge",
+    "dept": "91",
+    "population": 26658,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 48.601,
+    "lng": 2.2989
+  },
+  {
+    "key": "oullins-pierre-benite",
+    "name": "Oullins-Pierre-Bénite",
+    "dept": "69",
+    "population": 38168,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 45.708,
+    "lng": 4.8112
+  },
+  {
+    "key": "les-ulis",
+    "name": "Les Ulis",
+    "dept": "91",
+    "population": 25886,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 48.6817,
+    "lng": 2.1864
+  },
+  {
+    "key": "wasquehal",
+    "name": "Wasquehal",
+    "dept": "59",
+    "population": 20726,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 50.6726,
+    "lng": 3.1296
+  },
+  {
+    "key": "villeneuve-les-beziers",
+    "name": "Villeneuve-lès-Béziers",
+    "dept": "34",
+    "population": 4500,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 43.3178,
+    "lng": 3.2909
+  },
+  {
+    "key": "limas",
+    "name": "Limas",
+    "dept": "69",
+    "population": 4750,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 45.9717,
+    "lng": 4.7196
+  },
+  {
+    "key": "chanas",
+    "name": "Chanas",
+    "dept": "38",
+    "population": 2706,
+    "hotels": 2,
+    "bestKw": 200,
+    "lat": 45.3193,
+    "lng": 4.8327
+  },
+  {
+    "key": "morschwiller-le-bas",
+    "name": "Morschwiller-le-bas",
+    "dept": "68",
+    "population": 3694,
+    "hotels": 2,
+    "bestKw": 160,
+    "lat": 47.7334,
+    "lng": 7.2645
+  },
+  {
+    "key": "saint-pierre-du-mont",
+    "name": "Saint-Pierre-du-Mont",
+    "dept": "40",
+    "population": 10092,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 43.8725,
+    "lng": -0.52
+  },
+  {
+    "key": "saint-junien",
+    "name": "Saint-Junien",
+    "dept": "87",
+    "population": 11415,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 45.8965,
+    "lng": 0.8853
+  },
+  {
+    "key": "nancy",
+    "name": "Nancy",
+    "dept": "54",
+    "population": 103671,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 48.6881,
+    "lng": 6.1734
+  },
+  {
+    "key": "arveyres",
+    "name": "Arveyres",
+    "dept": "33",
+    "population": 2056,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 44.89,
+    "lng": -0.2798
+  },
+  {
+    "key": "valframbert",
+    "name": "Valframbert",
+    "dept": "61",
+    "population": 1678,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 48.4659,
+    "lng": 0.1157
+  },
+  {
+    "key": "angers",
+    "name": "Angers",
+    "dept": "49",
+    "population": 159022,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 47.4819,
+    "lng": -0.5629
+  },
+  {
+    "key": "mons-en-baroeul",
+    "name": "Mons-en-Baroeul",
+    "dept": null,
+    "population": null,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "sausheim",
+    "name": "Sausheim",
+    "dept": "68",
+    "population": 5666,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 47.7841,
+    "lng": 7.4041
+  },
+  {
+    "key": "gradignan",
+    "name": "Gradignan",
+    "dept": "33",
+    "population": 26952,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 44.7681,
+    "lng": -0.6163
+  },
+  {
+    "key": "saintes",
+    "name": "Saintes",
+    "dept": "17",
+    "population": 25363,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 45.7462,
+    "lng": -0.6456
+  },
+  {
+    "key": "labege",
+    "name": "Labège",
+    "dept": "31",
+    "population": 4392,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 43.5396,
+    "lng": 1.5207
+  },
+  {
+    "key": "saint-maur",
+    "name": "Saint-Maur",
+    "dept": "36",
+    "population": 3537,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 46.8109,
+    "lng": 1.6203
+  },
+  {
+    "key": "roanne",
+    "name": "Roanne",
+    "dept": "42",
+    "population": 35409,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 46.0443,
+    "lng": 4.0797
+  },
+  {
+    "key": "olivet",
+    "name": "Olivet",
+    "dept": "45",
+    "population": 23507,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 47.8559,
+    "lng": 1.8913
+  },
+  {
+    "key": "agen",
+    "name": "Agen",
+    "dept": "47",
+    "population": 32801,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 44.201,
+    "lng": 0.6302
+  },
+  {
+    "key": "gerzat",
+    "name": "Gerzat",
+    "dept": "63",
+    "population": 10335,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 45.8277,
+    "lng": 3.1601
+  },
+  {
+    "key": "odos",
+    "name": "Odos",
+    "dept": "65",
+    "population": 3265,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 43.1949,
+    "lng": 0.0531
+  },
+  {
+    "key": "malay-le-grand",
+    "name": "Malay-le-Grand",
+    "dept": "89",
+    "population": 1630,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 48.1657,
+    "lng": 3.3511
+  },
+  {
+    "key": "saint-nazaire",
+    "name": "SAINT NAZAIRE",
+    "dept": "44",
+    "population": 74568,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 47.2768,
+    "lng": -2.2392
+  },
+  {
+    "key": "villeneuve-sur-lot",
+    "name": "Villeneuve-sur-Lot",
+    "dept": "47",
+    "population": 22350,
+    "hotels": 2,
+    "bestKw": 150,
+    "lat": 44.4183,
+    "lng": 0.7484
+  },
+  {
+    "key": "ajaccio",
+    "name": "Ajaccio",
+    "dept": "2A",
+    "population": 76320,
+    "hotels": 2,
+    "bestKw": 132,
+    "lat": 41.9228,
+    "lng": 8.7058
+  },
+  {
+    "key": "villers-saint-paul",
+    "name": "Villers-Saint-Paul",
+    "dept": "60",
+    "population": 6480,
+    "hotels": 2,
+    "bestKw": 120,
+    "lat": 49.2889,
+    "lng": 2.492
+  },
+  {
+    "key": "chamonix-mont-blanc",
+    "name": "Chamonix-Mont-Blanc",
+    "dept": "74",
+    "population": 8705,
+    "hotels": 2,
+    "bestKw": 120,
+    "lat": 45.9296,
+    "lng": 6.9291
+  },
+  {
+    "key": "angoulins",
+    "name": "Angoulins",
+    "dept": "17",
+    "population": 4240,
+    "hotels": 2,
+    "bestKw": 114,
+    "lat": 46.1083,
+    "lng": -1.11
+  },
+  {
+    "key": "anglet",
+    "name": "Anglet",
+    "dept": "64",
+    "population": 43271,
+    "hotels": 2,
+    "bestKw": 100,
+    "lat": 43.4893,
+    "lng": -1.5193
+  },
+  {
+    "key": "gournay-en-bray",
+    "name": "Gournay-en-Bray",
+    "dept": "76",
+    "population": 5723,
+    "hotels": 2,
+    "bestKw": 100,
+    "lat": 49.4763,
+    "lng": 1.7168
+  },
+  {
+    "key": "chaintre",
+    "name": "Chaintré",
+    "dept": "71",
+    "population": 569,
+    "hotels": 2,
+    "bestKw": 100,
+    "lat": 46.2587,
+    "lng": 4.7742
+  },
+  {
+    "key": "manosque",
+    "name": "Manosque",
+    "dept": "04",
+    "population": 22718,
+    "hotels": 2,
+    "bestKw": 100,
+    "lat": 43.8293,
+    "lng": 5.7896
+  },
+  {
+    "key": "saint-malo",
+    "name": "Saint-Malo",
+    "dept": "35",
+    "population": 47439,
+    "hotels": 2,
+    "bestKw": 100,
+    "lat": 48.6465,
+    "lng": -2.0066
+  },
+  {
+    "key": "ramatuelle",
+    "name": "Ramatuelle",
+    "dept": "83",
+    "population": 1888,
+    "hotels": 2,
+    "bestKw": 60,
+    "lat": 43.2115,
+    "lng": 6.6449
+  },
+  {
+    "key": "quiberon",
+    "name": "Quiberon",
+    "dept": "56",
+    "population": 4876,
+    "hotels": 2,
+    "bestKw": 60,
+    "lat": 47.4848,
+    "lng": -3.109
+  },
+  {
+    "key": "le-touquet-paris-plage",
+    "name": "Le Touquet-Paris-Plage",
+    "dept": "62",
+    "population": 4224,
+    "hotels": 2,
+    "bestKw": 50,
+    "lat": 50.512,
+    "lng": 1.6055
+  },
+  {
+    "key": "widehem",
+    "name": "Widehem",
+    "dept": "62",
+    "population": 244,
+    "hotels": 2,
+    "bestKw": 50,
+    "lat": 50.5838,
+    "lng": 1.6612
+  },
+  {
+    "key": "aurillac",
+    "name": "Aurillac",
+    "dept": "15",
+    "population": 26214,
+    "hotels": 2,
+    "bestKw": 50,
+    "lat": 44.9281,
+    "lng": 2.4416
+  },
+  {
+    "key": "lattes",
+    "name": "Lattes",
+    "dept": "34",
+    "population": 17351,
+    "hotels": 2,
+    "bestKw": 24,
+    "lat": 43.567,
+    "lng": 3.899
+  },
+  {
+    "key": "contrexeville",
+    "name": "Contrexéville",
+    "dept": "88",
+    "population": 2923,
+    "hotels": 2,
+    "bestKw": 24,
+    "lat": 48.186,
+    "lng": 5.8906
+  },
+  {
+    "key": "montchanin",
+    "name": "Montchanin",
+    "dept": "71",
+    "population": 4976,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 46.7454,
+    "lng": 4.4755
+  },
+  {
+    "key": "trouville-sur-mer",
+    "name": "Trouville-sur-Mer",
+    "dept": "14",
+    "population": 4619,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 49.3726,
+    "lng": 0.1034
+  },
+  {
+    "key": "foix",
+    "name": "Foix",
+    "dept": "09",
+    "population": 9934,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 42.9701,
+    "lng": 1.609
+  },
+  {
+    "key": "chatillon",
+    "name": "Châtillon",
+    "dept": "92",
+    "population": 36705,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 48.8031,
+    "lng": 2.2887
+  },
+  {
+    "key": "palavas-les-flots",
+    "name": "Palavas-les-Flots",
+    "dept": "34",
+    "population": 6133,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 43.5323,
+    "lng": 3.9346
+  },
+  {
+    "key": "bastia",
+    "name": "Bastia",
+    "dept": "2B",
+    "population": 46867,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 42.6861,
+    "lng": 9.424
+  },
+  {
+    "key": "saint-witz",
+    "name": "Saint-Witz",
+    "dept": "95",
+    "population": 2724,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 49.0844,
+    "lng": 2.5533
+  },
+  {
+    "key": "val-de-reuil",
+    "name": "Val-de-Reuil",
+    "dept": "27",
+    "population": 13245,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 49.264,
+    "lng": 1.2142
+  },
+  {
+    "key": "varennes-vauzelles",
+    "name": "Varennes-Vauzelles",
+    "dept": "58",
+    "population": 9146,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 47.0381,
+    "lng": 3.1447
+  },
+  {
+    "key": "lens",
+    "name": "Lens",
+    "dept": "62",
+    "population": 32920,
+    "hotels": 2,
+    "bestKw": 22.1,
+    "lat": 50.4395,
+    "lng": 2.8191
+  },
+  {
+    "key": "les-belleville",
+    "name": "Les Belleville",
+    "dept": "73",
+    "population": 3498,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 45.3628,
+    "lng": 6.506
+  },
+  {
+    "key": "le-manoir",
+    "name": "Le Manoir",
+    "dept": "27",
+    "population": 1272,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.3213,
+    "lng": 1.1972
+  },
+  {
+    "key": "le-havre",
+    "name": "Le Havre",
+    "dept": "76",
+    "population": 166687,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.4958,
+    "lng": 0.1312
+  },
+  {
+    "key": "pamiers",
+    "name": "Pamiers",
+    "dept": "09",
+    "population": 16473,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 43.1278,
+    "lng": 1.6168
+  },
+  {
+    "key": "barentin",
+    "name": "Barentin",
+    "dept": "76",
+    "population": 12022,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.5431,
+    "lng": 0.9549
+  },
+  {
+    "key": "amiens",
+    "name": "Amiens",
+    "dept": "80",
+    "population": 136449,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.8987,
+    "lng": 2.2847
+  },
+  {
+    "key": "saint-trojan-les-bains",
+    "name": "Saint-Trojan-les-Bains",
+    "dept": "17",
+    "population": 1121,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 45.832,
+    "lng": -1.2226
+  },
+  {
+    "key": "genouilly",
+    "name": "Genouilly",
+    "dept": "18",
+    "population": 657,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 47.1911,
+    "lng": 1.8857
+  },
+  {
+    "key": "perrignier",
+    "name": "Perrignier",
+    "dept": "74",
+    "population": 1905,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 46.3066,
+    "lng": 6.4364
+  },
+  {
+    "key": "colomiers",
+    "name": "Colomiers",
+    "dept": "31",
+    "population": 40882,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 43.6116,
+    "lng": 1.3245
+  },
+  {
+    "key": "lormont",
+    "name": "LORMONT",
+    "dept": "33",
+    "population": 25769,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 44.8749,
+    "lng": -0.5176
+  },
+  {
+    "key": "saint-hippolyte",
+    "name": "SAINT-HIPPOLYTE",
+    "dept": "66",
+    "population": 3126,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 42.8104,
+    "lng": 2.9754
+  },
+  {
+    "key": "magny-le-hongre",
+    "name": "Magny-le-Hongre",
+    "dept": "77",
+    "population": 9060,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 48.8675,
+    "lng": 2.8171
+  },
+  {
+    "key": "feytiat",
+    "name": "Feytiat",
+    "dept": "87",
+    "population": 6176,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 45.8093,
+    "lng": 1.3265
+  },
+  {
+    "key": "fontiers-cabardes",
+    "name": "Fontiers-Cabardès",
+    "dept": "11",
+    "population": 476,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 43.3735,
+    "lng": 2.2502
+  },
+  {
+    "key": "chantilly",
+    "name": "Chantilly",
+    "dept": "60",
+    "population": 10591,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.18,
+    "lng": 2.4876
+  },
+  {
+    "key": "saint-arnoult",
+    "name": "SAINT ARNOULT",
+    "dept": "76",
+    "population": 1446,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.537,
+    "lng": 0.6669
+  },
+  {
+    "key": "yutz",
+    "name": "Yutz",
+    "dept": "57",
+    "population": 17391,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.357,
+    "lng": 6.2
+  },
+  {
+    "key": "saint-omer",
+    "name": "Saint-Omer",
+    "dept": "62",
+    "population": 14382,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 50.7673,
+    "lng": 2.2648
+  },
+  {
+    "key": "armbouts-cappel",
+    "name": "Armbouts-Cappel",
+    "dept": "59",
+    "population": 2077,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 50.9823,
+    "lng": 2.3506
+  },
+  {
+    "key": "saint-brieuc",
+    "name": "Saint-Brieuc",
+    "dept": "22",
+    "population": 44364,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 48.5108,
+    "lng": -2.7657
+  },
+  {
+    "key": "chalon-sur-saone",
+    "name": "Chalon-sur-Saône",
+    "dept": "71",
+    "population": 45102,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 46.7896,
+    "lng": 4.8509
+  },
+  {
+    "key": "nuits-saint-georges",
+    "name": "Nuits-Saint-Georges",
+    "dept": "21",
+    "population": 5235,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 47.1518,
+    "lng": 4.9414
+  },
+  {
+    "key": "laon",
+    "name": "Laon",
+    "dept": "02",
+    "population": 24220,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.5711,
+    "lng": 3.613
+  },
+  {
+    "key": "bucheres",
+    "name": "Buchères",
+    "dept": "10",
+    "population": 2055,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 48.2366,
+    "lng": 4.1137
+  },
+  {
+    "key": "epernay",
+    "name": "Épernay",
+    "dept": "51",
+    "population": 22174,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.0391,
+    "lng": 3.9282
+  },
+  {
+    "key": "soissons",
+    "name": "Soissons",
+    "dept": "02",
+    "population": 28046,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.3766,
+    "lng": 3.3235
+  },
+  {
+    "key": "avallon",
+    "name": "Avallon",
+    "dept": "89",
+    "population": 6305,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 47.4808,
+    "lng": 3.9197
+  },
+  {
+    "key": "cachan",
+    "name": "Cachan",
+    "dept": "94",
+    "population": 31103,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 48.7914,
+    "lng": 2.3318
+  },
+  {
+    "key": "maussac",
+    "name": "Maussac",
+    "dept": "19",
+    "population": 452,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 45.4716,
+    "lng": 2.1245
+  },
+  {
+    "key": "saint-germain-sur-ay",
+    "name": "Saint-Germain-sur-Ay",
+    "dept": "50",
+    "population": 926,
+    "hotels": 2,
+    "bestKw": 22,
+    "lat": 49.2339,
+    "lng": -1.6072
+  },
+  {
+    "key": "sainte-maxime",
+    "name": "Sainte-Maxime",
+    "dept": "83",
+    "population": 14118,
+    "hotels": 2,
+    "bestKw": 12,
+    "lat": 43.3584,
+    "lng": 6.6139
+  },
+  {
+    "key": "carros",
+    "name": "Carros",
+    "dept": "06",
+    "population": 13803,
+    "hotels": 2,
+    "bestKw": 12,
+    "lat": 43.785,
+    "lng": 7.1798
+  },
+  {
+    "key": "mont-de-marsan",
+    "name": "Mont-de-Marsan",
+    "dept": "40",
+    "population": 31592,
+    "hotels": 2,
+    "bestKw": 12,
+    "lat": 43.8931,
+    "lng": -0.5009
+  },
+  {
+    "key": "valbonne",
+    "name": "Valbonne",
+    "dept": "06",
+    "population": 11939,
+    "hotels": 2,
+    "bestKw": 11,
+    "lat": 43.6267,
+    "lng": 7.0291
+  },
+  {
+    "key": "le-petit-quevilly",
+    "name": "Le Petit-Quevilly",
+    "dept": "76",
+    "population": 22208,
+    "hotels": 2,
+    "bestKw": 7.4,
+    "lat": 49.4238,
+    "lng": 1.0572
+  },
+  {
+    "key": "saint-quentin-sur-le-homme",
+    "name": "SAINT-QUENTIN-SUR-LE-HOMME",
+    "dept": "50",
+    "population": 1338,
+    "hotels": 2,
+    "bestKw": 7.4,
+    "lat": 48.6475,
+    "lng": -1.3029
+  },
+  {
+    "key": "cabourg",
+    "name": "Cabourg",
+    "dept": "14",
+    "population": 3725,
+    "hotels": 2,
+    "bestKw": 7,
+    "lat": 49.2837,
+    "lng": -0.1201
+  },
+  {
+    "key": "troyes",
+    "name": "Troyes",
+    "dept": "10",
+    "population": 62088,
+    "hotels": 2,
+    "bestKw": 0,
+    "lat": 48.2924,
+    "lng": 4.0761
+  },
+  {
+    "key": "serris",
+    "name": "Serris",
+    "dept": "77",
+    "population": 10326,
+    "hotels": 1,
+    "bestKw": 400,
+    "lat": 48.8453,
+    "lng": 2.7873
+  },
+  {
+    "key": "hauconcourt",
+    "name": "Hauconcourt",
+    "dept": "57",
+    "population": 579,
+    "hotels": 1,
+    "bestKw": 400,
+    "lat": 49.2094,
+    "lng": 6.1844
+  },
+  {
+    "key": "saint-georges",
+    "name": "Saint-Georges",
+    "dept": "973",
+    "population": 4915,
+    "hotels": 1,
+    "bestKw": 400,
+    "lat": 3.8078,
+    "lng": -52.075
+  },
+  {
+    "key": "gours",
+    "name": "Gours",
+    "dept": "33",
+    "population": 526,
+    "hotels": 1,
+    "bestKw": 400,
+    "lat": 44.9999,
+    "lng": 0.0232
+  },
+  {
+    "key": "etrelles",
+    "name": "Étrelles",
+    "dept": "35",
+    "population": 2703,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.0699,
+    "lng": -1.2104
+  },
+  {
+    "key": "sedan",
+    "name": "Sedan",
+    "dept": "08",
+    "population": 16667,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.6993,
+    "lng": 4.9269
+  },
+  {
+    "key": "pont-a-mousson",
+    "name": "Pont à Mousson",
+    "dept": "54",
+    "population": 14190,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9222,
+    "lng": 6.047
+  },
+  {
+    "key": "thiebaumenil",
+    "name": "Thiébauménil",
+    "dept": "54",
+    "population": 383,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.5808,
+    "lng": 6.6272
+  },
+  {
+    "key": "erbeviller-sur-amezule",
+    "name": "Erbéviller-sur-Amezule",
+    "dept": "54",
+    "population": 68,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7306,
+    "lng": 6.3883
+  },
+  {
+    "key": "laurens",
+    "name": "Laurens",
+    "dept": "34",
+    "population": 1815,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 43.5185,
+    "lng": 3.1981
+  },
+  {
+    "key": "rosny-sous-bois",
+    "name": "Rosny-sous-Bois",
+    "dept": "93",
+    "population": 47180,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.8744,
+    "lng": 2.4872
+  },
+  {
+    "key": "pierrelaye",
+    "name": "Pierrelaye",
+    "dept": "95",
+    "population": 10130,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.0185,
+    "lng": 2.1629
+  },
+  {
+    "key": "sannois",
+    "name": "Sannois",
+    "dept": "95",
+    "population": 26924,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9731,
+    "lng": 2.2509
+  },
+  {
+    "key": "bonneuil-en-france",
+    "name": "Bonneuil-en-France",
+    "dept": "95",
+    "population": 1185,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9675,
+    "lng": 2.4373
+  },
+  {
+    "key": "villeneuve-saint-georges",
+    "name": "Villeneuve-Saint-Georges",
+    "dept": "94",
+    "population": 36221,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7389,
+    "lng": 2.4493
+  },
+  {
+    "key": "saint-martin-sur-le-pre",
+    "name": "Saint-Martin-sur-le-Pré",
+    "dept": "51",
+    "population": 792,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9895,
+    "lng": 4.3542
+  },
+  {
+    "key": "nanterre-cedex",
+    "name": "Nanterre Cedex",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "plerin",
+    "name": "Plérin",
+    "dept": "22",
+    "population": 14425,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.5467,
+    "lng": -2.7818
+  },
+  {
+    "key": "theix-noyalo",
+    "name": "Theix-Noyalo",
+    "dept": "56",
+    "population": 8500,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.6304,
+    "lng": -2.6472
+  },
+  {
+    "key": "flins-sur-seine",
+    "name": "Flins-sur-Seine",
+    "dept": "78",
+    "population": 2447,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9664,
+    "lng": 1.8721
+  },
+  {
+    "key": "saint-ouen-l-aumone",
+    "name": "Saint-Ouen-l'Aumône",
+    "dept": "95",
+    "population": 25578,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.045,
+    "lng": 2.1293
+  },
+  {
+    "key": "la-maxe",
+    "name": "La Maxe",
+    "dept": "57",
+    "population": 1056,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.1604,
+    "lng": 6.1901
+  },
+  {
+    "key": "rubelles",
+    "name": "Rubelles",
+    "dept": "77",
+    "population": 3537,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.5654,
+    "lng": 2.6808
+  },
+  {
+    "key": "issy-les-moulineaux",
+    "name": "Issy-les-Moulineaux",
+    "dept": "92",
+    "population": 67669,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.824,
+    "lng": 2.2628
+  },
+  {
+    "key": "seyssins",
+    "name": "Seyssins",
+    "dept": "38",
+    "population": 8092,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.1578,
+    "lng": 5.6697
+  },
+  {
+    "key": "pontoise",
+    "name": "Pontoise",
+    "dept": "95",
+    "population": 31970,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.0488,
+    "lng": 2.0996
+  },
+  {
+    "key": "massieux",
+    "name": "Massieux",
+    "dept": "01",
+    "population": 2843,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.9101,
+    "lng": 4.8279
+  },
+  {
+    "key": "le-boulou",
+    "name": "Le Boulou",
+    "dept": "66",
+    "population": 5487,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 42.5267,
+    "lng": 2.8328
+  },
+  {
+    "key": "saint-ouen-sur-seine",
+    "name": "Saint-Ouen-sur-Seine",
+    "dept": "93",
+    "population": 53615,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9118,
+    "lng": 2.3329
+  },
+  {
+    "key": "lutterbach",
+    "name": "Lutterbach",
+    "dept": "68",
+    "population": 6851,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.7596,
+    "lng": 7.2682
+  },
+  {
+    "key": "saclay",
+    "name": "Saclay",
+    "dept": "91",
+    "population": 4437,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7367,
+    "lng": 2.1693
+  },
+  {
+    "key": "saint-avold",
+    "name": "Saint-Avold",
+    "dept": "57",
+    "population": 14755,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.1279,
+    "lng": 6.7088
+  },
+  {
+    "key": "saint-germain-en-laye",
+    "name": "Saint-Germain-en-Laye",
+    "dept": "78",
+    "population": 45931,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.931,
+    "lng": 2.1052
+  },
+  {
+    "key": "les-tourettes",
+    "name": "Les Tourettes",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "lognes",
+    "name": "Lognes",
+    "dept": "77",
+    "population": 15074,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.8325,
+    "lng": 2.6366
+  },
+  {
+    "key": "aubervilliers",
+    "name": "Aubervilliers",
+    "dept": "93",
+    "population": 88365,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9128,
+    "lng": 2.3886
+  },
+  {
+    "key": "taverny",
+    "name": "Taverny",
+    "dept": "95",
+    "population": 27593,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.0274,
+    "lng": 2.2179
+  },
+  {
+    "key": "cran-gevrier",
+    "name": "Cran Gevrier",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "feignies",
+    "name": "Feignies",
+    "dept": "59",
+    "population": 6703,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 50.291,
+    "lng": 3.9119
+  },
+  {
+    "key": "dampierre-sur-boutonne",
+    "name": "Dampierre-sur-Boutonne",
+    "dept": "17",
+    "population": 267,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 46.0746,
+    "lng": -0.3893
+  },
+  {
+    "key": "nostang",
+    "name": "Nostang",
+    "dept": "56",
+    "population": 1676,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.7509,
+    "lng": -3.1755
+  },
+  {
+    "key": "villejuif",
+    "name": "Villejuif",
+    "dept": "94",
+    "population": 60183,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7934,
+    "lng": 2.3603
+  },
+  {
+    "key": "drancy",
+    "name": "Drancy",
+    "dept": "93",
+    "population": 72390,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.925,
+    "lng": 2.4446
+  },
+  {
+    "key": "precy-sur-vrin",
+    "name": "Précy-sur-Vrin",
+    "dept": "89",
+    "population": 427,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.9746,
+    "lng": 3.229
+  },
+  {
+    "key": "cornant",
+    "name": "Cornant",
+    "dept": "89",
+    "population": 367,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.1342,
+    "lng": 3.1893
+  },
+  {
+    "key": "massy",
+    "name": "Massy",
+    "dept": "91",
+    "population": 51729,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7263,
+    "lng": 2.2696
+  },
+  {
+    "key": "seyssinet-pariset",
+    "name": "Seyssinet-Pariset",
+    "dept": "38",
+    "population": 11739,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.1721,
+    "lng": 5.6701
+  },
+  {
+    "key": "sarzay",
+    "name": "Sarzay",
+    "dept": "36",
+    "population": 301,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 46.5965,
+    "lng": 1.9096
+  },
+  {
+    "key": "vand-uvre-les-nancy",
+    "name": "Vandœuvre-lès-Nancy",
+    "dept": "54",
+    "population": 29942,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.66,
+    "lng": 6.1603
+  },
+  {
+    "key": "selaincourt",
+    "name": "Selaincourt",
+    "dept": "54",
+    "population": 193,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.4979,
+    "lng": 5.9483
+  },
+  {
+    "key": "bourron-marlotte",
+    "name": "Bourron-Marlotte",
+    "dept": "77",
+    "population": 2774,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.3366,
+    "lng": 2.6982
+  },
+  {
+    "key": "bligny-sur-ouche",
+    "name": "Bligny-sur-Ouche",
+    "dept": "21",
+    "population": 814,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.1169,
+    "lng": 4.6839
+  },
+  {
+    "key": "lusigny-sur-ouche",
+    "name": "Lusigny-sur-Ouche",
+    "dept": "21",
+    "population": 115,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.0792,
+    "lng": 4.677
+  },
+  {
+    "key": "guillon-terre-plaine",
+    "name": "Guillon-Terre-Plaine",
+    "dept": "89",
+    "population": 703,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.5243,
+    "lng": 4.0701
+  },
+  {
+    "key": "etrigny",
+    "name": "Étrigny",
+    "dept": "71",
+    "population": 482,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 46.5907,
+    "lng": 4.7918
+  },
+  {
+    "key": "burnhaupt-le-bas",
+    "name": "Burnhaupt-le-Bas",
+    "dept": "68",
+    "population": 1969,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.7178,
+    "lng": 7.1516
+  },
+  {
+    "key": "dommartin-les-cuiseaux",
+    "name": "Dommartin-lès-Cuiseaux",
+    "dept": "71",
+    "population": 801,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 46.5012,
+    "lng": 5.2874
+  },
+  {
+    "key": "chaudeney-sur-moselle",
+    "name": "Chaudeney-sur-Moselle",
+    "dept": "54",
+    "population": 730,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.6565,
+    "lng": 5.926
+  },
+  {
+    "key": "flirey",
+    "name": "Flirey",
+    "dept": "54",
+    "population": 159,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.8862,
+    "lng": 5.8506
+  },
+  {
+    "key": "angres",
+    "name": "Angres",
+    "dept": "62",
+    "population": 4641,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 50.4119,
+    "lng": 2.7538
+  },
+  {
+    "key": "boffles",
+    "name": "Boffles",
+    "dept": "62",
+    "population": 46,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 50.2561,
+    "lng": 2.2011
+  },
+  {
+    "key": "assevillers",
+    "name": "Assevillers",
+    "dept": "80",
+    "population": 311,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.8976,
+    "lng": 2.8422
+  },
+  {
+    "key": "boiry-sainte-rictrude",
+    "name": "Boiry-Sainte-Rictrude",
+    "dept": "62",
+    "population": 389,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 50.2003,
+    "lng": 2.7474
+  },
+  {
+    "key": "steenvoorde",
+    "name": "Steenvoorde",
+    "dept": "59",
+    "population": 4332,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 50.8225,
+    "lng": 2.5762
+  },
+  {
+    "key": "thorigne-en-charnie",
+    "name": "Thorigné-en-Charnie",
+    "dept": "53",
+    "population": 191,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.0074,
+    "lng": -0.3584
+  },
+  {
+    "key": "vieuvy",
+    "name": "Vieuvy",
+    "dept": "53",
+    "population": 112,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.4482,
+    "lng": -0.877
+  },
+  {
+    "key": "trementines",
+    "name": "Trémentines",
+    "dept": "49",
+    "population": 3101,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.1261,
+    "lng": -0.8036
+  },
+  {
+    "key": "fenioux",
+    "name": "Fenioux",
+    "dept": "79",
+    "population": 638,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 46.5414,
+    "lng": -0.495
+  },
+  {
+    "key": "saint-julien-de-l-escap",
+    "name": "Saint-Julien-de-l'Escap",
+    "dept": "17",
+    "population": 857,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.929,
+    "lng": -0.4836
+  },
+  {
+    "key": "la-palme",
+    "name": "La Palme",
+    "dept": "11",
+    "population": 1995,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 42.9672,
+    "lng": 2.9946
+  },
+  {
+    "key": "messas",
+    "name": "Messas",
+    "dept": "45",
+    "population": 1003,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.8083,
+    "lng": 1.6353
+  },
+  {
+    "key": "neufbosc",
+    "name": "Neufbosc",
+    "dept": "76",
+    "population": 397,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.6455,
+    "lng": 1.359
+  },
+  {
+    "key": "villars",
+    "name": "Villars",
+    "dept": "42",
+    "population": 7664,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.4679,
+    "lng": 4.3517
+  },
+  {
+    "key": "joue-les-tours",
+    "name": "Joué-lès-Tours",
+    "dept": "37",
+    "population": 38423,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.3374,
+    "lng": 0.6544
+  },
+  {
+    "key": "corbeil-essonnes",
+    "name": "Corbeil-Essonnes",
+    "dept": "91",
+    "population": 54471,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.5973,
+    "lng": 2.4646
+  },
+  {
+    "key": "barberey-saint-sulpice",
+    "name": "Barberey-Saint-Sulpice",
+    "dept": "10",
+    "population": 1542,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.3273,
+    "lng": 4.0135
+  },
+  {
+    "key": "betting",
+    "name": "Betting",
+    "dept": "57",
+    "population": 858,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.1296,
+    "lng": 6.8119
+  },
+  {
+    "key": "saint-gregoire",
+    "name": "Saint-Grégoire",
+    "dept": "35",
+    "population": 9957,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.1598,
+    "lng": -1.6815
+  },
+  {
+    "key": "cesson-sevigne",
+    "name": "Cesson-Sévigné",
+    "dept": "35",
+    "population": 18761,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.1235,
+    "lng": -1.5935
+  },
+  {
+    "key": "vendenheim",
+    "name": "Vendenheim",
+    "dept": "67",
+    "population": 6137,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.6692,
+    "lng": 7.7417
+  },
+  {
+    "key": "igny",
+    "name": "Igny",
+    "dept": "91",
+    "population": 10833,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.7375,
+    "lng": 2.2229
+  },
+  {
+    "key": "lanester",
+    "name": "Lanester",
+    "dept": "56",
+    "population": 23263,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.7686,
+    "lng": -3.326
+  },
+  {
+    "key": "saint-contest",
+    "name": "Saint-Contest",
+    "dept": "14",
+    "population": 2465,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.2139,
+    "lng": -0.4001
+  },
+  {
+    "key": "ussac",
+    "name": "Ussac",
+    "dept": "19",
+    "population": 4322,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 45.1875,
+    "lng": 1.5119
+  },
+  {
+    "key": "la-chapelle-sur-erdre",
+    "name": "La Chapelle-sur-Erdre",
+    "dept": "44",
+    "population": 20690,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.3041,
+    "lng": -1.5621
+  },
+  {
+    "key": "bouguenais",
+    "name": "Bouguenais",
+    "dept": "44",
+    "population": 20530,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 47.171,
+    "lng": -1.6181
+  },
+  {
+    "key": "augny",
+    "name": "Augny",
+    "dept": "57",
+    "population": 2207,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 49.0538,
+    "lng": 6.1097
+  },
+  {
+    "key": "lieusaint",
+    "name": "Lieusaint",
+    "dept": "77",
+    "population": 14017,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.6277,
+    "lng": 2.549
+  },
+  {
+    "key": "noisy-le-grand",
+    "name": "Noisy-le-Grand",
+    "dept": "93",
+    "population": 72978,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.8327,
+    "lng": 2.556
+  },
+  {
+    "key": "le-mesnil-adelee",
+    "name": "Le Mesnil-Adelée",
+    "dept": "50",
+    "population": 157,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.6992,
+    "lng": -1.0651
+  },
+  {
+    "key": "meaux",
+    "name": "Meaux",
+    "dept": "77",
+    "population": 56905,
+    "hotels": 1,
+    "bestKw": 300,
+    "lat": 48.9573,
+    "lng": 2.9035
+  },
+  {
+    "key": "carignan-de-bordeaux",
+    "name": "Carignan-de-Bordeaux",
+    "dept": "33",
+    "population": 4388,
+    "hotels": 1,
+    "bestKw": 225,
+    "lat": 44.8093,
+    "lng": -0.4739
+  },
+  {
+    "key": "blotzheim",
+    "name": "Blotzheim",
+    "dept": "68",
+    "population": 5282,
+    "hotels": 1,
+    "bestKw": 225,
+    "lat": 47.6051,
+    "lng": 7.4906
+  },
+  {
+    "key": "cestas",
+    "name": "Cestas",
+    "dept": "33",
+    "population": 16666,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 44.7274,
+    "lng": -0.7349
+  },
+  {
+    "key": "saint-quentin",
+    "name": "Saint-Quentin",
+    "dept": "02",
+    "population": 52813,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 49.8475,
+    "lng": 3.279
+  },
+  {
+    "key": "conflans-sainte-honorine",
+    "name": "Conflans-Sainte-Honorine",
+    "dept": "78",
+    "population": 36958,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 49.0016,
+    "lng": 2.0992
+  },
+  {
+    "key": "aubiere",
+    "name": "Aubière",
+    "dept": "63",
+    "population": 10459,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 45.752,
+    "lng": 3.1272
+  },
+  {
+    "key": "argenteuil",
+    "name": "Argenteuil",
+    "dept": "95",
+    "population": 106130,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.9501,
+    "lng": 2.2478
+  },
+  {
+    "key": "villebarou",
+    "name": "Villebarou",
+    "dept": "41",
+    "population": 2584,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.6252,
+    "lng": 1.3187
+  },
+  {
+    "key": "saint-nicolas",
+    "name": "Saint-Nicolas",
+    "dept": "62",
+    "population": 4494,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 50.3097,
+    "lng": 2.7852
+  },
+  {
+    "key": "saint-thibault-des-vignes",
+    "name": "Saint-Thibault-des-Vignes",
+    "dept": "77",
+    "population": 6831,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.8628,
+    "lng": 2.6792
+  },
+  {
+    "key": "futuroscope-chasseneuil",
+    "name": "FUTUROSCOPE-CHASSENEUIL",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "chaumont",
+    "name": "Chaumont",
+    "dept": "52",
+    "population": 20827,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.0965,
+    "lng": 5.1566
+  },
+  {
+    "key": "chambery",
+    "name": "Chambéry",
+    "dept": "73",
+    "population": 59964,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 45.5822,
+    "lng": 5.9064
+  },
+  {
+    "key": "moret-loing-et-orvanne",
+    "name": "Moret-Loing-et-Orvanne",
+    "dept": "77",
+    "population": 12810,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.3545,
+    "lng": 2.8233
+  },
+  {
+    "key": "glisy",
+    "name": "Glisy",
+    "dept": "80",
+    "population": 791,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 49.8725,
+    "lng": 2.3845
+  },
+  {
+    "key": "marin",
+    "name": "Marin",
+    "dept": "74",
+    "population": 1940,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 46.3742,
+    "lng": 6.5256
+  },
+  {
+    "key": "vannes",
+    "name": "Vannes",
+    "dept": "56",
+    "population": 55790,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.6577,
+    "lng": -2.7485
+  },
+  {
+    "key": "villabe",
+    "name": "Villabé",
+    "dept": "91",
+    "population": 5830,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.5864,
+    "lng": 2.4516
+  },
+  {
+    "key": "perigny",
+    "name": "Périgny",
+    "dept": "17",
+    "population": 8877,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 46.1559,
+    "lng": -1.0798
+  },
+  {
+    "key": "selestat",
+    "name": "Sélestat",
+    "dept": "67",
+    "population": 19589,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.2507,
+    "lng": 7.4588
+  },
+  {
+    "key": "saint-jean-de-braye",
+    "name": "Saint-Jean-de-Braye",
+    "dept": "45",
+    "population": 23147,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.9216,
+    "lng": 1.9695
+  },
+  {
+    "key": "meung-sur-loire",
+    "name": "Meung-sur-Loire",
+    "dept": "45",
+    "population": 6670,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.8396,
+    "lng": 1.6918
+  },
+  {
+    "key": "romorantin-lanthenay",
+    "name": "Romorantin-Lanthenay",
+    "dept": "41",
+    "population": 18373,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.3725,
+    "lng": 1.7368
+  },
+  {
+    "key": "saint-fons",
+    "name": "Saint-Fons",
+    "dept": "69",
+    "population": 19285,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 45.6997,
+    "lng": 4.8514
+  },
+  {
+    "key": "biron",
+    "name": "Biron",
+    "dept": "64",
+    "population": 595,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 43.4624,
+    "lng": -0.7414
+  },
+  {
+    "key": "mouilleron-le-captif",
+    "name": "Mouilleron-le-Captif",
+    "dept": "85",
+    "population": 5273,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 46.7114,
+    "lng": -1.4649
+  },
+  {
+    "key": "avignon",
+    "name": "Avignon",
+    "dept": "84",
+    "population": 92188,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 43.9416,
+    "lng": 4.8333
+  },
+  {
+    "key": "chambray-les-tours",
+    "name": "Chambray-lès-Tours",
+    "dept": "37",
+    "population": 12720,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.3329,
+    "lng": 0.7205
+  },
+  {
+    "key": "gresy-sur-aix",
+    "name": "Grésy-sur-Aix",
+    "dept": "73",
+    "population": 4740,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 45.7259,
+    "lng": 5.936
+  },
+  {
+    "key": "le-coudray",
+    "name": "Le Coudray",
+    "dept": "28",
+    "population": 4038,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 48.4188,
+    "lng": 1.5026
+  },
+  {
+    "key": "mellac",
+    "name": "Mellac",
+    "dept": "29",
+    "population": 3404,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.8984,
+    "lng": -3.5835
+  },
+  {
+    "key": "saint-lo",
+    "name": "Saint-Lô",
+    "dept": "50",
+    "population": 19471,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 49.1123,
+    "lng": -1.0812
+  },
+  {
+    "key": "cosne-cours-sur-loire",
+    "name": "Cosne-Cours-sur-Loire",
+    "dept": "58",
+    "population": 9733,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.414,
+    "lng": 2.9419
+  },
+  {
+    "key": "villefontaine",
+    "name": "Villefontaine",
+    "dept": "38",
+    "population": 19445,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 45.6161,
+    "lng": 5.1549
+  },
+  {
+    "key": "danjoutin",
+    "name": "Danjoutin",
+    "dept": "90",
+    "population": 3519,
+    "hotels": 1,
+    "bestKw": 200,
+    "lat": 47.6187,
+    "lng": 6.8647
+  },
+  {
+    "key": "estezargues",
+    "name": "Estézargues",
+    "dept": "30",
+    "population": 605,
+    "hotels": 1,
+    "bestKw": 180,
+    "lat": 43.956,
+    "lng": 4.6369
+  },
+  {
+    "key": "montauban",
+    "name": "Montauban",
+    "dept": "82",
+    "population": 62945,
+    "hotels": 1,
+    "bestKw": 180,
+    "lat": 44.0217,
+    "lng": 1.3646
+  },
+  {
+    "key": "coueron",
+    "name": "Couëron",
+    "dept": "44",
+    "population": 24103,
+    "hotels": 1,
+    "bestKw": 180,
+    "lat": 47.2391,
+    "lng": -1.7472
+  },
+  {
+    "key": "isneauville",
+    "name": "Isneauville",
+    "dept": "76",
+    "population": 3716,
+    "hotels": 1,
+    "bestKw": 180,
+    "lat": 49.5033,
+    "lng": 1.1473
+  },
+  {
+    "key": "le-castera",
+    "name": "Le Castéra",
+    "dept": "31",
+    "population": 802,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 43.6717,
+    "lng": 1.1503
+  },
+  {
+    "key": "vertou",
+    "name": "Vertou",
+    "dept": "44",
+    "population": 26227,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 47.1532,
+    "lng": -1.4679
+  },
+  {
+    "key": "la-goutelle",
+    "name": "La Goutelle",
+    "dept": "63",
+    "population": 609,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 45.8426,
+    "lng": 2.7438
+  },
+  {
+    "key": "chaume-les-baigneux",
+    "name": "Chaume-lès-Baigneux",
+    "dept": "21",
+    "population": 101,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 47.6353,
+    "lng": 4.5702
+  },
+  {
+    "key": "paris-19eme-arrondissement",
+    "name": "PARIS 19EME ARRONDISSEMENT",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "lesparre-medoc",
+    "name": "Lesparre-Médoc",
+    "dept": "33",
+    "population": 5872,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 45.2796,
+    "lng": -0.9235
+  },
+  {
+    "key": "pruniers-en-sologne",
+    "name": "Pruniers-en-Sologne",
+    "dept": "41",
+    "population": 2245,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 47.3432,
+    "lng": 1.6672
+  },
+  {
+    "key": "mouxy",
+    "name": "Mouxy",
+    "dept": "73",
+    "population": 2311,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 45.6806,
+    "lng": 5.9481
+  },
+  {
+    "key": "saint-geours-d-auribat",
+    "name": "Saint-Geours-d'Auribat",
+    "dept": "40",
+    "population": 409,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 43.7547,
+    "lng": -0.8393
+  },
+  {
+    "key": "valleiry",
+    "name": "Valleiry",
+    "dept": "74",
+    "population": 5264,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 46.1153,
+    "lng": 5.9706
+  },
+  {
+    "key": "saint-cyprien",
+    "name": "Saint-Cyprien",
+    "dept": "66",
+    "population": 12068,
+    "hotels": 1,
+    "bestKw": 175,
+    "lat": 42.6205,
+    "lng": 3.0139
+  },
+  {
+    "key": "pierre-morains",
+    "name": "Pierre-Morains",
+    "dept": "51",
+    "population": 99,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 48.8398,
+    "lng": 4.019
+  },
+  {
+    "key": "wintershouse",
+    "name": "Wintershouse",
+    "dept": "67",
+    "population": 869,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 48.7957,
+    "lng": 7.7065
+  },
+  {
+    "key": "bar-le-duc",
+    "name": "Bar-le-Duc",
+    "dept": "55",
+    "population": 14607,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 48.7628,
+    "lng": 5.1732
+  },
+  {
+    "key": "chef-haut",
+    "name": "Chef-Haut",
+    "dept": "88",
+    "population": 49,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 48.354,
+    "lng": 6.0093
+  },
+  {
+    "key": "chilly-mazarin",
+    "name": "Chilly-Mazarin",
+    "dept": "91",
+    "population": 20443,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 48.7051,
+    "lng": 2.3103
+  },
+  {
+    "key": "saint-cergues",
+    "name": "Saint-Cergues",
+    "dept": "74",
+    "population": 3869,
+    "hotels": 1,
+    "bestKw": 160,
+    "lat": 46.2335,
+    "lng": 6.3248
+  },
+  {
+    "key": "saint-yrieix-sur-charente",
+    "name": "Saint-Yrieix-sur-Charente",
+    "dept": "16",
+    "population": 7539,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.6816,
+    "lng": 0.126
+  },
+  {
+    "key": "saint-agathon",
+    "name": "Saint-Agathon",
+    "dept": "22",
+    "population": 2169,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.5664,
+    "lng": -3.0995
+  },
+  {
+    "key": "yvrac",
+    "name": "Yvrac",
+    "dept": "33",
+    "population": 2899,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.8817,
+    "lng": -0.4705
+  },
+  {
+    "key": "erstein",
+    "name": "Erstein",
+    "dept": "67",
+    "population": 10790,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.4191,
+    "lng": 7.6869
+  },
+  {
+    "key": "laval",
+    "name": "Laval",
+    "dept": "53",
+    "population": 49400,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.0578,
+    "lng": -0.7692
+  },
+  {
+    "key": "nitry",
+    "name": "Nitry",
+    "dept": "89",
+    "population": 372,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.6763,
+    "lng": 3.8724
+  },
+  {
+    "key": "ibos",
+    "name": "Ibos",
+    "dept": "65",
+    "population": 2813,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.2464,
+    "lng": -0.0013
+  },
+  {
+    "key": "mouans-sartoux",
+    "name": "Mouans-Sartoux",
+    "dept": "06",
+    "population": 11015,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.6192,
+    "lng": 6.9677
+  },
+  {
+    "key": "arnage",
+    "name": "Arnage",
+    "dept": "72",
+    "population": 5445,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.9306,
+    "lng": 0.1917
+  },
+  {
+    "key": "presles",
+    "name": "Presles",
+    "dept": "95",
+    "population": 4017,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 49.1094,
+    "lng": 2.2876
+  },
+  {
+    "key": "saint-martin-d-heres",
+    "name": "Saint-Martin-d'Hères",
+    "dept": "38",
+    "population": 37695,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.1782,
+    "lng": 5.7646
+  },
+  {
+    "key": "appoigny",
+    "name": "Appoigny",
+    "dept": "89",
+    "population": 3114,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.8669,
+    "lng": 3.5206
+  },
+  {
+    "key": "langon",
+    "name": "Langon",
+    "dept": "33",
+    "population": 7674,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.5355,
+    "lng": -0.2422
+  },
+  {
+    "key": "metz",
+    "name": "Metz",
+    "dept": "57",
+    "population": 122572,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 49.1048,
+    "lng": 6.1962
+  },
+  {
+    "key": "amberieux",
+    "name": "Ambérieux",
+    "dept": "69",
+    "population": 651,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.9264,
+    "lng": 4.7427
+  },
+  {
+    "key": "chasse-sur-rhone",
+    "name": "Chasse-sur-Rhône",
+    "dept": "38",
+    "population": 6588,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.578,
+    "lng": 4.8129
+  },
+  {
+    "key": "vert-saint-denis",
+    "name": "Vert-Saint-Denis",
+    "dept": "77",
+    "population": 9291,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.5654,
+    "lng": 2.6266
+  },
+  {
+    "key": "artigues-pres-bordeaux",
+    "name": "Artigues-près-Bordeaux",
+    "dept": "33",
+    "population": 8687,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.8592,
+    "lng": -0.4878
+  },
+  {
+    "key": "bobigny",
+    "name": "Bobigny",
+    "dept": "93",
+    "population": 56927,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.9073,
+    "lng": 2.4432
+  },
+  {
+    "key": "suresnes",
+    "name": "Suresnes",
+    "dept": "92",
+    "population": 48956,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.871,
+    "lng": 2.2183
+  },
+  {
+    "key": "ecouflant",
+    "name": "Écouflant",
+    "dept": "49",
+    "population": 4749,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.524,
+    "lng": -0.519
+  },
+  {
+    "key": "saint-laurent-de-mure",
+    "name": "Saint-Laurent-de-Mure",
+    "dept": "69",
+    "population": 5791,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.6842,
+    "lng": 5.0597
+  },
+  {
+    "key": "mons-en-bar-ul",
+    "name": "Mons-en-Barœul",
+    "dept": "59",
+    "population": 21105,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 50.6436,
+    "lng": 3.1091
+  },
+  {
+    "key": "la-verriere",
+    "name": "La Verrière",
+    "dept": "78",
+    "population": 5994,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.7545,
+    "lng": 1.9505
+  },
+  {
+    "key": "reims",
+    "name": "Reims",
+    "dept": "51",
+    "population": 177674,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 49.2535,
+    "lng": 4.0551
+  },
+  {
+    "key": "magny-les-hameaux",
+    "name": "Magny-Les-Hameaux",
+    "dept": "78",
+    "population": 9386,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.7379,
+    "lng": 2.0494
+  },
+  {
+    "key": "chelles",
+    "name": "Chelles",
+    "dept": "77",
+    "population": 54620,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.8845,
+    "lng": 2.5954
+  },
+  {
+    "key": "fresnes",
+    "name": "Fresnes",
+    "dept": "94",
+    "population": 29528,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.7572,
+    "lng": 2.3263
+  },
+  {
+    "key": "annemasse",
+    "name": "Annemasse",
+    "dept": "74",
+    "population": 37628,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 46.189,
+    "lng": 6.2476
+  },
+  {
+    "key": "le-bourget",
+    "name": "Le Bourget",
+    "dept": "93",
+    "population": 15925,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.9378,
+    "lng": 2.4287
+  },
+  {
+    "key": "viriat",
+    "name": "Viriat",
+    "dept": "01",
+    "population": 7102,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 46.2522,
+    "lng": 5.2257
+  },
+  {
+    "key": "saint-louis",
+    "name": "Saint-Louis",
+    "dept": "974",
+    "population": 54941,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": -21.2254,
+    "lng": 55.4224
+  },
+  {
+    "key": "beynost",
+    "name": "Beynost",
+    "dept": "01",
+    "population": 5198,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.8359,
+    "lng": 4.9964
+  },
+  {
+    "key": "le-pouzin",
+    "name": "Le Pouzin",
+    "dept": "07",
+    "population": 2886,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.7537,
+    "lng": 4.7491
+  },
+  {
+    "key": "yffiniac",
+    "name": "Yffiniac",
+    "dept": "22",
+    "population": 5074,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.4692,
+    "lng": -2.6862
+  },
+  {
+    "key": "saint-paul-trois-chateaux",
+    "name": "Saint-Paul-Trois-Châteaux",
+    "dept": "26",
+    "population": 8981,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.3489,
+    "lng": 4.7617
+  },
+  {
+    "key": "aregno",
+    "name": "Aregno",
+    "dept": "2B",
+    "population": 588,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 42.5943,
+    "lng": 8.8765
+  },
+  {
+    "key": "marguerittes",
+    "name": "Marguerittes",
+    "dept": "30",
+    "population": 8346,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.8661,
+    "lng": 4.4594
+  },
+  {
+    "key": "rochefort-du-gard",
+    "name": "Rochefort-du-Gard",
+    "dept": "30",
+    "population": 8117,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.9841,
+    "lng": 4.682
+  },
+  {
+    "key": "saint-aunes",
+    "name": "Saint-Aunès",
+    "dept": "34",
+    "population": 4530,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.6341,
+    "lng": 3.97
+  },
+  {
+    "key": "saint-egreve",
+    "name": "Saint-Égrève",
+    "dept": "38",
+    "population": 17986,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.2315,
+    "lng": 5.6828
+  },
+  {
+    "key": "le-coteau",
+    "name": "Le Coteau",
+    "dept": "42",
+    "population": 6845,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 46.0217,
+    "lng": 4.0925
+  },
+  {
+    "key": "fontaine-notre-dame",
+    "name": "Fontaine-Notre-Dame",
+    "dept": "59",
+    "population": 1754,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 50.1662,
+    "lng": 3.1728
+  },
+  {
+    "key": "dardilly",
+    "name": "Dardilly",
+    "dept": "69",
+    "population": 9221,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.8133,
+    "lng": 4.7466
+  },
+  {
+    "key": "belmont-tramonet",
+    "name": "Belmont-Tramonet",
+    "dept": "73",
+    "population": 505,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.5656,
+    "lng": 5.6752
+  },
+  {
+    "key": "metz-tessy",
+    "name": "METZ TESSY",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "terssac",
+    "name": "Terssac",
+    "dept": "81",
+    "population": 1195,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.9223,
+    "lng": 2.0696
+  },
+  {
+    "key": "orange",
+    "name": "Orange",
+    "dept": "84",
+    "population": 29706,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 44.1264,
+    "lng": 4.8031
+  },
+  {
+    "key": "chatellerault",
+    "name": "Châtellerault",
+    "dept": "86",
+    "population": 31003,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 46.8147,
+    "lng": 0.5583
+  },
+  {
+    "key": "melgven",
+    "name": "Melgven",
+    "dept": "29",
+    "population": 3371,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.9084,
+    "lng": -3.8433
+  },
+  {
+    "key": "loperhet",
+    "name": "Loperhet",
+    "dept": "29",
+    "population": 3959,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 48.3779,
+    "lng": -4.3142
+  },
+  {
+    "key": "le-caylar",
+    "name": "Le Caylar",
+    "dept": "34",
+    "population": 460,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 43.8717,
+    "lng": 3.3102
+  },
+  {
+    "key": "nespouls",
+    "name": "Nespouls",
+    "dept": "19",
+    "population": 638,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.0549,
+    "lng": 1.5026
+  },
+  {
+    "key": "cuse-et-adrisans",
+    "name": "Cuse-et-Adrisans",
+    "dept": "25",
+    "population": 274,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 47.4828,
+    "lng": 6.387
+  },
+  {
+    "key": "moissieu-sur-dolon",
+    "name": "Moissieu-sur-Dolon",
+    "dept": "38",
+    "population": 747,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.3889,
+    "lng": 4.9873
+  },
+  {
+    "key": "aix-les-bains",
+    "name": "Aix-les-Bains",
+    "dept": "73",
+    "population": 32406,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.6943,
+    "lng": 5.9035
+  },
+  {
+    "key": "chaponnay",
+    "name": "Chaponnay",
+    "dept": "69",
+    "population": 4548,
+    "hotels": 1,
+    "bestKw": 150,
+    "lat": 45.6315,
+    "lng": 4.9584
+  },
+  {
+    "key": "eygliers",
+    "name": "Eygliers",
+    "dept": "05",
+    "population": 882,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 44.6962,
+    "lng": 6.6621
+  },
+  {
+    "key": "bias",
+    "name": "Bias",
+    "dept": "47",
+    "population": 2977,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 44.4102,
+    "lng": 0.6702
+  },
+  {
+    "key": "auray",
+    "name": "Auray",
+    "dept": "56",
+    "population": 14207,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 47.6684,
+    "lng": -2.9901
+  },
+  {
+    "key": "crolles",
+    "name": "Crolles",
+    "dept": "38",
+    "population": 8609,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 45.2816,
+    "lng": 5.8853
+  },
+  {
+    "key": "grande-synthe",
+    "name": "Grande-Synthe",
+    "dept": "59",
+    "population": 20239,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 51.0157,
+    "lng": 2.2938
+  },
+  {
+    "key": "cergy",
+    "name": "Cergy",
+    "dept": "95",
+    "population": 70906,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 49.0373,
+    "lng": 2.0455
+  },
+  {
+    "key": "redon",
+    "name": "Redon",
+    "dept": "35",
+    "population": 9542,
+    "hotels": 1,
+    "bestKw": 120,
+    "lat": 47.6557,
+    "lng": -2.0787
+  },
+  {
+    "key": "laguiole",
+    "name": "Laguiole",
+    "dept": "12",
+    "population": 1207,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 44.6936,
+    "lng": 2.8679
+  },
+  {
+    "key": "craon",
+    "name": "Craon",
+    "dept": "53",
+    "population": 4431,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.8431,
+    "lng": -0.9396
+  },
+  {
+    "key": "manigod",
+    "name": "Manigod",
+    "dept": "74",
+    "population": 1000,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 45.8439,
+    "lng": 6.3981
+  },
+  {
+    "key": "solaize",
+    "name": "Solaize",
+    "dept": "69",
+    "population": 3144,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 45.6462,
+    "lng": 4.8331
+  },
+  {
+    "key": "les-achards",
+    "name": "Les Achards",
+    "dept": "85",
+    "population": 5518,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 46.5924,
+    "lng": -1.6651
+  },
+  {
+    "key": "lons",
+    "name": "Lons",
+    "dept": "64",
+    "population": 13606,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 43.3253,
+    "lng": -0.4067
+  },
+  {
+    "key": "pusey",
+    "name": "Pusey",
+    "dept": "70",
+    "population": 1432,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.6517,
+    "lng": 6.1197
+  },
+  {
+    "key": "bayonne",
+    "name": "Bayonne",
+    "dept": "64",
+    "population": 54306,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 43.4844,
+    "lng": -1.4611
+  },
+  {
+    "key": "geispolsheim",
+    "name": "Geispolsheim",
+    "dept": "67",
+    "population": 7919,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 48.5117,
+    "lng": 7.6586
+  },
+  {
+    "key": "creancey",
+    "name": "Créancey",
+    "dept": "21",
+    "population": 514,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.2557,
+    "lng": 4.5954
+  },
+  {
+    "key": "auxerre",
+    "name": "Auxerre",
+    "dept": "89",
+    "population": 35097,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.7939,
+    "lng": 3.5821
+  },
+  {
+    "key": "haguenau",
+    "name": "Haguenau",
+    "dept": "67",
+    "population": 36391,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 48.8388,
+    "lng": 7.8213
+  },
+  {
+    "key": "issoire",
+    "name": "Issoire",
+    "dept": "63",
+    "population": 15115,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 45.5442,
+    "lng": 3.2444
+  },
+  {
+    "key": "libourne",
+    "name": "Libourne",
+    "dept": "33",
+    "population": 25036,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 44.9125,
+    "lng": -0.2328
+  },
+  {
+    "key": "longvic",
+    "name": "Longvic",
+    "dept": "21",
+    "population": 8896,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.2855,
+    "lng": 5.0585
+  },
+  {
+    "key": "pannes",
+    "name": "Pannes",
+    "dept": "45",
+    "population": 3740,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 48.0119,
+    "lng": 2.6708
+  },
+  {
+    "key": "mougins",
+    "name": "Mougins",
+    "dept": "06",
+    "population": 19782,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 43.5931,
+    "lng": 7.0046
+  },
+  {
+    "key": "pertuis",
+    "name": "Pertuis",
+    "dept": "84",
+    "population": 19548,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 43.6931,
+    "lng": 5.5345
+  },
+  {
+    "key": "rivesaltes",
+    "name": "Rivesaltes",
+    "dept": "66",
+    "population": 9270,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 42.7761,
+    "lng": 2.8769
+  },
+  {
+    "key": "tonnay-charente",
+    "name": "Tonnay-Charente",
+    "dept": "17",
+    "population": 8289,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 45.9646,
+    "lng": -0.8777
+  },
+  {
+    "key": "montbeliard",
+    "name": "Montbéliard",
+    "dept": "25",
+    "population": 24672,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.5168,
+    "lng": 6.7834
+  },
+  {
+    "key": "mereau",
+    "name": "Méreau",
+    "dept": "18",
+    "population": 2632,
+    "hotels": 1,
+    "bestKw": 100,
+    "lat": 47.1804,
+    "lng": 2.0548
+  },
+  {
+    "key": "boves",
+    "name": "Boves",
+    "dept": "80",
+    "population": 3234,
+    "hotels": 1,
+    "bestKw": 60,
+    "lat": 49.8392,
+    "lng": 2.388
+  },
+  {
+    "key": "marines",
+    "name": "Marines",
+    "dept": "95",
+    "population": 3594,
+    "hotels": 1,
+    "bestKw": 54,
+    "lat": 49.1499,
+    "lng": 1.9825
+  },
+  {
+    "key": "treigny-perreuse-sainte-colombe",
+    "name": "Treigny-Perreuse-Sainte-Colombe",
+    "dept": "89",
+    "population": 1083,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 47.5591,
+    "lng": 3.1888
+  },
+  {
+    "key": "ville-la-grand",
+    "name": "Ville-la-Grand",
+    "dept": "74",
+    "population": 9514,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 46.2061,
+    "lng": 6.2579
+  },
+  {
+    "key": "hyeres",
+    "name": "Hyères",
+    "dept": "83",
+    "population": 55858,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 43.1139,
+    "lng": 6.2357
+  },
+  {
+    "key": "mende",
+    "name": "Mende",
+    "dept": "48",
+    "population": 12464,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 44.5349,
+    "lng": 3.4909
+  },
+  {
+    "key": "sisteron",
+    "name": "Sisteron",
+    "dept": "04",
+    "population": 7850,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 44.1993,
+    "lng": 5.9276
+  },
+  {
+    "key": "pujols",
+    "name": "Pujols",
+    "dept": "47",
+    "population": 3769,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 44.3687,
+    "lng": 0.7006
+  },
+  {
+    "key": "lons-le-saunier",
+    "name": "Lons-le-Saunier",
+    "dept": "39",
+    "population": 16618,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 46.6758,
+    "lng": 5.5574
+  },
+  {
+    "key": "dreux",
+    "name": "Dreux",
+    "dept": "28",
+    "population": 31543,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 48.7482,
+    "lng": 1.3578
+  },
+  {
+    "key": "horbourg-wihr",
+    "name": "Horbourg-Wihr",
+    "dept": "68",
+    "population": 6199,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 48.0827,
+    "lng": 7.407
+  },
+  {
+    "key": "larroque",
+    "name": "Larroque",
+    "dept": "31",
+    "population": 293,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 43.1966,
+    "lng": 0.6115
+  },
+  {
+    "key": "colombier-saugnieu",
+    "name": "Colombier-Saugnieu",
+    "dept": "69",
+    "population": 2874,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 45.7174,
+    "lng": 5.1084
+  },
+  {
+    "key": "sajas",
+    "name": "Sajas",
+    "dept": "31",
+    "population": 104,
+    "hotels": 1,
+    "bestKw": 50,
+    "lat": 43.3765,
+    "lng": 1.0259
+  },
+  {
+    "key": "marconne",
+    "name": "Marconne",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 25,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "porte-des-pierres-dorees",
+    "name": "PORTE DES PIERRES DOREES",
+    "dept": "69",
+    "population": 4185,
+    "hotels": 1,
+    "bestKw": 25,
+    "lat": 45.9628,
+    "lng": 4.6509
+  },
+  {
+    "key": "mexy",
+    "name": "Mexy",
+    "dept": "54",
+    "population": 2300,
+    "hotels": 1,
+    "bestKw": 25,
+    "lat": 49.5025,
+    "lng": 5.7877
+  },
+  {
+    "key": "pierrefonds",
+    "name": "Pierrefonds",
+    "dept": "60",
+    "population": 1877,
+    "hotels": 1,
+    "bestKw": 25,
+    "lat": 49.3455,
+    "lng": 2.9681
+  },
+  {
+    "key": "le-freney-d-oisans",
+    "name": "Le Freney-d'Oisans",
+    "dept": "38",
+    "population": 260,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 45.0867,
+    "lng": 6.1181
+  },
+  {
+    "key": "pietrosella",
+    "name": "Pietrosella",
+    "dept": "2A",
+    "population": 2074,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 41.8246,
+    "lng": 8.8071
+  },
+  {
+    "key": "grosseto-prugna",
+    "name": "Grosseto-Prugna",
+    "dept": "2A",
+    "population": 3900,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 41.8856,
+    "lng": 8.8755
+  },
+  {
+    "key": "montrouge",
+    "name": "Montrouge",
+    "dept": "92",
+    "population": 46324,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 48.8159,
+    "lng": 2.3163
+  },
+  {
+    "key": "vanves",
+    "name": "Vanves",
+    "dept": "92",
+    "population": 28622,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 48.8214,
+    "lng": 2.2869
+  },
+  {
+    "key": "bagnolet",
+    "name": "Bagnolet",
+    "dept": "93",
+    "population": 43086,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 48.8671,
+    "lng": 2.4252
+  },
+  {
+    "key": "tallard",
+    "name": "Tallard",
+    "dept": "05",
+    "population": 2292,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 44.4599,
+    "lng": 6.0485
+  },
+  {
+    "key": "limoux",
+    "name": "Limoux",
+    "dept": "11",
+    "population": 10532,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 43.0464,
+    "lng": 2.2452
+  },
+  {
+    "key": "saint-planchers",
+    "name": "Saint-Planchers",
+    "dept": "50",
+    "population": 1486,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 48.8293,
+    "lng": -1.5032
+  },
+  {
+    "key": "lure",
+    "name": "Lure",
+    "dept": "70",
+    "population": 7877,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 47.6817,
+    "lng": 6.4933
+  },
+  {
+    "key": "sanchey",
+    "name": "Sanchey",
+    "dept": "88",
+    "population": 963,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 48.1676,
+    "lng": 6.371
+  },
+  {
+    "key": "pont-aven",
+    "name": "Pont-Aven",
+    "dept": "29",
+    "population": 2777,
+    "hotels": 1,
+    "bestKw": 24,
+    "lat": 47.8742,
+    "lng": -3.7651
+  },
+  {
+    "key": "villeneuve-sous-pymont",
+    "name": "Villeneuve-sous-Pymont",
+    "dept": "39",
+    "population": 317,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 46.6945,
+    "lng": 5.553
+  },
+  {
+    "key": "gassin",
+    "name": "Gassin",
+    "dept": "83",
+    "population": 2687,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.2385,
+    "lng": 6.5876
+  },
+  {
+    "key": "tourtenay",
+    "name": "Tourtenay",
+    "dept": "79",
+    "population": 125,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.0486,
+    "lng": -0.1139
+  },
+  {
+    "key": "les-deux-alpes",
+    "name": "Les Deux Alpes",
+    "dept": "38",
+    "population": 1910,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 44.9885,
+    "lng": 6.1349
+  },
+  {
+    "key": "allauch",
+    "name": "Allauch",
+    "dept": "13",
+    "population": 21443,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.3522,
+    "lng": 5.5103
+  },
+  {
+    "key": "les-houches",
+    "name": "Les Houches",
+    "dept": "74",
+    "population": 3515,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 45.8919,
+    "lng": 6.7991
+  },
+  {
+    "key": "salies-du-salat",
+    "name": "Salies-du-Salat",
+    "dept": "31",
+    "population": 1733,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.1013,
+    "lng": 0.9637
+  },
+  {
+    "key": "graveson",
+    "name": "Graveson",
+    "dept": "13",
+    "population": 4698,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.8532,
+    "lng": 4.7686
+  },
+  {
+    "key": "morlaix",
+    "name": "Morlaix",
+    "dept": "29",
+    "population": 15194,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 48.5971,
+    "lng": -3.8215
+  },
+  {
+    "key": "baromesnil",
+    "name": "Baromesnil",
+    "dept": "76",
+    "population": 218,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.9846,
+    "lng": 1.411
+  },
+  {
+    "key": "baudre",
+    "name": "Baudre",
+    "dept": "50",
+    "population": 613,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.0866,
+    "lng": -1.0675
+  },
+  {
+    "key": "vaux-en-beaujolais",
+    "name": "Vaux-en-Beaujolais",
+    "dept": "69",
+    "population": 1169,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 46.0459,
+    "lng": 4.5801
+  },
+  {
+    "key": "saint-pierre-du-perray",
+    "name": "Saint-Pierre-du-Perray",
+    "dept": "91",
+    "population": 11993,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 48.6075,
+    "lng": 2.5152
+  },
+  {
+    "key": "souvigny-de-touraine",
+    "name": "Souvigny-de-Touraine",
+    "dept": "37",
+    "population": 380,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.3997,
+    "lng": 1.0825
+  },
+  {
+    "key": "vignoles",
+    "name": "Vignoles",
+    "dept": "21",
+    "population": 907,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.0254,
+    "lng": 4.8822
+  },
+  {
+    "key": "la-mole",
+    "name": "La Môle",
+    "dept": "83",
+    "population": 1535,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.2202,
+    "lng": 6.4835
+  },
+  {
+    "key": "le-grand-village-plage",
+    "name": "Le Grand-Village-Plage",
+    "dept": "17",
+    "population": 1108,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 45.8647,
+    "lng": -1.2373
+  },
+  {
+    "key": "mers-les-bains",
+    "name": "Mers-les-Bains",
+    "dept": "80",
+    "population": 2540,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 50.0723,
+    "lng": 1.4031
+  },
+  {
+    "key": "groffliers",
+    "name": "Groffliers",
+    "dept": "62",
+    "population": 1470,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 50.3854,
+    "lng": 1.6035
+  },
+  {
+    "key": "villemomble",
+    "name": "Villemomble",
+    "dept": "93",
+    "population": 29795,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 48.8866,
+    "lng": 2.5085
+  },
+  {
+    "key": "caen",
+    "name": "Caen",
+    "dept": "14",
+    "population": 109400,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.1846,
+    "lng": -0.3722
+  },
+  {
+    "key": "ouistreham",
+    "name": "Ouistreham",
+    "dept": "14",
+    "population": 9212,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.2709,
+    "lng": -0.2564
+  },
+  {
+    "key": "lescar",
+    "name": "Lescar",
+    "dept": "64",
+    "population": 9455,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.3412,
+    "lng": -0.4303
+  },
+  {
+    "key": "viala-du-tarn",
+    "name": "Viala-du-Tarn",
+    "dept": "12",
+    "population": 529,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 44.0893,
+    "lng": 2.8437
+  },
+  {
+    "key": "concoules",
+    "name": "Concoules",
+    "dept": "30",
+    "population": 277,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 44.3684,
+    "lng": 3.9356
+  },
+  {
+    "key": "servian",
+    "name": "Servian",
+    "dept": "34",
+    "population": 5517,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 43.4121,
+    "lng": 3.3017
+  },
+  {
+    "key": "corne",
+    "name": "CORNE",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "chemaudin-et-vaux",
+    "name": "Chemaudin et Vaux",
+    "dept": "25",
+    "population": 2113,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.2263,
+    "lng": 5.8897
+  },
+  {
+    "key": "sari-solenzara",
+    "name": "Sari-Solenzara",
+    "dept": "2A",
+    "population": 1445,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 41.8163,
+    "lng": 9.3395
+  },
+  {
+    "key": "magny-cours",
+    "name": "Magny-Cours",
+    "dept": "58",
+    "population": 1432,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 46.8906,
+    "lng": 3.1562
+  },
+  {
+    "key": "litteau",
+    "name": "Litteau",
+    "dept": "14",
+    "population": 271,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.1537,
+    "lng": -0.9094
+  },
+  {
+    "key": "veuzain-sur-loire",
+    "name": "Veuzain-sur-Loire",
+    "dept": "41",
+    "population": 3333,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.5079,
+    "lng": 1.15
+  },
+  {
+    "key": "soulac-sur-mer",
+    "name": "Soulac-sur-Mer",
+    "dept": "33",
+    "population": 3100,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 45.5057,
+    "lng": -1.0694
+  },
+  {
+    "key": "sorgues",
+    "name": "Sorgues",
+    "dept": "84",
+    "population": 19006,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 44.016,
+    "lng": 4.8555
+  },
+  {
+    "key": "crepy-en-valois",
+    "name": "Crépy-en-Valois",
+    "dept": "60",
+    "population": 14351,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.2366,
+    "lng": 2.8998
+  },
+  {
+    "key": "chenove",
+    "name": "Chenôve",
+    "dept": "21",
+    "population": 14244,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 47.2911,
+    "lng": 5.0001
+  },
+  {
+    "key": "talange",
+    "name": "Talange",
+    "dept": "57",
+    "population": 8120,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 49.2348,
+    "lng": 6.1684
+  },
+  {
+    "key": "gigondas",
+    "name": "Gigondas",
+    "dept": "84",
+    "population": 448,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 44.164,
+    "lng": 5.0153
+  },
+  {
+    "key": "montagnat",
+    "name": "Montagnat",
+    "dept": "01",
+    "population": 2186,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 46.172,
+    "lng": 5.2776
+  },
+  {
+    "key": "yzeure",
+    "name": "Yzeure",
+    "dept": "03",
+    "population": 12897,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 46.5662,
+    "lng": 3.3854
+  },
+  {
+    "key": "sathonay-village",
+    "name": "Sathonay-Village",
+    "dept": "69",
+    "population": 2412,
+    "hotels": 1,
+    "bestKw": 22.1,
+    "lat": 45.8394,
+    "lng": 4.8858
+  },
+  {
+    "key": "pezenas",
+    "name": "Pézenas",
+    "dept": "34",
+    "population": 7797,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4616,
+    "lng": 3.418
+  },
+  {
+    "key": "nogent-sur-marne",
+    "name": "Nogent-sur-Marne",
+    "dept": "94",
+    "population": 32455,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.837,
+    "lng": 2.4811
+  },
+  {
+    "key": "bezons",
+    "name": "Bezons",
+    "dept": "95",
+    "population": 36434,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.925,
+    "lng": 2.2147
+  },
+  {
+    "key": "azay-le-azay-le-rideau-37190-france",
+    "name": "Azay-le..., Azay-le-Rideau 37190 France",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "nantes-44300-france",
+    "name": "..., Nantes 44300 France",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "limoges-france-limoges-87100-france",
+    "name": "Limoges, France, Limoges 87100 France",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "limonest",
+    "name": "Limonest",
+    "dept": "69",
+    "population": 4012,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8267,
+    "lng": 4.7682
+  },
+  {
+    "key": "asnieres-sur-seine",
+    "name": "Asnières-sur-Seine",
+    "dept": "92",
+    "population": 93941,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.9181,
+    "lng": 2.2935
+  },
+  {
+    "key": "guines",
+    "name": "Guines",
+    "dept": "62",
+    "population": 5479,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.855,
+    "lng": 1.8726
+  },
+  {
+    "key": "nyons",
+    "name": "Nyons",
+    "dept": "26",
+    "population": 6816,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.3585,
+    "lng": 5.1243
+  },
+  {
+    "key": "saint-sauves-d-auvergne",
+    "name": "Saint-Sauves-d'Auvergne",
+    "dept": "63",
+    "population": 1127,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.6104,
+    "lng": 2.6968
+  },
+  {
+    "key": "eygalieres",
+    "name": "Eygalières",
+    "dept": "13",
+    "population": 1773,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7638,
+    "lng": 4.9554
+  },
+  {
+    "key": "saumur",
+    "name": "Saumur",
+    "dept": "49",
+    "population": 26241,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.2645,
+    "lng": -0.0837
+  },
+  {
+    "key": "le-treport",
+    "name": "Le Tréport",
+    "dept": "76",
+    "population": 4378,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.052,
+    "lng": 1.3759
+  },
+  {
+    "key": "moliets-et-maa",
+    "name": "Moliets-et-Maa",
+    "dept": "40",
+    "population": 1299,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.8626,
+    "lng": -1.3589
+  },
+  {
+    "key": "besse-et-saint-anastaise",
+    "name": "Besse-et-Saint-Anastaise",
+    "dept": "63",
+    "population": 1442,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.4984,
+    "lng": 2.9103
+  },
+  {
+    "key": "oucques-la-nouvelle",
+    "name": "Oucques La Nouvelle",
+    "dept": "41",
+    "population": 1638,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.8104,
+    "lng": 1.2756
+  },
+  {
+    "key": "chancelade",
+    "name": "Chancelade",
+    "dept": "24",
+    "population": 4468,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.2107,
+    "lng": 0.6539
+  },
+  {
+    "key": "saint-raphael",
+    "name": "Saint-Raphaël",
+    "dept": "83",
+    "population": 37113,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4582,
+    "lng": 6.8483
+  },
+  {
+    "key": "sainte-mere-eglise",
+    "name": "Sainte-Mère-Église",
+    "dept": "50",
+    "population": 2896,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.4205,
+    "lng": -1.2967
+  },
+  {
+    "key": "saint-brice-courcelles",
+    "name": "Saint-Brice-Courcelles",
+    "dept": "51",
+    "population": 3566,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2705,
+    "lng": 3.9879
+  },
+  {
+    "key": "les-vans",
+    "name": "Les Vans",
+    "dept": "07",
+    "population": 2662,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.3884,
+    "lng": 4.1145
+  },
+  {
+    "key": "la-roque-alric",
+    "name": "La Roque-Alric",
+    "dept": "84",
+    "population": 50,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.1458,
+    "lng": 5.0683
+  },
+  {
+    "key": "chavanay",
+    "name": "Chavanay",
+    "dept": "42",
+    "population": 2884,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.4161,
+    "lng": 4.7266
+  },
+  {
+    "key": "mons",
+    "name": "Mons",
+    "dept": "31",
+    "population": 1861,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.6092,
+    "lng": 1.5696
+  },
+  {
+    "key": "villadin",
+    "name": "Villadin",
+    "dept": "10",
+    "population": 108,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.3157,
+    "lng": 3.6941
+  },
+  {
+    "key": "le-monetier-les-bains",
+    "name": "Le Monêtier-les-Bains",
+    "dept": "05",
+    "population": 923,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.9992,
+    "lng": 6.4709
+  },
+  {
+    "key": "voiron",
+    "name": "Voiron",
+    "dept": "38",
+    "population": 21847,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.3805,
+    "lng": 5.5869
+  },
+  {
+    "key": "le-coudray-montceaux",
+    "name": "Le Coudray-Montceaux",
+    "dept": "91",
+    "population": 4801,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5605,
+    "lng": 2.4926
+  },
+  {
+    "key": "blyes",
+    "name": "Blyes",
+    "dept": "01",
+    "population": 1401,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8442,
+    "lng": 5.2515
+  },
+  {
+    "key": "sainte-preuve",
+    "name": "Sainte-Preuve",
+    "dept": "02",
+    "population": 67,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.619,
+    "lng": 3.9113
+  },
+  {
+    "key": "bellerive-sur-allier",
+    "name": "Bellerive-sur-Allier",
+    "dept": "03",
+    "population": 8943,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.1202,
+    "lng": 3.4025
+  },
+  {
+    "key": "saint-julien-du-verdon",
+    "name": "Saint-Julien-du-Verdon",
+    "dept": "04",
+    "population": 179,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.9122,
+    "lng": 6.5472
+  },
+  {
+    "key": "baratier",
+    "name": "Baratier",
+    "dept": "05",
+    "population": 648,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.5051,
+    "lng": 6.504
+  },
+  {
+    "key": "satillieu",
+    "name": "Satillieu",
+    "dept": "07",
+    "population": 1534,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.142,
+    "lng": 4.5925
+  },
+  {
+    "key": "marignane",
+    "name": "Marignane",
+    "dept": "13",
+    "population": 33692,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4218,
+    "lng": 5.2178
+  },
+  {
+    "key": "martigues",
+    "name": "Martigues",
+    "dept": "13",
+    "population": 48298,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.3839,
+    "lng": 5.0451
+  },
+  {
+    "key": "miramas",
+    "name": "Miramas",
+    "dept": "13",
+    "population": 26203,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.5841,
+    "lng": 5.0148
+  },
+  {
+    "key": "port-en-bessin-huppain",
+    "name": "Port-en-Bessin-Huppain",
+    "dept": "14",
+    "population": 1876,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.3387,
+    "lng": -0.7727
+  },
+  {
+    "key": "vire-normandie",
+    "name": "Vire Normandie",
+    "dept": "14",
+    "population": 17457,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8199,
+    "lng": -0.87
+  },
+  {
+    "key": "marsac-sur-l-isle",
+    "name": "Marsac-sur-l'Isle",
+    "dept": "24",
+    "population": 3187,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.1816,
+    "lng": 0.6475
+  },
+  {
+    "key": "trelissac",
+    "name": "Trélissac",
+    "dept": "24",
+    "population": 7372,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.2114,
+    "lng": 0.7738
+  },
+  {
+    "key": "luce",
+    "name": "Lucé",
+    "dept": "28",
+    "population": 15921,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.4337,
+    "lng": 1.4525
+  },
+  {
+    "key": "aimargues",
+    "name": "Aimargues",
+    "dept": "30",
+    "population": 5705,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.6667,
+    "lng": 4.201
+  },
+  {
+    "key": "nailloux",
+    "name": "Nailloux",
+    "dept": "31",
+    "population": 4211,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.3673,
+    "lng": 1.6115
+  },
+  {
+    "key": "eybens",
+    "name": "Eybens",
+    "dept": "38",
+    "population": 10493,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.1526,
+    "lng": 5.7487
+  },
+  {
+    "key": "coutances",
+    "name": "Coutances",
+    "dept": "50",
+    "population": 8321,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0552,
+    "lng": -1.4451
+  },
+  {
+    "key": "donville-les-bains",
+    "name": "Donville-les-Bains",
+    "dept": "50",
+    "population": 3146,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.852,
+    "lng": -1.5732
+  },
+  {
+    "key": "moulins-les-metz",
+    "name": "Moulins-lès-Metz",
+    "dept": "57",
+    "population": 5265,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0929,
+    "lng": 6.1192
+  },
+  {
+    "key": "ennevelin",
+    "name": "Ennevelin",
+    "dept": "59",
+    "population": 2416,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.5364,
+    "lng": 3.1309
+  },
+  {
+    "key": "raray",
+    "name": "Raray",
+    "dept": "60",
+    "population": 127,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2621,
+    "lng": 2.7214
+  },
+  {
+    "key": "bagnoles-de-l-orne-normandie",
+    "name": "Bagnoles de l'Orne Normandie",
+    "dept": "61",
+    "population": 2699,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5696,
+    "lng": -0.4174
+  },
+  {
+    "key": "camiers",
+    "name": "Camiers",
+    "dept": "62",
+    "population": 2582,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.5606,
+    "lng": 1.6129
+  },
+  {
+    "key": "coudes",
+    "name": "Coudes",
+    "dept": "63",
+    "population": 1225,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.6126,
+    "lng": 3.2032
+  },
+  {
+    "key": "strasbourg",
+    "name": "Strasbourg",
+    "dept": "67",
+    "population": 293771,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5691,
+    "lng": 7.7621
+  },
+  {
+    "key": "saint-genis-laval",
+    "name": "Saint-Genis-Laval",
+    "dept": "69",
+    "population": 21212,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.6922,
+    "lng": 4.7929
+  },
+  {
+    "key": "vourles",
+    "name": "Vourles",
+    "dept": "69",
+    "population": 3332,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.6569,
+    "lng": 4.7691
+  },
+  {
+    "key": "champs-sur-marne",
+    "name": "Champs-sur-Marne",
+    "dept": "77",
+    "population": 27451,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8485,
+    "lng": 2.594
+  },
+  {
+    "key": "dammarie-les-lys",
+    "name": "Dammarie-les-Lys",
+    "dept": "77",
+    "population": 23559,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5147,
+    "lng": 2.6199
+  },
+  {
+    "key": "nemours",
+    "name": "Nemours",
+    "dept": "77",
+    "population": 12889,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.2633,
+    "lng": 2.7187
+  },
+  {
+    "key": "sauvigny-le-bois",
+    "name": "Sauvigny-le-Bois",
+    "dept": "89",
+    "population": 742,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.5125,
+    "lng": 3.9618
+  },
+  {
+    "key": "saint-germain-les-corbeil",
+    "name": "Saint-Germain-lès-Corbeil",
+    "dept": "91",
+    "population": 7469,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.6275,
+    "lng": 2.4919
+  },
+  {
+    "key": "tourcoing",
+    "name": "Tourcoing",
+    "dept": "59",
+    "population": 98772,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.721,
+    "lng": 3.1577
+  },
+  {
+    "key": "uhrwiller",
+    "name": "Uhrwiller",
+    "dept": "67",
+    "population": 709,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8839,
+    "lng": 7.575
+  },
+  {
+    "key": "le-gosier",
+    "name": "Le Gosier",
+    "dept": "971",
+    "population": 27757,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 16.2274,
+    "lng": -61.4749
+  },
+  {
+    "key": "odenas",
+    "name": "Odenas",
+    "dept": "69",
+    "population": 938,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.0935,
+    "lng": 4.6417
+  },
+  {
+    "key": "margaux-cantenac",
+    "name": "Margaux-Cantenac",
+    "dept": "33",
+    "population": 2845,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.0363,
+    "lng": -0.6788
+  },
+  {
+    "key": "cogolin",
+    "name": "Cogolin",
+    "dept": "83",
+    "population": 12301,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.2406,
+    "lng": 6.5319
+  },
+  {
+    "key": "embrun",
+    "name": "Embrun",
+    "dept": "05",
+    "population": 6412,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.5806,
+    "lng": 6.475
+  },
+  {
+    "key": "albigny-sur-saone",
+    "name": "Albigny-sur-Saône",
+    "dept": "69",
+    "population": 3057,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8666,
+    "lng": 4.8284
+  },
+  {
+    "key": "valdelaume",
+    "name": "Valdelaume",
+    "dept": "79",
+    "population": 818,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.086,
+    "lng": 0.0009
+  },
+  {
+    "key": "pierrepont",
+    "name": "Pierrepont",
+    "dept": "54",
+    "population": 824,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.42,
+    "lng": 5.7063
+  },
+  {
+    "key": "hirtzfelden",
+    "name": "Hirtzfelden",
+    "dept": "68",
+    "population": 1259,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.9093,
+    "lng": 7.4481
+  },
+  {
+    "key": "la-gaude",
+    "name": "La Gaude",
+    "dept": "06",
+    "population": 7265,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7177,
+    "lng": 7.1605
+  },
+  {
+    "key": "champillon",
+    "name": "Champillon",
+    "dept": "51",
+    "population": 510,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0859,
+    "lng": 3.9753
+  },
+  {
+    "key": "clergoux",
+    "name": "Clergoux",
+    "dept": "19",
+    "population": 408,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.2751,
+    "lng": 1.9553
+  },
+  {
+    "key": "sagelat",
+    "name": "Sagelat",
+    "dept": "24",
+    "population": 318,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.7882,
+    "lng": 1.0233
+  },
+  {
+    "key": "sommieres",
+    "name": "Sommières",
+    "dept": "30",
+    "population": 5073,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7706,
+    "lng": 4.0812
+  },
+  {
+    "key": "eze",
+    "name": "EZE",
+    "dept": "06",
+    "population": 2144,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7299,
+    "lng": 7.3566
+  },
+  {
+    "key": "villeneuve-loubet",
+    "name": "VILLENEUVE-LOUBET",
+    "dept": "06",
+    "population": 17548,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.647,
+    "lng": 7.0984
+  },
+  {
+    "key": "crozet",
+    "name": "CROZET",
+    "dept": "01",
+    "population": 2416,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.2906,
+    "lng": 5.9929
+  },
+  {
+    "key": "baldersheim",
+    "name": "Baldersheim",
+    "dept": "68",
+    "population": 2596,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.7968,
+    "lng": 7.4063
+  },
+  {
+    "key": "saint-georges-de-grehaigne",
+    "name": "Saint-Georges-de-Gréhaigne",
+    "dept": "35",
+    "population": 384,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5823,
+    "lng": -1.547
+  },
+  {
+    "key": "senlis",
+    "name": "Senlis",
+    "dept": "60",
+    "population": 15157,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2156,
+    "lng": 2.5912
+  },
+  {
+    "key": "saint-denis-de-l-hotel",
+    "name": "Saint-Denis-de-l'Hôtel",
+    "dept": "45",
+    "population": 3065,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.8839,
+    "lng": 2.1496
+  },
+  {
+    "key": "dives-sur-mer",
+    "name": "Dives-sur-Mer",
+    "dept": "14",
+    "population": 5122,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2818,
+    "lng": -0.0894
+  },
+  {
+    "key": "chamboulive",
+    "name": "Chamboulive",
+    "dept": "19",
+    "population": 1155,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.4276,
+    "lng": 1.7159
+  },
+  {
+    "key": "pontgibaud",
+    "name": "Pontgibaud",
+    "dept": "63",
+    "population": 715,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8268,
+    "lng": 2.8532
+  },
+  {
+    "key": "la-roche-posay",
+    "name": "La Roche-Posay",
+    "dept": "86",
+    "population": 1566,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.7768,
+    "lng": 0.8057
+  },
+  {
+    "key": "la-souterraine",
+    "name": "La Souterraine",
+    "dept": "23",
+    "population": 4978,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.2308,
+    "lng": 1.4743
+  },
+  {
+    "key": "chantepie",
+    "name": "Chantepie",
+    "dept": "35",
+    "population": 10670,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.0831,
+    "lng": -1.6064
+  },
+  {
+    "key": "larmor-baden",
+    "name": "Larmor-Baden",
+    "dept": "56",
+    "population": 917,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.5863,
+    "lng": -2.8995
+  },
+  {
+    "key": "cahors",
+    "name": "Cahors",
+    "dept": "46",
+    "population": 20050,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.4565,
+    "lng": 1.439
+  },
+  {
+    "key": "anglards-de-saint-flour",
+    "name": "ANGLARDS DE SAINT FLOUR",
+    "dept": "15",
+    "population": 412,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.9881,
+    "lng": 3.1635
+  },
+  {
+    "key": "saint-chamond",
+    "name": "SAINT CHAMOND",
+    "dept": "42",
+    "population": 35646,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.4687,
+    "lng": 4.5082
+  },
+  {
+    "key": "montot",
+    "name": "Montot",
+    "dept": "21",
+    "population": 206,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.1532,
+    "lng": 5.2422
+  },
+  {
+    "key": "chassy-le-camp",
+    "name": "CHASSY LE CAMP",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "epron",
+    "name": "Épron",
+    "dept": "14",
+    "population": 2093,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2195,
+    "lng": -0.3634
+  },
+  {
+    "key": "albert",
+    "name": "Albert",
+    "dept": "80",
+    "population": 9521,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.0035,
+    "lng": 2.6515
+  },
+  {
+    "key": "cavaillon",
+    "name": "Cavaillon",
+    "dept": "84",
+    "population": 25636,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.8485,
+    "lng": 5.0333
+  },
+  {
+    "key": "ternand",
+    "name": "Ternand",
+    "dept": "69",
+    "population": 762,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.9508,
+    "lng": 4.5181
+  },
+  {
+    "key": "hendaye",
+    "name": "Hendaye",
+    "dept": "64",
+    "population": 18102,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.3635,
+    "lng": -1.7627
+  },
+  {
+    "key": "sainte-eulalie",
+    "name": "SAINTE EULALIE",
+    "dept": "33",
+    "population": 4915,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.9027,
+    "lng": -0.48
+  },
+  {
+    "key": "bremondans",
+    "name": "Bremondans",
+    "dept": "25",
+    "population": 107,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.2316,
+    "lng": 6.3983
+  },
+  {
+    "key": "mauguio",
+    "name": "Mauguio",
+    "dept": "34",
+    "population": 16522,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.5915,
+    "lng": 4.0128
+  },
+  {
+    "key": "fontenay-tresigny",
+    "name": "Fontenay-Trésigny",
+    "dept": "77",
+    "population": 5994,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.6989,
+    "lng": 2.8667
+  },
+  {
+    "key": "givors",
+    "name": "Givors",
+    "dept": "69",
+    "population": 21379,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.5845,
+    "lng": 4.7561
+  },
+  {
+    "key": "villefranche-de-lauragais",
+    "name": "Villefranche-de-Lauragais",
+    "dept": "31",
+    "population": 5072,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4065,
+    "lng": 1.7185
+  },
+  {
+    "key": "saint-paul-les-dax",
+    "name": "SAINT PAUL LES DAX",
+    "dept": "40",
+    "population": 14481,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7485,
+    "lng": -1.0941
+  },
+  {
+    "key": "auch",
+    "name": "Auch",
+    "dept": "32",
+    "population": 22428,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.6602,
+    "lng": 0.5673
+  },
+  {
+    "key": "biarritz",
+    "name": "Biarritz",
+    "dept": "64",
+    "population": 26206,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4709,
+    "lng": -1.5557
+  },
+  {
+    "key": "dizy",
+    "name": "Dizy",
+    "dept": "51",
+    "population": 1482,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0699,
+    "lng": 3.9716
+  },
+  {
+    "key": "rouvignies",
+    "name": "Rouvignies",
+    "dept": "59",
+    "population": 655,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.3348,
+    "lng": 3.4405
+  },
+  {
+    "key": "estillac",
+    "name": "Estillac",
+    "dept": "47",
+    "population": 2463,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.1709,
+    "lng": 0.5765
+  },
+  {
+    "key": "malafretaz",
+    "name": "Malafretaz",
+    "dept": "01",
+    "population": 1257,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.3299,
+    "lng": 5.1462
+  },
+  {
+    "key": "seniergues",
+    "name": "Séniergues",
+    "dept": "46",
+    "population": 146,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.7172,
+    "lng": 1.5551
+  },
+  {
+    "key": "la-comte",
+    "name": "La Comté",
+    "dept": "62",
+    "population": 879,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.4285,
+    "lng": 2.4996
+  },
+  {
+    "key": "domaine-de-beg-porz-beg-porz-29350-moelan-sur-mer",
+    "name": "Domaine de Beg Porz Beg Porz, 29350 Moëlan-sur-Mer",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "doucelles",
+    "name": "Doucelles",
+    "dept": "72",
+    "population": 223,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.2561,
+    "lng": 0.1813
+  },
+  {
+    "key": "uchacq-et-parentis",
+    "name": "Uchacq-et-Parentis",
+    "dept": "40",
+    "population": 626,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.945,
+    "lng": -0.5476
+  },
+  {
+    "key": "les-mages",
+    "name": "Les Mages",
+    "dept": "30",
+    "population": 2106,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.2272,
+    "lng": 4.1787
+  },
+  {
+    "key": "la-valette-du-var",
+    "name": "La Valette-du-Var",
+    "dept": "83",
+    "population": 23719,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.1484,
+    "lng": 5.9893
+  },
+  {
+    "key": "maffliers",
+    "name": "Maffliers",
+    "dept": "95",
+    "population": 1856,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0864,
+    "lng": 2.3116
+  },
+  {
+    "key": "clairoix",
+    "name": "Clairoix",
+    "dept": "60",
+    "population": 2208,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.4411,
+    "lng": 2.8438
+  },
+  {
+    "key": "le-cateau-cambresis",
+    "name": "Le Cateau-Cambrésis",
+    "dept": "59",
+    "population": 6764,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.0873,
+    "lng": 3.5354
+  },
+  {
+    "key": "fontenay-le-comte",
+    "name": "Fontenay-le-Comte",
+    "dept": "85",
+    "population": 14059,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.4587,
+    "lng": -0.7887
+  },
+  {
+    "key": "lumbres",
+    "name": "Lumbres",
+    "dept": "62",
+    "population": 3579,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.7059,
+    "lng": 2.1169
+  },
+  {
+    "key": "neufchatel-hardelot",
+    "name": "Neufchâtel-Hardelot",
+    "dept": "62",
+    "population": 4115,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.6164,
+    "lng": 1.6221
+  },
+  {
+    "key": "valenciennes",
+    "name": "Valenciennes",
+    "dept": "59",
+    "population": 43468,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.362,
+    "lng": 3.5142
+  },
+  {
+    "key": "chateau-gontier-sur-mayenne",
+    "name": "Château-Gontier-sur-Mayenne",
+    "dept": "53",
+    "population": 16584,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.821,
+    "lng": -0.701
+  },
+  {
+    "key": "sevrier",
+    "name": "Sevrier",
+    "dept": "74",
+    "population": 4333,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8572,
+    "lng": 6.1373
+  },
+  {
+    "key": "la-colombe",
+    "name": "La Colombe",
+    "dept": "50",
+    "population": 626,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8704,
+    "lng": -1.1914
+  },
+  {
+    "key": "villeurbanne",
+    "name": "Villeurbanne",
+    "dept": "69",
+    "population": 163684,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.7719,
+    "lng": 4.8898
+  },
+  {
+    "key": "forbach",
+    "name": "Forbach",
+    "dept": "57",
+    "population": 20493,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.1916,
+    "lng": 6.8985
+  },
+  {
+    "key": "brignoles",
+    "name": "Brignoles",
+    "dept": "83",
+    "population": 17850,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.3878,
+    "lng": 6.0759
+  },
+  {
+    "key": "la-ciotat",
+    "name": "La Ciotat",
+    "dept": "13",
+    "population": 38477,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.1882,
+    "lng": 5.6175
+  },
+  {
+    "key": "le-vigeant",
+    "name": "Le Vigeant",
+    "dept": "86",
+    "population": 657,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.2199,
+    "lng": 0.6324
+  },
+  {
+    "key": "albi",
+    "name": "Albi",
+    "dept": "81",
+    "population": 51290,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.929,
+    "lng": 2.1323
+  },
+  {
+    "key": "montagne",
+    "name": "Montagne",
+    "dept": "33",
+    "population": 1510,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.9324,
+    "lng": -0.1304
+  },
+  {
+    "key": "cuincy",
+    "name": "Cuincy",
+    "dept": "59",
+    "population": 6467,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.3746,
+    "lng": 3.0313
+  },
+  {
+    "key": "petite-foret",
+    "name": "Petite-Forêt",
+    "dept": "59",
+    "population": 5054,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.3761,
+    "lng": 3.4773
+  },
+  {
+    "key": "torcy",
+    "name": "Torcy",
+    "dept": "77",
+    "population": 22810,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8534,
+    "lng": 2.6476
+  },
+  {
+    "key": "mont-saint-aignan",
+    "name": "Mont-Saint-Aignan",
+    "dept": "76",
+    "population": 20165,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.4673,
+    "lng": 1.0806
+  },
+  {
+    "key": "tilloy-les-mofflaines",
+    "name": "Tilloy-lès-Mofflaines",
+    "dept": "62",
+    "population": 1616,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.2768,
+    "lng": 2.8247
+  },
+  {
+    "key": "maubeuge",
+    "name": "Maubeuge",
+    "dept": "59",
+    "population": 28767,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.2834,
+    "lng": 3.9611
+  },
+  {
+    "key": "cerise",
+    "name": "Cerisé",
+    "dept": "61",
+    "population": 844,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.4451,
+    "lng": 0.1314
+  },
+  {
+    "key": "touques",
+    "name": "Touques",
+    "dept": "14",
+    "population": 3913,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.3564,
+    "lng": 0.1091
+  },
+  {
+    "key": "savigny-les-beaune",
+    "name": "Savigny-lès-Beaune",
+    "dept": "21",
+    "population": 1268,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.0795,
+    "lng": 4.8042
+  },
+  {
+    "key": "osny",
+    "name": "Osny",
+    "dept": "95",
+    "population": 17954,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0668,
+    "lng": 2.0618
+  },
+  {
+    "key": "villefranche-sur-saone",
+    "name": "Villefranche-sur-Saône",
+    "dept": "69",
+    "population": 36172,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.9837,
+    "lng": 4.726
+  },
+  {
+    "key": "saint-apollinaire",
+    "name": "Saint-Apollinaire",
+    "dept": "21",
+    "population": 7544,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.3367,
+    "lng": 5.0939
+  },
+  {
+    "key": "l-union",
+    "name": "L'Union",
+    "dept": "31",
+    "population": 12638,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.6515,
+    "lng": 1.483
+  },
+  {
+    "key": "brie-comte-robert",
+    "name": "Brie-Comte-Robert",
+    "dept": "77",
+    "population": 19003,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.6904,
+    "lng": 2.6131
+  },
+  {
+    "key": "buc",
+    "name": "Buc",
+    "dept": "78",
+    "population": 5816,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.7736,
+    "lng": 2.125
+  },
+  {
+    "key": "maxeville",
+    "name": "Maxéville",
+    "dept": "54",
+    "population": 10090,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.7093,
+    "lng": 6.1432
+  },
+  {
+    "key": "essey-les-nancy",
+    "name": "Essey-lès-Nancy",
+    "dept": "54",
+    "population": 8670,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.7077,
+    "lng": 6.2326
+  },
+  {
+    "key": "nanteuil-les-meaux",
+    "name": "Nanteuil-lès-Meaux",
+    "dept": "77",
+    "population": 7308,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.9317,
+    "lng": 2.9019
+  },
+  {
+    "key": "le-grand-quevilly",
+    "name": "Le Grand-Quevilly",
+    "dept": "76",
+    "population": 25789,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.4118,
+    "lng": 1.0416
+  },
+  {
+    "key": "goussainville",
+    "name": "Goussainville",
+    "dept": "95",
+    "population": 31301,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.0266,
+    "lng": 2.4683
+  },
+  {
+    "key": "cucq",
+    "name": "Cucq",
+    "dept": "62",
+    "population": 5129,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.4907,
+    "lng": 1.6116
+  },
+  {
+    "key": "noisy-le-sec",
+    "name": "Noisy-le-Sec",
+    "dept": "93",
+    "population": 45510,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8917,
+    "lng": 2.4578
+  },
+  {
+    "key": "saint-michel-sur-orge",
+    "name": "Saint-Michel-sur-Orge",
+    "dept": "91",
+    "population": 21776,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.6326,
+    "lng": 2.313
+  },
+  {
+    "key": "mios",
+    "name": "Mios",
+    "dept": "33",
+    "population": 12043,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.6105,
+    "lng": -0.8913
+  },
+  {
+    "key": "tarnos",
+    "name": "Tarnos",
+    "dept": "40",
+    "population": 12957,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.5338,
+    "lng": -1.4717
+  },
+  {
+    "key": "coquelles",
+    "name": "Coquelles",
+    "dept": "62",
+    "population": 2638,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.9279,
+    "lng": 1.8226
+  },
+  {
+    "key": "louveciennes",
+    "name": "Louveciennes",
+    "dept": "78",
+    "population": 7990,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.8595,
+    "lng": 2.1132
+  },
+  {
+    "key": "linas",
+    "name": "Linas",
+    "dept": "91",
+    "population": 7987,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.6261,
+    "lng": 2.2525
+  },
+  {
+    "key": "maurepas",
+    "name": "Maurepas",
+    "dept": "78",
+    "population": 20629,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.7712,
+    "lng": 1.925
+  },
+  {
+    "key": "gujan-mestras",
+    "name": "Gujan-Mestras",
+    "dept": "33",
+    "population": 22153,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.5758,
+    "lng": -1.0813
+  },
+  {
+    "key": "biot",
+    "name": "Biot",
+    "dept": "06",
+    "population": 10511,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.6273,
+    "lng": 7.0821
+  },
+  {
+    "key": "wintzenheim",
+    "name": "Wintzenheim",
+    "dept": "68",
+    "population": 8059,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.0626,
+    "lng": 7.2755
+  },
+  {
+    "key": "la-penne-sur-huveaune",
+    "name": "La Penne-sur-Huveaune",
+    "dept": "13",
+    "population": 6605,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.2778,
+    "lng": 5.5185
+  },
+  {
+    "key": "taissy",
+    "name": "Taissy",
+    "dept": "51",
+    "population": 2194,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.2046,
+    "lng": 4.084
+  },
+  {
+    "key": "chalons-en-champagne",
+    "name": "Châlons-en-Champagne",
+    "dept": "51",
+    "population": 42971,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.9656,
+    "lng": 4.3801
+  },
+  {
+    "key": "villennes-sur-seine",
+    "name": "Villennes-sur-Seine",
+    "dept": "78",
+    "population": 5952,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.9372,
+    "lng": 1.9975
+  },
+  {
+    "key": "riom",
+    "name": "Riom",
+    "dept": "63",
+    "population": 18820,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.8937,
+    "lng": 3.1274
+  },
+  {
+    "key": "gonfreville-l-orcher",
+    "name": "Gonfreville-l'Orcher",
+    "dept": "76",
+    "population": 8916,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.487,
+    "lng": 0.2223
+  },
+  {
+    "key": "saint-martin-boulogne",
+    "name": "Saint-Martin-Boulogne",
+    "dept": "62",
+    "population": 10888,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 50.7229,
+    "lng": 1.6468
+  },
+  {
+    "key": "le-tholonet",
+    "name": "Le Tholonet",
+    "dept": "13",
+    "population": 2391,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.5218,
+    "lng": 5.5053
+  },
+  {
+    "key": "saint-martin-des-champs",
+    "name": "Saint-Martin-des-Champs",
+    "dept": "29",
+    "population": 4773,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5755,
+    "lng": -3.856
+  },
+  {
+    "key": "saint-remy",
+    "name": "Saint-Rémy",
+    "dept": "71",
+    "population": 6410,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.7583,
+    "lng": 4.8234
+  },
+  {
+    "key": "moulins",
+    "name": "Moulins",
+    "dept": "03",
+    "population": 19206,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.5591,
+    "lng": 3.3255
+  },
+  {
+    "key": "meyreuil",
+    "name": "Meyreuil",
+    "dept": "13",
+    "population": 6747,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.488,
+    "lng": 5.5002
+  },
+  {
+    "key": "la-creche",
+    "name": "La Crèche",
+    "dept": "79",
+    "population": 5662,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.3678,
+    "lng": -0.3037
+  },
+  {
+    "key": "les-sables-d-olonne",
+    "name": "Les Sables-d'Olonne",
+    "dept": "85",
+    "population": 49603,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.5264,
+    "lng": -1.7611
+  },
+  {
+    "key": "pontault-combault",
+    "name": "Pontault-Combault",
+    "dept": "77",
+    "population": 39096,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.7885,
+    "lng": 2.6173
+  },
+  {
+    "key": "boulazac-isle-manoire",
+    "name": "Boulazac Isle Manoire",
+    "dept": "24",
+    "population": 10759,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.1385,
+    "lng": 0.7878
+  },
+  {
+    "key": "chartres",
+    "name": "Chartres",
+    "dept": "28",
+    "population": 38324,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.4481,
+    "lng": 1.5046
+  },
+  {
+    "key": "cande-sur-beuvron",
+    "name": "Candé-sur-Beuvron",
+    "dept": "41",
+    "population": 1463,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.5062,
+    "lng": 1.2677
+  },
+  {
+    "key": "roz-sur-couesnon",
+    "name": "Roz-sur-Couesnon",
+    "dept": "35",
+    "population": 1059,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.5926,
+    "lng": -1.596
+  },
+  {
+    "key": "zonza",
+    "name": "Zonza",
+    "dept": "2A",
+    "population": 2989,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 41.7145,
+    "lng": 9.2719
+  },
+  {
+    "key": "les-eyzies",
+    "name": "Les Eyzies",
+    "dept": "24",
+    "population": 1134,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.9396,
+    "lng": 1.0352
+  },
+  {
+    "key": "le-barcares",
+    "name": "Le Barcarès",
+    "dept": "66",
+    "population": 6109,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 42.8118,
+    "lng": 3.028
+  },
+  {
+    "key": "saint-avit-d-auvergne",
+    "name": "Saint-Avit-d'Auvergne",
+    "dept": "63",
+    "population": 208,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.879,
+    "lng": 2.5255
+  },
+  {
+    "key": "argentat-sur-dordogne",
+    "name": "Argentat-sur-Dordogne",
+    "dept": "19",
+    "population": 2881,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.1166,
+    "lng": 1.9319
+  },
+  {
+    "key": "availles-limouzine",
+    "name": "Availles-Limouzine",
+    "dept": "86",
+    "population": 1312,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.1313,
+    "lng": 0.6515
+  },
+  {
+    "key": "semur-en-auxois",
+    "name": "Semur-en-Auxois",
+    "dept": "21",
+    "population": 3986,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.494,
+    "lng": 4.3396
+  },
+  {
+    "key": "le-bonhomme",
+    "name": "Le Bonhomme",
+    "dept": "68",
+    "population": 744,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.1621,
+    "lng": 7.0991
+  },
+  {
+    "key": "cuq-toulza",
+    "name": "Cuq-Toulza",
+    "dept": "81",
+    "population": 702,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.5643,
+    "lng": 1.8885
+  },
+  {
+    "key": "ainhoa",
+    "name": "Ainhoa",
+    "dept": "64",
+    "population": 672,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.2968,
+    "lng": -1.4828
+  },
+  {
+    "key": "mayenne",
+    "name": "Mayenne",
+    "dept": "53",
+    "population": 12883,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.3066,
+    "lng": -0.614
+  },
+  {
+    "key": "dinard",
+    "name": "Dinard",
+    "dept": "35",
+    "population": 10772,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.629,
+    "lng": -2.0602
+  },
+  {
+    "key": "ales",
+    "name": "Alès",
+    "dept": "30",
+    "population": 46125,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.125,
+    "lng": 4.0905
+  },
+  {
+    "key": "montpezat",
+    "name": "Montpezat",
+    "dept": "30",
+    "population": 1402,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.8575,
+    "lng": 4.162
+  },
+  {
+    "key": "saint-priest-taurion",
+    "name": "Saint-Priest-Taurion",
+    "dept": "87",
+    "population": 2901,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.9011,
+    "lng": 1.4038
+  },
+  {
+    "key": "lodeve",
+    "name": "Lodève",
+    "dept": "34",
+    "population": 7251,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.7296,
+    "lng": 3.2949
+  },
+  {
+    "key": "les-planches-pres-arbois",
+    "name": "Les Planches-près-Arbois",
+    "dept": "39",
+    "population": 88,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.8785,
+    "lng": 5.8093
+  },
+  {
+    "key": "gramat",
+    "name": "Gramat",
+    "dept": "46",
+    "population": 3512,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 44.7643,
+    "lng": 1.7125
+  },
+  {
+    "key": "celles-sur-plaine",
+    "name": "Celles-sur-Plaine",
+    "dept": "88",
+    "population": 737,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.4513,
+    "lng": 6.9656
+  },
+  {
+    "key": "vienne-le-chateau",
+    "name": "Vienne-le-Château",
+    "dept": "51",
+    "population": 516,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 49.1964,
+    "lng": 4.9277
+  },
+  {
+    "key": "villaines-la-juhel",
+    "name": "Villaines-la-Juhel",
+    "dept": "53",
+    "population": 2671,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 48.3379,
+    "lng": -0.2918
+  },
+  {
+    "key": "les-rousses",
+    "name": "Les Rousses",
+    "dept": "39",
+    "population": 3740,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.4911,
+    "lng": 6.0731
+  },
+  {
+    "key": "berenx",
+    "name": "Bérenx",
+    "dept": "64",
+    "population": 428,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 43.4921,
+    "lng": -0.8686
+  },
+  {
+    "key": "mesquer",
+    "name": "Mesquer",
+    "dept": "44",
+    "population": 2171,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 47.3991,
+    "lng": -2.4693
+  },
+  {
+    "key": "araches-la-frasse",
+    "name": "Arâches-la-Frasse",
+    "dept": "74",
+    "population": 1764,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 46.0282,
+    "lng": 6.6646
+  },
+  {
+    "key": "bort-les-orgues",
+    "name": "Bort-les-Orgues",
+    "dept": "19",
+    "population": 2483,
+    "hotels": 1,
+    "bestKw": 22,
+    "lat": 45.3939,
+    "lng": 2.4849
+  },
+  {
+    "key": "saint-pierre-d-oleron",
+    "name": "Saint-Pierre-d'Oléron",
+    "dept": "17",
+    "population": 6633,
+    "hotels": 1,
+    "bestKw": 14.5,
+    "lat": 45.9354,
+    "lng": -1.3008
+  },
+  {
+    "key": "neuville-en-ferrain",
+    "name": "Neuville-en-Ferrain",
+    "dept": "59",
+    "population": 10002,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 50.7559,
+    "lng": 3.1614
+  },
+  {
+    "key": "golbey",
+    "name": "Golbey",
+    "dept": "88",
+    "population": 8832,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 48.1987,
+    "lng": 6.4258
+  },
+  {
+    "key": "dieulefit",
+    "name": "Dieulefit",
+    "dept": "26",
+    "population": 3289,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 44.5354,
+    "lng": 5.0685
+  },
+  {
+    "key": "condom",
+    "name": "Condom",
+    "dept": "32",
+    "population": 6473,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.9653,
+    "lng": 0.3782
+  },
+  {
+    "key": "salies-de-bearn",
+    "name": "Salies-de-Béarn",
+    "dept": "64",
+    "population": 4742,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.4683,
+    "lng": -0.9158
+  },
+  {
+    "key": "arsonval",
+    "name": "Arsonval",
+    "dept": "10",
+    "population": 290,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 48.2774,
+    "lng": 4.6453
+  },
+  {
+    "key": "saint-laurent-de-cerdans",
+    "name": "Saint-Laurent-de-Cerdans",
+    "dept": "66",
+    "population": 1045,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 42.3944,
+    "lng": 2.6222
+  },
+  {
+    "key": "puget-theniers",
+    "name": "Puget-Théniers",
+    "dept": "06",
+    "population": 1798,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.9498,
+    "lng": 6.9049
+  },
+  {
+    "key": "joyeuse",
+    "name": "Joyeuse",
+    "dept": "07",
+    "population": 1811,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 44.4713,
+    "lng": 4.2499
+  },
+  {
+    "key": "arles",
+    "name": "Arles",
+    "dept": "13",
+    "population": 51811,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.5441,
+    "lng": 4.6513
+  },
+  {
+    "key": "fleurie",
+    "name": "Fleurie",
+    "dept": "69",
+    "population": 1382,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 46.1953,
+    "lng": 4.6942
+  },
+  {
+    "key": "balaruc-les-bains",
+    "name": "Balaruc-les-Bains",
+    "dept": "34",
+    "population": 7139,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.4476,
+    "lng": 3.6922
+  },
+  {
+    "key": "talloires-montmin",
+    "name": "Talloires-Montmin",
+    "dept": "74",
+    "population": 1903,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 45.8171,
+    "lng": 6.2319
+  },
+  {
+    "key": "antibes",
+    "name": "Antibes",
+    "dept": "06",
+    "population": 77637,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.5823,
+    "lng": 7.1048
+  },
+  {
+    "key": "saleilles",
+    "name": "Saleilles",
+    "dept": "66",
+    "population": 5698,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 42.6553,
+    "lng": 2.947
+  },
+  {
+    "key": "ostheim",
+    "name": "Ostheim",
+    "dept": "68",
+    "population": 1651,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 48.153,
+    "lng": 7.3785
+  },
+  {
+    "key": "entraigues-sur-la-sorgue",
+    "name": "Entraigues-sur-la-Sorgue",
+    "dept": "84",
+    "population": 8913,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.9959,
+    "lng": 4.9347
+  },
+  {
+    "key": "loriol-du-comtat",
+    "name": "Loriol-du-Comtat",
+    "dept": "84",
+    "population": 2486,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 44.0759,
+    "lng": 5.0049
+  },
+  {
+    "key": "le-lauzet-ubaye",
+    "name": "Le Lauzet-Ubaye",
+    "dept": "04",
+    "population": 229,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 44.4255,
+    "lng": 6.4052
+  },
+  {
+    "key": "mirepoix",
+    "name": "Mirepoix",
+    "dept": "09",
+    "population": 3172,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.1137,
+    "lng": 1.8707
+  },
+  {
+    "key": "lavilledieu",
+    "name": "Lavilledieu",
+    "dept": "07",
+    "population": 2264,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 44.5818,
+    "lng": 4.4474
+  },
+  {
+    "key": "rougon",
+    "name": "Rougon",
+    "dept": "04",
+    "population": 115,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.7866,
+    "lng": 6.3951
+  },
+  {
+    "key": "moureze",
+    "name": "Mourèze",
+    "dept": "34",
+    "population": 176,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.6177,
+    "lng": 3.3476
+  },
+  {
+    "key": "saintes-maries-de-la-mer",
+    "name": "Saintes-Maries-de-la-Mer",
+    "dept": "13",
+    "population": 2433,
+    "hotels": 1,
+    "bestKw": 12,
+    "lat": 43.4958,
+    "lng": 4.4374
+  },
+  {
+    "key": "sch-lcher",
+    "name": "Schœlcher",
+    "dept": "972",
+    "population": 19478,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 14.6518,
+    "lng": -61.1001
+  },
+  {
+    "key": "granges-aumontzey",
+    "name": "Granges-Aumontzey",
+    "dept": "88",
+    "population": 2529,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 48.1342,
+    "lng": 6.8151
+  },
+  {
+    "key": "roquebrune-sur-argens",
+    "name": "Roquebrune-sur-Argens",
+    "dept": "83",
+    "population": 15442,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 43.4282,
+    "lng": 6.6525
+  },
+  {
+    "key": "poilly-lez-gien",
+    "name": "Poilly-lez-Gien",
+    "dept": "45",
+    "population": 2465,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 47.6591,
+    "lng": 2.5906
+  },
+  {
+    "key": "locronan",
+    "name": "Locronan",
+    "dept": "29",
+    "population": 829,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 48.0955,
+    "lng": -4.2102
+  },
+  {
+    "key": "saint-germain-du-bois-france",
+    "name": "Saint-Germain-du-Bois France",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "soussans",
+    "name": "Soussans",
+    "dept": "33",
+    "population": 1719,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 45.0548,
+    "lng": -0.6931
+  },
+  {
+    "key": "caissargues",
+    "name": "Caissargues",
+    "dept": "30",
+    "population": 4079,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 43.7924,
+    "lng": 4.3919
+  },
+  {
+    "key": "lourdes",
+    "name": "Lourdes",
+    "dept": "65",
+    "population": 13266,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 43.109,
+    "lng": -0.0806
+  },
+  {
+    "key": "fontainebleau",
+    "name": "Fontainebleau",
+    "dept": "77",
+    "population": 15583,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 48.4236,
+    "lng": 2.6817
+  },
+  {
+    "key": "gaillac",
+    "name": "Gaillac",
+    "dept": "81",
+    "population": 16162,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 43.9119,
+    "lng": 1.8898
+  },
+  {
+    "key": "sancoins",
+    "name": "Sancoins",
+    "dept": "18",
+    "population": 2951,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 46.8184,
+    "lng": 2.9095
+  },
+  {
+    "key": "megeve",
+    "name": "Megève",
+    "dept": "74",
+    "population": 2893,
+    "hotels": 1,
+    "bestKw": 11,
+    "lat": 45.8397,
+    "lng": 6.6241
+  },
+  {
+    "key": "jaux",
+    "name": "Jaux",
+    "dept": "60",
+    "population": 2243,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.3948,
+    "lng": 2.7703
+  },
+  {
+    "key": "ingersheim",
+    "name": "Ingersheim",
+    "dept": "68",
+    "population": 4774,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 48.102,
+    "lng": 7.3087
+  },
+  {
+    "key": "montigny-le-bretonneux",
+    "name": "Montigny-le-Bretonneux",
+    "dept": "78",
+    "population": 32465,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 48.7776,
+    "lng": 2.0252
+  },
+  {
+    "key": "vauville",
+    "name": "Vauville",
+    "dept": "14",
+    "population": 201,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.3089,
+    "lng": 0.0614
+  },
+  {
+    "key": "toussaint",
+    "name": "Toussaint",
+    "dept": "76",
+    "population": 692,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.7345,
+    "lng": 0.4379
+  },
+  {
+    "key": "periers-en-auge",
+    "name": "Périers-en-Auge",
+    "dept": "14",
+    "population": 119,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.2644,
+    "lng": -0.0935
+  },
+  {
+    "key": "abbeville",
+    "name": "Abbeville",
+    "dept": "80",
+    "population": 22395,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 50.1101,
+    "lng": 1.8319
+  },
+  {
+    "key": "bony",
+    "name": "Bony",
+    "dept": "02",
+    "population": 137,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.9896,
+    "lng": 3.218
+  },
+  {
+    "key": "robion",
+    "name": "Robion",
+    "dept": "84",
+    "population": 4816,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 43.8429,
+    "lng": 5.1066
+  },
+  {
+    "key": "bidart",
+    "name": "Bidart",
+    "dept": "64",
+    "population": 7689,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 43.4385,
+    "lng": -1.5754
+  },
+  {
+    "key": "montagudet",
+    "name": "Montagudet",
+    "dept": "82",
+    "population": 199,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 44.2468,
+    "lng": 1.087
+  },
+  {
+    "key": "perrigny-les-dijon",
+    "name": "Perrigny-lès-Dijon",
+    "dept": "21",
+    "population": 2385,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 47.2556,
+    "lng": 5.0197
+  },
+  {
+    "key": "messanges",
+    "name": "MESSANGES",
+    "dept": "40",
+    "population": 1086,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 43.8086,
+    "lng": -1.3629
+  },
+  {
+    "key": "savenay",
+    "name": "SAVENAY",
+    "dept": "44",
+    "population": 9543,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 47.3542,
+    "lng": -1.9203
+  },
+  {
+    "key": "bourbon-lancy",
+    "name": "BOURBON-LANCY",
+    "dept": "71",
+    "population": 4674,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 46.6184,
+    "lng": 3.7623
+  },
+  {
+    "key": "dieppe",
+    "name": "DIEPPE",
+    "dept": "76",
+    "population": 28496,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.9199,
+    "lng": 1.0838
+  },
+  {
+    "key": "saint-valery-en-caux",
+    "name": "SAINT-VALERY-EN-CAUX",
+    "dept": "76",
+    "population": 3851,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 49.8582,
+    "lng": 0.7094
+  },
+  {
+    "key": "choisey",
+    "name": "CHOISEY",
+    "dept": "39",
+    "population": 1021,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 47.0585,
+    "lng": 5.4522
+  },
+  {
+    "key": "eschbourg",
+    "name": "ESCHBOURG",
+    "dept": "67",
+    "population": 455,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 48.8247,
+    "lng": 7.2873
+  },
+  {
+    "key": "poggiolo",
+    "name": "Poggiolo",
+    "dept": "2A",
+    "population": 104,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 42.1616,
+    "lng": 8.8985
+  },
+  {
+    "key": "giffaumont-champaubert",
+    "name": "Giffaumont-Champaubert",
+    "dept": "51",
+    "population": 287,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 48.5645,
+    "lng": 4.7496
+  },
+  {
+    "key": "ribeauville",
+    "name": "Ribeauvillé",
+    "dept": "68",
+    "population": 4685,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 48.2056,
+    "lng": 7.2942
+  },
+  {
+    "key": "cajarc",
+    "name": "Cajarc",
+    "dept": "46",
+    "population": 1136,
+    "hotels": 1,
+    "bestKw": 7.4,
+    "lat": 44.4919,
+    "lng": 1.838
+  },
+  {
+    "key": "gerardmer",
+    "name": "GERARDMER",
+    "dept": "88",
+    "population": 7581,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 48.0658,
+    "lng": 6.8531
+  },
+  {
+    "key": "antony",
+    "name": "Antony",
+    "dept": "92",
+    "population": 64263,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 48.7507,
+    "lng": 2.2976
+  },
+  {
+    "key": "vendome",
+    "name": "Vendôme",
+    "dept": "41",
+    "population": 15758,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 47.7995,
+    "lng": 1.0646
+  },
+  {
+    "key": "bailleul",
+    "name": "Bailleul",
+    "dept": "59",
+    "population": 14732,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 50.7325,
+    "lng": 2.7423
+  },
+  {
+    "key": "thonac",
+    "name": "Thonac",
+    "dept": "24",
+    "population": 275,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 45.0358,
+    "lng": 1.1013
+  },
+  {
+    "key": "fecamp",
+    "name": "Fécamp",
+    "dept": "76",
+    "population": 17313,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 49.7479,
+    "lng": 0.4012
+  },
+  {
+    "key": "thouars",
+    "name": "Thouars",
+    "dept": "79",
+    "population": 13891,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 46.9765,
+    "lng": -0.2466
+  },
+  {
+    "key": "sarcelles",
+    "name": "Sarcelles",
+    "dept": "95",
+    "population": 59173,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 48.9925,
+    "lng": 2.3858
+  },
+  {
+    "key": "saix",
+    "name": "Saïx",
+    "dept": "81",
+    "population": 3748,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 43.5862,
+    "lng": 2.1729
+  },
+  {
+    "key": "bethune",
+    "name": "Béthune",
+    "dept": "62",
+    "population": 25224,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 50.5299,
+    "lng": 2.6438
+  },
+  {
+    "key": "compiegne",
+    "name": "Compiègne",
+    "dept": "60",
+    "population": 40761,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 49.4006,
+    "lng": 2.8547
+  },
+  {
+    "key": "rueil-malmaison",
+    "name": "Rueil-Malmaison",
+    "dept": "92",
+    "population": 82874,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 48.8717,
+    "lng": 2.1806
+  },
+  {
+    "key": "bonchamp-les-laval",
+    "name": "Bonchamp-lès-Laval",
+    "dept": "53",
+    "population": 6302,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 48.0715,
+    "lng": -0.6996
+  },
+  {
+    "key": "monestier",
+    "name": "Monestier",
+    "dept": "24",
+    "population": 385,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 44.7774,
+    "lng": 0.3194
+  },
+  {
+    "key": "muides-sur-loire",
+    "name": "MUIDES SUR LOIRE",
+    "dept": "41",
+    "population": 1264,
+    "hotels": 1,
+    "bestKw": 7,
+    "lat": 47.6669,
+    "lng": 1.5326
+  },
+  {
+    "key": "petit-couronne",
+    "name": "Petit-Couronne",
+    "dept": "76",
+    "population": 8683,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 49.3817,
+    "lng": 1.0342
+  },
+  {
+    "key": "plouharnel",
+    "name": "Plouharnel",
+    "dept": "56",
+    "population": 2285,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 47.5934,
+    "lng": -3.1272
+  },
+  {
+    "key": "carnac",
+    "name": "Carnac",
+    "dept": "56",
+    "population": 4194,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 47.6034,
+    "lng": -3.0664
+  },
+  {
+    "key": "gordes",
+    "name": "Gordes",
+    "dept": "84",
+    "population": 1661,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 43.9074,
+    "lng": 5.204
+  },
+  {
+    "key": "saint-lary-soulan",
+    "name": "Saint-Lary-Soulan",
+    "dept": "65",
+    "population": 837,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 42.7483,
+    "lng": 0.266
+  },
+  {
+    "key": "erdeven",
+    "name": "ERDEVEN",
+    "dept": "56",
+    "population": 4008,
+    "hotels": 1,
+    "bestKw": 3.7,
+    "lat": 47.6358,
+    "lng": -3.1568
+  },
+  {
+    "key": "cagnano",
+    "name": "Cagnano",
+    "dept": "2B",
+    "population": 148,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 42.8725,
+    "lng": 9.4431
+  },
+  {
+    "key": "le-castellet",
+    "name": "Le Castellet",
+    "dept": "83",
+    "population": 6040,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 43.2148,
+    "lng": 5.7561
+  },
+  {
+    "key": "houdemont",
+    "name": "Houdemont",
+    "dept": "54",
+    "population": 2066,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 48.6409,
+    "lng": 6.1718
+  },
+  {
+    "key": "vandoeuvre-les-nancy",
+    "name": "Vandoeuvre lès Nancy",
+    "dept": null,
+    "population": null,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": null,
+    "lng": null
+  },
+  {
+    "key": "rochefort",
+    "name": "Rochefort",
+    "dept": "17",
+    "population": 23460,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 45.9455,
+    "lng": -0.9745
+  },
+  {
+    "key": "agde",
+    "name": "Agde",
+    "dept": "34",
+    "population": 29939,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 43.3084,
+    "lng": 3.4838
+  },
+  {
+    "key": "le-mesnil-amelot",
+    "name": "Le Mesnil-Amelot",
+    "dept": "77",
+    "population": 992,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 49.0175,
+    "lng": 2.5974
+  },
+  {
+    "key": "arcis-sur-aube",
+    "name": "ARCIS-SUR-AUBE",
+    "dept": "10",
+    "population": 2785,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 48.5275,
+    "lng": 4.1403
+  },
+  {
+    "key": "lissac-sur-couze",
+    "name": "LISSAC SUR COUZE",
+    "dept": "19",
+    "population": 705,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 45.1116,
+    "lng": 1.4619
+  },
+  {
+    "key": "chatelaillon-plage",
+    "name": "CHATELAILLON PLAGE",
+    "dept": "17",
+    "population": 6653,
+    "hotels": 1,
+    "bestKw": 0,
+    "lat": 46.0738,
+    "lng": -1.0804
+  }
+]
