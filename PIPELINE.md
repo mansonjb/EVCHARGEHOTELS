@@ -124,8 +124,16 @@ ses images : dans plusieurs contextes la toile restait grise, contrôles
 affichés mais aucune rue ni ville. Les tuiles image se vérifient d'ailleurs
 depuis le DOM (`img.leaflet-tile` chargées), ce qui rend la carte testable.
 
-Tuiles : CARTO Positron, attribution OpenStreetMap et CARTO affichée par la
-carte elle-même. Recherche de commune : `geo.api.gouv.fr`, sans clé.
+Tuiles : fond gris clair d'Esri (World Light Gray Canvas), sans clé et sans
+filigrane, avec le fond OpenStreetMap France en repli automatique au bout de
+trois erreurs de tuile. CARTO Positron a été écarté : il tamponne désormais
+« API KEY REQUIRED » sur les tuiles anonymes. À fort volume, la solution
+durable est une clé MapTiler ou Stadia, ou l'auto-hébergement des tuiles sur
+R2. Recherche de commune : `geo.api.gouv.fr`, sans clé.
+
+Les pages ville utilisent la même brique (`components/city-map.tsx`), avec des
+étiquettes de prix et une synchronisation du survol entre les cartes hôtel et
+les pastilles.
 
 ## Licences et mentions
 

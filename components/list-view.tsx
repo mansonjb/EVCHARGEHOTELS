@@ -1,10 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { cityName, countryName, type Hotel } from "@/lib/data";
 import type { City } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
 import { HotelCard } from "./hotel-card";
+import { CityMap } from "./city-map";
 import { CityPicker } from "./city-picker";
 
 const INK = "#141B34";
@@ -28,40 +29,13 @@ function chip(active: boolean): React.CSSProperties {
   };
 }
 
-/**
- * Projection dans le cadre du plan, calée sur l'emprise réelle des hôtels.
- * Se caler sur le rayon de la ville tassait toutes les pastilles au centre :
- * à La Rochelle, quinze hôtels tiennent dans un kilomètre alors que le rayon
- * de recherche en fait neuf.
- */
-function makeProjector(hotels: Hotel[]) {
-  const lats = hotels.map((h) => h.lat);
-  const lngs = hotels.map((h) => h.lng);
-  const minLat = Math.min(...lats);
-  const maxLat = Math.max(...lats);
-  const minLng = Math.min(...lngs);
-  const maxLng = Math.max(...lngs);
-  // Marge minimale pour ne pas coller les pastilles aux bords ni exploser
-  // l'échelle quand tous les hôtels sont au même endroit.
-  const padLat = Math.max((maxLat - minLat) * 0.15, 0.004);
-  const padLng = Math.max((maxLng - minLng) * 0.15, 0.006);
-  const y0 = minLat - padLat;
-  const y1 = maxLat + padLat;
-  const x0 = minLng - padLng;
-  const x1 = maxLng + padLng;
-
-  return (lat: number, lng: number) => ({
-    left: `${((lng - x0) / (x1 - x0)) * 100}%`,
-    top: `${(1 - (lat - y0) / (y1 - y0)) * 100}%`,
-  });
-}
-
 export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; lang: Lang }) {
   const t = STR[lang];
   const [minKw, setMinKw] = useState(0);
   const [dcOnly, setDcOnly] = useState(false);
   const [guarOnly, setGuarOnly] = useState(false);
   const [showMap, setShowMap] = useState(true);
+  const [hovered, setHovered] = useState<string | null>(null);
 
   const all = hotels.filter((h) => {
     const kw = h.charging.onSite?.kw ?? 0;
@@ -81,8 +55,6 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
     lang === "fr"
       ? `${list.length} ${list.length > 1 ? "hôtels" : "hôtel"}`
       : `${list.length} ${list.length > 1 ? "hotels" : "hotel"}`;
-
-  const project = useMemo(() => makeProjector(list.length ? list : hotels), [list, hotels]);
 
   const verified = new Date(city.scrapedAt).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", {
     month: "2-digit",
@@ -158,7 +130,14 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
             }}
           >
             {list.map((h) => (
-              <HotelCard key={h.slug} hotel={h} lang={lang} />
+              <div
+                key={h.slug}
+                onMouseEnter={() => setHovered(h.slug)}
+                onMouseLeave={() => setHovered(null)}
+                style={{ outline: hovered === h.slug ? "2px solid #0E9E7E" : "none", borderRadius: 16 }}
+              >
+                <HotelCard hotel={h} lang={lang} />
+              </div>
             ))}
           </div>
 
@@ -225,86 +204,27 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
               top: 66,
               height: "calc(100vh - 66px)",
               borderLeft: "1px solid #EBEBF2",
-              background: "#EDF1EE",
             }}
           >
-            <div
-              style={{
-                position: "absolute",
-                inset: 0,
-                backgroundImage:
-                  "linear-gradient(#E2E8E4 1px,transparent 1px),linear-gradient(90deg,#E2E8E4 1px,transparent 1px)",
-                backgroundSize: "64px 64px",
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                left: 26,
-                top: 22,
-                fontWeight: 600,
-                fontSize: 12.5,
-                letterSpacing: "0.03em",
-                color: "#66716D",
-              }}
-            >
-              {t.mapTitle}
-            </div>
-
-            {list.map((h) => {
-              const pos = project(h.lat, h.lng);
-              const kw = h.charging.onSite?.kwLabel;
-              return (
-                <div
-                  key={h.slug}
-                  style={{
-                    position: "absolute",
-                    transform: "translate(-50%,-100%)",
-                    left: pos.left,
-                    top: pos.top,
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    gap: 4,
-                  }}
-                >
-                  <div
-                    className="tnum"
-                    style={{
-                      padding: "6px 12px",
-                      borderRadius: 999,
-                      background: "#FFFFFF",
-                      border: "1px solid #DCD9D1",
-                      boxShadow: "0 1px 2px rgba(0,0,0,0.06)",
-                      fontWeight: 600,
-                      fontSize: 12.5,
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    {h.price != null ? `${h.price} €` : h.name.slice(0, 14)}{" "}
-                    {kw && <span style={{ color: GREEN }}>{kw}</span>}
-                  </div>
-                  <span style={{ width: 9, height: 9, borderRadius: "50%", background: GREEN, border: "2px solid #FFFFFF" }} />
-                </div>
-              );
-            })}
-
+            <CityMap hotels={list} lang={lang} hovered={hovered} onHover={setHovered} />
             <div
               className="tnum"
               style={{
                 position: "absolute",
-                right: 26,
-                bottom: 26,
+                right: 18,
+                bottom: 42,
+                zIndex: 500,
                 display: "flex",
                 flexDirection: "column",
-                gap: 6,
-                padding: "14px 16px",
+                gap: 5,
+                padding: "12px 14px",
                 background: "#FFFFFF",
                 border: "1px solid #DEDEEA",
-                borderRadius: 16,
+                borderRadius: 14,
                 fontWeight: 600,
                 fontSize: 12.5,
                 color: "#8B8FA3",
+                pointerEvents: "none",
               }}
             >
               <span style={{ color: INK }}>{t.publicChargers}</span>

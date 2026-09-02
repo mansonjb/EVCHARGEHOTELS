@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import type { Lang } from "@/lib/i18n";
+import { addBasemap } from "@/lib/tiles";
 
 /**
  * Explorateur national : la carte pilote la recherche.
@@ -43,10 +44,6 @@ const GREEN_DK = "#0A5C4D";
 const LINE = "#DEDEEA";
 
 const POWER_STEPS = [0, 11, 22, 50] as const;
-
-const TILES = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
-const TILES_ATTR =
-  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>';
 
 function chipStyle(active: boolean): React.CSSProperties {
   return {
@@ -165,7 +162,7 @@ export function FranceExplorer({ lang, total }: Props) {
         const map = L.map(mapNode.current, { preferCanvas: true, zoomControl: true }).setView([lat, lng], zoom);
         mapRef.current = map;
 
-        L.tileLayer(TILES, { attribution: TILES_ATTR, maxZoom: 19, subdomains: "abcd" }).addTo(map);
+        addBasemap(L, map);
 
         const group = L.layerGroup().addTo(map);
         layerRef.current = group;
