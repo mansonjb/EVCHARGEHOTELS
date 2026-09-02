@@ -116,6 +116,17 @@ bornes OSM dès que les fichiers existent. C'est OCM qui apportera l'ampérage,
 la tension et le type d'usage (« Private - for staff, visitors or customers »),
 qui manquent presque partout dans OSM.
 
+## Carte
+
+Fond de carte en **tuiles image** (Leaflet, rendu canvas 2D), pas en tuiles
+vectorielles. Le vectoriel exige WebGL et une fenêtre qui compose réellement
+ses images : dans plusieurs contextes la toile restait grise, contrôles
+affichés mais aucune rue ni ville. Les tuiles image se vérifient d'ailleurs
+depuis le DOM (`img.leaflet-tile` chargées), ce qui rend la carte testable.
+
+Tuiles : CARTO Positron, attribution OpenStreetMap et CARTO affichée par la
+carte elle-même. Recherche de commune : `geo.api.gouv.fr`, sans clé.
+
 ## Licences et mentions
 
 - Bornes : © contributeurs OpenStreetMap, ODbL. La mention est affichée sur les pages ville et les fiches. On publie des résultats produits, jamais un dump de la base.
