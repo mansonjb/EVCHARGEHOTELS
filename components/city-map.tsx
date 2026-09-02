@@ -81,7 +81,8 @@ export function CityMap({
         }).addTo(map);
 
         marker.bindPopup(
-          `<div style="font-family:var(--font-sans);min-width:190px">
+          `<div style="font-family:var(--font-sans);min-width:210px">
+             ${h.image ? `<img src="${h.image}" alt="" loading="lazy" style="display:block;width:100%;height:120px;object-fit:cover;border-radius:12px;margin-bottom:9px">` : ""}
              <div style="font-weight:700;font-size:15px;line-height:1.2">${h.name}</div>
              <div style="font-size:12.5px;color:#8B8FA3;margin-top:2px">${seal.text}</div>
              ${h.price != null ? `<div style="margin-top:8px;font-weight:600;font-size:13px">${fr ? "à partir de" : "from"} ${h.price} €</div>` : ""}

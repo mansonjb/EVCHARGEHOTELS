@@ -21,7 +21,7 @@ interface Props {
 
 interface Feature {
   geometry: { coordinates: [number, number] };
-  properties: { s: string; n: string; c: string; k: number | null; p: number | null; so: string; u: string };
+  properties: { s: string; n: string; c: string; k: number | null; p: number | null; so: string; u: string; im?: string };
 }
 
 const INK = "#141B34";
@@ -106,7 +106,8 @@ export function FranceMiniMap({ lang, cities }: Props) {
             weight: 1,
           }).addTo(layer);
           dot.bindPopup(
-            `<div style="font-family:var(--font-sans);min-width:190px">
+            `<div style="font-family:var(--font-sans);min-width:200px">
+               ${p.im ? `<img src="${p.im}" alt="" loading="lazy" style="display:block;width:100%;height:110px;object-fit:cover;border-radius:10px;margin-bottom:8px">` : ""}
                <div style="font-weight:700;font-size:15px;line-height:1.2">${p.n}</div>
                <div style="font-size:12.5px;color:#8B8FA3;margin-top:2px">${p.c}</div>
                <div style="margin-top:8px;font-weight:600;font-size:13px;color:${GREEN_DK}">${

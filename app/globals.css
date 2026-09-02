@@ -160,8 +160,10 @@ select {
   }
 }
 
-/* Fond de carte : teinte menthe très légère, pour que la carte respire sans
-   virer au gris mort. */
+/* Fond de carte : teinte papier chaude. Le canevas d'Esri est gris et mort ;
+   une pointe de sépia lui redonne une matière sans le colorer. La menthe
+   avait été essayée puis écartée : à cette surface, le vert devenait acide et
+   se battait avec nos pastilles. */
 .leaflet-tile-pane {
-  filter: sepia(0.3) saturate(1.5) hue-rotate(88deg) brightness(1.02);
+  filter: sepia(0.38) saturate(0.85) brightness(1.045);
 }
