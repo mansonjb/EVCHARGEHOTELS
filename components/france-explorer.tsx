@@ -44,6 +44,10 @@ const LINE = "#DEDEEA";
 
 const POWER_STEPS = [0, 11, 22, 50] as const;
 
+const BASEMAP = "https://tiles.openfreemap.org/styles/positron";
+// Repli si le premier fond ne répond pas : même rendu clair, autre hébergeur.
+const BASEMAP_FALLBACK = "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
+
 function chipStyle(active: boolean): React.CSSProperties {
   return {
     flex: "0 0 auto",
@@ -66,6 +70,7 @@ export function FranceExplorer({ lang, total }: Props) {
   const mapRef = useRef<import("maplibre-gl").Map | null>(null);
   const libRef = useRef<typeof import("maplibre-gl") | null>(null);
   const popupRef = useRef<import("maplibre-gl").Popup | null>(null);
+  const resizeObs = useRef<ResizeObserver | null>(null);
 
   const [all, setAll] = useState<Hotel[]>([]);
   const [bounds, setBounds] = useState<[number, number, number, number] | null>(null);
@@ -73,6 +78,8 @@ export function FranceExplorer({ lang, total }: Props) {
   const [sockets, setSockets] = useState<"all" | "ccs" | "type2">("all");
   const [layersReady, setLayersReady] = useState(false);
   const [error, setError] = useState(false);
+  const [tilesStalled, setTilesStalled] = useState(false);
+  const [tilesReady, setTilesReady] = useState(false);
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState<Commune[]>([]);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -170,12 +177,28 @@ export function FranceExplorer({ lang, total }: Props) {
 
         const m = new maplibre.Map({
           container: mapNode.current,
-          style: "https://tiles.openfreemap.org/styles/positron",
+          style: BASEMAP,
           center: [lng, lat],
           zoom,
           attributionControl: { compact: true },
         });
         mapRef.current = m;
+
+        // Le conteneur est dans une grille : au moment où la carte est créée,
+        // sa largeur peut encore valoir zéro, et MapLibre n'écoute que le
+        // redimensionnement de la fenêtre. Sans cet observateur, la toile
+        // reste vide alors que les contrôles s'affichent.
+        const ro = new ResizeObserver(() => {
+          m.resize();
+          m.triggerRepaint();
+        });
+        if (mapNode.current) ro.observe(mapNode.current);
+        resizeObs.current = ro;
+        requestAnimationFrame(() => {
+          m.resize();
+          m.triggerRepaint();
+        });
+
         m.addControl(new maplibre.NavigationControl({ showCompass: false }), "top-right");
         m.addControl(new maplibre.GeolocateControl({ trackUserLocation: false }), "top-right");
 
@@ -272,6 +295,33 @@ export function FranceExplorer({ lang, total }: Props) {
         if (m.isStyleLoaded()) addLayers();
         else m.once("styledata", addLayers);
 
+        // Certains contextes (onglet en arrière-plan, panneau masqué) ne
+        // déclenchent pas de rendu : on force quelques réveils avant de
+        // conclure que la carte est indisponible.
+        let tries = 0;
+        let swapped = false;
+        const kick = setInterval(() => {
+          tries += 1;
+          m.resize();
+          m.triggerRepaint();
+          if (m.isStyleLoaded()) {
+            clearInterval(kick);
+            setTilesReady(true);
+            setTilesStalled(false);
+            return;
+          }
+          // Au bout de cinq secondes, on bascule sur le fond de repli une fois.
+          if (tries === 4 && !swapped) {
+            swapped = true;
+            m.setStyle(BASEMAP_FALLBACK);
+            m.once("styledata", addLayers);
+          }
+          if (tries > 12) {
+            clearInterval(kick);
+            setTilesStalled(true);
+          }
+        }, 1200);
+
         m.on("error", () => setError(true));
       } catch {
         setError(true);
@@ -280,6 +330,8 @@ export function FranceExplorer({ lang, total }: Props) {
 
     return () => {
       cancelled = true;
+      resizeObs.current?.disconnect();
+      resizeObs.current = null;
       mapRef.current?.remove();
       mapRef.current = null;
     };
@@ -528,6 +580,27 @@ export function FranceExplorer({ lang, total }: Props) {
         {/* Carte */}
         <div style={{ position: "relative" }}>
           <div ref={mapNode} style={{ height: 620, width: "100%", background: "#EDF1EE" }} />
+          {!tilesReady && !error && (
+            <div
+              style={{
+                position: "absolute",
+                left: "50%",
+                top: 18,
+                transform: "translateX(-50%)",
+                padding: "7px 14px",
+                borderRadius: 999,
+                background: "rgba(255,255,255,0.94)",
+                border: "1px solid #EBEBF2",
+                fontWeight: 600,
+                fontSize: 12.5,
+                color: "#8B8FA3",
+                pointerEvents: "none",
+                zIndex: 5,
+              }}
+            >
+              {fr ? "Chargement du fond de carte…" : "Loading the base map…"}
+            </div>
+          )}
           {!ready && !error && (
             <div
               style={{
@@ -543,6 +616,27 @@ export function FranceExplorer({ lang, total }: Props) {
               }}
             >
               {fr ? `Chargement des ${total} hôtels…` : `Loading ${total} hotels…`}
+            </div>
+          )}
+          {tilesStalled && !error && (
+            <div
+              style={{
+                position: "absolute",
+                left: 12,
+                bottom: 12,
+                right: 12,
+                padding: "10px 14px",
+                background: "#FDF6E7",
+                border: "1px solid #F5C25B",
+                borderRadius: 12,
+                fontWeight: 600,
+                fontSize: 12.5,
+                color: "#8A6414",
+              }}
+            >
+              {fr
+                ? "Le fond de carte met du temps à charger. La liste ci-contre reste utilisable."
+                : "The base map is slow to load. The list beside it still works."}
             </div>
           )}
           {error && (

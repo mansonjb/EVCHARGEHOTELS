@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { cityName, countryName, type City, type Hotel } from "@/lib/data";
+import { useMemo, useState } from "react";
+import { cityName, countryName, type Hotel } from "@/lib/data";
+import type { City } from "@/lib/data";
 import { STR, type Lang } from "@/lib/i18n";
 import { HotelCard } from "./hotel-card";
 import { CityPicker } from "./city-picker";
@@ -27,13 +28,32 @@ function chip(active: boolean): React.CSSProperties {
   };
 }
 
-/** Projection simple des coordonnées dans le cadre de la carte. */
-function project(city: City, lat: number, lng: number) {
-  const span = city.radiusM / 111000; // degrés de latitude couverts
-  const lngSpan = span / Math.cos((city.lat * Math.PI) / 180);
-  const x = 50 + ((lng - city.lng) / lngSpan) * 45;
-  const y = 50 - ((lat - city.lat) / span) * 45;
-  return { left: `${Math.max(4, Math.min(96, x))}%`, top: `${Math.max(6, Math.min(94, y))}%` };
+/**
+ * Projection dans le cadre du plan, calée sur l'emprise réelle des hôtels.
+ * Se caler sur le rayon de la ville tassait toutes les pastilles au centre :
+ * à La Rochelle, quinze hôtels tiennent dans un kilomètre alors que le rayon
+ * de recherche en fait neuf.
+ */
+function makeProjector(hotels: Hotel[]) {
+  const lats = hotels.map((h) => h.lat);
+  const lngs = hotels.map((h) => h.lng);
+  const minLat = Math.min(...lats);
+  const maxLat = Math.max(...lats);
+  const minLng = Math.min(...lngs);
+  const maxLng = Math.max(...lngs);
+  // Marge minimale pour ne pas coller les pastilles aux bords ni exploser
+  // l'échelle quand tous les hôtels sont au même endroit.
+  const padLat = Math.max((maxLat - minLat) * 0.15, 0.004);
+  const padLng = Math.max((maxLng - minLng) * 0.15, 0.006);
+  const y0 = minLat - padLat;
+  const y1 = maxLat + padLat;
+  const x0 = minLng - padLng;
+  const x1 = maxLng + padLng;
+
+  return (lat: number, lng: number) => ({
+    left: `${((lng - x0) / (x1 - x0)) * 100}%`,
+    top: `${(1 - (lat - y0) / (y1 - y0)) * 100}%`,
+  });
 }
 
 export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; lang: Lang }) {
@@ -61,6 +81,8 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
     lang === "fr"
       ? `${list.length} ${list.length > 1 ? "hôtels" : "hôtel"}`
       : `${list.length} ${list.length > 1 ? "hotels" : "hotel"}`;
+
+  const project = useMemo(() => makeProjector(list.length ? list : hotels), [list, hotels]);
 
   const verified = new Date(city.scrapedAt).toLocaleDateString(lang === "fr" ? "fr-FR" : "en-GB", {
     month: "2-digit",
@@ -230,7 +252,7 @@ export function ListView({ city, hotels, lang }: { city: City; hotels: Hotel[]; 
             </div>
 
             {list.map((h) => {
-              const pos = project(city, h.lat, h.lng);
+              const pos = project(h.lat, h.lng);
               const kw = h.charging.onSite?.kwLabel;
               return (
                 <div
