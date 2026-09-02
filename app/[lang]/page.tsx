@@ -2,7 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { HOME, STR, alternatesFor, type Lang } from "@/lib/i18n";
 import { CityPicker } from "@/components/city-picker";
+import { FranceMiniMap } from "@/components/france-mini-map";
 import { cities, cityName, hotels } from "@/lib/data";
+import { nationalHotels } from "@/lib/national";
 
 export async function generateMetadata({
   params,
@@ -21,6 +23,17 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const home = HOME[lang];
   const totalChargers = cities.reduce((n, c) => n + c.chargersInCity, 0);
   const firstCity = cities[0];
+  const num = (n: number) => n.toLocaleString(lang === "fr" ? "fr-FR" : "en-GB");
+  const national = nationalHotels.length;
+  const nationalFast = nationalHotels.filter((h) => (h.kw ?? 0) >= 50).length;
+  const nationalDepts = new Set(nationalHotels.map((h) => h.deptCode).filter(Boolean)).size;
+  const mapCities = cities.map((c) => ({
+    slug: c.slug,
+    name: cityName(c, lang),
+    lat: c.lat,
+    lng: c.lng,
+    hotelCount: c.hotelCount,
+  }));
 
   return (
     <div>
@@ -135,8 +148,109 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             ))}
             <div style={{ padding: "16px 22px", background: "#F1F9F5", fontWeight: 600, fontSize: 12.5, color: "#0A5C4D" }}>
               {lang === "fr"
-                ? `${hotels.length} hôtels sur ${cities.length} étapes, ${totalChargers} bornes cartographiées autour d'eux.`
-                : `${hotels.length} hotels across ${cities.length} stops, ${totalChargers} chargers mapped around them.`}
+                ? `${num(hotels.length)} hôtels sur ${cities.length} étapes, ${num(totalChargers)} bornes cartographiées autour d'eux.`
+                : `${num(hotels.length)} hotels across ${cities.length} stops, ${num(totalChargers)} chargers mapped around them.`}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Carte de France : le premier geste de la page. */}
+      <div style={{ borderBottom: "1px solid #EBEBF2", background: "#FFFFFF" }}>
+        <div
+          style={{
+            maxWidth: 1180,
+            margin: "0 auto",
+            padding: "44px 26px 52px",
+            display: "flex",
+            flexDirection: "column",
+            gap: 18,
+          }}
+        >
+          <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 20, flexWrap: "wrap" }}>
+            <h2 style={{ margin: 0, fontWeight: 800, fontSize: 34, letterSpacing: "-0.035em" }}>
+              {lang === "fr" ? "Où sont les hôtels qui chargent" : "Where the charging hotels are"}
+            </h2>
+            <span style={{ fontWeight: 600, fontSize: 13, color: "#8B8FA3" }}>
+              {lang === "fr"
+                ? `${num(national)} hôtels équipés dans ${nationalDepts} départements, relevés dans la base nationale IRVE.`
+                : `${num(national)} equipped hotels across ${nationalDepts} departments, from the national IRVE database.`}
+            </span>
+          </div>
+
+          <div
+            className="ps-home-map"
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1.45fr 0.55fr",
+              gap: 1,
+              background: "#EBEBF2",
+              border: "1px solid #EBEBF2",
+              borderRadius: 22,
+              overflow: "hidden",
+            }}
+          >
+            <div className="ps-home-map-canvas" style={{ height: 600, background: "#EDF1EE" }}>
+              <FranceMiniMap lang={lang} cities={mapCities} />
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column", background: "#FFFFFF", minWidth: 0 }}>
+              <div style={{ padding: "20px 22px", borderBottom: "1px solid #F3F3F8", display: "flex", flexDirection: "column", gap: 4 }}>
+                <span className="tnum" style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.03em" }}>
+                  {num(nationalFast)}
+                </span>
+                <span style={{ fontSize: 14, lineHeight: 1.45, color: "#3A4160" }}>
+                  {lang === "fr"
+                    ? "hôtels dont la borne dépasse 50 kW, de quoi repartir plein même après une arrivée tardive."
+                    : "hotels whose charger exceeds 50 kW, enough to leave full even after a late arrival."}
+                </span>
+              </div>
+
+              <div style={{ padding: "16px 22px 10px", fontWeight: 600, fontSize: 12, letterSpacing: "0.04em", color: "#0A5C4D" }}>
+                {lang === "fr" ? "ÉTAPES OUVERTES" : "STOPS OPEN"}
+              </div>
+              <div style={{ flex: 1, minHeight: 0, overflowY: "auto", padding: "0 14px 14px", display: "flex", flexDirection: "column", gap: 2 }}>
+                {cities.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/${lang}/${c.slug}`}
+                    style={{
+                      display: "flex",
+                      alignItems: "baseline",
+                      gap: 10,
+                      padding: "9px 8px",
+                      borderRadius: 12,
+                      textDecoration: "none",
+                      color: "#141B34",
+                    }}
+                  >
+                    <span style={{ fontWeight: 700, fontSize: 14.5, flex: 1, minWidth: 0 }}>{cityName(c, lang)}</span>
+                    <span className="tnum" style={{ fontWeight: 600, fontSize: 12, color: "#8B8FA3" }}>
+                      {c.hotelCount}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+
+              <Link
+                href={`/${lang}/france`}
+                className="ps-dark-btn"
+                style={{
+                  margin: 14,
+                  background: "#141B34",
+                  color: "#FFFFFF",
+                  height: 46,
+                  borderRadius: 999,
+                  fontSize: 14,
+                  fontWeight: 700,
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  textDecoration: "none",
+                }}
+              >
+                {lang === "fr" ? "Explorer toute la France" : "Explore the whole of France"}
+              </Link>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ListView } from "@/components/list-view";
+import { Stay22Map } from "@/components/stay22-map";
 import { cities, cityBySlug, cityName, hotelsInCity, rankHotels } from "@/lib/data";
 import { LANGS, STR, alternatesFor, type Lang } from "@/lib/i18n";
 
@@ -148,6 +149,12 @@ export default async function CityPage({
           </div>
         </div>
       )}
+
+      <div style={{ borderTop: "1px solid #EBEBF2", background: "#FFFFFF" }}>
+        <div style={{ maxWidth: 1180, margin: "0 auto", padding: "44px 26px 48px" }}>
+          <Stay22Map lat={c.lat} lng={c.lng} city={cn} citySlug={c.slug} lang={lang} />
+        </div>
+      </div>
 
       <div style={{ borderTop: "1px solid #EBEBF2", background: "#FFFFFF" }}>
         <div

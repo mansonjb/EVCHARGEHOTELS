@@ -146,3 +146,13 @@ select {
   transform: translate(-50%, -130%);
   display: inline-flex;
 }
+
+/* Carte d'accueil : le panneau passe sous la carte sur petit écran. */
+@media (max-width: 900px) {
+  .ps-home-map {
+    grid-template-columns: 1fr !important;
+  }
+  .ps-home-map-canvas {
+    height: 400px !important;
+  }
+}
