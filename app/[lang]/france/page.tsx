@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FranceMap } from "@/components/france-map";
+import { FranceExplorer } from "@/components/france-explorer";
 import { departments, nationalHotels } from "@/lib/national";
 import { cities } from "@/lib/data";
 import { LANGS, alternatesFor, type Lang } from "@/lib/i18n";
 
 type Station = {
-  id: string;
+  slug: string;
   name: string | null;
   operator: string | null;
   lat: number;
@@ -120,7 +120,7 @@ export default async function FrancePage({ params }: { params: Promise<{ lang: s
       </div>
 
       <div style={{ marginTop: 40 }}>
-        <FranceMap lang={lang} count={stations.length} />
+        <FranceExplorer lang={lang} total={stations.length} />
       </div>
 
       <h2 style={{ fontWeight: 800, fontSize: 30, letterSpacing: "-0.035em", marginTop: 48 }}>
@@ -244,7 +244,7 @@ export default async function FrancePage({ params }: { params: Promise<{ lang: s
               .sort((a, b) => (b.kw ?? 0) - (a.kw ?? 0))
               .slice(0, 40)
               .map((s) => (
-                <tr key={s.id} style={{ borderTop: "1px solid #EBEBF2" }}>
+                <tr key={s.slug} style={{ borderTop: "1px solid #EBEBF2" }}>
                   <td style={{ padding: "10px 14px", fontWeight: 600, fontSize: 14 }}>{s.name}</td>
                   <td style={{ padding: "10px 14px", fontSize: 13.5, color: "#8B8FA3" }}>{s.city || "—"}</td>
                   <td className="tnum" style={{ padding: "10px 14px", fontWeight: 700, fontSize: 13.5, color: "#0E7C68" }}>

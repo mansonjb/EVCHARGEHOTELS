@@ -121,3 +121,15 @@ select {
     height: 260px;
   }
 }
+
+/* Explorateur : la liste passe sous la carte sur petit écran. */
+@media (max-width: 900px) {
+  .ps-explorer {
+    grid-template-columns: 1fr !important;
+  }
+  .ps-explorer > div:first-child {
+    border-right: 0 !important;
+    border-bottom: 1px solid #ebebf2;
+    max-height: 380px !important;
+  }
+}
